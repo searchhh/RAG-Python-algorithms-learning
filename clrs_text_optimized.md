@@ -1,0 +1,15924 @@
+## 1 GETTING STARTED
+
+
+
+## 2 INTRODUCTION TO PYTHON
+
+
+
+## 2.1 The Basic Elements of Python
+
+2.1.1 Objects, Expressions, and Numerical Types .......................................... 9
+2.1.2 Variables and Assignment ..................................................................... 12
+2.1.3 Python IDE’s ........................................................................................... 14
+
+## 2.2 Branching Programs
+
+
+
+## 2.3 Strings and Input
+
+2.3.1 Input ......................................................................................................... 20
+2.3.2 A Digression About Character Encoding ............................................ 21
+
+## 2.4 Iteration
+
+
+
+## 3 SOME SIMPLE NUMERICAL PROGRAMS
+
+
+
+## 3.1 Exhaustive Enumeration
+
+
+
+## 3.2 For Loops
+
+
+
+## 3.3 Approximate Solutions and Bisection Search
+
+
+
+## 3.4 A Few Words About Using Floats
+
+
+
+## 3.5 Newton-Raphson
+
+
+
+## 4 FUNCTIONS, SCOPING, AND ABSTRACTION
+
+
+
+## 4.1 Functions and Scoping
+
+4.1.1 Function Definitions .............................................................................. 40
+4.1.2 Keyword Arguments and Default Values ............................................. 42
+4.1.3 Scoping ..................................................................................................... 43
+
+## 4.2 Specifications
+
+
+
+## 4.3 Recursion
+
+4.3.1 Fibonacci Numbers ................................................................................ 52
+4.3.2 Palindromes ............................................................................................. 54
+
+## 4.4 Global Variables
+
+
+
+## 4.5 Modules
+
+
+
+## 4.6 Files
+
+viii INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+## 5 STRUCTURED TYPES, MUTABILITY, AND HIGHER-ORDER
+
+FUNCTIONS .......................................................................................................... 65
+
+## 5.1 Tuples
+
+5.1.1 Sequences and Multiple Assignment .................................................... 67
+
+## 5.2 Ranges
+
+
+
+## 5.3 Lists and Mutability
+
+5.3.1 Cloning .................................................................................................... 73
+5.3.2 List Comprehension ............................................................................... 74
+
+## 5.4 Functions as Objects
+
+
+
+## 5.5 Strings, Tuples, Ranges, and Lists
+
+
+
+## 5.6 Dictionaries
+
+
+
+## 6 TESTING AND DEBUGGING
+
+
+
+## 6.1 Testing
+
+6.1.1 Black-Box Testing ................................................................................. .87
+6.1.2 Glass-box Testing .................................................................................... 88
+6.1.3 Conducting Tests .................................................................................. .90
+
+## 6.2 Debugging
+
+6.2.1 Learning to Debug .................................................................................. 94
+6.2.2 Designing the Experiment ..................................................................... 95
+6.2.3 When the Going Gets Tough ................................................................. 98
+6.2.4 When You Have Found “The” Bug ....................................................... 99
+
+## 7 EXCEPTIONS AND ASSERTIONS
+
+
+
+## 7.1 Handling Exceptions
+
+
+
+## 7.2 Exceptions as a Control Flow Mechanism
+
+
+
+## 7.3 Assertions
+
+
+
+## 8 CLASSES AND OBJECT-ORIENTED PROGRAMMING
+
+
+
+## 8.1 Abstract Data Types and Classes
+
+8.1.1 Designing Programs Using Abstract Data Types .............................. 114
+8.1.2 Using Classes to Keep Track of Students and Faculty ...................... 115
+
+## 8.2 Inheritance
+
+8.2.1 Multiple Levels of Inheritance ............................................................. 121
+8.2.2 The Substitution Principle ................................................................... 123
+
+## 8.3 Encapsulation and Information Hiding
+
+8.3.1 Generators ............................................................................................. 128
+
+## 8.4 Mortgages, an Extended Example
+
+
+
+## 9 A SIMPLISTIC INTRODUCTION TO ALGORITHMIC COMPLEXITY
+
+
+
+## 9.1 Thinking About Computational Complexity
+
+
+
+## 9.2 Asymptotic Notation
+
+C ONTENTS ix
+
+## 9.3 Some Important Complexity Classes
+
+9.3.1 Constant Complexity ........................................................................... 141
+9.3.2 Logarithmic Complexity ...................................................................... 141
+9.3.3 Linear Complexity ................................................................................ 142
+9.3.4 Log-Linear Complexity ........................................................................ 144
+9.3.5 Polynomial Complexity ....................................................................... 144
+9.3.6 Exponential Complexity ...................................................................... 145
+9.3.7 Comparisons of Complexity Classes .................................................. 147
+
+## 10 SOME SIMPLE ALGORITHMS AND DATA STRUCTURES
+
+
+
+## 10.1 Search Algorithms
+
+10.1.1 Linear Search and Using Indirection to Access Elements ................ 153
+10.1.2 Binary Search and Exploiting Assumptions ...................................... 154
+
+## 10.2 Sorting Algorithms
+
+10.2.1 Merge Sort ............................................................................................. 159
+10.2.2 Exploiting Functions as Parameters ................................................... 162
+10.2.3 Sorting[FORMULA]Python .................................................................................. 162
+
+## 10.3 Hash Tables
+
+
+
+## 11 PLOTTING AND MORE ABOUT CLASSES
+
+
+
+## 11.1 Plotting Using PyLab
+
+
+
+## 11.2 Plotting Mortgages, an Extended Example
+
+
+
+## 12 KNAPSACK AND GRAPH OPTIMIZATION PROBLEMS
+
+
+
+## 12.1 Knapsack Problems
+
+12.1.1 Greedy Algorithms ............................................................................... 184
+12.1.2 An Optimal Solution to the 0/1 Knapsack Problem ......................... 188
+
+## 12.2 Graph Optimization Problems
+
+12.2.1 Some Classic Graph-Theoretic Problems .......................................... 195
+12.2.2 Shortest Path: Depth-First Search and Breadth-First Search .......... 196
+
+## 13 DYNAMIC PROGRAMMING
+
+
+
+## 13.1 Fibonacci Sequences, Revisited
+
+
+
+## 13.2 Dynamic Programming and the 0/1 Knapsack Problem
+
+
+
+## 13.3 Dynamic Programming and Divide-and-Conquer
+
+
+
+## 14 RANDOM WALKS AND MORE ABOUT DATA VISUALIZATION
+
+
+
+## 14.1 Random Walks
+
+
+
+## 14.2 The Drunkard’s Walk
+
+
+
+## 14.3 Biased Random Walks
+
+
+
+## 14.4 Treacherous Fields
+
+x INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+## 15 STOCHASTIC PROGRAMS, PROBABILITY, AND
+
+DISTRIBUTIONS ............................................................................................... 235
+
+## 15.1 Stochastic Programs
+
+
+
+## 15.2 Calculating Simple Probabilities
+
+
+
+## 15.3 Inferential Statistics
+
+
+
+## 15.4 Distributions
+
+15.4.1 Probability Distributions ..................................................................... 256
+15.4.2 Normal Distributions ........................................................................... 258
+15.4.3 Continuous and Discrete Uniform Distributions ............................. 263
+15.4.4 Binomial and Multinomial Distributions .......................................... 264
+15.4.5 Exponential and Geometric Distributions ........................................ 265
+15.4.6 Benford’s Distribution .......................................................................... 269
+
+## 15.5 Hashing and Collisions
+
+
+
+## 15.6 How Often Does the Better Team Win?
+
+
+
+## 16 MONTE CARLO SIMULATION
+
+
+
+## 16.1 Pascal’s Problem
+
+
+
+## 16.2 Pass or Don’t Pass?
+
+
+
+## 16.3 Using Table Lookup to Improve Performance
+
+
+
+## 16.4 Finding π
+
+
+
+## 16.5 Some Closing Remarks About Simulation Models
+
+
+
+## 17 SAMPLING AND CONFIDENCE INTERVALS
+
+
+
+## 17.1 Sampling the Boston Marathon
+
+
+
+## 17.2 The Central Limit Theorem
+
+
+
+## 17.3 Standard Error of the Mean
+
+
+
+## 18 UNDERSTANDING EXPERIMENTAL DATA
+
+
+
+## 18.1 The Behavior of Springs
+
+18.1.1 Using Linear Regression to Find a Fit ................................................ 309
+
+## 18.2 The Behavior of Projectiles
+
+18.2.1 Coefficient of Determination .............................................................. 317
+18.2.2 Using a Computational Model ............................................................ 319
+
+## 18.3 Fitting Exponentially Distributed Data
+
+
+
+## 18.4 When Theory Is Missing
+
+
+
+## 19 RANDOMIZED TRIALS AND HYPOTHESIS CHECKING
+
+
+
+## 19.1 Checking Significance
+
+
+
+## 19.2 Beware of P-values
+
+
+
+## 19.3 One-tail and One-sample Tests
+
+
+
+## 19.4 Significant or Not?
+
+
+
+## 19.5 Which N?
+
+C ONTENTS xi
+
+## 19.6 Multiple Hypotheses
+
+
+
+## 20 CONDITIONAL PROBABILITY AND BAYESIAN STATISTICS
+
+
+
+## 20.1 Conditional Probabilities
+
+
+
+## 20.2 Bayes’ Theorem
+
+
+
+## 20.3 Bayesian Updating
+
+
+
+## 21 LIES, DAMNED LIES, AND STATISTICS
+
+
+
+## 21.1 Garbage In Garbage Out (GIGO)
+
+
+
+## 21.2 Tests Are Imperfect
+
+
+
+## 21.3 Pictures Can Be Deceiving
+
+
+
+## 21.4 Cum Hoc Ergo Propter Hoc
+
+
+
+## 21.5 Statistical Measures Don’t Tell the Whole Story
+
+
+
+## 21.6 Sampling Bias
+
+
+
+## 21.7 Context Matters
+
+
+
+## 21.8 Beware of Extrapolation
+
+
+
+## 21.9 The Texas Sharpshooter Fallacy
+
+
+
+## 21.10 Percentages Can Confuse
+
+
+
+## 21.11 Statistically Significant Differences Can Be Insignificant
+
+
+
+## 21.12 The Regressive Fallacy
+
+
+
+## 21.13 Just Beware
+
+
+
+## 22 A QUICK LOOK AT MACHINE LEARNING
+
+
+
+## 22.1 Feature Vectors
+
+
+
+## 22.2 Distance Metrics
+
+
+
+## 23 CLUSTERING
+
+
+
+## 23.1 Class Cluster
+
+
+
+## 23.2 K-means Clustering
+
+
+
+## 23.3 A Contrived Example
+
+
+
+## 23.4 A Less Contrived Example
+
+
+
+## 24 CLASSIFICATION METHODS
+
+
+
+## 24.1 Evaluating Classifiers
+
+
+
+## 24.2 Predicting the Gender of Runners
+
+
+
+## 24.3 K-nearest Neighbors
+
+
+
+## 24.4 Regression-based Classifiers
+
+
+
+## 24.5 Surviving the Titanic
+
+
+
+## 24.6 Wrapping Up
+
+PYTHON 3.5 QUICK REFERENCE ....................................................................... 431
+INDEX ........................................................................................................................ 435
+PREFACE
+This book is based on courses that have been offered at MIT since 2006, and as
+“Massive Online Open Courses” (MOOCs) through edX and MITx since 2012.
+The first edition of the book was based on a single one-semester course. Howev-
+er, over time I couldn’t resist adding more material than could be fit into a se-
+mester. The current edition is suitable for a two-semester introductory computer
+science sequence.
+When I started working on the second edition I thought that I would just
+add a few chapters, but I ended up doing far more. I reorganized the back half of
+the book, and converted the entire book from Python 2 to Python 3.
+The book is aimed at students with little or no prior programming experi-
+ence who have a desire to understand computational approaches to problem
+solving. For some of the students the material[FORMULA]this book will be a stepping
+stone to more advanced computer science courses. But for many of the students
+it will be their only formal exposure to computer science.
+Because this will be the only formal exposure to computer science for many
+of the students, we emphasize breadth rather than depth. The goal is to provide
+students with a brief introduction to many topics, so that they will have an idea
+of what’s possible when the time comes to think about how to use computation
+to accomplish a goal. That said, this is not a “computation appreciation” book. It
+is challenging and rigorous. Students who wish to really learn the material will
+have to spend a lot of time and effort learning to bend the computer to their will.
+The main goal of this book is to help students become skillful at making pro-
+ductive use of computational techniques. They should learn to use computational
+modes of thoughts to frame problems and to guide the process of extracting[FORMULA]-
+formation from data. The primary knowledge they will take away from this book
+is the art of computational problem solving.
+This book is not easily slotted into a conventional computer science curricu-
+lum. Chapters 1-11 contain the kind of material typically included[FORMULA]a computer
+science course aimed at students with little or no programming experience.
+Chapters 12-14 contain slightly more advanced material, various subsets of
+which could be added to the introductory course if the students are more ad-
+vanced. Chapters 15-24 are about using computation to help understand data.
+xiv INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+They cover the material that we think should become the usual second course[FORMULA]a computer science curriculum (replacing the traditional data structures course).
+In Chapters 1-11, we braid together four strands of material:
+• The basics of programming,
+• The Python 3 programming language,
+• Computational problem solving techniques,
+• Computational complexity, and
+• Using plots to present information.
+We cover most of Python’s features, but the emphasis is on what one can do
+with a programming language, not on the language itself. For example, by the
+end of Chapter 3 the book has covered only a small fraction of Python, but it has
+already introduced the notions of exhaustive enumeration, guess-and-check al-
+gorithms, bisection search, and efficient approximation algorithms. We intro-
+duce features of Python throughout the book. Similarly, we introduce aspects of
+programming methods throughout the book. The idea is to help students learn
+Python and how to be a good programmer[FORMULA]the context of using computation
+to solve interesting problems.
+The examples[FORMULA]this book have been tested using Python 3.5. Python 3
+cleaned up many of the inconsistencies[FORMULA]the design of the various releases of
+Python 2 (often referred to as Python 2.x). However, it is not backward compati-
+ble. That meant that most programs written using Python 2 cannot be run using
+implementations of Python 3. For that reason, Python 2.x continues to be widely
+used. The first time we use features of Python 3 that differ from Python 2, we
+point out how the same thing could be accomplished[FORMULA]Python 2. All of the ex-
+amples[FORMULA]this book are available online[FORMULA]both Python 3.5 and Python 2.7.
+Chapters 12-13 provide an introduction to optimization, an important topic
+not usually covered[FORMULA]introductory courses. Chapters 14-16 provide an introduc-
+tion to stochastic programs, another important topic not usually covered[FORMULA][FORMULA]-
+troductory courses. Our experience at MIT is that we can can cover either
+Chapters 12-13 or Chapters 15-16, but not both,[FORMULA]our one-semester introducto-
+ry course.
+Chapters 15-24 are designed to provide a self-contained introduction to us-
+ing computation to help understand data. They assume no knowledge of mathe-
+matics beyond high school algebra, but do assume that the reader is comfortable
+with rigorous thinking and is not intimidated by mathematical concepts. This
+part of the book is devoted to topics not found[FORMULA]most introductory texts: data
+visualization, simulation models, probabilistic and statistical thinking, and ma-
+chine learning. We believe that this is a far more relevant body of material for
+P REFACE xv
+most students than what is typically covered[FORMULA]the second computer science
+course.
+We chose not to include problems at the end of chapters. Instead we inserted
+“finger exercises” at opportune points within the chapters. Some are quite short,
+and are intended to allow readers to confirm that they understood the material
+they just read. Some are a bit more challenging, and are suitable for exam ques-
+tions. And others are challenging enough to be useful as homework assignments.
+The book has three pervasive themes: systematic problem solving, the power
+of abstraction, and computation as a way of thinking about the world. When you
+have finished this book you should have:
+• Learned a language, Python, for expressing computations,
+• Learned a systematic approach to organizing, writing, and debugging medi-
+um-sized programs,
+• Developed an informal understanding of computational complexity,
+• Developed some insight into the process of moving from an ambiguous prob-
+lem statement to a computational formulation of a method for solving the
+problem,
+• Learned a useful set of algorithmic and problem reduction techniques,
+• Learned how to use randomness and simulations to shed light on problems
+that don’t easily succumb to closed-form solutions, and
+• Learned how to use computational tools (including simple statistical, visuali-
+zation, and machine learning tools) to model and understand data.
+Programming is an intrinsically difficult activity. Just as “there is no royal
+road to geometry,”1 there is no royal road to programming. If you really want to
+learn the material, reading the book will not be enough. At the very least you
+should try running some of the code[FORMULA]the book. Various versions of the courses
+from which this book has been derived have been available on MIT’s Open-
+CourseWare (OCW) Web site since 2008. The site includes video recordings of
+lectures and a complete set of problem sets and exams. Since the fall of 2012, edX
+and MITx have offered online courses that cover much of the material[FORMULA]this
+book. We strongly recommend that you do the problem sets associated with one
+of the OCW or edX offerings.
+
+## 1 This was Euclid’s purported response, circa 300 BCE, to King Ptolemy’s request for an easier way
+
+to learn mathematics.
+ACKNOWLEDGMENTS
+The first edition of this book grew out of a set of lecture notes that I prepared
+while teaching an undergraduate course at MIT. The course, and therefore this
+book, benefited from suggestions from faculty colleagues (especially Ana Bell,
+Eric Grimson, Srinivas Devadas, Fredo Durand, Ron Rivest, and Chris Terman),
+teaching assistants, and the students who took the course. David Guttag over-
+came his aversion to computer science, and proofread multiple chapters.
+Like all successful professors, I owe a great deal to my graduate students. The
+photo on the back cover of this book depicts me supporting some of my current
+students. In the lab, however, it is they who support me. In addition to doing
+great research (and letting me take some of the credit for it), Guha Balakrishnan,
+David Blalock, Joel Brooks, Ganeshapillai Gartheeban, Jen Gong, Yun Liu, Ani-
+ma Singh, Jenna Wiens, and Amy Zhao all provided useful comments on various
+versions of this manuscript.
+I owe a special debt of gratitude to Julie Sussman, P.P.A. Until I started work-
+ing with Julie, I had no idea how much difference an editor could make. I had
+worked with capable copy editors on previous books, and thought that was what
+I needed for this book. I was wrong. I needed a collaborator who could read the
+book with the eyes of a student, and tell me what needed to be done, what should
+be done, and what could be done if I had the time and energy to do it. Julie bur-
+ied me[FORMULA]“suggestions” that were too good to ignore. Her combined command of
+both the English language and programming is quite remarkable.
+Finally, thanks to my wife, Olga, for pushing me to finish and for excusing
+me from various household duties so that I could work on the book.
+
+## 1 GETTING STARTED
+
+A computer does two things, and two things only: it performs calculations and it
+remembers the results of those calculations. But it does those two things ex-
+tremely well. The typical computer that sits on a desk or[FORMULA]a briefcase performs a
+billion or so calculations a second. It’s hard to image how truly fast that is. Think
+about holding a ball a meter above the floor, and letting it go. By the time it
+reaches the floor, your computer could have executed over a billion instructions.
+As for memory, a small computer might have hundreds of gigabytes of storage.
+How big is that? If a byte (the number of bits, typically eight, required to repre-
+sent one character) weighed one gram (which it doesn’t), 100 gigabytes would
+weigh 10,000 metric tons. For comparison, that’s roughly the combined weight of
+15,000 African elephants.
+For most of human history, computation was limited by the speed of calcula-
+tion of the human brain and the ability to record computational results with the
+human hand. This meant that only the smallest problems could be attacked
+computationally. Even with the speed of modern computers, there are still prob-
+lems that are beyond modern computational models (e.g., understanding climate
+change), but more and more problems are proving amenable to computational
+solution. It is our hope that by the time you finish this book, you will feel com-
+fortable bringing computational thinking to bear on solving many of the prob-
+lems you encounter during your studies, work, and even everyday life.
+What do we mean by computational thinking?
+All knowledge can be thought of as either declarative or imperative. Declara-
+tive knowledge is composed of statements of fact. For example, “the square root
+of x is a number y such that y*y = x.” This is a statement of fact. Unfortunately, it
+doesn’t tell us anything about how to find a square root.
+Imperative knowledge is “how to” knowledge, or recipes for deducing infor-
+mation. Heron of Alexandria was the first to document a way to compute the
+square root of a number.2 His method for finding the square root of a number,
+call it x, can be summarized as:
+
+## 2 Many believe that Heron was not the inventor of this method, and indeed there is some evidence
+
+that it was well known to the ancient Babylonians.
+
+## 2 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+1. Start with a guess, g.
+2. If g*g is close enough to x, stop and say that g is the answer.
+3. Otherwise create a new guess by averaging g and x/g, i.e., (g + x/g)/2.
+4. Using this new guess, which we again call g, repeat the process until g*g is close
+enough to x.
+Consider, for example, finding the square root of 25.
+1. Set g to some arbitrary value, e.g., 3.
+2. We decide that 3*3 = 9 is not close enough to 25.
+3. Set g to (3 + 25/3)/2 = 5.67.3
+4. We decide that 5.67*5.67 = 32.15 is still not close enough to 25.
+5. Set g to (5.67 + 25/5.67)/2 = 5.04
+6. We decide that 5.04*5.04 = 25.4 is close enough, so we stop and declare 5.04 to
+be an adequate approximation to the square root of 25.
+Note that the description of the method is a sequence of simple steps, togeth-
+er with a flow of control that specifies when each step is to be executed. Such a
+description is called an algorithm.4 This algorithm is an example of a guess-and-
+check algorithm. It is based on the fact that it is easy to check whether or not a
+guess is a good one.
+A bit more formally, an algorithm is a finite list of instructions that describe
+a computation that when executed on a set of inputs will proceed through a set of
+well-defined states and eventually produce an output.
+An algorithm is a bit like a recipe from a cookbook:
+1. Put custard mixture over heat.
+2. Stir.
+3. Dip spoon[FORMULA]custard.
+4. Remove spoon and run finger across back of spoon.
+5. If clear path is left, remove custard from heat and let cool.
+6. Otherwise repeat.
+It includes some tests for deciding when the process is complete, as well as[FORMULA]-
+structions about the order[FORMULA]which to execute instructions, sometimes jumping
+to a specific instruction based on a test.
+So how does one capture this idea of a recipe[FORMULA]a mechanical process? One
+way would be to design a machine specifically intended to compute square roots.
+
+## 3 For simplicity, we are rounding results.
+
+
+
+## 4 The word “algorithm” is derived from the name of the Persian mathematician Muhammad ibn
+
+Musa al-Khwarizmi.
+CHAPTER 1. GETTING STARTED 3
+Odd as this may sound, the earliest computing machines were,[FORMULA]fact, fixed-
+program computers, meaning they were designed to do very specific things, and
+were mostly tools to solve a specific mathematical problem, e.g., to compute the
+trajectory of an artillery shell. One of the first computers (built[FORMULA]1941 by At-
+anasoff and Berry) solved systems of linear equations, but could do nothing else.
+Alan Turing’s bombe machine, developed during World War II, was designed
+strictly for the purpose of breaking German Enigma codes. Some very simple
+computers still use this approach. For example, a simple handheld calculator5 is a
+fixed-program computer. It can do basic arithmetic, but it cannot be used as a
+word processor or to run video games. To change the program of such a ma-
+chine, one has to replace the circuitry.
+The first truly modern computer was the Manchester Mark 1.6 It was distin-
+guished from its predecessors by the fact that it was a stored-program computer.
+Such a computer stores (and manipulates) a sequence of instructions, and has
+components that will execute any instruction[FORMULA]that sequence. By creating an[FORMULA]-
+struction-set architecture and detailing the computation as a sequence of instruc-
+tions (i.e., a program), we get a highly flexible machine. By treating those
+instructions[FORMULA]the same way as data, a stored-program machine can easily
+change the program, and can do so under program control. Indeed, the heart of
+the computer then becomes a program (called an interpreter) that can execute
+any legal set of instructions, and thus can be used to compute anything that one
+can describe using some basic set of instructions.
+Both the program and the data it manipulates reside[FORMULA]memory. Typically,
+there is a program counter that points to a particular location[FORMULA]memory, and
+computation starts by executing the instruction at that point. Most often, the[FORMULA]-
+terpreter simply goes to the next instruction[FORMULA]the sequence, but not always. In
+some cases, it performs a test, and on the basis of that test, execution may jump
+to some other point[FORMULA]the sequence of instructions. This is called flow of control,
+and is essential to allowing us to write programs that perform complex tasks.
+Returning to the recipe metaphor, given a fixed set of ingredients a good chef
+can make an unbounded number of tasty dishes by combining them[FORMULA]different
+ways. Similarly, given a small fixed set of primitive features a good programmer
+can produce an unbounded number of useful programs. This is what makes pro-
+gramming such an amazing endeavor.
+
+## 5 It’s hard to believe, but once upon a time phones did not provide computational facilities. People
+
+actually used small devices that could be used only for calculation.
+
+## 6 This computer was built at the University of Manchester, and ran its first program[FORMULA]1949. It
+
+implemented ideas previously described by John von Neumann and was anticipated by the
+theoretical concept of the Universal Turing Machine described by Alan Turing[FORMULA]1936.
+
+## 4 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+To create recipes, or sequences of instructions, we need a programming lan-
+guage[FORMULA]which to describe them, a way to give the computer its marching orders.
+In 1936, the British mathematician Alan Turing described a hypothetical
+computing device that has come to be called a Universal Turing Machine. The
+machine had an unbounded memory[FORMULA]the form of “tape” on which one could
+write zeroes and ones, and some very simple primitive instructions for moving,
+reading, and writing to the tape. The Church-Turing thesis states that if a func-
+tion is computable, a Turing Machine can be programmed to compute it.
+The “if”[FORMULA]the Church-Turing thesis is important. Not all problems have
+computational solutions. Turing showed, for example, that it is impossible to
+write a program that given an arbitrary program, call it P, prints true if and only
+if P will run forever. This is known as the halting problem.
+The Church-Turing thesis leads directly to the notion of Turing complete-
+ness. A programming language is said to be Turing complete if it can be used to
+simulate a universal Turing Machine. All modern programming languages are
+Turing complete. As a consequence, anything that can be programmed[FORMULA]one
+programming language (e.g., Python) can be programmed[FORMULA]any other pro-
+gramming language (e.g., Java). Of course, some things may be easier to program[FORMULA]a particular language, but all languages are fundamentally equal with respect
+to computational power.
+Fortunately, no programmer has to build programs out of Turing’s primitive
+instructions. Instead, modern programming languages offer a larger, more con-
+venient set of primitives. However, the fundamental idea of programming as the
+process of assembling a sequence of operations remains central.
+Whatever set of primitives one has, and whatever methods one has for using
+them, the best thing and the worst thing about programming are the same: the
+computer will do exactly what you tell it to do. This is a good thing because it
+means that you can make it do all sorts of fun and useful things. It is a bad thing
+because when it doesn’t do what you want it to do, you usually have nobody to
+blame but yourself.
+There are hundreds of programming languages[FORMULA]the world. There is no best
+language (though one could nominate some candidates for worst). Different lan-
+guages are better or worse for different kinds of applications. MATLAB, for ex-
+ample, is a good language for manipulating vectors and matrices. C is a good
+language for writing programs that control data networks. PHP is a good lan-
+guage for building Web sites. And Python is a good general-purpose language.
+Each programming language has a set of primitive constructs, a syntax, a
+static semantics, and a semantics. By analogy with a natural language, e.g., Eng-
+lish, the primitive constructs are words, the syntax describes which strings of
+CHAPTER 1. GETTING STARTED 5
+words constitute well-formed sentences, the static semantics defines which sen-
+tences are meaningful, and the semantics defines the meaning of those sentences.
+The primitive constructs[FORMULA]Python include literals (e.g., the number 3.2 and the
+string 'abc') and infix operators (e.g., + and /).
+The syntax of a language defines which strings of characters and symbols are
+well formed. For example,[FORMULA]English the string “Cat dog boy.” is not a syntacti-
+cally valid sentence, because the syntax of English does not accept sentences of
+the form <noun> <noun> <noun>. In Python, the sequence of primitives 3.2 +
+
+## 3.2 is syntactically well formed, but the sequence 3.2 3.2 is not.
+
+The static semantics defines which syntactically valid strings have a meaning.
+In English, for example, the string “I runs fast,” is of the form <pronoun> < verb>
+<adverb>, which is a syntactically acceptable sequence. Nevertheless, it is not val-
+id English, because the noun “I” is singular and the verb “runs” is plural. This is
+an example of a static semantic error. In Python, the sequence 3.2/'abc' is syn-
+tactically well formed (<literal> <operator> <literal>), but produces a static se-
+mantic error since it is not meaningful to divide a number by a string of
+characters.
+The semantics of a language associates a meaning with each syntactically
+correct string of symbols that has no static semantic errors. In natural languages,
+the semantics of a sentence can be ambiguous. For example, the sentence “I can-
+not praise this student too highly,” can be either flattering or damning. Pro-
+gramming languages are designed so that each legal program has exactly one
+meaning.
+Though syntax errors are the most common kind of error (especially for
+those learning a new programming language), they are the least dangerous kind
+of error. Every serious programming language does a complete job of detecting
+syntactic errors, and will not allow users to execute a program with even one syn-
+tactic error. Furthermore,[FORMULA]most cases the language system gives a sufficiently
+clear indication of the location of the error that it is obvious what needs to be
+done to fix it.
+The situation with respect to static semantic errors is a bit more complex.
+Some programming languages, e.g., Java, do a lot of static semantic checking be-
+fore allowing a program to be executed. Others, e.g., C and Python (alas), do
+relatively less static semantic checking before a program is executed. Python does
+do a considerable amount of semantic checking while running a program.
+One doesn’t usually speak of a program as having a semantic error. If a pro-
+gram has no syntactic errors and no static semantic errors, it has a meaning, i.e.,
+it has semantics. Of course, that isn’t to say that it has the semantics that its crea-
+
+## 6 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+tor intended it to have. When a program means something other than what its
+creator thinks it means, bad things can happen.
+What might happen if the program has an error, and behaves[FORMULA]an unin-
+tended way?
+• It might crash, i.e., stop running and produce some sort of obvious indication
+that it has done so. In a properly designed computing system, when a program
+crashes it does not do damage to the overall system. Of course, some very
+popular computer systems don’t have this nice property. Almost everyone
+who uses a personal computer has run a program that has managed to make it
+necessary to restart the whole computer.
+• Or it might keep running, and running, and running, and never stop. If one
+has no idea of approximately how long the program is supposed to take to do
+its job, this situation can be hard to recognize.
+• Or it might run to completion and produce an answer that might, or might
+not, be correct.
+Each of these is bad, but the last of them is certainly the worst. When a pro-
+gram appears to be doing the right thing but isn’t, bad things can follow: fortunes
+can be lost, patients can receive fatal doses of radiation therapy, airplanes can
+crash.
+Whenever possible, programs should be written[FORMULA]such a way that when they
+don’t work properly, it is self-evident. We will discuss how to do this throughout
+the book.
+Finger exercise: Computers can be annoyingly literal. If you don’t tell them exact-
+ly what you want them to do, they are likely to do the wrong thing. Try writing
+an algorithm for driving between two destinations. Write it the way you would
+for a person, and then imagine what would happen if that person were as stupid
+as a computer, and executed the algorithm exactly as written. How many traffic
+tickets might that person get?
+
+## 2 INTRODUCTION TO PYTHON
+
+Though each programming language is different (though not as different as their
+designers would have us believe), there are some dimensions along which they
+can be related.
+• Low-level versus high-level refers to whether we program using instructions
+and data objects at the level of the machine (e.g., move 64 bits of data from
+this location to that location) or whether we program using more abstract op-
+erations (e.g., pop up a menu on the screen) that have been provided by the
+language designer.
+• General versus targeted to an application domain refers to whether the primi-
+tive operations of the programming language are widely applicable or are fine-
+tuned to a domain. For example, SQL is designed to facilitate extracting[FORMULA]-
+formation from relational databases, but you wouldn’t want to use it build an
+operating system.
+• Interpreted versus compiled refers to whether the sequence of instructions
+written by the programmer, called source code, is executed directly (by an[FORMULA]-
+terpreter) or whether it is first converted (by a compiler) into a sequence of
+machine-level primitive operations. (In the early days of computers, people
+had to write source code[FORMULA]a language that was very close to the machine code
+that could be directly interpreted by the computer hardware.) There are ad-
+vantages to both approaches. It is often easier to debug programs written[FORMULA]languages that are designed to be interpreted, because the interpreter can pro-
+duce error messages that are easy to correlate with the source code. Compiled
+languages usually produce programs that run more quickly and use less space.
+In this book, we use Python. However, this book is not about Python. It will
+certainly help readers learn Python, and that’s a good thing. What is much more
+important, however, is that careful readers will learn something about how to
+write programs that solve problems. This skill can be transferred to any pro-
+gramming language.
+
+## 8 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+Python is a general-purpose programming language that can be used effec-
+tively to build almost any kind of program that does not need direct access to the
+computer’s hardware. Python is not optimal for programs that have high reliabil-
+ity constraints (because of its weak static semantic checking) or that are built and
+maintained by many people or over a long period of time (again because of the
+weak static semantic checking).
+However, Python does have several advantages over many other languages. It
+is a relatively simple language that is easy to learn. Because Python is designed to
+be interpreted, it can provide the kind of runtime feedback that is especially help-
+ful to novice programmers. There are also a large number of freely available li-
+braries that interface to Python and provide useful extended functionality.
+Several of those are used[FORMULA]this book.
+Now we are ready to start learning some of the basic elements of Python.
+These are common to almost all programming languages[FORMULA]concept, though not
+necessarily[FORMULA]detail.
+The reader should be forewarned that this book is by no means a compre-
+hensive introduction to Python. We use Python as a vehicle to present concepts
+related to computational problem solving and thinking. The language is present-
+ed[FORMULA]dribs and drabs, as needed for this ulterior purpose. Python features that
+we don’t need for that purpose are not presented at all. We feel comfortable about
+not covering the entire language because there are excellent online resources de-
+scribing almost every aspect of the language. When we teach the course on which
+this book is based, we suggest to the students that they rely on these free online
+resources for Python reference material.
+Python is a living language. Since its introduction by Guido von Rossum[FORMULA]1990, it has undergone many changes. For the first decade of its life, Python was
+a little known and little used language. That changed with the arrival of Python
+2.0[FORMULA]2000. In addition to incorporating a number of important improvements
+to the language itself, it marked a shift[FORMULA]the evolutionary path of the language.
+A large number of people began developing libraries that interfaced seamlessly
+with Python, and continuing support and development of the Python ecosystem
+became a community-based activity. Python 3.0 was released at the end of 2008.
+This version of Python cleaned up many of the inconsistencies[FORMULA]the design of
+the various releases of Python 2 (often referred to as Python 2.x). However, it was
+not backward compatible. That meant that most programs written for earlier ver-
+sions of Python could not be run using implementations of Python 3.
+Over the last few years, most of the important public domain Python librar-
+ies have been ported to Python 3 and thoroughly tested using Python 3.5—the
+version of Python we use[FORMULA]this book.
+CHAPTER 2. INTRODUCTION TO PYTHON 9
+
+## 2.1 The Basic Elements of Python
+
+A Python program, sometimes called a script, is a sequence of definitions and
+commands. These definitions are evaluated and the commands are executed by
+the Python interpreter[FORMULA]something called the shell. Typically, a new shell is cre-
+ated whenever execution of a program begins. Usually a window is associated
+with the shell.
+We recommend that you start a Python shell now, and use it to try the exam-
+ples contained[FORMULA]the remainder of this chapter. And, for that matter, later[FORMULA]the
+book as well.
+A command, often called a statement, instructs the interpreter to do some-
+thing. For example, the statement print('Yankees rule!') instructs the interpreter
+to call the function7 print, which will output the string Yankees rule! to the win-
+dow associated with the shell.
+The sequence of commands
+print('Yankees rule!')
+print('But not[FORMULA]Boston!')
+print('Yankees rule,', 'but not[FORMULA]Boston!')
+causes the interpreter to produce the output
+Yankees rule!
+But not[FORMULA]Boston!
+Yankees rule, but not[FORMULA]Boston!
+Notice that two values were passed to print[FORMULA]the third statement. The print
+function takes a variable number of arguments separated by commas, and prints
+them, separated by a space character,[FORMULA]the order[FORMULA]which they appear.8
+2.1.1 Objects, Expressions, and Numerical Types
+Objects are the core things that Python programs manipulate. Every object has a
+type that defines the kinds of things that programs can do with that object.
+Types are either scalar or non-scalar. Scalar objects are indivisible. Think of
+them as the atoms of the language.9 Non-scalar objects, for example strings, have
+internal structure.
+
+## 7 Functions are discussed[FORMULA]Section 4.1.
+
+
+
+## 8 In Python 2, print is a command rather than a function. One would therefore write the line
+
+print 'Yankees rule!', 'but not[FORMULA]Boston'.
+
+## 9 Yes, atoms are not truly indivisible. However, splitting them is not easy, and doing so can have
+
+consequences that are not always desirable.
+
+## 10 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+Many types of objects can be denoted by literals[FORMULA]the text of a program. For
+example, the text 2 is a literal representing a number and the text 'abc' a literal
+representing a string.
+Python has four types of scalar objects:
+•[FORMULA]is used to represent integers. Literals of type[FORMULA]are written[FORMULA]the way we
+typically denote integers (e.g., -3 or 5 or 10002).
+• float is used to represent real numbers. Literals of type float always include a
+decimal point (e.g., 3.0 or 3.17 or -28.72). (It is also possible to write literals of
+type float using scientific notation. For example, the literal 1.6E3 stands for
+1.6*103, i.e., it is the same as 1600.0.) You might wonder why this type is not
+called real. Within the computer, values of type float are stored[FORMULA]the com-
+puter as floating point numbers. This representation, which is used by all
+modern programming languages, has many advantages. However, under some
+situations it causes floating point arithmetic to behave[FORMULA]ways that are slightly
+different from arithmetic on real numbers. We discuss this[FORMULA]Section 3.4.
+• bool is used to represent the Boolean values True and False.
+• None is a type with a single value. We will say more about this[FORMULA]Section 4.1.
+Objects and operators can be combined to form expressions, each of which
+evaluates to an object of some type. We will refer to this as the value of the ex-
+pression. For example, the expression 3 + 2 denotes the object 5 of type[FORMULA], and
+the expression 3.0 + 2.0 denotes the object 5.0 of type float.
+The == operator is used to test whether two expressions evaluate to the same
+value, and the != operator is used to test whether two expressions evaluate to dif-
+ferent values. A single = means something quite different, as we will see[FORMULA]Sec-
+tion 2.1.2. Be forewarned, you will make the mistake of typing “=” when you
+meant to type “==”. Keep an eye out for this error.
+The symbol >>> is a shell prompt indicating that the interpreter is expecting
+the user to type some Python code into the shell. The line below the line with the
+prompt is produced when the interpreter evaluates the Python code entered at
+the prompt, as illustrated by the following interaction with the interpreter:
+>>> 3 + 2
+5
+>>> 3.0 + 2.0
+5.0
+>>> 3 != 2
+True
+CHAPTER 2. INTRODUCTION TO PYTHON 11
+The built-[FORMULA]Python function type can be used to find out the type of an ob-
+ject:
+>>> type(3)
+<type '[FORMULA]'>
+>>> type(3.0)
+<type 'float'>
+Operators on objects of type[FORMULA]and float are listed[FORMULA]Figure 2.1.
+i+j is the[FORMULA]of i and j. If i and j are both of type[FORMULA], the result is an[FORMULA]. If
+either of them is a float, the result is a float.
+i–j is i minus j. If i and j are both of type[FORMULA], the result is an[FORMULA]. If either of
+them is a float, the result is a float.
+i*j is the product of i and j. If i and j are both of type[FORMULA], the result is an[FORMULA].
+If either of them is a float, the result is a float.
+i//j is integer division. For example, the value of 6//2 is the[FORMULA]3 and the val-
+ue of 6//4 is the[FORMULA]1. The value is 1 because integer division returns the
+quotient and ignores the remainder. If j == 0, an error occurs.
+i/j is i divided by j. In Python 3, the / operator, performs floating point divi-
+sion. For example, the value of 6/4 is 1.5. If j == 0, an error occurs. (In Py-
+thon 2, when i and j are both of type[FORMULA], the / operator behaves the same
+way as // and returns an[FORMULA]. If either i or j is a float, it behaves like the Py-
+thon 3 / operator.)
+i%j is the remainder when the[FORMULA]i is divided by the[FORMULA]j. It is typically pro-
+nounced “i mod j,” which is short for “i modulo j.”
+i**j is i raised to the power j. If i and j are both of type[FORMULA], the result is an[FORMULA]. If either of them is a float, the result is a float.
+The comparison operators are == (equal), != (not equal), > (greater), >= (at
+least), <, (less) and <= (at most).
+Figure 2.1 Operators on types[FORMULA]and float
+The arithmetic operators have the usual precedence. For example, * binds
+more tightly than +, so the expression x+y*2 is evaluated by first multiplying y by
+
+## 2 and then adding the result to x. The order of evaluation can be changed by us-
+
+ing parentheses to group subexpressions, e.g., (x+y)*2 first adds x and y, and then
+multiplies the result by 2.
+
+## 12 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+The primitive operators on type bool are and, or, and not:
+• a and b is True if both a and b are True, and False otherwise.
+• a or b is True if at least one of a or b is True, and False otherwise.
+• not a is True if a is False, and False if a is True.
+2.1.2 Variables and Assignment
+Variables provide a way to associate names with objects. Consider the code
+pi = 3
+radius = 11
+area = pi * (radius**2)
+radius = 14
+It first binds the names pi and radius to different objects of type[FORMULA].10 It then
+binds the name area to a third object of type[FORMULA]. This is depicted[FORMULA]the left panel
+of Figure 2.2.
+Figure 2.2 Binding of variables to objects
+If the program then executes radius = 14, the name radius is rebound to a
+different object of type[FORMULA], as shown[FORMULA]the right panel of Figure 2.2. Note that
+this assignment has no effect on the value to which area is bound. It is still
+bound to the object denoted by the expression 3*(11**2).
+In Python, a variable is just a name, nothing more. Remember this—it is im-
+portant. An assignment statement associates the name to the left of the = symbol
+with the object denoted by the expression to the right of the =. Remember this
+too. An object can have one, more than one, or no name associated with it.
+
+## 10 If you believe that the actual value of π is not 3, you’re right. We even demonstrate that fact[FORMULA]Section 16.4.
+
+CHAPTER 2. INTRODUCTION TO PYTHON 13
+Perhaps we shouldn’t have said, “a variable is just a name.” Despite what Ju-
+liet said,11 names matter. Programming languages let us describe computations[FORMULA]a way that allows machines to execute them. This does not mean that only
+computers read programs.
+As you will soon discover, it’s not always easy to write programs that work
+correctly. Experienced programmers will confirm that they spend a great deal of
+time reading programs[FORMULA]an attempt to understand why they behave as they do.
+It is therefore of critical importance to write programs[FORMULA]such way that they are
+easy to read. Apt choice of variable names plays an important role[FORMULA]enhancing
+readability.
+Consider the two code fragments
+a = 3.14159 pi = 3.14159
+b = 11.2 diameter = 11.2
+c = a*(b**2) area = pi*(diameter**2)
+As far as Python is concerned, they are not different. When executed, they will
+do the same thing. To a human reader, however, they are quite different. When
+we read the fragment on the left, there is no a priori reason to suspect that any-
+thing is amiss. However, a quick glance at the code on the right should prompt us
+to be suspicious that something is wrong. Either the variable should have been
+named radius rather than diameter, or diameter should have been divided by 2.0[FORMULA]the calculation of the area.
+In Python, variable names can contain uppercase and lowercase letters, digits
+(but they cannot start with a digit), and the special character _. Python variable
+names are case-sensitive e.g., Julie and julie are different names. Finally, there
+are a small number of reserved words (sometimes called keywords)[FORMULA]Python
+that have built-[FORMULA]meanings and cannot be used as variable names. Different ver-
+sions of Python have slightly different lists of reserved words. The reserved words[FORMULA]Python 3 are and, as, assert, break, class, continue, def, del, elif, else, except,
+False, finally, for, from, global, if, import,[FORMULA], is, lambda, nonlocal, None, not, or,
+pass, raise, return, True, try, while, with, and yield.
+Another good way to enhance the readability of code is to add comments.
+Text following the symbol # is not interpreted by Python. For example, one might
+write
+
+## 11 “What’s[FORMULA]a name? That which we call a rose by any other name would smell as sweet.”
+
+
+
+## 14 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+side = 1 #length of sides of a unit square
+radius = 1 #radius of a unit circle
+#subtract area of unit circle from area of unit square
+areaC = pi*radius**2
+areaS = side*side
+difference = areaS - areaC
+Python allows multiple assignment. The statement
+x, y = 2, 3
+binds x to 2 and y to 3. All of the expressions on the right-hand side of the as-
+signment are evaluated before any bindings are changed. This is convenient since
+it allows you to use multiple assignment to swap the bindings of two variables.
+For example, the code
+x, y = 2, 3
+x, y = y, x
+print('x =', x)
+print('y =', y)
+will print
+x = 3
+y = 2
+2.1.3 Python IDE’s
+Typing programs directly into the shell is highly inconvenient. Most program-
+mers prefer to use some sort of text editor that is part of an integrated develop-
+ment environment (IDE).
+One IDE, IDLE,12 comes as part of the standard Python installation package.
+As Python has grown[FORMULA]popularity, other IDE’s have sprung up. These newer
+IDE’s often incorporate some of the more popular Python libraries and provide
+facilities not provided by IDLE. Anaconda and Canopy are among the more
+popular of these IDE’s. The code appearing[FORMULA]this book was created and tested
+using Anaconda.
+IDE’s are applications, just like any other application on your computer. Start
+one the same way you would start any other application, e.g., by double-clicking
+on an icon.
+
+## 12 Allegedly, the name Python was chosen as a tribute to the British comedy troupe Monty Python.
+
+This leads one to think that the name IDLE is a pun on Eric Idle, a member of the troupe.
+CHAPTER 2. INTRODUCTION TO PYTHON 15
+All of the Python IDE’s provide
+• A text editor with syntax highlighting, auto completion, and smart indenta-
+tion,
+• a shell with syntax highlighting, and
+• an integrated debugger, which you can safely ignore for now.
+When the IDE starts it will open a shell window into which you can type Py-
+thon commands. It will also provide you with a file menu and an edit menu (as
+well as some other menus that make it convenient to do things such as printing
+your program).
+The file menu includes commands to
+• create a new editing window into which you can type a Python program,
+• open a file containing an existing Python program, and
+• save the contents of the current editing window into a file (with the file exten-
+sion .py).
+The edit menu includes standard text-editing commands (e.g., copy, paste,
+and find) plus some commands specifically designed to make it easy to edit Py-
+thon code (e.g., indent region and comment out region).
+For more information about some popular IDE’s see
+http://docs.python.org/library/idle.html/
+https://store.continuum.io/cshop/anaconda/
+https://www.enthought.com/products/canopy/
+
+## 2.2 Branching Programs
+
+The kinds of computations we have been looking at thus far are called straight-
+line programs. They execute one statement after another[FORMULA]the order[FORMULA]which
+they appear, and stop when they run out of statements. The kinds of computa-
+tions we can describe with straight-line programs are not very interesting. In fact,
+they are downright boring.
+Branching programs are more interesting. The simplest branching statement
+is a conditional. As shown[FORMULA]the boxed-[FORMULA]part of Figure 2.3, a conditional
+statement has three parts:
+• a test, i.e., an expression that evaluates to either True or False;
+• a block of code that is executed if the test evaluates to True; and
+• an optional block of code that is executed if the test evaluates to False.
+
+## 16 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+After a conditional statement is executed, execution resumes at the code fol-
+lowing the statement.
+Figure 2.3 Flow chart for conditional statement
+In Python, a conditional statement has the form
+if Boolean expression:
+block of code
+else:
+block of code
+or
+if Boolean expression:
+block of code
+In describing the form of Python statements we use italics to describe the
+kinds of code that could occur at that point[FORMULA]a program. For example, Boolean
+expression indicates that any expression that evaluates to True or False can fol-
+low the reserved word if, and block of code indicates that any sequence of Py-
+thon statements can follow else:.
+Consider the following program that prints “Even” if the value of the variable
+x is even and “Odd” otherwise:
+if x%2 == 0:
+print('Even')
+else:
+print('Odd')
+print('Done with conditional')
+The expression x%2 == 0 evaluates to True when the remainder of x divided by 2 is
+0, and False otherwise. Remember that == is used for comparison, since = is re-
+served for assignment.
+Indentation is semantically meaningful[FORMULA]Python. For example, if the last
+statement[FORMULA]the above code were indented it would be part of the block of code
+CHAPTER 2. INTRODUCTION TO PYTHON 17
+associated with the else, rather than the block of code following the conditional
+statement.
+Python is unusual[FORMULA]using indentation this way. Most other programming
+languages use some sort of bracketing symbols to delineate blocks of code, e.g., C
+encloses blocks[FORMULA]braces, { }. An advantage of the Python approach is that it en-
+sures that the visual structure of a program is an accurate representation of the
+semantic structure of that program. Because indentation is semantically im-
+portant, the notion of a line is important.
+When either the true block or the false block of a conditional contains an-
+other conditional, the conditional statements are said to be nested. In the code
+below, there are nested conditionals[FORMULA]both branches of the top-level if state-
+ment.
+if x%2 == 0:
+if x%3 == 0:
+print('Divisible by 2 and 3')
+else:
+print('Divisible by 2 and not by 3')
+elif x%3 == 0:
+print('Divisible by 3 and not by 2')
+The elif[FORMULA]the above code stands for “else if.”
+It is often convenient to use a compound Boolean expression[FORMULA]the test of a
+conditional, for example,
+if x < y and x < z:
+print('x is least')
+elif y < z:
+print('y is least')
+else:
+print('z is least')
+Conditionals allow us to write programs that are more interesting than
+straight-line programs, but the class of branching programs is still quite limited.
+One way to think about the power of a class of programs is[FORMULA]terms of how long
+they can take to run. Assume that each line of code takes one unit of time to exe-
+cute. If a straight-line program has n lines of code, it will take n units of time to
+run. What about a branching program with n lines of code? It might take less
+than n units of time to run, but it cannot take more, since each line of code is ex-
+ecuted at most once.
+A program for which the maximum running time is bounded by the length
+of the program is said to run[FORMULA]constant time. This does not mean that each time
+it is run it executes the same number of steps. It means that there[FORMULA]a con-
+stant, k, such that the program is guaranteed to take no more than k steps to run.
+
+## 18 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+This implies that the running time does not grow with the size of the input to the
+program.
+Constant-time programs are quite limited[FORMULA]what they can do. Consider, for
+example, writing a program to tally the votes[FORMULA]an election. It would be truly
+surprising if one could write a program that could do this[FORMULA]a time that was[FORMULA]-
+dependent of the number of votes cast. In fact, one can prove that it is impossible
+to do so. The study of the intrinsic difficulty of problems is the topic of computa-
+tional complexity. We will return to this topic several times[FORMULA]this book.
+Fortunately, we need only one more programming language construct, itera-
+tion, to be able to write programs of arbitrary complexity. We get to that[FORMULA]Sec-
+tion 2.4.
+Finger exercise: Write a program that examines three variables—x, y, and z—and
+prints the largest odd number among them. If none of them are odd, it should
+print a message to that effect.
+
+## 2.3 Strings and Input
+
+Objects of type str are used to represent strings of characters.13 Literals of type
+str can be written using either single or double quotes, e.g., 'abc' or "abc". The
+literal '123' denotes a string of three characters, not the number one hundred
+twenty-three.
+Try typing the following expressions[FORMULA]to the Python interpreter (remember
+that the >>> is a prompt, not something that you type):
+>>> 'a'
+>>> 3*4
+>>> 3*'a'
+>>> 3+4
+>>> 'a'+'a'
+The operator + is said to be overloaded: It has different meanings depending
+upon the types of the objects to which it is applied. For example, it means addi-
+tion when applied to two numbers and concatenation when applied to two
+strings. The operator * is also overloaded. It means what you expect it to mean
+when its operands are both numbers. When applied to an[FORMULA]and a str, it a repe-
+tition operator—the expression n*s, where n is an[FORMULA]and s is a str, evaluates to a
+
+## 13 Unlike many programming languages, Python has no type corresponding to a character.
+
+Instead, it uses strings of length 1.
+CHAPTER 2. INTRODUCTION TO PYTHON 19
+str with n repeats of s. For example, the expression 2*'John' has the value
+'JohnJohn'. There is a logic to this. Just as the mathematical expression 3*2 is
+equivalent to 2+2+2, the expression 3*'a' is equivalent to 'a'+'a'+'a'.
+Now try typing
+>>> a
+>>> 'a'*'a'
+Each of these lines generates an error message. The first line produces the mes-
+sage
+NameError: name 'a' is not defined
+Because a is not a literal of any type, the interpreter treats it as a name. However,
+since that name is not bound to any object, attempting to use it causes a runtime
+error. The code 'a'*'a' produces the error message
+TypeError: can't multiply sequence by non-[FORMULA]of type 'str'
+That type checking[FORMULA]is a good thing. It turns careless (and sometimes
+subtle) mistakes into errors that stop execution, rather than errors that lead pro-
+grams to behave[FORMULA]mysterious ways. The type checking[FORMULA]Python is not as
+strong as[FORMULA]some other programming languages (e.g., Java), but it is better[FORMULA]Py-
+thon 3 than[FORMULA]Python 2. For example, it is pretty clear what < should mean when
+it is used to compare two strings or two numbers. But what should the value of
+'4' < 3 be? Rather arbitrarily, the designers of Python 2 decided that it should
+be False, because all numeric values should be less than all values of type str. The
+designers of Python 3 and most other modern languages decided that since such
+expressions don’t have an obvious meaning, they should generate an error mes-
+sage.
+Strings are one of several sequence types[FORMULA]Python. They share the following
+operations with all sequence types.
+• The length of a string can be found using the len function. For example, the
+value of len('abc') is 3.
+• Indexing can be used to extract individual characters from a string. In Python,
+all indexing is zero-based. For example, typing 'abc'[0] into the interpreter
+will cause it to display the string 'a'. Typing 'abc'[3] will produce the error
+message IndexError: string index out of range. Since Python uses 0 to indi-
+cate the first element of a string, the last element of a string of length 3 is ac-
+cessed using the index 2. Negative numbers are used to index from the end of a
+string. For example, the value of 'abc'[-1] is 'c'.
+• Slicing is used to extract substrings of arbitrary length. If s is a string, the ex-
+pression s[start:end] denotes the substring of s that starts at index start and
+
+## 20 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+ends at index end-1. For example, 'abc'[1:3] = 'bc'. Why does it end at index
+end-1 rather than end? So that expressions such as 'abc'[0:len('abc')] have the
+value one might expect. If the value before the colon is omitted, it defaults to 0.
+If the value after the colon is omitted, it defaults to the length of the string.
+Consequently, the expression 'abc'[:] is semantically equivalent to the more
+verbose 'abc'[0:len('abc')].
+2.3.1 Input
+Python 3 has a function, input, that can be used to get input directly from a us-
+er.14 It takes a string as an argument and displays it as a prompt[FORMULA]the shell. It
+then waits for the user to type something, followed by hitting the enter key. The
+line typed by the user is treated as a string and becomes the value returned by the
+function.
+Consider the code
+>>> name = input('Enter your name: ')
+Enter your name: George Washington
+>>> print('Are you really', name, '?')
+Are you really George Washington ?
+>>> print('Are you really ' + name + '?')
+Are you really George Washington?
+Notice that the first print statement introduces a blank before the “?”. It does
+this because when print is given multiple arguments it places a blank space be-
+tween the values associated with the arguments. The second print statement uses
+concatenation to produce a string that does not contain the superfluous blank
+and passes this as the only argument to print.
+Now consider
+>>> n = input('Enter an[FORMULA]: ')
+Enter an[FORMULA]: 3
+>>> print(type(n))
+<type 'str'>
+Notice that the variable n is bound to the str '3' not the[FORMULA]3. So, for example, the
+value of the expression n*4 is '3333' rather than 12. The good news is that when-
+ever a string is a valid literal of some type, a type conversion can be applied to it.
+
+## 14 Python 2 has two functions, input and raw_input, that are used to get input from users.
+
+Somewhat confusingly, raw_input[FORMULA]Python 2 has the same semantics as input[FORMULA]Python 3. The
+Python 2 function input treats the typed line as a Python expression and infers a type. Python 2
+programmers would be well advised to use only raw_input.
+CHAPTER 2. INTRODUCTION TO PYTHON 21
+Type conversions (also called type casts) are used often[FORMULA]Python code. We
+use the name of a type to convert values to that type. So, for example, the value of[FORMULA]('3')*4 is 12. When a float is converted to an[FORMULA], the number is truncated
+(not rounded), e.g., the value of[FORMULA](3.9) is the[FORMULA]3.
+2.3.2 A Digression About Character Encoding
+For many years most programming languages used a standard called ASCII for
+the internal representation of characters. This standard included 128 characters,
+plenty for representing the usual set of characters appearing[FORMULA]English-language
+text—but not enough to cover the characters and accents appearing[FORMULA]all the
+world’s languages.
+In recent years, there has been a shift to Unicode. The Unicode standard is a
+character coding system designed to support the digital processing and display of
+the written texts of all languages. The standard contains more than 120,000 dif-
+ferent characters—covering 129 modern and historic scripts and multiple sym-
+bol sets. The Unicode standard can be implemented using different internal
+character encodings. You can tell Python which encoding to use by inserting a
+comment of the form
+# -*- coding: encoding name -*-
+as the first or second line of your program. For example,
+# -*- coding: utf-8 -*-
+instructs Python to use UTF-8, the most frequently used character encoding for
+World Wide Web pages.15 If you don’t have such a comment[FORMULA]your program,
+most Python implementations will default to UTF-8.
+When using UTF-8, you can, text editor permitting, directly enter code like
+print('Mluvíš anglicky?')
+print('क्या आप अंग्रेज़ी बोलते हैं?')
+which will print
+Mluvíš anglicky?
+क्या आप अंग्रेज़ी बोलते हैं?
+You might be wondering how I managed to type the string 'क्या आप अंग्रेज़ी बोलते हैं?'.
+I didn’t. Because most the World Wide Web uses UTF-8, I was able to cut the
+string from a Web page and paste it directly into my program.
+
+## 15 In 2016, over 85% of the pages on the World Wide Web were encoded using UTF-8.
+
+
+
+## 22 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+
+
+## 2.4 Iteration
+
+We closed Section 2.2 with the observation that most computational tasks cannot
+be accomplished using branching programs. Consider, for example, writing a
+program that asks the user how many time he wants to print the letter X, and
+then prints a string with that number of X’s. We might think about writing
+something like
+numXs =[FORMULA](input('How many times should I print the letter X? '))
+toPrint = ''
+if numXs == 1:
+toPrint = 'X'
+elif numXs == 2:
+toPrint = 'XX'
+elif numXs == 3:
+toPrint = 'XXX'
+#...
+print(toPrint)
+But it would quickly become apparent that we would need as many conditionals
+as there are positive integers—and there are an infinite number of those. What
+we need is a program that looks like
+numXs =[FORMULA](input('How many times should I print the letter X? '))
+toPrint = ''
+concatenate X to toPrint numXs times
+print(toPrint)
+When we want a program to do the same thing many times, we can use itera-
+tion. A generic iteration (also called looping) mechanism is shown[FORMULA]the boxed-[FORMULA]part of Figure 2.4. Like a conditional statement, it begins with a test. If the test
+evaluates to True, the program executes the loop body once, and then goes back
+to reevaluate the test. This process is repeated until the test evaluates to False, af-
+ter which control passes to the code following the iteration statement.
+We can write the kind of loop depicted[FORMULA]Figure 2.4 using a while statement.
+Consider the following example:
+# Square an integer, the hard way
+x = 3
+ans = 0
+itersLeft = x
+while (itersLeft != 0):
+ans = ans + x
+itersLeft = itersLeft - 1
+print(str(x) + '*' + str(x) + ' = ' + str(ans))
+CHAPTER 2. INTRODUCTION TO PYTHON 23
+Figure 2.4 Flow chart for iteration
+The code starts by binding the variable x to the integer 3. It then proceeds to
+square x by using repetitive addition. The table[FORMULA]Figure 2.5 shows the value as-
+sociated with each variable each time the test at the start of the loop is reached.
+We constructed it by hand-simulating the code, i.e., we pretended to be a Python
+interpreter and executed the program using pencil and paper. Using pencil and
+paper might seem kind of quaint, but it is an excellent way to understand how a
+program behaves.16
+Test # x ans itersLeft
+
+## 1 3 0
+
+
+
+## 2 3 3
+
+
+
+## 3 3 6
+
+
+
+## 4 3 9
+
+Figure 2.5 Hand simulation of a small program
+The fourth time the test is reached, it evaluates to False and flow of control
+proceeds to the print statement following the loop. For what values of x will this
+program terminate? There are three cases to consider: x == 0, x > 0, and x < 0.
+Suppose x == 0. The initial value of itersLeft will also be 0, and the loop
+body will never be executed.
+Suppose x > 0. The initial value of itersLeft will be greater than 0, and the
+loop body will be executed at least once. Each time the loop body is executed, the
+value of itersLeft is decreased by exactly 1. This means that if itersLeft started
+out greater than 0, after some finite number of iterations of the loop, itersLeft
+
+## 16 It is also possible to hand-simulate a program using pen and paper, or even a text editor.
+
+
+
+## 24 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+will equal 0. At this point the loop test evaluates to False, and control proceeds to
+the code following the while statement.
+Suppose x < 0. Something very bad happens. Control will enter the loop, and
+each iteration will move itersLeft farther from 0 rather than closer to it. The
+program will therefore continue executing the loop forever (or until something
+else bad, e.g., an overflow error, occurs). How might we remove this flaw[FORMULA]the
+program? Initializing itersLeft to the absolute value of x almost works. The loop
+terminates, but it prints a negative value. If the assignment statement inside the
+loop is also changed, to ans = ans + abs(x), the code works properly.
+Finger exercise: Replace the comment[FORMULA]the following code with a while loop.
+numXs =[FORMULA](input('How many times should I print the letter X? '))
+toPrint = ''
+#concatenate X to toPrint numXs times
+print(toPrint)
+It is sometimes convenient to exit a loop without testing the loop condition.
+Executing a break statement terminates the loop[FORMULA]which it is contained, and
+transfers control to the code immediately following the loop. For example, the
+code
+#Find a positive integer that is divisible by both 11 and 12
+x = 1
+while True:
+if x%11 == 0 and x%12 == 0:
+break
+x = x + 1
+print(x, 'is divisible by 11 and 12')
+prints
+132 is divisible by 11 and 12
+If a break statement is executed inside a nested loop (a loop inside another
+loop), the break will terminate the inner loop.
+We have now covered pretty much everything about Python that we need to
+know to start writing interesting programs that deal with numbers and strings. In
+the next chapter, we take a short break from learning Python, and use what we
+have already learned to solve some simple problems.
+Finger exercise: Write a program that asks the user to input 10 integers, and then
+prints the largest odd number that was entered. If no odd number was entered, it
+should print a message to that effect.
+
+## 3 SOME SIMPLE NUMERICAL PROGRAMS
+
+Now that we have covered some basic Python constructs, it is time to start think-
+ing about how we can combine those constructs to write some simple programs.
+Along the way, we’ll sneak[FORMULA]a few more language constructs and some algo-
+rithmic techniques.
+
+## 3.1 Exhaustive Enumeration
+
+The code[FORMULA]Figure 3.1 prints the integer cube root, if it[FORMULA], of an integer. If the
+input is not a perfect cube, it prints a message to that effect.
+#Find the cube root of a perfect cube
+x =[FORMULA](input('Enter an integer: '))
+ans = 0
+while ans**3 < abs(x):
+ans = ans + 1
+if ans**3 != abs(x):
+print(x, 'is not a perfect cube')
+else:
+if x < 0:
+ans = -ans
+print('Cube root of', x,'is', ans)
+Figure 3.1 Using exhaustive enumeration to find the cube root
+For what values of x will this program terminate? The answer is, “all inte-
+gers.” This can be argued quite simply.
+• The value of the expression ans**3 starts at 0, and gets larger each time
+through the loop.
+• When it reaches or exceeds abs(x), the loop terminates.
+• Since abs(x) is always positive there are only a finite number of iterations be-
+fore the loop must terminate.
+Whenever you write a loop, you should think about an appropriate decre-
+menting function. This is a function that has the following properties:
+
+## 26 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+• It maps a set of program variables into an integer.
+• When the loop is entered, its value is nonnegative.
+• When its value is ≤ 0, the loop terminates.
+• Its value is decreased every time through the loop.
+What is the decrementing function for the while loop[FORMULA]Figure 3.1? It is
+abs(x) - ans**3.
+Now, let’s insert some errors and see what happens. First, try commenting
+out the statement ans = 0. The Python interpreter prints the error message
+NameError: name 'ans' is not defined
+because the interpreter attempts to find the value to which ans is bound before it
+has been bound to anything. Now, restore the initialization of ans, replace the
+statement ans = ans + 1 by ans = ans, and try finding the cube root of 8. After
+you get tired of waiting, enter “control c” (hold down the control key and the c
+key simultaneously). This will return you to the user prompt[FORMULA]the shell.
+Now, add the statement
+print('Value of the decrementing function abs(x) - ans**3 is',
+abs(x) - ans**3)
+at the start of the loop, and try running it again. This time it will print
+Value of the decrementing function abs(x) - ans**3 is 8
+over and over again.
+The program would have run forever because the loop body is no longer re-
+ducing the distance between ans**3 and abs(x). When confronted with a pro-
+gram that seems not to be terminating, experienced programmers often insert
+print statements, such as the one here, to test whether the decrementing function
+is indeed being decremented.
+The algorithmic technique used[FORMULA]this program is a variant of guess and
+check called exhaustive enumeration. We enumerate all possibilities until we get
+to the right answer or exhaust the space of possibilities. At first blush, this may
+seem like an incredibly stupid way to solve a problem. Surprisingly, however, ex-
+haustive enumeration algorithms are often the most practical way to solve a
+problem. They are typically easy to implement and easy to understand. And,[FORMULA]many cases, they run fast enough for all practical purposes. Make sure to remove
+or comment out the print statement that you inserted and to reinsert the state-
+ment ans = ans + 1, and then try finding the cube root of 1957816251. The pro-
+gram will finish almost instantaneously. Now, try 7406961012236344616.
+CHAPTER 3. SOME SIMPLE NUMERICAL PROGRAMS 27
+As you can see, even if millions of guesses are required, it’s not usually a
+problem. Modern computers are amazingly fast. It takes on the order of one na-
+nosecond—one billionth of a second—to execute an instruction. It’s a bit hard to
+appreciate how fast that is. For perspective, it takes slightly more than a nanosec-
+ond for light to travel a single foot (0.3 meters). Another way to think about this
+is that[FORMULA]the time it takes for the sound of your voice to travel a hundred feet, a
+modern computer can execute millions of instructions.
+Just for fun, try executing the code
+maxVal =[FORMULA](input('Enter a postive integer: '))
+i = 0
+while i < maxVal:
+i = i + 1
+print(i)
+See how large an integer you need to enter before there is a perceptible pause be-
+fore the result is printed.
+Finger exercise: Write a program that asks the user to enter an integer and prints
+two integers, root and pwr, such that 0 < pwr < 6 and root**pwr is equal to the[FORMULA]-
+teger entered by the user. If no such pair of integers[FORMULA], it should print a mes-
+sage to that effect.
+
+## 3.2 For Loops
+
+The while loops we have used so far are highly stylized. Each iterates over a se-
+quence of integers. Python provides a language mechanism, the for loop, that can
+be used to simplify programs containing this kind of iteration.
+The general form of a for statement is (recall that the words[FORMULA]italics are de-
+scriptions of what can appear, not actual code):
+for variable[FORMULA]sequence:
+code block
+The variable following for is bound to the first value[FORMULA]the sequence, and the
+code block is executed. The variable is then assigned the second value[FORMULA]the se-
+quence, and the code block is executed again. The process continues until the se-
+quence is exhausted or a break statement is executed within the code block.
+The sequence of values bound to variable is most commonly generated using
+the built-[FORMULA]function range, which returns a series of integers. The range function
+takes three integer arguments: start, stop, and step. It produces the progression
+start, start + step, start + 2*step, etc. If step is positive, the last element is the
+
+## 28 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+largest integer start + i*step less than stop. If step is negative, the last element is
+the smallest integer start + i*step greater than stop. For example, the expression
+range(5, 40, 10) yields the sequence 5, 15, 25, 35, and range(40, 5, -10) yields
+the sequence 40, 30, 20, 10. If the first argument is omitted it defaults to 0, and
+if the last argument (the step size) is omitted it defaults to 1. For example,
+range(0, 3) and range(3) both produce the sequence 0, 1, 2. The numbers[FORMULA]the
+progression are generated on an “as needed” basis, so even expressions such as
+range(1000000) consume little memory.17 We will discuss range[FORMULA]more depth[FORMULA]Section 5.2.
+Less commonly, we specify the sequence to be iterated over[FORMULA]a for loop by
+using a literal, e.g., [0, 3, 2].
+Consider the code
+x = 4
+for i[FORMULA]range(0, x):
+print(i)
+It prints
+0
+1
+2
+3
+Now, think about the code
+x = 4
+for i[FORMULA]range(0, x):
+print(i)
+x = 5
+It raises the question of whether changing the value of x inside the loop affects
+the number of iterations. It does not. The arguments to the range function[FORMULA]the
+line with for are evaluated just before the first iteration of the loop, and not
+reevaluated for subsequent iterations.
+To see how this works, consider
+x = 4
+for j[FORMULA]range(x):
+for i[FORMULA]range(x):
+print(i)
+x = 2
+
+## 17 In Python 2, range generates the entire sequence when invoked. Therefore, expressions such as
+
+range(1000000) use quite a lot of memory. In Python 2, xrange behaves the way range behaves[FORMULA]Python 3.
+CHAPTER 3. SOME SIMPLE NUMERICAL PROGRAMS 29
+which prints
+0
+1
+2
+3
+0
+1
+0
+1
+0
+1
+because the range function[FORMULA]the outer loop is evaluated only once, but the range
+function[FORMULA]the inner loop is evaluated each time the inner for statement is
+reached.
+The code[FORMULA]Figure 3.2 reimplements the exhaustive enumeration algorithm
+for finding cube roots. The break statement[FORMULA]the for loop causes the loop to
+terminate before it has been run on each element[FORMULA]the sequence over which it is
+iterating.
+#Find the cube root of a perfect cube
+x =[FORMULA](input('Enter an integer: '))
+for ans[FORMULA]range(0, abs(x)+1):
+if ans**3 >= abs(x):
+break
+if ans**3 != abs(x):
+print(x, 'is not a perfect cube')
+else:
+if x < 0:
+ans = -ans
+print('Cube root of', x,'is', ans)
+Figure 3.2 Using for and break statements
+The for statement can be used[FORMULA]conjunction with the[FORMULA]operator to conven-
+iently iterate over characters of a string. For example,
+total = 0
+for c[FORMULA]'12345678':
+total = total +[FORMULA](c)
+print(total)
+sums the digits[FORMULA]the string denoted by the literal '12345678' and prints the total.
+
+## 30 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+Finger exercise: Let s be a string that contains a sequence of decimal numbers
+separated by commas, e.g., s = '1.23,2.4,3.123'. Write a program that prints the[FORMULA]of the numbers[FORMULA]s.
+
+## 3.3 Approximate Solutions and Bisection Search
+
+Imagine that someone asks you to write a program that finds the square root of
+any nonnegative number. What should you do?
+You should probably start by saying that you need a better problem state-
+ment. For example, what should the program do if asked to find the square root
+of 2? The square root of 2 is not a rational number. This means that there is no
+way to precisely represent its value as a finite string of digits (or as a float), so
+the problem as initially stated cannot be solved.
+The right thing to have asked for is a program that finds an approximation to
+the square root—i.e., an answer that is close enough to the actual square root to
+be useful. We will return to this issue[FORMULA]considerable detail later[FORMULA]the book. But
+for now, let’s think of “close enough” as an answer that lies within some constant,
+call it epsilon, of the actual answer.
+The code[FORMULA]Figure 3.3 implements an algorithm that finds an approximation
+to a square root. It uses an operator, +=, that we have not previously used. The as-
+signment statement ans += step is semantically equivalent to the more verbose
+code ans = ans+step. The operators -= and *= work similarly.
+x = 25
+epsilon = 0.01
+step = epsilon**2
+numGuesses = 0
+ans = 0.0
+while abs(ans**2 - x) >= epsilon and ans <= x:
+ans += step
+numGuesses += 1
+print('numGuesses =', numGuesses)
+if abs(ans**2 - x) >= epsilon:
+print('Failed on square root of', x)
+else:
+print(ans, 'is close to square root of', x)
+Figure 3.3 Approximating the square root using exhaustive enumeration
+CHAPTER 3. SOME SIMPLE NUMERICAL PROGRAMS 31
+Once again, we are using exhaustive enumeration. Notice that this method
+for finding the square root has nothing[FORMULA]common with the way of finding
+square roots using a pencil that you might have learned[FORMULA]middle school. It is of-
+ten the case that the best way to solve a problem with a computer is quite differ-
+ent from how one would approach the problem by hand.
+When the code is run, it prints
+numGuesses = 49990
+
+## 4.999000000001688 is close to square root of
+
+Should we be disappointed that the program didn’t figure out that 25 is a
+perfect square and print 5? No. The program did what it was intended to do.
+Though it would have been OK to print 5, doing so is no better than printing any
+value close enough to 5.
+What do you think will happen if we set x = 0.25? Will it find a root close to
+0.5? Nope. It will report
+numGuesses = 2501
+Failed on square root of 0.25
+Exhaustive enumeration is a search technique that works only if the set of
+values being searched includes the answer. In this case, we are enumerating the
+values between 0 and the value of x. When x is between 0 and 1, the square root
+of x does not lie[FORMULA]this interval. One way to fix this is to change the second oper-
+and of and[FORMULA]the first line of the while loop to get
+while abs(ans**2 - x) >= epsilon and ans*ans <= x:
+Now, let’s think about how long the program will take to run. The number of
+iterations depends upon how close the answer is to 0 and on the size of the steps.
+Roughly speaking, the program will execute the while loop at most x/step times.
+Let’s try the code on something bigger, e.g., x = 123456. It will run for a bit,
+and then print
+numGuesses = 3513631
+Failed on square root of 123456
+What do you think happened? Surely there[FORMULA]a floating point number
+that approximates the square root of 123456 to within 0.01. Why didn’t our pro-
+gram find it? The problem is that our step size was too large, and the program
+skipped over all the suitable answers. Try making step equal to epsilon**3 and
+running the program. It will eventually find a suitable answer, but you might not
+have the patience to wait for it to do so.
+Roughly how many guesses will it have to make? The step size will be
+
+## 0.000001 and the square root of 123456 is around 351.36. This means that the
+
+
+
+## 32 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+program will have to make[FORMULA]the neighborhood of 351,000,000 guesses to find a
+satisfactory answer. We could try to speed it up by starting closer to the answer,
+but that presumes that we know the answer.
+The time has come to look for a different way to attack the problem. We need
+to choose a better algorithm rather than fine-tune the current one. But before do-
+ing so, let’s look at a problem that, at first blush, appears to be completely differ-
+ent from root finding.
+Consider the problem of discovering whether a word starting with a given
+sequence of letters appears[FORMULA]some hard-copy dictionary of the English language.
+Exhaustive enumeration would,[FORMULA]principle, work. You could start at the first
+word and examine each word until either you found a word starting with the se-
+quence of letters or you ran out of words to examine. If the dictionary contained
+n words, it would, on average, take n/2 probes to find the word. If the word were
+not[FORMULA]the dictionary, it would take n probes. Of course, those who have had the
+pleasure of actually looking a word up[FORMULA]a physical (rather than online) diction-
+ary would never proceed[FORMULA]this way.
+Fortunately, the folks who publish hardcopy dictionaries go to the trouble of
+putting the words[FORMULA]lexicographical order. This allows us to open the book to a
+page where we think the word might lie (e.g., near the middle for words starting
+with the letter m). If the sequence of letters lexicographically precedes the first
+word on the page, we know to go backwards. If the sequence of letters follows the
+last word on the page, we know to go forwards. Otherwise, we check whether the
+sequence of letters matches a word on the page.
+Now let’s take the same idea and apply it the problem of finding the square
+root of x. Suppose we know that a good approximation to the square root of x lies
+somewhere between 0 and max. We can exploit the fact that numbers are totally
+ordered. That is, for any pair of distinct numbers, n1 and n2, either n1 < n2 or
+n1 > n2. So, we can think of the square root of x as lying somewhere on the line
+0_________________________________________________________max
+and start searching that interval. Since we don’t necessarily know where to start
+searching, let’s start[FORMULA]the middle.
+0__________________________guess__________________________max
+If that is not the right answer (and it won’t be most of the time), ask whether
+it is too big or too small. If it is too big, we know that the answer must lie to the
+left. If it is too small, we know that the answer must lie to the right. We then re-
+peat the process on the smaller interval. Figure 3.4 contains an implementation
+and test of this algorithm.
+CHAPTER 3. SOME SIMPLE NUMERICAL PROGRAMS 33
+x = 25
+epsilon = 0.01
+numGuesses = 0
+low = 0.0
+high = max(1.0, x)
+ans = (high + low)/2.0
+while abs(ans**2 - x) >= epsilon:
+print('low =', low, 'high =', high, 'ans =', ans)
+numGuesses += 1
+if ans**2 < x:
+low = ans
+else:
+high = ans
+ans = (high + low)/2.0
+print('numGuesses =', numGuesses)
+print(ans, 'is close to square root of', x)
+Figure 3.4 Using bisection search to approximate square root
+When run, it prints
+low = 0.0 high = 25 ans = 12.5
+low = 0.0 high = 12.5 ans = 6.25
+low = 0.0 high = 6.25 ans = 3.125
+low = 3.125 high = 6.25 ans = 4.6875
+low = 4.6875 high = 6.25 ans = 5.46875
+low = 4.6875 high = 5.46875 ans = 5.078125
+low = 4.6875 high = 5.078125 ans = 4.8828125
+low = 4.8828125 high = 5.078125 ans = 4.98046875
+low = 4.98046875 high = 5.078125 ans = 5.029296875
+low = 4.98046875 high = 5.029296875 ans = 5.0048828125
+low = 4.98046875 high = 5.0048828125 ans = 4.99267578125
+low = 4.99267578125 high = 5.0048828125 ans = 4.998779296875
+low = 4.998779296875 high = 5.0048828125 ans = 5.0018310546875
+numGuesses = 13
+
+## 5.00030517578125 is close to square root of
+
+Notice that it finds a different answer than our earlier algorithm. That is perfectly
+fine, since it still meets the problem’s specification.
+More important, notice that at each iteration of the loop the size of the space
+to be searched is cut[FORMULA]half. Because it divides the search space[FORMULA]half at each
+step, it is called a bisection search. Bisection search is a huge improvement over
+our earlier algorithm, which reduced the search space by only a small amount at
+each iteration.
+
+## 34 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+Let us try x = 123456 again. This time the program takes only thirty guesses
+to find an acceptable answer. How about x = 123456789 ? It takes only forty-five
+guesses.
+There is nothing special about the fact that we are using this algorithm to
+find square roots. For example, by changing a couple of 2’s to 3’s, we can use it to
+approximate a cube root of a nonnegative number. In Chapter 4, we introduce a
+language mechanism that allows us to generalize this code to find any root.
+Finger exercise: What would the code[FORMULA]Figure 3.4 do if the statement x = 25
+were replaced by x = -25?
+Finger exercise: What would have to be changed to make the code[FORMULA]Figure 3.4
+work for finding an approximation to the cube root of both negative and positive
+numbers? (Hint: think about changing low to ensure that the answer lies within
+the region being searched.)
+
+## 3.4 A Few Words About Using Floats
+
+Most of the time, numbers of type float provide a reasonably good approxima-
+tion to real numbers. But “most of the time” is not all of the time, and when they
+don’t it can lead to surprising consequences. For example, try running the code
+x = 0.0
+for i[FORMULA]range(10):
+x = x + 0.1
+if x == 1.0:
+print(x, '= 1.0')
+else:
+print(x, 'is not 1.0')s
+Perhaps you, like most people, find it surprising that it prints,
+
+## 0.9999999999999999 is not 1.0
+
+Why does it get to the else clause[FORMULA]the first place?
+To understand why this happens, we need to understand how floating point
+numbers are represented[FORMULA]the computer during a computation. To understand
+that, we need to understand binary numbers.
+When you first learned about decimal numbers—i.e., numbers base 10—you
+learned that any decimal number can be represented by a sequence of the digits
+0123456789. The rightmost digit is the 100 place, the next digit towards the left
+the 101 place, etc. For example, the sequence of decimal digits 302 represents
+CHAPTER 3. SOME SIMPLE NUMERICAL PROGRAMS 35
+3*100 + 0*10 + 2*1. How many different numbers can be represented by a se-
+quence of length n? A sequence of length 1 can represent any one of ten numbers
+(0-9); a sequence of length 2 can represent one hundred numbers (0-99). More
+generally, with a sequence of length n, one can represent 10n different numbers.
+Binary numbers—numbers base 2—work similarly. A binary number is rep-
+resented by a sequence of digits each of which is either 0 or 1. These digits are of-
+ten called bits. The rightmost digit is the 20 place, the next digit towards the left
+the 21 place, etc. For example, the sequence of binary digits 101 represents 1*4 +
+0*2 + 1*1 = 5. How many different numbers can be represented by a sequence of
+length n? 2n.
+Finger exercise: What is the decimal equivalent of the binary number 10011?
+Perhaps because most people have ten fingers, we seem to like to use deci-
+mals to represent numbers. On the other hand, all modern computer systems
+represent numbers[FORMULA]binary. This is not because computers are born with two
+fingers. It is because it is easy to build hardware switches, i.e., devices that can be[FORMULA]only one of two states, on or off. That the computer uses a binary representa-
+tion and people a decimal representation can lead to occasional cognitive disso-
+nance.
+In almost modern programming languages non-integer numbers are imple-
+mented using a representation called floating point. For the moment, let’s pre-
+tend that the internal representation is[FORMULA]decimal. We would represent a number
+as a pair of integers—the significant digits of the number and an exponent. For
+example, the number 1.949 would be represented as the pair (1949, -3), which
+stands for the product 1949*10-3.
+The number of significant digits determines the precision with which num-
+bers can be represented. If for example, there were only two significant digits, the
+number 1.949 could not be represented exactly. It would have to be converted to
+some approximation of 1.949,[FORMULA]this case 1.9. That approximation is called the
+rounded value.
+Modern computers use binary, not decimal, representations. We represent
+the significant digits and exponents[FORMULA]binary rather than decimal and raise 2 ra-
+ther than 10 to the exponent. For example, the number 0.625 (5/8) would be rep-
+resented as the pair (101, -11); because 5/8 is 0.101[FORMULA]binary and -11 is the
+binary representation of -3, the pair (101, -11) stands for 5*2-3 = 5/8 = 0.625.
+What about the decimal fraction 1/10, which we write[FORMULA]Python as 0.1? The
+best we can do with four significant binary digits is (0011, -101). This is equiva-
+
+## 36 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+lent to 3/32, i.e., 0.09375. If we had five significant binary digits, we would repre-
+sent 0.1 as (11001, -1000), which is equivalent to 25/256, i.e., 0.09765625. How
+many significant digits would we need to get an exact floating point representa-
+tion of 0.1? An infinite number of digits! There do not exist integers sig and exp
+such that sig * 2-exp equals 0.1. So no matter how many bits Python (or any other
+language) chooses to use to represent floating point numbers, it will be able to
+represent only an approximation to 0.1. In most Python implementations, there
+are 53 bits of precision available for floating point numbers, so the significant
+digits stored for the decimal number 0.1 will be
+11001100110011001100110011001100110011001100110011001
+This is equivalent to the decimal number
+0.1000000000000000055511151231257827021181583404541015625
+Pretty close to 1/10, but not exactly 1/10.
+Returning to the original mystery, why does
+x = 0.0
+for i[FORMULA]range(10):
+x = x + 0.1
+if x == 1.0:
+print(x, '= 1.0')
+else:
+print(x, 'is not 1.0')
+print
+
+## 0.9999999999999999 is not 1.0
+
+We now see that the test x == 1.0 produces the result False because the value
+to which x is bound is not exactly 1.0. What gets printed if we add to the end of
+the else clause the code print x == 10.0*0.1? It prints False because during at
+least one iteration of the loop Python ran out of significant digits and did some
+rounding. It’s not what our elementary school teachers taught us, but adding 0.1
+ten times does not produce the same value as multiplying 0.1 by 10.18
+By the way, if you want to explicitly round a floating point number, use the
+round function. The expression round(x, numDigits) returns the floating point
+number equivalent to rounding the value of x to numDigits decimal digits follow-
+ing the decimal point. For example, print round(2**0.5, 3) will print 1.414 as an
+approximation to the square root of 2.
+
+## 18 In Python 2 another strange thing happens. Because the print statement does some automatic
+
+rounding, the else clause would print 1.0 is not 1.0.
+CHAPTER 3. SOME SIMPLE NUMERICAL PROGRAMS 37
+Does the difference between real and floating point numbers really matter?
+Most of the time, mercifully, it does not. There are few situations where 1.0 is an
+acceptable answer and 0.9999999999999999 is not. However, one thing that is al-
+most always worth worrying about is tests for equality. As we have seen, using ==
+to compare two floating point values can produce a surprising result. It is almost
+always more appropriate to ask whether two floating point values are close
+enough to each other, not whether they are identical. So, for example, it is better
+to write abs(x-y) < 0.0001 rather than x == y.
+Another thing to worry about is the accumulation of rounding errors. Most
+of the time things work out OK, because sometimes the number stored[FORMULA]the
+computer is a little bigger than intended, and sometimes it is a little smaller than
+intended. However,[FORMULA]some programs, the errors will all be[FORMULA]the same direction
+and accumulate over time.
+
+## 3.5 Newton-Raphson
+
+The most commonly used approximation algorithm is usually attributed to Isaac
+Newton. It is typically called Newton’s method, but is sometimes referred to as
+the Newton-Raphson method.19 It can be used to find the real roots of many
+functions, but we shall look at it only[FORMULA]the context of finding the real roots of a
+polynomial with one variable. The generalization to polynomials with multiple
+variables is straightforward both mathematically and algorithmically.
+A polynomial with one variable (by convention, we will write the variable
+as x) is either 0 or the[FORMULA]of a finite number of nonzero terms, e.g., 3x2 + 2x + 3.
+Each term, e.g., 3x2, consists of a constant (the coefficient of the term, 3[FORMULA]this
+case) multiplied by the variable (x[FORMULA]this case) raised to a nonnegative integer
+exponent (2[FORMULA]this case). The exponent on a variable[FORMULA]a term is called the de-
+gree of that term. The degree of a polynomial is the largest degree of any single
+term. Some examples are, 3 (degree 0), 2.5x + 12 (degree 1), and 3x2 (degree 2).
+In contrast, 2/x and x0.5 are not polynomials.
+If p is a polynomial and r a real number, we will write p(r) to stand for the
+value of the polynomial when x = r. A root of the polynomial p is a solution to
+the equation p = 0, i.e., an r such that p(r) = 0. So, for example, the problem of
+finding an approximation to the square root of 24 can be formulated as finding
+an x such that x2 – 24 ≈ 0.
+
+## 19 Joseph Raphson published a similar method about the same time as Newton.
+
+
+
+## 38 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+Newton proved a theorem that implies that if a value, call it guess, is an ap-
+proximation to a root of a polynomial, then guess – p(guess)/p’(guess), where p’
+is the first derivative of p, is a better approximation.20
+For any constant k and any coefficient c, the first derivative of the polynomial
+cx2 + k is 2cx. For example, the first derivative of x2 – k is 2x. Therefore, we know
+that we can improve on the current guess, call it y, by choosing as our next guess
+y - (y2 - k)/2y. This is called successive approximation. Figure 3.5 contains code
+illustrating how to use this idea to quickly find an approximation to the square
+root.
+#Newton-Raphson for square root
+#Find x such that x**2 - 24 is within epsilon of 0
+epsilon = 0.01
+k = 24.0
+guess = k/2.0
+while abs(guess*guess - k) >= epsilon:
+guess = guess - (((guess**2) - k)/(2*guess))
+print('Square root of', k, 'is about', guess)
+Figure 3.5 Implementation of Newton-Raphson method
+Finger exercise: Add some code to the implementation of Newton-Raphson that
+keeps track of the number of iterations used to find the root. Use that code as
+part of a program that compares the efficiency of Newton-Raphson and bisection
+search. (You should discover that Newton-Raphson is more efficient.)
+
+## 20 The first derivative of a function f(x) can be thought of as expressing how the value of f(x)
+
+changes with respect to changes[FORMULA]x. If you haven’t previously encountered derivatives, don’t
+worry. You don’t need to understand them, or for that matter polynomials, to understand the
+implementation of Newton’s method.
+
+## 4 FUNCTIONS, SCOPING, AND ABSTRACTION
+
+So far, we have introduced numbers, assignments, input/output, comparisons,
+and looping constructs. How powerful is this subset of Python? In a theoretical
+sense, it is as powerful as you will ever need, i.e., it is Turing complete. This
+means that if a problem can be solved via computation, it can be solved using on-
+ly those statements you have already seen.
+Which isn’t to say that you should use only these statements. At this point we
+have covered a lot of language mechanisms, but the code has been a single se-
+quence of instructions, all merged together. For example,[FORMULA]the last chapter we
+looked at the code[FORMULA]Figure 4.1.
+x = 25
+epsilon = 0.01
+numGuesses = 0
+low = 0.0
+high = max(1.0, x)
+ans = (high + low)/2.0
+while abs(ans**2 - x) >= epsilon:
+numGuesses += 1
+if ans**2 < x:
+low = ans
+else:
+high = ans
+ans = (high + low)/2.0
+print('numGuesses =', numGuesses)
+print(ans, 'is close to square root of', x)
+Figure 4.1 Using bisection search to approximate square root
+This is a reasonable piece of code, but it lacks general utility. It works only
+for values denoted by the variables x and epsilon. This means that if we want to
+reuse it, we need to copy the code, possibly edit the variable names, and paste it
+where we want it. Because of this we cannot easily use this computation inside of
+some other, more complex, computation.
+Furthermore, if we want to compute cube roots rather than square roots, we
+have to edit the code. If we want a program that computes both square and cube
+
+## 40 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+roots (or for that matter square roots[FORMULA]two different places), the program would
+contain multiple chunks of almost identical code. This is a very bad thing. The
+more code a program contains, the more chance there is for something to go
+wrong, and the harder the code is to maintain. Imagine, for example, that there
+was an error[FORMULA]the initial implementation of square root, and that the error came
+to light when testing the program. It would be all too easy to fix the implementa-
+tion of square root[FORMULA]one place and forget that there was similar code elsewhere
+that was also[FORMULA]need of repair.
+Python provides several linguistic features that make it relatively easy to gen-
+eralize and reuse code. The most important is the function.
+
+## 4.1 Functions and Scoping
+
+We’ve already used a number of built-[FORMULA]functions, e.g., max and abs[FORMULA]Figure 4.1.
+The ability for programmers to define and then use their own functions, as if
+they were built-[FORMULA], is a qualitative leap forward[FORMULA]convenience.
+4.1.1 Function Definitions
+In Python each function definition is of the form21
+def name of function (list of formal parameters):
+body of function
+For example, we could define the function maxVal22 by the code
+def maxVal(x, y):
+if x > y:
+return x
+else:
+return y
+def is a reserved word that tells Python that a function is about to be defined. The
+function name (maxVal[FORMULA]this example) is simply a name that is used to refer to
+the function.
+The sequence of names within the parentheses following the function name
+(x,y[FORMULA]this example) are the formal parameters of the function. When the func-
+tion is used, the formal parameters are bound (as[FORMULA]an assignment statement) to
+
+## 21 Recall that italic is used to describe kinds of Python code.
+
+
+
+## 22 In practice, you would probably use the built-[FORMULA]function max, rather than define your own
+
+function.
+CHAPTER 4. FUNCTIONS, SCOPING, AND ABSTRACTION 41
+the actual parameters (often referred to as arguments) of the function invocation
+(also referred to as a function call). For example, the invocation
+maxVal(3, 4)
+binds x to 3 and y to 4.
+The function body is any piece of Python code.23 There is, however, a special
+statement, return, that can be used only within the body of a function.
+A function call is an expression, and like all expressions it has a value. That
+value is the value returned by the invoked function. For example, the value of the
+expression maxVal(3,4)*maxVal(3,2) is 12, because the first invocation of maxVal
+returns the[FORMULA]4 and the second returns the[FORMULA]3. Note that execution of a return
+statement terminates an invocation of the function.
+To recapitulate, when a function is called
+1. The expressions that make up the actual parameters are evaluated, and the
+formal parameters of the function are bound to the resulting values. For ex-
+ample, the invocation maxVal(3+4, z) will bind the formal parameter x to 7 and
+the formal parameter y to whatever value the variable z has when the invoca-
+tion is evaluated.
+2. The point of execution (the next instruction to be executed) moves from the
+point of invocation to the first statement[FORMULA]the body of the function.
+3. The code[FORMULA]the body of the function is executed until either a return statement
+is encountered,[FORMULA]which case the value of the expression following the return
+becomes the value of the function invocation, or there are no more statements
+to execute,[FORMULA]which case the function returns the value None. (If no expression
+follows the return, the value of the invocation is None.)
+4. The value of the invocation is the returned value.
+5. The point of execution is transferred back to the code immediately following
+the invocation.
+Parameters provide something called lambda abstraction,24 allowing pro-
+grammers to write code that manipulates not specific objects, but instead what-
+ever objects the caller of the function chooses to use as actual parameters.
+
+## 23 As we will see later, this notion of function is more general than what mathematicians call a
+
+function. It was first popularized by the programming language Fortran 2[FORMULA]the late 1950s.
+
+## 24 The name “lambda abstraction” is derived from mathematics developed by Alonzo Church[FORMULA]the 1930s and 1940s.
+
+
+
+## 42 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+Finger exercise: Write a function isIn that accepts two strings as arguments and
+returns True if either string occurs anywhere[FORMULA]the other, and False otherwise.
+Hint: you might want to use the built-[FORMULA]str operation[FORMULA].
+4.1.2 Keyword Arguments and Default Values
+In Python, there are two ways that formal parameters get bound to actual param-
+eters. The most common method, which is the only one we have used thus far, is
+called positional—the first formal parameter is bound to the first actual parame-
+ter, the second formal to the second actual, etc. Python also supports keyword
+arguments,[FORMULA]which formals are bound to actuals using the name of the formal
+parameter. Consider the function definition
+def printName(firstName, lastName, reverse):
+if reverse:
+print(lastName + ', ' + firstName)
+else:
+print(firstName, lastName)
+The function printName assumes that firstName and lastName are strings and
+that reverse is a Boolean. If reverse == True, it prints lastName, firstName, other-
+wise it prints firstName lastName.
+Each of the following is an equivalent invocation of printName:
+printName('Olga', 'Puchmajerova', False)
+printName('Olga', 'Puchmajerova', reverse = False)
+printName('Olga', lastName = 'Puchmajerova', reverse = False)
+printName(lastName = 'Puchmajerova', firstName = ' Olga',
+reverse = False)
+Though the keyword arguments can appear[FORMULA]any order[FORMULA]the list of actual
+parameters, it is not legal to follow a keyword argument with a non-keyword ar-
+gument. Therefore, an error message would be produced by
+printName('Olga', lastName = 'Puchmajerova', False)
+Keyword arguments are commonly used[FORMULA]conjunction with default pa-
+rameter values. We can, for example, write
+def printName(firstName, lastName, reverse = False):
+if reverse:
+print(lastName + ', ' + firstName)
+else:
+print(firstName, lastName)
+Default values allow programmers to call a function with fewer than the
+specified number of arguments. For example,
+CHAPTER 4. FUNCTIONS, SCOPING, AND ABSTRACTION 43
+printName('Olga', 'Puchmajerova')
+printName('Olga', 'Puchmajerova', True)
+printName('Olga', 'Puchmajerova', reverse = True)
+will print
+Olga Puchmajerova
+Puchmajerova, Olga
+Puchmajerova, Olga
+The last two invocations of printName are semantically equivalent. The last one
+has the advantage of providing some documentation for the perhaps mysterious
+argument True.
+4.1.3 Scoping
+Let’s look at another small example,
+def f(x): #name x used as formal parameter
+y = 1
+x = x + y
+print('x =', x)
+return x
+x = 3
+y = 2
+z = f(x) #value of x used as actual parameter
+print('z =', z)
+print('x =', x)
+print('y =', y)
+When run, this code prints,
+x = 4
+z = 4
+x = 3
+y = 2
+What is going on here? At the call of f, the formal parameter x is locally
+bound to the value of the actual parameter x. It is important to note that though
+the actual and formal parameters have the same name, they are not the same var-
+iable. Each function defines a new name space, also called a scope. The formal
+parameter x and the local variable y that are used[FORMULA]f exist only within the scope
+of the definition of f. The assignment statement x = x + y within the function
+body binds the local name x to the object 4. The assignments[FORMULA]f have no effect
+at all on the bindings of the names x and y that exist outside the scope of f.
+
+## 44 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+Here’s one way to think about this:
+1. At top level, i.e., the level of the shell, a symbol table keeps track of all names
+defined at that level and their current bindings.
+2. When a function is called, a new symbol table (often called a stack frame) is
+created. This table keeps track of all names defined within the function ([FORMULA]-
+cluding the formal parameters) and their current bindings. If a function is
+called from within the function body, yet another stack frame is created.
+3. When the function completes, its stack frame goes away.
+In Python, one can always determine the scope of a name by looking at the
+program text. This is called static or lexical scoping. Figure 4.2 contains an ex-
+ample illustrating Python’s scope rules.
+def f(x):
+def g():
+x = 'abc'
+print('x =', x)
+def h():
+z = x
+print('z =', z)
+x = x + 1
+print('x =', x)
+h()
+g()
+print('x =', x)
+return g
+x = 3
+z = f(x)
+print('x =', x)
+print('z =', z)
+z()
+Figure 4.2 Nested scopes
+The history of the stack frames associated with the code is depicted[FORMULA]Figure 4.3.
+The first column contains the set of names known outside the body of the func-
+tion f, i.e., the variables x and z, and the function name f. The first assignment
+statement binds x to 3.
+CHAPTER 4. FUNCTIONS, SCOPING, AND ABSTRACTION 45
+Figure 4.3 Stack frames
+The assignment statement z = f(x) first evaluates the expression f(x) by[FORMULA]-
+voking the function f with the value to which x is bound. When f is entered, a
+stack frame is created, as shown[FORMULA]column 2. The names[FORMULA]the stack frame are x
+(the formal parameter, not the x[FORMULA]the calling context), g and h. The variables g
+and h are bound to objects of type function. The properties of these functions are
+given by the function definitions within f.
+When h is invoked from within f, yet another stack frame is created, as
+shown[FORMULA]column 3. This frame contains only the local variable z. Why does it
+not also contain x? A name is added to the scope associated with a function only
+if that name is either a formal parameter of the function or a variable that is
+bound to an object within the body of the function. In the body of h, x occurs on-
+ly on the right-hand side of an assignment statement. The appearance of a name
+(x[FORMULA]this case) that is not bound to an object anywhere[FORMULA]the function body (the
+body of h) causes the interpreter to search the stack frame associated with the
+scope within which the function is defined (the stack frame associated with f). If
+the name is found (which it is[FORMULA]this case) the value to which it is bound (4) is
+used. If it is not found there, an error message is produced.
+When h returns, the stack frame associated with the invocation of h goes
+away (it is popped off the top of the stack), as depicted[FORMULA]column 4. Note that we
+never remove frames from the middle of the stack, but only the most recently
+added frame. It is because it has this “last[FORMULA]first out” behavior that we refer to it
+as a stack (think of a stack of trays waiting to be taken[FORMULA]a cafeteria).
+
+## 46 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+Next g is invoked, and a stack frame containing g’s local variable x is added
+(column 5). When g returns, that frame is popped (column 6). When f returns,
+the stack frame containing the names associated with f is popped, getting us back
+to the original stack frame (column 7).
+Notice that when f returns, even though the variable g no longer[FORMULA], the
+object of type function to which that name was once bound still[FORMULA]. This is
+because functions are objects, and can be returned just like any other kind of ob-
+ject. So, z can be bound to the value returned by f, and the function call z() can
+be used to invoke the function that was bound to the name g within f—even
+though the name g is not known outside the context of f.
+So, what does the code[FORMULA]Figure 4.2 print? It prints
+x = 4
+z = 4
+x = abc
+x = 4
+x = 3
+z = <function f.<locals>.g at 0x1092a7510>
+x = abc
+The order[FORMULA]which references to a name occur is not germane. If an object is
+bound to a name anywhere[FORMULA]the function body (even if it occurs[FORMULA]an expres-
+sion before it appears as the left-hand side of an assignment), it is treated as local
+to that function.25 Consider, for example, the code
+def f():
+print(x)
+def g():
+print(x)
+x = 1
+x = 3
+f()
+x = 3
+g()
+It prints 3 when f is invoked, but the error message
+UnboundLocalError: local variable 'x' referenced before assignment
+is printed when the print statement[FORMULA]g is encountered. This happens because
+the assignment statement following the print statement causes x to be local to g.
+And because x is local to g, it has no value when the print statement is executed.
+
+## 25 The wisdom of this language design decision is debatable.
+
+CHAPTER 4. FUNCTIONS, SCOPING, AND ABSTRACTION 47
+Confused yet? It takes most people a bit of time to get their head around
+scope rules. Don’t let this bother you. For now, charge ahead and start using
+functions. Most of the time you will find that you only want to use variables that
+are local to a function, and the subtleties of scoping will be irrelevant.
+
+## 4.2 Specifications
+
+Figure 4.4 defines a function, findRoot, that generalizes the bisection search we
+used to find square roots[FORMULA]Figure 4.1. It also contains a function, testFindRoot,
+that can be used to test whether or not findRoot works as intended.
+def findRoot(x, power, epsilon):
+"""Assumes x and epsilon[FORMULA]or float, power an[FORMULA],
+epsilon > 0 & power >= 1
+Returns float y such that y**power is within epsilon of x.
+If such a float does not exist, it returns None"""
+if x < 0 and power%2 == 0: #Negative number has no even-powered
+#roots
+return None
+low = min(-1.0, x)
+high = max(1.0, x)
+ans = (high + low)/2.0
+while abs(ans**power - x) >= epsilon:
+if ans**power < x:
+low = ans
+else:
+high = ans
+ans = (high + low)/2.0
+return ans
+def testFindRoot():
+epsilon = 0.0001
+for x[FORMULA][0.25, -0.25, 2, -2, 8, -8]:
+for power[FORMULA]range(1, 4):
+print('Testing x =', str(x), 'and power = ', power)
+result = findRoot(x, power, epsilon)
+if result == None:
+print(' No root')
+else:
+print(' ', result**power, '~=', x)
+Figure 4.4 Finding an approximation to a root
+
+## 48 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+The function testFindRoot is almost as long as findRoot itself. To inexperi-
+enced programmers, writing test functions such as this often seems to be a waste
+of effort. Experienced programmers know, however, that an investment[FORMULA]writ-
+ing testing code often pays big dividends. It certainly beats typing test cases into
+the shell over and over again during debugging (the process of finding out why a
+program does not work, and then fixing it). It also forces us to think about which
+tests are likely to be most illuminating.
+The text between the triple quotation marks is called a docstring[FORMULA]Python.
+By convention, Python programmers use docstrings to provide specifications of
+functions. These docstrings can be accessed using the built-[FORMULA]function help. For
+example, if we enter the shell and type help(abs), the system will display
+Help on built-[FORMULA]function abs[FORMULA]module built-ins:
+abs(x)
+Return the absolute value of the argument.
+If the code[FORMULA]Figure 4.4 has been loaded into an IDE, typing help(findRoot)[FORMULA]the shell will display
+findRoot(x, power, epsilon)
+Assumes x and epsilon[FORMULA]or float, power an[FORMULA],
+epsilon > 0 & power >= 1
+Returns float y such that y**power is within epsilon of x.
+If such a float does not exist, it returns None
+If we type findRoot([FORMULA]the editor, the list of formal parameters will be dis-
+played.
+A specification of a function defines a contract between the implementer of a
+function and those who will be writing programs that use the function. We will
+refer to the users of a function as its clients. This contract can be thought of as
+containing two parts:
+• Assumptions: These describe conditions that must be met by clients of the
+function. Typically, they describe constraints on the actual parameters. Almost
+always, they specify the acceptable set of types for each parameter, and not[FORMULA]-
+frequently some constraints on the value of one or more of the parameters.
+For example, the first two lines of the docstring of findRoot describe the as-
+sumptions that must be satisfied by clients of findRoot.
+• Guarantees: These describe conditions that must be met by the function, pro-
+vided that it has been called[FORMULA]a way that satisfies the assumptions. The last
+two lines of the docstring of findRoot describe the guarantees that the imple-
+mentation of the function must meet.
+CHAPTER 4. FUNCTIONS, SCOPING, AND ABSTRACTION 49
+Functions are a way of creating computational elements that we can think of
+as primitives. Just as we have the built-[FORMULA]functions max and abs, we would like to
+have the equivalent of a built-[FORMULA]function for finding roots and for many other
+complex operations. Functions facilitate this by providing decomposition and ab-
+straction.
+Decomposition creates structure. It allows us to break a program into parts
+that are reasonably self-contained, and that may be reused[FORMULA]different settings.
+Abstraction hides detail. It allows us to use a piece of code as if it were a black
+box—that is, something whose interior details we cannot see, don’t need to see,
+and shouldn’t even want to see.26 The essence of abstraction is preserving infor-
+mation that is relevant[FORMULA]a given context, and forgetting information that is ir-
+relevant[FORMULA]that context. The key to using abstraction effectively[FORMULA]programming
+is finding a notion of relevance that is appropriate for both the builder of an ab-
+straction and the potential clients of the abstraction. That is the true art of pro-
+gramming.
+Abstraction is all about forgetting. There are lots of ways to model this, for
+example, the auditory apparatus of most teenagers.
+Teenager says: May I borrow the car tonight?
+Parent says: Yes, but be back before midnight, and make sure that the gas
+tank is full.
+Teenager hears: Yes.
+The teenager has ignored all of those pesky details that he or she considers ir-
+relevant. Abstraction is a many-to-one process. Had the parent said Yes, but be
+back before 2:00 a.m., and make sure that the car is clean, it would also have been
+abstracted to Yes.
+By way of analogy, imagine that you were asked to produce an introductory
+computer science course containing twenty-five lectures. One way to do this
+would be to recruit twenty-five professors and ask each of them to prepare a one-
+hour lecture on their favorite topic. Though you might get twenty-five wonderful
+hours, the whole thing is likely to feel like a dramatization of Pirandello’s “Six
+Characters[FORMULA]Search of an Author” (or that political science course you took with
+fifteen guest lecturers). If each professor worked[FORMULA]isolation, they would have no
+idea how to relate the material[FORMULA]their lecture to the material covered[FORMULA]other
+lectures.
+Somehow, one needs to let everyone know what everyone else is doing, with-
+out generating so much work that nobody is willing to participate. This is where
+
+## 26 “Where ignorance is bliss, ’tis folly to be wise.”—Thomas Gray
+
+
+
+## 50 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+abstraction comes[FORMULA]. You could write twenty-five specifications, each saying
+what material the students should learn[FORMULA]each lecture, but not giving any detail
+about how that material should be taught. What you got might not be pedagogi-
+cally wonderful, but at least it might make sense.
+This is the way organizations go about using teams of programmers to get
+things done. Given a specification of a module, a programmer can work on im-
+plementing that module without worrying unduly about what the other pro-
+grammers on the team are doing. Moreover, the other programmers can use the
+specification to start writing code that uses that module without worrying undu-
+ly about how that module is to be implemented.
+The specification of findRoot is an abstraction of all the possible implementa-
+tions that meet the specification. Clients of findRoot can assume that the imple-
+mentation meets the specification, but they should assume nothing more. For
+example, clients can assume that the call findRoot(4.0, 2, 0.01) returns some
+value whose square is between 3.99 and 4.01. The value returned could be posi-
+tive or negative, and even though 4.0 is a perfect square, the value returned
+might not be 2.0 or -2.0.
+
+## 4.3 Recursion
+
+You may have heard of recursion, and[FORMULA]all likelihood think of it as a rather sub-
+tle programming technique. That’s a charming urban legend spread by computer
+scientists to make people think that we are smarter than we really are. Recursion
+is a very important idea, but it’s not so subtle, and it is more than a programming
+technique.
+As a descriptive method recursion is widely used, even by people who would
+never dream of writing a program. Consider part of the legal code of the United
+States defining the notion of a “natural-born” citizen. Roughly speaking, the def-
+inition is as follows
+• Any child born inside the United States,
+• Any child born[FORMULA]wedlock outside the United States both of whose parents are
+citizens of the U.S., as long as one parent has lived[FORMULA]the U.S. prior to the birth
+of the child, and
+• Any child born[FORMULA]wedlock outside the United States one of whose parents is a
+U.S. citizen who has lived at least five years[FORMULA]the U.S. prior to the birth of the
+child, provided that at least two of those years were after the citizen’s four-
+teenth birthday.
+CHAPTER 4. FUNCTIONS, SCOPING, AND ABSTRACTION 51
+The first part is simple; if you are born[FORMULA]the United States, you are a natu-
+ral-born citizen (such as Barack Obama). If you are not born[FORMULA]the U.S., then
+one has to decide if your parents are U.S. citizens (either natural born or natural-
+ized). To determine if your parents are U.S. citizens, you might have to look at
+your grandparents, and so on.
+In general, a recursive definition is made up of two parts. There is at least
+one base case that directly specifies the result for a special case (case 1[FORMULA]the ex-
+ample above), and there is at least one recursive (inductive) case (cases 2 and 3[FORMULA]the example above) that defines the answer[FORMULA]terms of the answer to the question
+on some other input, typically a simpler version of the same problem.
+The world’s simplest recursive definition is probably the factorial function
+(typically written[FORMULA]mathematics using !) on natural numbers.27 The classic[FORMULA]-
+ductive definition is
+1! = 1
+𝑛 + 1 ! = 𝑛 + 1 ∗ 𝑛!
+The first equation defines the base case. The second equation defines factorial for
+all natural numbers, except the base case,[FORMULA]terms of the factorial of the previous
+number.
+Figure 4.5 contains both an iterative (factI) and a recursive (factR) imple-
+mentation of factorial.
+def factI(n): def factrR(n):
+"""Assumes n an[FORMULA]> 0 """Assumes n an[FORMULA]> 0
+Returns n!""" Returns n!"""
+result = 1 if n == 1:
+while n > 1: return n
+result = result * n else:
+n -= 1 return n*factR(n - 1)
+return result
+Figure 4.5 Iterative and recursive implementations of factorial
+This function is sufficiently simple that neither implementation is hard to
+follow. Still, the second is a more obvious translation of the original recursive
+definition.
+
+## 27 The exact definition of “natural number” is subject to debate. Some define it as the positive
+
+integers and others as the nonnegative integers. That’s why we were explicit about the possible
+values of n[FORMULA]the docstrings[FORMULA]Figure 4.5.
+
+## 52 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+It almost seems like cheating to implement factR by calling factR from within
+the body of factR. It works for the same reason that the iterative implementation
+works. We know that the iteration[FORMULA]factI will terminate because n starts out
+positive and each time around the loop it is reduced by 1. This means that it can-
+not be greater than 1 forever. Similarly, if factR is called with 1, it returns a value
+without making a recursive call. When it does make a recursive call, it always
+does so with a value one less than the value with which it was called. Eventually,
+the recursion terminates with the call factR(1).
+4.3.1 Fibonacci Numbers
+The Fibonacci sequence is another common mathematical function that is usual-
+ly defined recursively. “They breed like rabbits,” is often used to describe a popu-
+lation that the speaker thinks is growing too quickly. In the year 1202, the Italian
+mathematician Leonardo of Pisa, also known as Fibonacci, developed a formula
+to quantify this notion, albeit with some not terribly realistic assumptions.28
+Suppose a newly born pair of rabbits, one male and one female, are put[FORMULA]a
+pen (or worse, released[FORMULA]the wild). Suppose further that the rabbits are able to
+mate at the age of one month (which, astonishingly, some breeds can) and have a
+one-month gestation period (which, astonishingly, some breeds do). Finally,
+suppose that these mythical rabbits never die, and that the female always produc-
+es one new pair (one male, one female) every month from its second month on.
+How many female rabbits will there be at the end of six months?
+On the last day of the first month (call it month 0), there will be one female
+(ready to conceive on the first day of the next month). On the last day of the se-
+cond month, there will still be only one female (since she will not give birth until
+the first day of the next month). On the last day of the next month, there will be
+two females (one pregnant and one not). On the last day of the next month, there
+will be three females (two pregnant and one not). And so on. Let’s look at this
+progression[FORMULA]tabular form, Figure 4.6.
+Notice that for month n > 1, females(n) = females(n-1) + females(n-2). This
+is not an accident. Each female that was alive[FORMULA]month n-1 will still be alive[FORMULA]month n. In addition, each female that was alive[FORMULA]month n-2 will produce one
+new female[FORMULA]month n. The new females can be added to the females alive[FORMULA]month n-1 to get the number of females[FORMULA]month n.
+
+## 28 That we call this a Fibonacci sequence is an example of a Eurocentric interpretation of history.
+
+Fibonacci’s great contribution to European mathematics was his book Liber Abaci, which
+introduced to European mathematicians many concepts already well known to Indian and Arabic
+scholars. These concepts included Hindu-Arabic numerals and the decimal system. What we today
+call the Fibonacci sequence was taken from the work of the Sanskrit mathematician Pingala.
+CHAPTER 4. FUNCTIONS, SCOPING, AND ABSTRACTION 53
+Month Females
+
+## 0
+
+
+
+## 1
+
+
+
+## 2
+
+
+
+## 3
+
+
+
+## 4
+
+
+
+## 5
+
+
+
+## 6
+
+Figure 4.6 Growth[FORMULA]population of female rabbits
+The growth[FORMULA]population is described naturally by the recurrence29
+females(0) = 1
+females(1) = 1
+females(n + 2) = females(n+1) + females(n)
+This definition is a little different from the recursive definition of factorial:
+• It has two base cases, not just one. In general, you can have as many base cases
+as you need.
+• In the recursive case, there are two recursive calls, not just one. Again, there
+can be as many as you need.
+Figure 4.7 contains a straightforward implementation of the Fibonacci recur-
+rence,30 along with a function that can be used to test it.
+def fib(n):
+"""Assumes n[FORMULA]>= 0
+Returns Fibonacci of n"""
+if n == 0 or n == 1:
+return 1
+else:
+return fib(n-1) + fib(n-2)
+def testFib(n):
+for i[FORMULA]range(n+1):
+print('fib of', i, '=', fib(i))
+Figure 4.7 Recursive implementation of Fibonacci sequence
+
+## 29 This version of the Fibonacci sequence corresponds to the definition used[FORMULA]Fibonacci’s Liber
+
+Abaci. Other definitions of the sequence start with 0 rather than 1.
+
+## 30 While obviously correct, this is a terribly inefficient implementation of the Fibonacci function.
+
+There is a simple iterative implementation that is much better.
+
+## 54 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+Writing the code is the easy part of solving this problem. Once we went from
+the vague statement of a problem about bunnies to a set of recursive equations,
+the code almost wrote itself. Finding some kind of abstract way to express a solu-
+tion to the problem at hand is very often the hardest step[FORMULA]building a useful
+program. We will talk much more about this later[FORMULA]the book.
+As you might guess, this is not a perfect model for the growth of rabbit popu-
+lations[FORMULA]the wild. In 1859, Thomas Austin, an Australian farmer, imported
+twenty-four rabbits from England, to be used as targets[FORMULA]hunts. Ten years later,
+approximately two million rabbits were shot or trapped each year[FORMULA]Australia,
+with no noticeable impact on the population. That’s a lot of rabbits, but not any-
+where close to the 120th Fibonacci number.31
+Though the Fibonacci sequence does not actually provide a perfect model of
+the growth of rabbit populations, it does have many interesting mathematical
+properties. Fibonacci numbers are also quite common[FORMULA]nature.
+Finger exercise: When the implementation of fib[FORMULA]Figure 4.7 is used to compute
+fib(5), how many times does it compute the value of fib(2) on the way to com-
+puting fib(5)?
+4.3.2 Palindromes
+Recursion is also useful for many problems that do not involve numbers. Figure
+
+## 4.8 contains a function, isPalindrome, that checks whether a string reads the same
+
+way backwards and forwards.
+The function isPalindrome contains two internal helper functions. This
+should be of no interest to clients of the function, who should care only that
+isPalindrome meets its specification. But you should care, because there are things
+to learn by examining the implementation.
+The helper function toChars converts all letters to lowercase and removes all
+non-letters. It starts by using a built-[FORMULA]method on strings to generate a string
+that is identical to s, except that all uppercase letters have been converted to low-
+ercase. We will talk a lot more about method invocation when we get to classes.
+For now, think of it as a peculiar syntax for a function call. Instead of putting the
+first (and[FORMULA]this case only) argument inside parentheses following the function
+name, we use dot notation to place that argument before the function name.
+
+## 31 The damage done by the descendants of those twenty-four cute bunnies has been estimated to
+
+be $600 million per year, and they are[FORMULA]the process of eating many native plants into extinction.
+CHAPTER 4. FUNCTIONS, SCOPING, AND ABSTRACTION 55
+def isPalindrome(s):
+"""Assumes s is a str
+Returns True if letters[FORMULA]s form a palindrome; False
+otherwise. Non-letters and capitalization are ignored."""
+def toChars(s):
+s = s.lower()
+letters = ''
+for c[FORMULA]s:
+if c[FORMULA]'abcdefghijklmnopqrstuvwxyz':
+letters = letters + c
+return letters
+def isPal(s):
+if len(s) <= 1:
+return True
+else:
+return s[0] == s[-1] and isPal(s[1:-1])
+return isPal(toChars(s))
+Figure 4.8 Palindrome testing
+The helper function isPal uses recursion to do the real work. The two base
+cases are strings of length zero or one. This means that the recursive part of the
+implementation is reached only on strings of length two or more. The conjunc-
+tion32[FORMULA]the else clause is evaluated from left to right. The code first checks
+whether the first and last characters are the same, and if they are goes on to check
+whether the string minus those two characters is a palindrome. That the second
+conjunct is not evaluated unless the first conjunct evaluates to True is semantical-
+ly irrelevant[FORMULA]this example. However, later[FORMULA]the book we will see examples
+where this kind of short-circuit evaluation of Boolean expressions is semantically
+relevant.
+This implementation of isPalindrome is an example of an important problem-
+solving principle known as divide-and-conquer. (This principle is related to but
+slightly different from divide-and-conquer algorithms, which are discussed[FORMULA]Chapter 10.) The problem-solving principle is to conquer a hard problem by
+breaking it into a set of subproblems with the properties that
+• the subproblems are easier to solve than the original problem, and
+• solutions of the subproblems can be combined to solve the original problem.
+
+## 32 When two Boolean-valued expressions are connected by “and,” each expression is called a
+
+conjunct. If they are connected by “or,” they are called disjuncts.
+
+## 56 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+Divide-and-conquer is a very old idea. Julius Caesar practiced what the Ro-
+mans referred to as divide et impera (divide and rule). The British practiced it
+brilliantly to control the Indian subcontinent. Benjamin Franklin was well aware
+of the British expertise[FORMULA]using this technique, prompting him to say at the sign-
+ing of the U.S. Declaration of Independence, “We must all hang together, or as-
+suredly we shall all hang separately.”
+In this case, we solve the problem by breaking the original problem into a
+simpler version of the same problem (checking whether a shorter string is a pal-
+indrome) and a simple thing we know how to do (comparing single characters),
+and then combine the solutions with and. Figure 4.9 contains some code that can
+be used to visualize how this works.
+def isPalindrome(s):
+"""Assumes s is a str
+Returns True if s is a palindrome; False otherwise.
+Punctuation marks, blanks, and capitalization are ignored."""
+def toChars(s):
+s = s.lower()
+letters = ''
+for c[FORMULA]s:
+if c[FORMULA]'abcdefghijklmnopqrstuvwxyz':
+letters = letters + c
+return letters
+def isPal(s):
+print(' isPal called with', s)
+if len(s) <= 1:
+print(' About to return True from base case')
+return True
+else:
+answer = s[0] == s[-1] and isPal(s[1:-1])
+print(' About to return', answer, 'for', s)
+return answer
+return isPal(toChars(s))
+def testIsPalindrome():
+print('Try dogGod')
+print(isPalindrome('dogGod'))
+print('Try doGood')
+print(isPalindrome('doGood'))
+Figure 4.9 Code to visualize palindrome testing
+CHAPTER 4. FUNCTIONS, SCOPING, AND ABSTRACTION 57
+When testIsPalindrome is run, it will print
+Try dogGod
+isPal called with doggod
+isPal called with oggo
+isPal called with gg
+isPal called with
+About to return True from base case
+About to return True for gg
+About to return True for oggo
+About to return True for doggod
+True
+Try doGood
+isPal called with dogood
+isPal called with ogoo
+isPal called with go
+About to return False for go
+About to return False for ogoo
+About to return False for dogood
+False
+
+## 4.4 Global Variables
+
+If you tried calling fib with a large number, you probably noticed that it took a
+very long time to run. Suppose we want to know how many recursive calls are
+made? We could do a careful analysis of the code and figure it out, and[FORMULA]Chap-
+ter 9 we will talk about how to do that. Another approach is to add some code
+that counts the number of calls. One way to do that uses global variables.
+Until now, all of the functions we have written communicate with their envi-
+ronment solely through their parameters and return values. For the most part,
+this is exactly as it should be. It typically leads to programs that are relatively easy
+to read, test, and debug. Every once[FORMULA]a while, however, global variables come[FORMULA]handy. Consider the code[FORMULA]Figure 4.10.
+In each function, the line of code global numFibCalls tells Python that the
+name numCalls should be defined at the outermost scope of the module (see Sec-
+tion 4.5)[FORMULA]which the line of code appears rather than within the scope of the
+function[FORMULA]which the line of code appears. Had we not included the code global
+numFibCalls, the name numFibCalls would have been local to each of the functions
+fib and testFib, because numFibCalls occurs on the left-hand side of an assign-
+ment statement[FORMULA]both fib and testFib. The functions fib and testFib both have
+unfettered access to the object referenced by the variable numFibCalls. The func-
+
+## 58 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+tion testFib binds numFibCalls to 0 each time it calls fib, and fib increments the
+value of numFibCalls each time fib is entered.
+def fib(x):
+"""Assumes x an[FORMULA]>= 0
+Returns Fibonacci of x"""
+global numFibCalls
+numFibCalls += 1
+if x == 0 or x == 1:
+return 1
+else:
+return fib(x-1) + fib(x-2)
+def testFib(n):
+for i[FORMULA]range(n+1):
+global numFibCalls
+numFibCalls = 0
+print('fib of', i, '=', fib(i))
+print('fib called', numFibCalls, 'times.')
+Figure 4.10 Using a global variable
+The call testFib(6) produces the output
+fib of 0 = 1
+fib called 1 times.
+fib of 1 = 1
+fib called 1 times.
+fib of 2 = 2
+fib called 3 times.
+fib of 3 = 3
+fib called 5 times.
+fib of 4 = 5
+fib called 9 times.
+fib of 5 = 8
+fib called 15 times.
+fib of 6 = 13
+fib called 25 times.
+It is with some trepidation that we introduce the topic of global variables.
+Since the 1970s card-carrying computer scientists have inveighed against them.
+The indiscriminate use of global variables can lead to lots of problems. The key
+to making programs readable is locality. One reads a program a piece at a time,
+and the less context needed to understand each piece, the better. Since global var-
+iables can be modified or read[FORMULA]a wide variety of places, the sloppy use of them
+CHAPTER 4. FUNCTIONS, SCOPING, AND ABSTRACTION 59
+can destroy locality. Nevertheless, there are times when they are just what is
+needed.
+
+## 4.5 Modules
+
+So far, we have operated under the assumption that our entire program is stored[FORMULA]one file. This is perfectly reasonable as long as programs are small. As pro-
+grams get larger, however, it is typically more convenient to store different parts
+of them[FORMULA]different files. Imagine, for example, that multiple people are working
+on the same program. It would be a nightmare if they were all trying to update
+the same file. Python modules allow us to easily construct a program from code[FORMULA]multiple files.
+A module is a .py file containing Python definitions and statements. We
+could create, for example, a file circle.py containing the code[FORMULA]Figure 4.11.
+pi = 3.14159
+def area(radius):
+return pi*(radius**2)
+def circumference(radius):
+return 2*pi*radius
+def sphereSurface(radius):
+return 4.0*area(radius)
+def sphereVolume(radius):
+return (4.0/3.0)*pi*(radius**3)
+Figure 4.11 Some code related to circles and spheres
+A program gets access to a module through an import statement. So, for ex-
+ample, the code
+import circle
+pi = 3
+print(pi)
+print(circle.pi)
+print(circle.area(3))
+print(circle.circumference(3))
+print(circle.sphereSurface(3))
+
+## 60 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+will print
+3
+3.14159
+28.27431
+18.849539999999998
+113.09724
+Modules are typically stored[FORMULA]individual files. Each module has its own pri-
+vate symbol table. Consequently, within circle.py we access objects (e.g., pi and
+area)[FORMULA]the usual way. Executing import M creates a binding for module M[FORMULA]the
+scope[FORMULA]which the import appears. Therefore,[FORMULA]the importing context we use
+dot notation to indicate that we are referring to a name defined[FORMULA]the imported
+module.33 For example, outside of circle.py, the references pi and circle.pi can
+(and[FORMULA]this case do) refer to different objects.
+At first glance, the use of dot notation may seem cumbersome. On the other
+hand, when one imports a module one often has no idea what local names might
+have been used[FORMULA]the implementation of that module. The use of dot notation to
+fully qualify names avoids the possibility of getting burned by an accidental name
+clash. For example, executing the assignment pi = 3 outside of the circle module
+does not change the value of pi used within the circle module.
+There is a variant of the import statement that allows the importing program
+to omit the module name when accessing names defined inside the imported
+module. Executing the statement from M import * creates bindings[FORMULA]the current
+scope to all objects defined within M, but not to M itself. For example, the code
+from circle import *
+print(pi)
+print(circle.pi)
+will first print 3.14159, and then produce the error message
+NameError: name 'circle' is not defined
+Some Python programmers frown upon using this form of import because
+they believe that it makes code more difficult to read.
+As we have seen, a module can contain executable statements as well as func-
+tion definitions. Typically, these statements are used to initialize the module. For
+this reason, the statements[FORMULA]a module are executed only the first time a module
+is imported into a program. Moreover, a module is imported only once per inter-
+preter session. If you start up a shell, import a module, and then change the con-
+tents of that module, the interpreter will still be using the original version of the
+
+## 33 Superficially, this may seem unrelated to the use of dot notation[FORMULA]method invocation.
+
+However, as we will see[FORMULA]Chapter 8, there is a deep connection.
+CHAPTER 4. FUNCTIONS, SCOPING, AND ABSTRACTION 61
+module. This can lead to puzzling behavior when debugging. When[FORMULA]doubt,
+start a new shell.
+There are lots of useful modules that come as part of the standard Python li-
+brary. For example, it is rarely necessary to write your own implementations of
+common mathematical or string functions. A description of this library can be
+found at http://docs.python.org/2/library/.
+
+## 4.6 Files
+
+Every computer system uses files to save things from one computation to the
+next. Python provides many facilities for creating and accessing files. Here we il-
+lustrate some of the basic ones.
+Each operating system (e.g., Windows and MAC OS) comes with its own file
+system for creating and accessing files. Python achieves operating-system inde-
+pendence by accessing files through something called a file handle. The code
+nameHandle = open('kids', 'w')
+instructs the operating system to create a file with the name kids, and return a
+file handle for that file. The argument 'w' to open indicates that the file is to be
+opened for writing. The following code opens a file, uses the write method to
+write two lines, and then closes the file. It is important to remember to close the
+file when the program is finished using it. Otherwise there is a risk that some or
+all of the writes may not be saved.
+nameHandle = open('kids', 'w')
+for i[FORMULA]range(2):
+name = input('Enter name: ')
+nameHandle.write(name + '\n')
+nameHandle.close()
+In a Python string, the escape character “\” is used to indicate that the next
+character should be treated[FORMULA]a special way. In this example, the string '\n' indi-
+cates a newline character.
+We can now open the file for reading (using the argument 'r'), and print its
+contents. Since Python treats a file as a sequence of lines, we can use a for state-
+ment to iterate over the file’s contents.
+nameHandle = open('kids', 'r')
+for line[FORMULA]nameHandle:
+print(line)
+nameHandle.close()
+
+## 62 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+If we had typed[FORMULA]the names David and Andrea, this will print
+David
+Andrea
+The extra line between David and Andrea is there because print starts a new line
+each time it encounters the '\n' at the end of each line[FORMULA]the file. We could have
+avoided printing that by writing print line[:-1]. The code
+nameHandle = open('kids', 'w')
+nameHandle.write('Michael\n')
+nameHandle.write('Mark\n')
+nameHandle.close()
+nameHandle = open('kids', 'r')
+for line[FORMULA]nameHandle:
+print(line[:-1])
+nameHandle.close()
+will print
+Michael
+Mark
+Notice that we have overwritten the previous contents of the file kids. If we
+don’t want to do that we can open the file for appending (instead of writing) by
+using the argument 'a'. For example, if we now run the code
+nameHandle = open('kids', 'a')
+nameHandle.write('David\n')
+nameHandle.write('Andrea\n')
+nameHandle.close()
+nameHandle = open('kids', 'r')
+for line[FORMULA]nameHandle:
+print(line[:-1])
+nameHandle.close()
+it will print
+Michael
+Mark
+David
+Andrea
+CHAPTER 4. FUNCTIONS, SCOPING, AND ABSTRACTION 63
+Some of the common operations on files are summarized[FORMULA]Figure 4.12.
+open(fn, 'w') fn is a string representing a file name. Creates a file for writing
+and returns a file handle.
+open(fn, 'r') fn is a string representing a file name. Opens an existing file for
+reading and returns a file handle.
+open(fn, 'a') fn is a string representing a file name. Opens an existing file for
+appending and returns a file handle.
+fh.read() returns a string containing the contents of the file associated with
+the file handle fh.
+fh.readline() returns the next line[FORMULA]the file associated with the file handle
+fh.
+fh.readlines() returns a list each element of which is one line of the file asso-
+ciated with the file handle fh.
+fh.write(s) writes the string s to the end of the file associated with the file
+handle fh.
+fh.writeLines(S) S is a sequence of strings. Writes each element of S as a sepa-
+rate line to the file associated with the file handle fh.
+fh.close() closes the file associated with the file handle fh.
+Figure 4.12 Common functions for accessing files
+
+## 5 STRUCTURED TYPES, MUTABILITY, AND HIGHER-ORDER
+
+FUNCTIONS
+The programs we have looked at thus far have dealt with three types of objects:[FORMULA], float, and str. The numeric types[FORMULA]and float are scalar types. That is to
+say, objects of these types have no accessible internal structure. In contrast, str
+can be thought of as a structured, or non-scalar, type. One can use indexing to
+extract individual characters from a string and slicing to extract substrings.
+In this chapter, we introduce four additional structured types. One, tuple, is a
+rather simple generalization of str. The other three—list, range,34 and dict—are
+more interesting. We also return to the topic of functions with some examples
+that illustrate the utility of being able to treat functions[FORMULA]the same way as other
+types of objects.
+
+## 5.1 Tuples
+
+Like strings, tuples are immutable ordered sequences of elements. The difference
+is that the elements of a tuple need not be characters. The individual elements
+can be of any type, and need not be of the same type as each other.
+Literals of type tuple are written by enclosing a comma-separated list of ele-
+ments within parentheses. For example, we can write
+t1 = ()
+t2 = (1, 'two', 3)
+print(t1)
+print(t2)
+Unsurprisingly, the print statements produce the output
+()
+(1, 'two', 3)
+Looking at this example, you might naturally be led to believe that the tuple
+containing the single value 1 would be written (1). But, to quote Richard Nixon,
+“that would be wrong.” Since parentheses are used to group expressions, (1) is
+
+## 34 Type range does not exist[FORMULA]Python 2.
+
+
+
+## 66 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+merely a verbose way to write the integer 1. To denote the singleton tuple con-
+taining this value, we write (1,). Almost everybody who uses Python has at one
+time or another accidentally omitted that annoying comma.
+Repetition can be used on tuples. For example, the expression 3*('a', 2)
+evaluates to ('a', 2, 'a', 2, 'a', 2).
+Like strings, tuples can be concatenated, indexed, and sliced. Consider
+t1 = (1, 'two', 3)
+t2 = (t1, 3.25)
+print(t2)
+print((t1 + t2))
+print((t1 + t2)[3])
+print((t1 + t2)[2:5])
+The second assignment statement binds the name t2 to a tuple that contains
+the tuple to which t1 is bound and the floating point number 3.25. This is possi-
+ble because a tuple, like everything else[FORMULA]Python, is an object, so tuples can con-
+tain tuples. Therefore, the first print statement produces the output,
+((1, 'two', 3), 3.25)
+The second print statement prints the value generated by concatenating the
+values bound to t1 and t2, which is a tuple with five elements. It produces the
+output
+(1, 'two', 3, (1, 'two', 3), 3.25)
+The next statement selects and prints the fourth element of the concatenated
+tuple (as always[FORMULA]Python, indexing starts at 0), and the statement after that cre-
+ates and prints a slice of that tuple, producing the output
+(1, 'two', 3)
+(3, (1, 'two', 3), 3.25)
+A for statement can be used to iterate over the elements of a tuple:
+def intersect(t1, t2):
+"""Assumes t1 and t2 are tuples
+Returns a tuple containing elements that are[FORMULA]both t1 and t2"""
+result = ()
+for e[FORMULA]t1:
+if e[FORMULA]t2:
+result += (e,)
+return result
+CHAPTER 5. STRUCTURED TYPES, MUTABILITY, AND HIGHER-ORDER FUNCTIONS 67
+5.1.1 Sequences and Multiple Assignment
+If you know the length of a sequence (e.g., a tuple or a string), it can be conven-
+ient to use Python’s multiple assignment statement to extract the individual ele-
+ments. For example, after executing the statement x, y = (3, 4), x will be bound
+to 3 and y to 4. Similarly, the statement a, b, c = 'xyz' will bind a to 'x', b to 'y',
+and c to 'z'.
+This mechanism is particularly convenient when used[FORMULA]conjunction with
+functions that return fixed-size sequences. Consider, for example the function
+definition
+def findExtremeDivisors(n1, n2):
+"""Assumes that n1 and n2 are positive ints
+Returns a tuple containing the smallest common divisor > 1 and
+the largest common divisor of n1 and n2. If no common divisor,
+returns (None, None)"""
+minVal, maxVal = None, None
+for i[FORMULA]range(2, min(n1, n2) + 1):
+if n1%i == 0 and n2%i == 0:
+if minVal == None:
+minVal = i
+maxVal = i
+return (minVal, maxVal)
+The multiple assignment statement
+minDivisor, maxDivisor = findExtremeDivisors(100, 200)
+will bind minDivisor to 2 and maxDivisor to 100.
+
+## 5.2 Ranges
+
+Like strings and tuples, ranges are immutable. The range function returns an ob-
+ject of type range. As stated[FORMULA]Section 3.2, the range function takes three integer
+arguments: start, stop, and step, and returns the progression of integers start,
+start + step, start + 2*step, etc. If step is positive, the last element is the largest
+integer start + i*step less than stop. If step is negative, the last element is the
+smallest integer start + i*step greater than stop. If only two arguments are sup-
+plied, a step of 1 is used. If only one argument is supplied, that argument is the
+stop, start defaults to 0, and step defaults to 1.
+All of the operations on tuples are also available for ranges, except for con-
+catenation and repetition. For example, range(10)[2:6][2] evaluates to 4. When
+the == operator is used to compare objects of type range, it returns True if the two
+
+## 68 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+ranges represent the same sequence of integers. For example, range(0, 7, 2) ==
+range(0, 8, 2) evaluates to True. However, range(0, 7, 2) == range(6, -1, -2)
+evaluates to False because though the two ranges contain the same integers, they
+occur[FORMULA]a different order.
+Unlike objects of type tuple, the amount of space occupied by an object of
+type range is not proportional to its length. Because a range is fully defined by its
+start, stop, and step values; it can be stored[FORMULA]a small amount of space.
+The most common use of range is[FORMULA]for loops, but objects of type range can
+be used anywhere a sequence of integers can be used.
+
+## 5.3 Lists and Mutability
+
+Like a tuple, a list is an ordered sequence of values, where each value is identified
+by an index. The syntax for expressing literals of type list is similar to that used
+for tuples; the difference is that we use square brackets rather than parentheses.
+The empty list is written as [], and singleton lists are written without that (oh so
+easy to forget) comma before the closing bracket. So, for example, the code,
+L = ['I did it all', 4, 'love']
+for i[FORMULA]range(len(L)):
+print(L[i])
+produces the output,
+I did it all
+4
+love
+Occasionally, the fact that square brackets are used for literals of type list,
+indexing into lists, and slicing lists can lead to some visual confusion. For exam-
+ple, the expression [1,2,3,4][1:3][1], which evaluates to 3, uses the square
+brackets[FORMULA]three different ways. This is rarely a problem[FORMULA]practice, because
+most of the time lists are built incrementally rather than written as literals.
+Lists differ from tuples[FORMULA]one hugely important way: lists are mutable. In
+contrast, tuples and strings are immutable. There are many operators that can be
+used to create objects of these immutable types, and variables can be bound to
+objects of these types. But objects of immutable types cannot be modified. On
+the other hand, objects of type list can be modified after they are created.
+The distinction between mutating an object and assigning an object to a var-
+iable may, at first, appear subtle. However, if you keep repeating the mantra, “In
+Python a variable is merely a name, i.e., a label that can be attached to an object,”
+it will bring you clarity.
+CHAPTER 5. STRUCTURED TYPES, MUTABILITY, AND HIGHER-ORDER FUNCTIONS 69
+When the statements
+Techs = ['MIT', 'Caltech']
+Ivys = ['Harvard', 'Yale', 'Brown']
+are executed, the interpreter creates two new lists and binds the appropriate vari-
+ables to them, as pictured[FORMULA]Figure 5.1.
+Figure 5.1 Two lists
+The assignment statements
+Univs = [Techs, Ivys]
+Univs1 = [['MIT', 'Caltech'], ['Harvard', 'Yale', 'Brown']]
+also create new lists and bind variables to them. The elements of these lists are
+themselves lists. The three print statements
+print('Univs =', Univs)
+print('Univs1 =', Univs1)
+print(Univs == Univs1)
+produce the output
+Univs = [['MIT', 'Caltech'], ['Harvard', 'Yale', 'Brown']]
+Univs1 = [['MIT', 'Caltech'], ['Harvard', 'Yale', 'Brown']]
+True
+It appears as if Univs and Univs1 are bound to the same value. But appearanc-
+es can be deceiving. As Figure 5.2 illustrates, Univs and Univs1 are bound to quite
+different values.
+
+## 70 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+Figure 5.2 Two lists that appear to have the same value, but don’t
+That Univs and Univs1 are bound to different objects can be verified using the
+built-[FORMULA]Python function id, which returns a unique integer identifier for an ob-
+ject. This function allows us to test for object equality. When we run the code
+print(Univs == Univs1) #test value equality
+print(id(Univs) == id(Univs1)) #test object equality
+print('Id of Univs =', id(Univs))
+print('Id of Univs1 =', id(Univs1))
+it prints
+True
+False
+Id of Univs = 4447805768
+Id of Univs1 = 4456134408
+(Don’t expect to see the same unique identifiers if you run this code. The se-
+mantics of Python says nothing about what identifier is associated with each ob-
+ject; it merely requires that no two objects have the same identifier.)
+Notice that[FORMULA]Figure 5.2 the elements of Univs are not copies of the lists to
+which Techs and Ivys are bound, but are rather the lists themselves. The elements
+of Univs1 are lists that contain the same elements as the lists[FORMULA]Univs, but they are
+not the same lists. We can see this by running the code
+print('Ids of Univs[0] and Univs[1]', id(Univs[0]), id(Univs[1]))
+print('Ids of Univs1[0] and Univs1[1]', id(Univs1[0]), id(Univs1[1]))
+CHAPTER 5. STRUCTURED TYPES, MUTABILITY, AND HIGHER-ORDER FUNCTIONS 71
+which prints
+Ids of Univs[0] and Univs[1] 4447807688 4456134664
+Ids of Univs1[0] and Univs1[1] 4447805768 4447806728
+Why does this matter? It matters because lists are mutable. Consider the code
+Techs.append('RPI')
+The append method has a side effect. Rather than create a new list, it mutates the
+existing list Techs by adding a new element, the string 'RPI', to the end of it. Fig-
+ure 5.3 depicts the state of the computation after append is executed.
+Figure 5.3 Demonstration of mutability
+The object to which Univs is bound still contains the same two lists, but the con-
+tents of one of those lists has been changed. Consequently, the print statements
+print('Univs =', Univs)
+print('Univs1 =', Univs1)
+now produce the output
+Univs = [['MIT', 'Caltech', 'RPI'], ['Harvard', 'Yale', 'Brown']]
+Univs1 = [['MIT', 'Caltech'], ['Harvard', 'Yale', 'Brown']]
+What we have here is something called aliasing. There are two distinct paths
+to the same list object. One path is through the variable Techs and the other
+through the first element of the list object to which Univs is bound. One can mu-
+tate the object via either path, and the effect of the mutation will be visible
+through both paths. This can be convenient, but it can also be treacherous. Unin-
+
+## 72 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+tentional aliasing leads to programming errors that are often enormously hard to
+track down.
+As with tuples, a for statement can be used to iterate over the elements of a
+list. For example,
+for e[FORMULA]Univs:
+print('Univs contains', e)
+print(' which contains')
+for u[FORMULA]e:
+print(' ', u)
+will print
+Univs contains ['MIT', 'Caltech', 'RPI']
+which contains
+MIT
+Caltech
+RPI
+Univs contains ['Harvard', 'Yale', 'Brown']
+which contains
+Harvard
+Yale
+Brown
+When we append one list to another, e.g., Techs.append(Ivys), the original
+structure is maintained. I.e., the result is a list that contains a list. Suppose we do
+not want to maintain this structure, but want to add the elements of one list into
+another list. We can do that by using list concatenation or the extend method,
+e.g.,
+L1 = [1,2,3]
+L2 = [4,5,6]
+L3 = L1 + L2
+print('L3 =', L3)
+L1.extend(L2)
+print('L1 =', L1)
+L1.append(L2)
+print('L1 =', L1)
+will print
+L3 = [1, 2, 3, 4, 5, 6]
+L1 = [1, 2, 3, 4, 5, 6]
+L1 = [1, 2, 3, 4, 5, 6, [4, 5, 6]]
+Notice that the operator + does not have a side effect. It creates a new list and re-
+turns it. In contrast, extend and append each mutated L1.
+Figure 5.4 contains short descriptions of some of the methods associated
+with lists. Note that all of these except count and index mutate the list.
+CHAPTER 5. STRUCTURED TYPES, MUTABILITY, AND HIGHER-ORDER FUNCTIONS 73
+L.append(e) adds the object e to the end of L.
+L.count(e) returns the number of times that e occurs[FORMULA]L.
+L.insert(i, e) inserts the object e into L at index i.
+L.extend(L1) adds the items[FORMULA]list L1 to the end of L.
+L.remove(e) deletes the first occurrence of e from L.
+L.index(e) returns the index of the first occurrence of e[FORMULA]L, raises an excep-
+tion (see Chapter 7) if e is not[FORMULA]L.
+L.pop(i) removes and returns the item at index i[FORMULA]L, raises an exception if L
+is empty. If i is omitted, it defaults to -1, to remove and return the last ele-
+ment of L.
+L.sort() sorts the elements of L[FORMULA]ascending order.
+L.reverse() reverses the order of the elements[FORMULA]L.
+Figure 5.4 Methods associated with lists
+5.3.1 Cloning
+It is usually prudent to avoid mutating a list over which one is iterating. Consid-
+er, for example, the code
+def removeDups(L1, L2):
+"""Assumes that L1 and L2 are lists.
+Removes any element from L1 that also occurs[FORMULA]L2"""
+for e1[FORMULA]L1:
+if e1[FORMULA]L2:
+L1.remove(e1)
+L1 = [1,2,3,4]
+L2 = [1,2,5,6]
+removeDups(L1, L2)
+print('L1 =', L1)
+You might be surprised to discover that this prints
+L1 = [2, 3, 4]
+During a for loop, the implementation of Python keeps track of where it is[FORMULA]the list using an internal counter that is incremented at the end of each iteration.
+When the value of the counter reaches the current length of the list, the loop
+terminates. This works as one might expect if the list is not mutated within the
+loop, but can have surprising consequences if the list is mutated. In this case, the
+hidden counter starts out at 0, discovers that L1[0] is[FORMULA]L2, and removes it—
+reducing the length of L1 to 3. The counter is then incremented to 1, and the code
+
+## 74 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+proceeds to check if the value of L1[1] is[FORMULA]L2. Notice that this is not the original
+value of L1[1] (i.e., 2), but rather the current value of L1[1] (i.e., 3). As you can
+see, it is possible to figure out what happens when the list is modified within the
+loop. However, it is not easy. And what happens is likely to be unintentional, as[FORMULA]this example.
+One way to avoid this kind of problem is to use slicing to clone35 (i.e., make a
+copy of) the list and write for e1[FORMULA]L1[:]. Notice that writing
+newL1 = L1
+for e1[FORMULA]newL1:
+would not solve the problem. It would not create a copy of L1, but would merely
+introduce a new name for the existing list.
+Slicing is not the only way to clone lists[FORMULA]Python. The expression list(L) re-
+turns a copy of the list L. If the list to be copied contains mutable objects that you
+want to copy as well, import the standard library module copy and use the func-
+tion copy.deepcopy.
+5.3.2 List Comprehension
+List comprehension provides a concise way to apply an operation to the values[FORMULA]a sequence. It creates a new list[FORMULA]which each element is the result of applying a
+given operation to a value from a sequence (e.g., the elements[FORMULA]another list). For
+example,
+L = [x**2 for x[FORMULA]range(1,7)]
+print(L)
+will print the list
+[1, 4, 9, 16, 25, 36]
+The for clause[FORMULA]a list comprehension can be followed by one or more if and
+for statements that are applied to the values produced by the for clause. These
+additional clauses modify the sequence of values generated by the first for clause
+and produce a new sequence of values, to which the operation associated with
+the comprehension is applied. For example, the code
+mixed = [1, 2, 'a', 3, 4.0]
+print([x**2 for x[FORMULA]mixed if type(x) ==[FORMULA]])
+squares the integers[FORMULA]mixed, and then prints [1, 4, 9].
+
+## 35 The cloning of animals, including humans, raises a host of technical, ethical, and spiritual
+
+conumdrums. Fortunately, the cloning of Python objects does not.
+CHAPTER 5. STRUCTURED TYPES, MUTABILITY, AND HIGHER-ORDER FUNCTIONS 75
+Some Python programmers use list comprehensions[FORMULA]marvelous and subtle
+ways. That is not always a great idea. Remember that somebody else may need to
+read your code, and “subtle” is not usually a desirable property.
+
+## 5.4 Functions as Objects
+
+In Python, functions are first-class objects. That means that they can be treated
+like objects of any other type, e.g.,[FORMULA]or list. They have types, e.g., the expres-
+sion type(abs) has the value <type 'built-in_function_or_method'>; they can ap-
+pear[FORMULA]expressions, e.g., as the right-hand side of an assignment statement or as
+an argument to a function; they can be elements of lists; etc.
+Using functions as arguments allows a style of coding called higher-order
+programming. It can be particularly convenient[FORMULA]conjunction with lists, as
+shown[FORMULA]Figure 5.5.
+def applyToEach(L, f):
+"""Assumes L is a list, f a function
+Mutates L by replacing each element, e, of L by f(e)"""
+for i[FORMULA]range(len(L)):
+L[i] = f(L[i])
+L = [1, -2, 3.33]
+print('L =', L)
+print('Apply abs to each element of L.')
+applyToEach(L, abs)
+print('L =', L)
+print('Apply[FORMULA]to each element of', L)
+applyToEach(L,[FORMULA])
+print('L =', L)
+print('Apply factorial to each element of', L)
+applyToEach(L, factR)
+print('L =', L)
+print('Apply Fibonnaci to each element of', L)
+applyToEach(L, fib)
+print('L =', L)
+Figure 5.5 Applying a function to elements of a list
+The function applyToEach is called higher-order because it has an argument
+that is itself a function. The first time it is called, it mutates L by applying the
+unary built-[FORMULA]function abs to each element. The second time it is called, it ap-
+plies a type conversion to each element. The third time it is called, it replaces
+
+## 76 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+each element by the result of applying the function factR (defined[FORMULA]Figure 4.5)
+to each element. And the fourth time it is called, it replaces each element by the
+result of applying the function fib (defined[FORMULA]Figure 4.7) to each element. It
+prints
+L = [1, -2, 3.33]
+Apply abs to each element of L.
+L = [1, 2, 3.33]
+Apply[FORMULA]to each element of [1, 2, 3.33]
+L = [1, 2, 3]
+Apply factorial to each element of [1, 2, 3]
+L = [1, 2, 6]
+Apply Fibonnaci to each element of [1, 2, 6]
+L = [1, 2, 13]
+Python has a built-[FORMULA]higher-order function, map, that is similar to, but more
+general than, the applyToEach function defined[FORMULA]Figure 5.5. it is designed to be
+used[FORMULA]conjunction with a for loop. In its simplest form the first argument to map
+is a unary function (i.e., a function that has only one parameter) and the second
+argument is any ordered collection of values suitable as arguments to the first ar-
+gument.
+When used[FORMULA]a for loop, map behaves like the range function[FORMULA]that it returns
+one value for each iteration of the loop.36 These values are generated by applying
+the first argument to each element of the second argument. For example, the
+code
+for i[FORMULA]map(fib, [2, 6, 4]):
+print(i)
+prints
+2
+13
+5
+More generally, the first argument to map can be a function of n arguments,[FORMULA]which case it must be followed by n subsequent ordered collections (each of the
+same length). For example, the code
+L1 = [1, 28, 36]
+L2 = [2, 57, 9]
+for i[FORMULA]map(min, L1, L2):
+print(i)
+
+## 36 In Python 2, map does not return values one at a time. Instead, it returns a list of values. That is
+
+to say, it behaves like the Python 2 range function rather than like the Python 2 xrange function.
+CHAPTER 5. STRUCTURED TYPES, MUTABILITY, AND HIGHER-ORDER FUNCTIONS 77
+prints
+1
+28
+9
+Python supports the creation of anonymous functions (i.e., functions that are
+not bound to a name), using the reserved word lambda. The general form of a
+lambda expression is
+lambda <sequence of variable names>: <expression>
+For example, the lambda expression lambda x, y: x*y returns a function that
+returns the product of its two arguments. Lambda expressions are frequently
+used as arguments to higher-order functions. For example, the code
+L = []
+for i[FORMULA]map(lambda x, y: x**y, [1 ,2 ,3, 4], [3, 2, 1, 0]):
+L.append(i)
+print(L)
+prints [1, 4, 3, 1].
+
+## 5.5 Strings, Tuples, Ranges, and Lists
+
+We have looked at four different sequence types: str, tuple, range, and list. They
+are similar[FORMULA]that objects of of these types can be operated upon as described[FORMULA]Figure 5.6. Some of their other similarities and differences are summarized[FORMULA]Figure 5.7.
+seq[i] returns the ith element[FORMULA]the sequence.
+len(seq) returns the length of the sequence.
+seq1 + seq2 returns the concatenation of the two sequences (not available for
+ranges).
+n*seq returns a sequence that repeats seq n times (not available for ranges).
+seq[start:end] returns a slice of the sequence.
+e[FORMULA]seq is True if e is contained[FORMULA]the sequence and False otherwise.
+e not[FORMULA]seq is True if e is not[FORMULA]the sequence and False otherwise.
+for e[FORMULA]seq iterates over the elements of the sequence.
+Figure 5.6 Common operations on sequence types
+
+## 78 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+Type Type of elements Examples of literals Mutable
+str characters '', 'a', 'abc' No
+tuple any type (), (3,), ('abc', 4) No
+range integers range(10), range(1, 10, 2) No
+list any type [], [3], ['abc', 4] Yes
+Figure 5.7 Comparison of sequence types
+Python programmers tend to use lists far more often than tuples. Since lists
+are mutable, they can be constructed incrementally during a computation. For
+example, the following code incrementally builds a list containing all of the even
+numbers[FORMULA]another list.
+evenElems = []
+for e[FORMULA]L:
+if e%2 == 0:
+evenElems.append(e)
+One advantage of tuples is that because they are immutable, aliasing is never
+a worry. Another advantage of their being immutable is that tuples, unlike lists,
+can be used as keys[FORMULA]dictionaries, as we will see[FORMULA]the next section.
+Since strings can contain only characters, they are considerably less versatile
+than tuples or lists. On the other hand, when you are working with a string of
+characters there are many built-[FORMULA]methods that make life easy. Figure 5.8 con-
+tains short descriptions of a few of them. Keep[FORMULA]mind that since strings are im-
+mutable these all return values and have no side effect.
+One of the more useful built-[FORMULA]methods is split, which takes two strings as
+arguments. The second argument specifies a separator that is used to split the
+first argument into a sequence of substrings. For example,
+print('My favorite professor--John G.--rocks'.split(' '))
+print('My favorite professor--John G.--rocks'.split('-'))
+print('My favorite professor--John G.--rocks'.split('--'))
+prints
+['My', 'favorite', 'professor--John', 'G.--rocks']
+['My favorite professor', '', 'John G.', '', 'rocks']
+['My favorite professor', 'John G.', 'rocks']
+The second argument is optional. If that argument is omitted the first string
+is split using arbitrary strings of whitespace characters (space, tab, newline, re-
+turn, and formfeed).
+CHAPTER 5. STRUCTURED TYPES, MUTABILITY, AND HIGHER-ORDER FUNCTIONS 79
+s.count(s1) counts how many times the string s1 occurs[FORMULA]s.
+s.find(s1) returns the index of the first occurrence of the substring s1[FORMULA]s,
+and -1 if s1 is not[FORMULA]s.
+s.rfind(s1) same as find, but starts from the end of s (the “r”[FORMULA]rfind stands
+for reverse).
+s.index(s1) same as find, but raises an exception (Chapter 7) if s1 is not[FORMULA]s.
+s.rindex(s1) same as index, but starts from the end of s.
+s.lower() converts all uppercase letters[FORMULA]s to lowercase.
+s.replace(old, new) replaces all occurrences of the string old[FORMULA]s with the
+string new.
+s.rstrip() removes trailing white space from s.
+s.split(d) Splits s using d as a delimiter. Returns a list of substrings of s. For
+example, the value of 'David Guttag plays basketball'.split(' ') is ['David',
+'Guttag', 'plays', 'basketball']. If d is omitted, the substrings are separat-
+ed by arbitrary strings of whitespace characters.
+Figure 5.8 Some methods on strings
+
+## 5.6 Dictionaries
+
+Objects of type dict (short for dictionary) are like lists except that we index them
+using keys. Think of a dictionary as a set of key/value pairs. Literals of type dict
+are enclosed[FORMULA]curly braces, and each element is written as a key followed by a
+colon followed by a value. For example, the code,
+monthNumbers = {'Jan':1, 'Feb':2, 'Mar':3, 'Apr':4, 'May':5,
+1:'Jan', 2:'Feb', 3:'Mar', 4:'Apr', 5:'May'}
+print('The third month is ' + monthNumbers[3])
+dist = monthNumbers['Apr'] - monthNumbers['Jan']
+print('Apr and Jan are', dist, 'months apart')
+will print
+The third month is Mar
+Apr and Jan are 3 months apart
+The entries[FORMULA]a dict are unordered and cannot be accessed with an index.
+That’s why monthNumbers[1] unambiguously refers to the entry with the key 1 ra-
+ther than the second entry.
+
+## 80 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+Like lists, dictionaries are mutable. We can add an entry by writing
+monthNumbers['June'] = 6
+or change an entry by writing
+monthNumbers['May'] = 'V'
+Dictionaries are one of the great things about Python. They greatly reduce
+the difficulty of writing a variety of programs. For example,[FORMULA]Figure 5.9 we use
+dictionaries to write a (pretty horrible) program to translate between languages.
+Since one of the lines of code was too long to fit on the page, we used a backslash,
+\, to indicate that the next line of text is a continuation of the previous line.
+The code[FORMULA]the figure prints,
+Je bois "good" rouge vin, et mange pain.
+I drink of wine red.
+Remember that dictionaries are mutable. So one must be careful about side
+effects. For example,
+FtoE['bois'] = 'wood'
+Print(translate('Je bois du vin rouge.', dicts, 'French to English'))
+will print
+I wood of wine red
+Most programming languages do not contain a built-[FORMULA]type that provides a
+mapping from keys to values. Instead, programmers use other types to provide
+similar functionality. It is, for example, relatively easy to implement a dictionary
+by using a list[FORMULA]which each element is a key/value pair. One can then write a
+simple function that does the associative retrieval, e.g.,
+def keySearch(L, k):
+for elem[FORMULA]L:
+if elem[0] == k:
+return elem[1]
+return None
+The problem with such an implementation is that it is computationally inef-
+ficient. In the worst case, a program might have to examine each element[FORMULA]the
+list to perform a single retrieval. In contrast, the built-[FORMULA]implementation is quite
+fast. It uses a technique called hashing, described[FORMULA]Chapter 10, to do the lookup[FORMULA]time that is nearly independent of the size of the dictionary.
+CHAPTER 5. STRUCTURED TYPES, MUTABILITY, AND HIGHER-ORDER FUNCTIONS 81
+EtoF = {'bread':'pain', 'wine':'vin', 'with':'avec', 'I':'Je',
+'eat':'mange', 'drink':'bois', 'John':'Jean',
+'friends':'amis', 'and': 'et', 'of':'du','red':'rouge'}
+FtoE = {'pain':'bread', 'vin':'wine', 'avec':'with', 'Je':'I',
+'mange':'eat', 'bois':'drink', 'Jean':'John',
+'amis':'friends', 'et':'and', 'du':'of', 'rouge':'red'}
+dicts = {'English to French':EtoF, 'French to English':FtoE}
+def translateWord(word, dictionary):
+if word[FORMULA]dictionary.keys():
+return dictionary[word]
+elif word != '':
+return '"' + word + '"'
+return word
+def translate(phrase, dicts, direction):
+UCLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+LCLetters = 'abcdefghijklmnopqrstuvwxyz'
+letters = UCLetters + LCLetters
+dictionary = dicts[direction]
+translation = ''
+word = ''
+for c[FORMULA]phrase:
+if c[FORMULA]letters:
+word = word + c
+else:
+translation = translation\
++ translateWord(word, dictionary) + c
+word = ''
+return translation + ' ' + translateWord(word, dictionary)
+print(translate('I drink good red wine, and eat bread.',
+dicts,'English to French'))
+print(translate('Je bois du vin rouge.',
+dicts, 'French to English'))
+Figure 5.9 Translating text (badly)
+A for statement can be used to iterate over the entries[FORMULA]a dictionary. How-
+ever, the value assigned to the iteration variable is a key, not a key/value pair. The
+order[FORMULA]which the keys are seen[FORMULA]the iteration is not defined. For example, the
+code
+
+## 82 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+monthNumbers = {'Jan':1, 'Feb':2, 'Mar':3, 'Apr':4, 'May':5,
+1:'Jan', 2:'Feb', 3:'Mar', 4:'Apr', 5:'May'}
+keys = []
+for e[FORMULA]monthNumbers:
+keys.append(str(e))
+print(keys)
+keys.sort()
+print(keys)
+might print
+['Jan', 'Mar', '2', '3', '4', '5', '1', 'Feb', 'May', 'Apr']
+['1', '2', '3', '4', '5', 'Apr', 'Feb', 'Jan', 'Mar', 'May']
+The method keys returns an object of type dict_keys.37 This is an example of
+a view object. The order[FORMULA]which the keys appear[FORMULA]the view is not defined. A
+view object is dynamic[FORMULA]that if the object with which it is associated changes,
+the change is visible through the view object. For example,
+birthStones = {'Jan':'Garnet', 'Feb':'Amethyst', 'Mar':'Acquamarine',
+'Apr':'Diamond', 'May':'Emerald'}
+months = birthStones.keys()
+print(months)
+birthStones['June'] = 'Pearl'
+print(months)
+might print
+dict_keys(['Jan', 'Feb', 'May', 'Apr', 'Mar'])
+dict_keys(['Jan', 'Mar', 'June', 'Feb', 'May', 'Apr'])
+Objects of type dict_keys can be iterated over using for, and membership can
+be tested using[FORMULA]. An object of type dict_keys can easily be converted into a list,
+e.g., list(months).
+Not all types of of objects can be used as keys: A key must be an object of a
+hashable type. A type is hashable if it has
+• A __hash__ method that maps an object of the type to an[FORMULA], and for every ob-
+ject the value returned by __hash__ does not change during the lifetime of the
+object, and
+• An __eq__ method that is used to compare objects for equality.
+All of Python’s built-[FORMULA]immutable types are hashable, and none of Python’s
+built-[FORMULA]mutable types are hashable. It is often convenient to use tuples as keys.
+Imagine, for example, using a tuple of the form (flightNumber, day) to represent
+
+## 37 In Python 2, keys returns a list containing the keys of the dictionary.
+
+CHAPTER 5. STRUCTURED TYPES, MUTABILITY, AND HIGHER-ORDER FUNCTIONS 83
+airline flights. It would then be easy to use such tuples as keys[FORMULA]a dictionary im-
+plementing a mapping from flights to arrival times.
+As with lists, there are many useful methods associated with dictionaries,[FORMULA]-
+cluding some for removing elements. We do not enumerate all of them here, but
+will use them as convenient[FORMULA]examples later[FORMULA]the book. Figure 5.10 contains
+some of the more useful operations on dictionaries.38
+len(d) returns the number of items[FORMULA]d.
+d.keys() returns a view of the keys[FORMULA]d.
+d.values() returns a view of the values[FORMULA]d.
+k[FORMULA]d returns True if key k is[FORMULA]d.
+d[k] returns the item[FORMULA]d with key k.
+d.get(k, v) returns d[k] if k is[FORMULA]d, and v otherwise.
+d[k] = v associates the value v with the key k[FORMULA]d. If there is already a value
+associated with k, that value is replaced.
+del d[k] removes the key k from d.
+for k[FORMULA]d iterates over the keys[FORMULA]d.
+Figure 5.10 Some common operations on dicts
+
+## 38 All of the methods that return a view[FORMULA]Python 3 return a list[FORMULA]Python 2.
+
+
+
+## 6 TESTING AND DEBUGGING
+
+We hate to bring this up, but Dr. Pangloss was wrong. We do not live[FORMULA]“the best
+of all possible worlds.” There are some places where it rains too little, and others
+where it rains too much. Some places are too cold, some too hot, and some too
+hot[FORMULA]the summer and too cold[FORMULA]the winter. Sometimes the stock market goes
+down—a lot. And, annoyingly, our programs don’t always function properly the
+first time we run them.
+Books have been written about how to deal with this last problem, and there
+is a lot to be learned from reading these books. However,[FORMULA]the interest of
+providing you with some hints that might help you get that next problem set[FORMULA]on time, this chapter provides a highly condensed discussion of the topic. While
+all of the programming examples are[FORMULA]Python, the general principles are appli-
+cable to getting any complex system to work.
+Testing is the process of running a program to try and ascertain whether or
+not it works as intended. Debugging is the process of trying to fix a program that
+you already know does not work as intended.
+Testing and debugging are not processes that you should begin to think
+about after a program has been built. Good programmers design their programs[FORMULA]ways that make them easier to test and debug. The key to doing this is break-
+ing the program up into separate components that can be implemented, tested,
+and debugged independently of other components. At this point[FORMULA]the book, we
+have discussed only one mechanism for modularizing programs, the function.
+So, for now, all of our examples will be based around functions. When we get to
+other mechanisms,[FORMULA]particular classes, we will return to some of the topics cov-
+ered[FORMULA]this chapter.
+The first step[FORMULA]getting a program to work is getting the language system to
+agree to run it—that is, eliminating syntax errors and static semantic errors that
+can be detected without running the program. If you haven’t gotten past that
+point[FORMULA]your programming, you’re not ready for this chapter. Spend a bit more
+time working on small programs, and then come back.
+
+## 86 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+
+
+## 6.1 Testing
+
+The most important thing to say about testing is that its purpose is to show that
+bugs exist, not to show that a program is bug-free. To quote Edsger Dijkstra,
+“Program testing can be used to show the presence of bugs, but never to show
+their absence!”39 Or, as Albert Einstein reputedly said, “No amount of experi-
+mentation can ever prove me right; a single experiment can prove me wrong.”
+Why is this so? Even the simplest of programs has billions of possible inputs.
+Consider, for example, a program that purports to meet the specification
+def isBigger(x, y):
+"""Assumes x and y are ints
+Returns True if x is less than y and False otherwise."""
+Running it on all pairs of integers would be, to say the least, tedious. The best
+we can do is to run it on pairs of integers that have a reasonable probability of
+producing the wrong answer if there is a bug[FORMULA]the program.
+The key to testing is finding a collection of inputs, called a test suite, that has
+a high likelihood of revealing bugs, yet does not take too long to run. The key to
+doing this is partitioning the space of all possible inputs into subsets that provide
+equivalent information about the correctness of the program, and then con-
+structing a test suite that contains at least one input from each partition. (Usually,
+constructing such a test suite is not actually possible. Think of this as an
+unachievable ideal.)
+A partition of a set divides that set into a collection of subsets such that each
+element of the original set belongs to exactly one of the subsets. Consider, for ex-
+ample, isBigger(x, y). The set of possible inputs is all pairwise combinations of
+integers. One way to partition this set is into these seven subsets:
+x positive, y positive x negative, y negative
+x positive, y negative x negative, y positive
+x = 0, y = 0 x = 0, y ≠ 0 x ≠ 0, y = 0
+If one tested the implementation on at least one value from each of these
+subsets, there would be reasonable probability (but no guarantee) of exposing a
+bug if one[FORMULA].
+For most programs, finding a good partitioning of the inputs is far easier said
+than done. Typically, people rely on heuristics based on exploring different paths
+through some combination of the code and the specifications. Heuristics based
+
+## 39 “Notes On Structured Programming,” Technical University Eindhoven, T.H. Report 70-WSK-
+
+03, April 1970.
+CHAPTER 6. TESTING AND DEBUGGING 87
+on exploring paths through the code fall into a class called glass-box testing.
+Heuristics based on exploring paths through the specification fall into a class
+called black-box testing.
+6.1.1 Black-Box Testing
+In principle, black-box tests are constructed without looking at the code to be
+tested. Black-box testing allows testers and implementers to be drawn from sepa-
+rate populations. When those of us who teach programming courses generate
+test cases for the problem sets we assign students, we are developing black-box
+test suites. Developers of commercial software often have quality assurance
+groups that are largely independent of development groups.
+This independence reduces the likelihood of generating test suites that exhib-
+it mistakes that are correlated with mistakes[FORMULA]the code. Suppose, for example,
+that the author of a program made the implicit, but invalid, assumption that a
+function would never be called with a negative number. If the same person con-
+structed the test suite for the program, he would likely repeat the mistake, and
+not test the function with a negative argument.
+Another positive feature of black-box testing is that it is robust with respect
+to implementation changes. Since the test data is generated without knowledge of
+the implementation, the tests need not be changed when the implementation is
+changed.
+As we said earlier, a good way to generate black-box test data is to explore
+paths through a specification. Consider, the specification
+def sqrt(x, epsilon):
+"""Assumes x, epsilon floats
+x >= 0
+epsilon > 0
+Returns result such that
+x-epsilon <= result*result <= x+epsilon"""
+There seem to be only two distinct paths through this specification: one cor-
+responding to x = 0 and one corresponding to x > 0. However, common sense
+tells us that while it is necessary to test these two cases, it is hardly sufficient.
+Boundary conditions should also be tested. When looking at lists, this often
+means looking at the empty list, a list with exactly one element, and a list con-
+taining lists. When dealing with numbers, it typically means looking at very
+small and very large values as well as “typical” values. For sqrt, for example, it
+might make sense to try values of x and epsilon similar to those[FORMULA]Figure 6.1.
+The first four rows are intended to represent typical cases. Notice that the
+values for x include a perfect square, a number less than one, and a number with
+
+## 88 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+an irrational square root. If any of these tests fail, there is a bug[FORMULA]the program
+that needs to be fixed.
+X Epsilon
+
+## 0.0 0.0001
+
+
+
+## 25.0 0.0001
+
+
+
+## 0.5 0.0001
+
+
+
+## 2.0 0.0001
+
+
+
+## 2.0 1.0/2.0**64.0
+
+1.0/2.0**64 1.0/2.0**64.0
+2.0**64.0 1.0/2.0**64.0
+1.0/2.0**64.0 2.0**64.0
+2.0**64.0 2.0**64.0
+Figure 6.1 Testing boundary conditions
+The remaining rows test extremely large and small values of x and epsilon. If
+any of these tests fail, something needs to be fixed. Perhaps there is a bug[FORMULA]the
+code that needs to be fixed, or perhaps the specification needs to be changed so
+that it is easier to meet. It might, for example, be unreasonable to expect to find
+an approximation of a square root when epsilon is ridiculously small.
+Another important boundary condition to think about is aliasing. Consider,
+for example, the code
+def copy(L1, L2):
+"""Assumes L1, L2 are lists
+Mutates L2 to be a copy of L1"""
+while len(L2) > 0: #remove all elements from L2
+L2.pop() #remove last element of L2
+for e[FORMULA]L1: #append L1's elements to initially empty L2
+L2.append(e)
+It will work most of the time, but not when L1 and L2 refer to the same list. Any
+test suite that did not include a call of the form copy(L, L), would not reveal the
+bug.
+6.1.2 Glass-box Testing
+Black-box testing should never be skipped, but it is rarely sufficient. Without
+looking at the internal structure of the code, it is impossible to know which test
+cases are likely to provide new information. Consider the trivial example:
+CHAPTER 6. TESTING AND DEBUGGING 89
+def isPrime(x):
+"""Assumes x is a nonnegative[FORMULA]Returns True if x is prime; False otherwise"""
+if x <= 2:
+return False
+for i[FORMULA]range(2, x):
+if x%i == 0:
+return False
+return True
+Looking at the code, we can see that because of the test if x <= 2, the values
+0, 1, and 2 are treated as special cases, and therefore need to be tested. Without
+looking at the code, one might not test isPrime(2), and would therefore not dis-
+cover that the function call isPrime(2) returns False, erroneously indicating that
+
+## 2 is not a prime.
+
+Glass-box test suites are usually much easier to construct than black-box test
+suites. Specifications are usually incomplete and often pretty sloppy, making it a
+challenge to estimate how thoroughly a black-box test suite explores the space of
+interesting inputs. In contrast, the notion of a path through code is well defined,
+and it is relatively easy to evaluate how thoroughly one is exploring the space.
+There are,[FORMULA]fact, commercial tools that can be used to objectively measure the
+completeness of glass-box tests.
+A glass-box test suite is path-complete if it exercises every potential path
+through the program. This is typically impossible to achieve, because it depends
+upon the number of times each loop is executed and the depth of each recursion.
+For example, a recursive implementation of factorial follows a different path for
+each possible input (because the number of levels of recursion will differ).
+Furthermore, even a path-complete test suite does not guarantee that all bugs
+will be exposed. Consider:
+def abs(x):
+"""Assumes x is an[FORMULA]Returns x if x>=0 and –x otherwise"""
+if x < -1:
+return -x
+else:
+return x
+
+## 90 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+The specification suggests that there are two possible cases: x either is nega-
+tive or it isn’t. This suggests that the set of inputs {2, -2} is sufficient to explore
+all paths[FORMULA]the specification. This test suite has the additional nice property of
+forcing the program through all of its paths, so it looks like a complete glass-box
+suite as well. The only problem is that this test suite will not expose the fact that
+abs(-1) will return -1.
+Despite the limitations of glass-box testing, there are a few rules of thumb
+that are usually worth following:
+• Exercise both branches of all if statements.
+• Make sure that each except clause (see Chapter 7) is executed.
+• For each for loop, have test cases[FORMULA]which
+o The loop is not entered (e.g., if the loop is iterating over the elements of
+a list, make sure that it is tested on the empty list),
+o The body of the loop is executed exactly once, and
+o The body of the loop is executed more than once.
+• For each while loop,
+o Look at the same kinds of cases as when dealing with for loops.
+o Include test cases corresponding to all possible ways of exiting the loop.
+For example, for a loop starting with
+while len(L) > 0 and not L[i] == e
+find cases where the loop exits because len(L) is greater than zero and
+cases where it exits because L[i] == e.
+• For recursive functions, include test cases that cause the function to return
+with no recursive calls, exactly one recursive call, and more than one recursive
+call.
+6.1.3 Conducting Tests
+Testing is often thought of as occurring[FORMULA]two phases. One should always start
+with unit testing. During this phase testers construct and run tests designed to
+ascertain whether individual units of code (e.g., functions) work properly. This is
+followed by integration testing, which is designed to ascertain whether the pro-
+gram as a whole behaves as intended. In practice, testers cycle through these two
+phases, since failures during integration testing lead to making changes to indi-
+vidual units.
+Integration testing is almost always more challenging than unit testing. One
+reason for this is that the intended behavior of an entire program is often consid-
+erably harder to characterize than the intended behavior of each of its parts. For
+example, characterizing the intended behavior of a word processor is considera-
+CHAPTER 6. TESTING AND DEBUGGING 91
+bly more challenging than characterizing the behavior of a function that counts
+the number of characters[FORMULA]a document. Problems of scale can also make inte-
+gration testing difficult. It is not unusual for integration tests to take hours or
+even days to run.
+Many industrial software development organizations have a software quality
+assurance (SQA) group that is separate from the group charged with implement-
+ing the software. The mission of this group is to ensure that before the software is
+released it is suitable for its intended purpose. In some organizations the devel-
+opment group is responsible for unit testing and the QA group for integration
+testing.
+In industry, the testing process is often highly automated. Testers40 do not sit
+at terminals typing inputs and checking outputs. Instead, they use test drivers
+that autonomously
+• Set up the environment needed to invoke the program (or unit) to be tested,
+• Invoke the program (or unit) to be tested with a predefined or automatically
+generated sequence of inputs,
+• Save the results of these invocations,
+• Check the acceptability of the results of the tests, and
+• Prepare an appropriate report.
+During unit testing, we often need to build stubs as well as drivers. Drivers
+simulate parts of the program that use the unit being tested, whereas stubs simu-
+late parts of the program used by the unit being tested. Stubs are useful because
+they allow people to test units that depend upon software or sometimes even
+hardware that does not yet exist. This allows teams of programmers to simulta-
+neously develop and test multiple parts of a system.
+Ideally, a stub should
+• Check the reasonableness of the environment and arguments supplied by the
+caller (calling a function with inappropriate arguments is a common error),
+• Modify arguments and global variables[FORMULA]a manner consistent with the speci-
+fication, and
+• Return values consistent with the specification.
+Building adequate stubs is often a challenge. If the unit the stub is replacing
+is intended to perform some complex task, building a stub that performs actions
+consistent with the specification may be tantamount to writing the program that
+the stub is designed to replace. One way to surmount this problem is to limit the
+
+## 40 Or, for that matter, those who grade problem sets[FORMULA]very large programming courses.
+
+
+
+## 92 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+set of arguments accepted by the stub, and create a table that contains the values
+to be returned for each combination of arguments to be used[FORMULA]the test suite.
+One attraction of automating the testing process is that it facilitates regres-
+sion testing. As programmers attempt to debug a program, it is all too common
+to install a “fix” that breaks something that used to work. Whenever any change
+is made, no matter how small, you should check that the program still passes all
+of the tests that it used to pass.
+
+## 6.2 Debugging
+
+There is a charming urban legend about how the process of fixing flaws[FORMULA]soft-
+ware came to be known as debugging. The photo[FORMULA]Figure 6.2 is of a September
+9, 1947, page[FORMULA]a laboratory book from the group working on the Mark II Aiken
+Relay Calculator at Harvard University.
+Figure 6.2 Not the first bug
+Some have claimed that the discovery of that unfortunate moth trapped[FORMULA]the Mark II led to the use of the phrase debugging. However the wording, “First
+actual case of a bug being found,” suggests that a less literal interpretation of the
+phrase was already common. Grace Murray Hopper, a leader of the Mark II pro-
+CHAPTER 6. TESTING AND DEBUGGING 93
+ject, made it clear that the term “bug” was already[FORMULA]wide use to describe prob-
+lems with electronic systems during World War II. And well prior to that, Haw-
+kins’ New Catechism of Electricity, an 1896 electrical handbook, included the
+entry, “The term ‘bug’ is used to a limited extent to designate any fault or trouble[FORMULA]the connections or working of electric apparatus.” In English usage the word
+“bugbear” means “anything causing seemingly needless or excessive fear or anxi-
+ety.”41 Shakespeare seems to have shortened this to “bug,” when he had Hamlet
+kvetch about “bugs and goblins[FORMULA]my life.”
+The use of the word “bug” sometimes leads people to ignore the fundamental
+fact that if you wrote a program and it has a “bug,” you messed up. Bugs do not
+crawl unbidden into flawless programs. If your program has a bug, it is because
+you put it there. Bugs do not breed[FORMULA]programs. If your program has multiple
+bugs, it is because you made multiple mistakes. Runtime bugs can be categorized
+along two dimensions:
+• Overt → covert: An overt bug has an obvious manifestation, e.g., the program
+crashes or takes far longer (maybe forever) to run than it should. A covert bug
+has no obvious manifestation. The program may run to conclusion with no
+problem—other than providing an incorrect answer. Many bugs fall between
+the two extremes, and whether or not the bug is overt can depend upon how
+carefully one examines the behavior of the program.
+• Persistent → intermittent: A persistent bug occurs every time the program is
+run with the same inputs. An intermittent bug occurs only some of the time,
+even when the program is run on the same inputs and seemingly under the
+same conditions. When we get to Chapter 14, we will start writing programs
+that model situations[FORMULA]which randomness plays a role. In programs of that of
+the kind, intermittent bugs are common.
+The best kinds of bugs to have are overt and persistent. Developers can be
+under no illusion about the advisability of deploying the program. And if some-
+one else is foolish enough to attempt to use it, they will quickly discover their fol-
+ly. Perhaps the program will do something horrible before crashing, e.g., delete
+files, but at least the user will have reason to be worried (if not panicked). Good
+programmers try to write their programs[FORMULA]such a way that programming mis-
+takes lead to bugs that are both overt and persistent. This is often called defensive
+programming.
+The next step into the pit of undesirability is bugs that are overt but intermit-
+tent. An air traffic control system that computes the correct location for planes
+almost all of the time would be far more dangerous than one that makes obvious
+
+## 41 Webster’s New World College Dictionary.
+
+
+
+## 94 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+mistakes all the time. One can live[FORMULA]a fool’s paradise for a period of time, and
+maybe get so far as deploying a system incorporating the flawed program, but
+sooner or later the bug will become manifest. If the conditions prompting the
+bug to become manifest are easily reproducible, it is often relatively easy to track
+down and repair the problem. If the conditions provoking the bug are not clear,
+life is much harder.
+Programs that fail[FORMULA]covert ways are often highly dangerous. Since they are
+not apparently problematical, people use them and trust them to do the right
+thing. Increasingly, society relies on software to perform critical computations
+that are beyond the ability of humans to carry out or even check for correctness.
+Therefore, a program can provide undetected fallacious answer for long periods
+of time. Such programs can, and have, caused a lot of damage.42 A program that
+evaluates the risk of a mortgage bond portfolio and confidently spits out the
+wrong answer can get a bank (and perhaps all of society) into a lot of trouble. A
+radiation therapy machine that delivers a little more or a little less radiation than
+intended can be the difference between life and death for a person with cancer. A
+program that makes a covert error only occasionally may or may not wreak less
+havoc than one that always commits such an error. Bugs that are both covert and
+intermittent are almost always the hardest to find and fix.
+6.2.1 Learning to Debug
+Debugging is a learned skill. Nobody does it well instinctively. The good news is
+that it’s not hard to learn, and it is a transferable skill. The same skills used to de-
+bug software can be used to find out what is wrong with other complex systems,
+e.g., laboratory experiments or sick humans.
+For at least four decades people have been building tools called debuggers,
+and there are debugging tools built into all of the popular Python IDE’s. These
+are supposed to help people find bugs[FORMULA]their programs. They can help, but only
+a little. What’s much more important is how you approach the problem. Many
+experienced programmers don’t even bother with debugging tools. Most pro-
+grammers say that the most important debugging tool is the print statement.
+Debugging starts when testing has demonstrated that the program behaves[FORMULA]undesirable ways. Debugging is the process of searching for an explanation of
+
+## 42 On August 1, 2012, Knight Capital Group, Inc. deployed a new piece of stock-trading software.
+
+Within forty-five minutes a bug[FORMULA]that software lost the company $440,000,000. The next day, the
+CEO of Knight commented that the bug caused the software to enter “a ton of orders, all
+erroneous.”
+CHAPTER 6. TESTING AND DEBUGGING 95
+that behavior. The key to being consistently good at debugging is being systemat-
+ic[FORMULA]conducting that search.
+Start by studying the available data. This includes the test results and the
+program text. Study all of the test results. Examine not only the tests that re-
+vealed the presence of a problem, but also those tests that seemed to work per-
+fectly. Trying to understand why one test worked and another did not is often
+illuminating. When looking at the program text, keep[FORMULA]mind that you don’t
+completely understand it. If you did, there probably wouldn’t be a bug.
+Next, form a hypothesis that you believe to be consistent with all the data.
+The hypothesis could be as narrow as “if I change line 403 from x < y to x <= y,
+the problem will go away” or as broad as “my program is not terminating because
+I have the wrong exit condition[FORMULA]some while loop.”
+Next, design and run a repeatable experiment with the potential to refute the
+hypothesis. For example, you might put a print statement before and after each
+while loop. If these are always paired, then the hypothesis that a while loop is
+causing nontermination has been refuted. Decide before running the experiment
+how you would interpret various possible results. If you wait until after you run
+the experiment, you are more likely to fall prey to wishful thinking.
+Finally, it’s important to keep a record of what experiments you have tried.
+When you’ve spent many hours changing your code trying to track down an elu-
+sive bug, it’s easy to forget what you have already tried. If you aren’t careful, it is
+easy to waste way too many hours trying the same experiment (or more likely an
+experiment that looks different but will give you the same information) over and
+over again. Remember, as many have said, “insanity is doing the same thing, over
+and over again, but expecting different results.”43
+6.2.2 Designing the Experiment
+Think of debugging as a search process, and each experiment as an attempt to
+reduce the size of the search space. One way to reduce the size of the search space
+is to design an experiment that can be used to decide whether a specific region of
+code is responsible for a problem uncovered during integration testing. Another
+way to reduce the search space is to reduce the amount of test data needed to
+provoke a manifestation of a bug.
+Let’s look at a contrived example to see how one might go about debugging
+it. Imagine that you wrote the palindrome-checking code[FORMULA]Figure 6.3.
+
+## 43 This line appears[FORMULA]Rita Mae Brown’s, Sudden Death. However, it has been variously attributed
+
+to many other sources—including Albert Einstein.
+
+## 96 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+def isPal(x):
+"""Assumes x is a list
+Returns True if the list is a palindrome; False otherwise"""
+temp = x
+temp.reverse
+if temp == x:
+return True
+else:
+return False
+def silly(n):
+"""Assumes n is an[FORMULA]> 0
+Gets n inputs from user
+Prints 'Yes' if the sequence of inputs forms a palindrome;
+'No' otherwise"""
+for i[FORMULA]range(n):
+result = []
+elem = input('Enter element: ')
+result.append(elem)
+if isPal(result):
+print('Yes')
+else:
+print('No')
+Figure 6.3 Program with bugs
+Now, imagine that you are so confident of your programming skills that you
+put this code up on the Web—without testing it. Suppose further that you receive
+an email saying, “I tested your !!**! program on the following 1000-string input,
+and it printed Yes. Yet any fool can see that it is not a palindrome. Fix it!”
+You could try and test it on the supplied 1000-string input. But it might be
+more sensible to begin by trying it on something smaller. In fact, it would make
+sense to test it on a minimal non-palindrome, e.g.,
+>>> silly(2)
+Enter element: a
+Enter element: b
+The good news is that it fails even this simple test, so you don’t have to type[FORMULA]a thousand strings. The bad news is that you have no idea why it failed.
+In this case, the code is small enough that you can probably stare at it and
+find the bug (or bugs). However, let’s pretend that it is too large to do this, and
+start to systematically reduce the search space.
+Often the best way to do this is to conduct a bisection search. Find some
+point about halfway through the code, and devise an experiment that will allow
+CHAPTER 6. TESTING AND DEBUGGING 97
+you to decide if there is a problem before that point that might be related to the
+symptom. (Of course, there may be problems after that point as well, but it is
+usually best to hunt down one problem at a time.) In choosing such a point, look
+for a place where there are some easily examined intermediate values that pro-
+vide useful information. If an intermediate value is not what you expected, there
+is probably a problem that occurred prior to that point[FORMULA]the code. If the inter-
+mediate values all look fine, the bug probably lies somewhere later[FORMULA]the code.
+This process can be repeated until you have narrowed the region[FORMULA]which a
+problem is located to a few lines of code.
+Looking at silly, the halfway point is around the line if isPal(result). The
+obvious thing to check is whether result has the expected value, ['a', 'b']. We
+check this by inserting the statement print(result) before the if statement[FORMULA]silly. When the experiment is run, the program prints ['b'],suggesting that
+something has already gone wrong. The next step is to print result roughly half-
+way through the loop. This quickly reveals that result is never more than one el-
+ement long, suggesting that the initialization of result needs to be moved outside
+the for loop.
+The “corrected” code for silly is
+def silly(n):
+"""Assumes n is an[FORMULA]> 0
+Gets n inputs from user
+Prints 'Yes' if the sequence of inputs forms a palindrome;
+'No' otherwise"""
+result = []
+for i[FORMULA]range(n):
+elem = input('Enter element: ')
+result.append(elem)
+print(result)
+if isPal(result):
+print('Yes')
+else:
+print('No')
+Let’s try that, and see if result has the correct value after the for loop. It does,
+but unfortunately the program still prints Yes. Now, we have reason to believe
+that a second bug lies below the print statement. So, let’s look at isPal. The line of
+code if temp == x: is about halfway through that function. So, we insert the line
+print(temp, x)
+before that line. When we run the code, we see that temp has the expected value,
+but x does not. Moving up the code, we insert a print statement after the line of
+code temp = x, and discover that both temp and x have the value ['a', 'b']. A
+
+## 98 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+quick inspection of the code reveals that[FORMULA]isPal we wrote temp.reverse rather
+than temp.reverse()—the evaluation of temp.reverse returns the built-[FORMULA]reverse
+method for lists, but does not invoke it.44
+We run the test again, and now it seems that both temp and x have the value
+['b','a']. We have now narrowed the bug to one line. It seems that
+temp.reverse() unexpectedly changed the value of x. An aliasing bug has bitten
+us: temp and x are names for the same list, both before and after the list gets re-
+versed. One way to fix it is to replace the first assignment statement[FORMULA]isPal by
+temp = x[:], which causes a copy of x to be made.
+The corrected version of isPal is
+def isPal(x):
+"""Assumes x is a list
+Returns True if the list is a palindrome; False otherwise"""
+temp = x[:]
+temp.reverse()
+if temp == x:
+return True
+else:
+return False
+6.2.3 When the Going Gets Tough
+Joseph P. Kennedy, father of U.S. President John F. Kennedy, reputedly instructed
+his children, “When the going gets tough, the tough get going.”45 But he never
+debugged a piece of software. This subsection contains a few pragmatic hints
+about what do when the debugging gets tough.
+• Look for the usual suspects. E.g., have you
+o Passed arguments to a function[FORMULA]the wrong order,
+o Misspelled a name, e.g., typed a lowercase letter when you should have
+typed an uppercase one,
+o Failed to reinitialize a variable,
+o Tested that two floating point values are equal (==) instead of nearly
+equal (remember that floating point arithmetic is not the same as the
+arithmetic you learned[FORMULA]school),
+o Tested for value equality (e.g., compared two lists by writing the expres-
+sion L1 == L2) when you meant object equality (e.g., id(L1) == id(L2)),
+
+## 44 One might well wonder why there isn’t a static checker that detected the fact that the line of code
+
+temp.reverse doesn’t do any useful computatation, and is therefore likely to be an error.
+
+## 45 He also reputedly told JFK, “Don't buy a single vote more than necessary. I'll be damned if I'm
+
+going to pay for a landslide.”
+CHAPTER 6. TESTING AND DEBUGGING 99
+o Forgotten that some built-[FORMULA]function has a side effect,
+o Forgotten the () that turns a reference to an object of type function into
+a function invocation,
+o Created an unintentional alias, or
+o Made any other mistake that is typical for you.
+• Stop asking yourself why the program isn’t doing what you want it to. Instead,
+ask yourself why it is doing what it is. That should be an easier question to an-
+swer, and will probably be a good first step[FORMULA]figuring out how to fix the pro-
+gram.
+• Keep[FORMULA]mind that the bug is probably not where you think it is. If it were, you
+would probably have found it long ago. One practical way to go about decid-
+ing where to look is asking where the bug cannot be. As Sherlock Holmes said,
+“Eliminate all other factors, and the one which remains must be the truth.”46
+• Try to explain the problem to somebody else. We all develop blind spots. It is
+often the case that merely attempting to explain the problem to someone will
+lead you to see things you have missed. A good thing to try to explain is why
+the bug cannot be[FORMULA]certain places.
+• Don’t believe everything you read. In particular, don’t believe the documenta-
+tion. The code may not be doing what the comments suggest.
+• Stop debugging and start writing documentation. This will help you approach
+the problem from a different perspective.
+• Walk away, and try again tomorrow. This may mean that bug is fixed later[FORMULA]time than if you had stuck with it, but you will probably spend a lot less of
+your time looking for it. That is, it is possible to trade latency for efficiency.
+(Students, this is an excellent reason to start work on programming problem
+sets earlier rather than later!)
+6.2.4 When You Have Found “The” Bug
+When you think you have found a bug[FORMULA]your code, the temptation to start cod-
+ing and testing a fix is almost irresistible. It is often better, however, to slow down
+a little. Remember that the goal is not to fix one bug, but to move rapidly and ef-
+ficiently towards a bug-free program.
+Ask yourself if this bug explains all the observed symptoms, or whether it is
+just the tip of the iceberg. If the latter, it may be better to think about taking care
+of this bug[FORMULA]concert with other changes. Suppose, for example, that you have
+discovered that the bug is the result of having accidentally mutated a list. You
+could circumvent the problem locally, perhaps by making a copy of the list. Al-
+
+## 46 Arthur Conan Doyle, “The Sign of the Four.”
+
+100 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+ternatively, you could consider using a tuple instead of a list (since tuples are
+immutable), perhaps eliminating similar bugs elsewhere[FORMULA]the code.
+Before making any change, try and understand the ramification of the pro-
+posed “fix.” Will it break something else? Does it introduce excessive complexi-
+ty? Does it offer the opportunity to tidy up other parts of the code?
+Always make sure that you can get back to where you are. There is nothing
+more frustrating than realizing that a long series of changes have left you farther
+from the goal than when you started, and having no way to get back to where you
+started. Disk space is usually plentiful. Use it to store old versions of your pro-
+gram.
+Finally, if there are many unexplained errors, you might consider whether
+finding and fixing bugs one at a time is even the right approach. Maybe you
+would be better off thinking about whether there is some better way to organize
+your program or some simpler algorithm that will be easier to implement cor-
+rectly.
+
+## 7 EXCEPTIONS AND ASSERTIONS
+
+An “exception” is usually defined as “something that does not conform to the
+norm,” and is therefore somewhat rare. There is nothing rare about exceptions[FORMULA]Python. They are everywhere. Virtually every module[FORMULA]the standard Python li-
+brary uses them, and Python itself will raise them[FORMULA]many different circumstanc-
+es. You've already seen some of them.
+Open a Python shell and enter
+test = [1,2,3]
+test[3]
+and the interpreter will respond with something like
+IndexError: list index out of range
+IndexError is the type of exception that Python raises when a program tries to
+access an element that is outside the bounds of an indexable type. The string fol-
+lowing IndexError provides additional information about what caused the excep-
+tion to occur.
+Most of the built-[FORMULA]exceptions of Python deal with situations[FORMULA]which a
+program has attempted to execute a statement with no appropriate semantics.
+(We will deal with the exceptional exceptions—those that do not deal with er-
+rors—later[FORMULA]this chapter.) Those readers (all of you, we hope) who have at-
+tempted to write and run Python programs will already have encountered many
+of these. Among the most commonly occurring types of exceptions are TypeError,
+IndexError, NameError, and ValueError.
+
+## 7.1 Handling Exceptions
+
+Up to now, we have treated exceptions as fatal events. When an exception is
+raised, the program terminates (crashes might be a more appropriate word[FORMULA]this case), and we go back to our code and attempt to figure out what went
+wrong. When an exception is raised that causes the program to terminate, we say
+that an unhandled exception has been raised.
+An exception does not need to lead to program termination. Exceptions,
+when raised, can and should be handled by the program. Sometimes an excep-
+102 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+tion is raised because there is a bug[FORMULA]the program (like accessing a variable that
+doesn't exist), but many times, an exception is something the programmer can
+and should anticipate. A program might try to open a file that does not exist. If
+an interactive program asks a user for input, the user might enter something[FORMULA]-
+appropriate.
+If you know that a line of code might raise an exception when executed, you
+should handle the exception. In a well-written program, unhandled exceptions
+should be the exception.
+Consider the code
+successFailureRatio = numSuccesses/numFailures
+print('The success/failure ratio is', successFailureRatio)
+print('Now here')
+Most of the time, this code will work just fine, but it will fail if numFailures hap-
+pens to be zero. The attempt to divide by zero will cause the Python runtime sys-
+tem to raise a ZeroDivisionError exception, and the print statements will never be
+reached.
+It would have been better to have written something along the lines of
+try:
+successFailureRatio = numSuccesses/numFailures
+print('The success/failure ratio is', successFailureRatio)
+except ZeroDivisionError:
+print('No failures, so the success/failure ratio is undefined.')
+print('Now here')
+Upon entering the try block, the interpreter attempts to evaluate the expres-
+sion numSuccesses/numFailures. If expression evaluation is successful, the program
+assigns the value of the expression to the variable successFailureRatio, executes
+the print statement at the end of the try block, and proceeds to the print state-
+ment following the try-except. If, however, a ZeroDivisionError exception is
+raised during the expression evaluation, control immediately jumps to the except
+block (skipping the assignment and the print statement[FORMULA]the try block), the
+print statement[FORMULA]the except block is executed, and then execution continues at
+the print statement following the try-except block.
+Finger exercise: Implement a function that meets the specification below. Use a
+try-except block.
+def sumDigits(s):
+"""Assumes s is a string
+Returns the[FORMULA]of the decimal digits[FORMULA]s
+For example, if s is 'a2b3c' it returns 5"""
+CHAPTER 7. EXCEPTIONS AND ASSERTIONS 103
+Let’s look at another example. Consider the code
+val =[FORMULA](input('Enter an integer: '))
+print('The square of the number you entered is', val**2)
+If the user obligingly types a string that can be converted to an integer, every-
+thing will be fine. But suppose the user types abc? Executing the line of code will
+cause the Python runtime system to raise a ValueError exception, and the print
+statement will never be reached.
+What the programmer should have written would look something like
+while True:
+val = input('Enter an integer: ')
+try:
+val =[FORMULA](val)
+print('The square of the number you entered is', val**2)
+break #to exit the while loop
+except ValueError:
+print(val, 'is not an integer')
+After entering the loop, the program will ask the user to enter an integer.
+Once the user has entered something, the program executes the try—except block.
+If neither of the first two statements[FORMULA]the try block causes a ValueError excep-
+tion to be raised, the break statement is executed and the while loop is exited.
+However, if executing the code[FORMULA]the try block raises a ValueError exception,
+control is immediately transferred to the code[FORMULA]the except block. Therefore, if
+the user enters a string that does not represent an integer, the program will ask
+the user to try again. No matter what text the user enters, it will not cause an un-
+handled exception.
+The downside of this change is that the program text has grown from two
+lines to eight. If there are many places where the user is asked to enter an integer,
+this can be problematical. Of course, this problem can be solved by introducing a
+function:
+def readInt():
+while True:
+val = input('Enter an integer: ')
+try:
+return([FORMULA](val)) #convert str to[FORMULA]before returning
+except ValueError:
+print(val, 'is not an integer')
+Better yet, this function can be generalized to ask for any type of input:
+104 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+def readVal(valType, requestMsg, errorMsg):
+while True:
+val = input(requestMsg + ' ')
+try:
+return(valType(val)) #convert str to valType before returning
+except ValueError:
+print(val, errorMsg)
+readVal([FORMULA], 'Enter an integer:', 'is not an integer')
+The function readVal is polymorphic, i.e., it works for arguments of many
+different types. Such functions are easy to write[FORMULA]Python, since types are first-
+class objects. We can now ask for an integer using the code
+val = readVal([FORMULA], 'Enter an integer:', 'is not an integer')
+Exceptions may seem unfriendly (after all, if not handled, an exception will
+cause the program to crash), but consider the alternative. What should the type
+conversion[FORMULA]do, for example, when asked to convert the string 'abc' to an ob-
+ject of type[FORMULA]? It could return an integer corresponding to the bits used to en-
+code the string, but this is unlikely to have any relation to the intent of the
+programmer. Alternatively, it could return the special value None. If it did that,
+the programmer would need to insert code to check whether the type conversion
+had returned None. A programmer who forgot that check would run the risk of
+getting some strange error during program execution.
+With exceptions, the programmer still needs to include code dealing with the
+exception. However, if the programmer forgets to include such code and the ex-
+ception is raised, the program will halt immediately. This is a good thing. It alerts
+the user of the program to the fact that something troublesome has happened.
+(And, as we discussed[FORMULA]Chapter 6, overt bugs are much better than covert
+bugs.) Moreover, it gives someone debugging the program a clear indication of
+where things went awry.
+If it is possible for a block of program code to raise more than one kind of
+exception, the reserved word except can be followed by a tuple of exceptions, e.g.,
+except (ValueError, TypeError):[FORMULA]which case the except block will be entered if any of the listed exceptions is
+raised within the try block.
+CHAPTER 7. EXCEPTIONS AND ASSERTIONS 105
+Alternatively, we can write a separate except block for each kind of exception,
+which allows the program to choose an action based upon which exception was
+raised. If the programmer writes
+except:
+the except block will be entered if any kind of exception is raised within the try
+block. These features are shown[FORMULA]Figure 7.1.
+
+## 7.2 Exceptions as a Control Flow Mechanism
+
+Don’t think of exceptions as purely for errors. They are a convenient flow-of-
+control mechanism that can be used to simplify programs.
+In many programming languages, the standard approach to dealing with er-
+rors is to have functions return a value (often something analogous to Python’s
+None) indicating that something has gone amiss. Each function invocation has to
+check whether that value has been returned. In Python, it is more usual to have a
+function raise an exception when it cannot produce a result that is consistent
+with the function’s specification.
+The Python raise statement forces a specified exception to occur. The form
+of a raise statement is
+raise exceptionName(arguments)
+The exceptionName is usually one of the built-[FORMULA]exceptions, e.g., ValueError.
+However, programmers can define new exceptions by creating a subclass (see
+Chapter 8) of the built-[FORMULA]class Exception. Different types of exceptions can have
+different types of arguments, but most of the time the argument is a single string,
+which is used to describe the reason the exception is being raised.
+Finger Exercise: Implement a function that satisfies the specification
+def findAnEven(L):
+"""Assumes L is a list of integers
+Returns the first even number[FORMULA]L
+Raises ValueError if L does not contain an even number"""
+106 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Consider the function definition[FORMULA]Figure 7.1.
+def getRatios(vect1, vect2):
+"""Assumes: vect1 and vect2 are equal length lists of numbers
+Returns: a list containing the meaningful values of
+vect1[i]/vect2[i]"""
+ratios = []
+for index[FORMULA]range(len(vect1)):
+try:
+ratios.append(vect1[index]/vect2[index])
+except ZeroDivisionError:
+ratios.append(float('nan')) #nan = Not a Number
+except:
+raise ValueError('getRatios called with bad arguments')
+return ratios
+Figure 7.1 Using exceptions for control flow
+There are two except blocks associated with the try block. If an exception is
+raised within the try block, Python first checks to see if it is a ZeroDivisionError.
+If so, it appends a special value, nan, of type float to ratios. (The value nan stands
+for “not a number.” There is no literal for it, but it can be denoted by converting
+the string 'nan' or the string 'NaN' to type float. When nan is used as an operand[FORMULA]an expression of type float, the value of that expression is also nan.) If the ex-
+ception is anything other than a ZeroDivisionError, the code executes the second
+except block, which raises a ValueError exception with an associated string.
+In principle, the second except block should never be entered, because the
+code invoking getRatios should respect the assumptions[FORMULA]the specification of
+getRatios. However, since checking these assumptions imposes only an insignifi-
+cant computational burden, it is probably worth practicing defensive program-
+ming and checking anyway.
+The following code illustrates how a program might use getRatios. The name
+msg[FORMULA]the line except ValueError as msg: is bound to the argument (a string[FORMULA]this case) associated with ValueError when it was raised.47 When the code
+try:
+print(getRatios([1.0,2.0,7.0,6.0], [1.0,2.0,0.0,3.0]))
+print(getRatios([], []))
+print(getRatios([1.0, 2.0], [3.0]))
+except ValueError as msg:
+print(msg)
+
+## 47 In Python 2 one writes except ValueError, msg rather than except ValueError as msg.
+
+CHAPTER 7. EXCEPTIONS AND ASSERTIONS 107
+is executed it prints
+[1.0, 1.0, nan, 2.0]
+[]
+getRatios called with bad arguments
+For comparison, Figure 7.2 contains an implementation of the same specifi-
+cation, but without using a try-except.
+def getRatios(vect1, vect2):
+"""Assumes: vect1 and vect2 are lists of equal length of numbers
+Returns: a list containing the meaningful values of
+vect1[i]/vect2[i]"""
+ratios = []
+if len(vect1) != len(vect2):
+raise ValueError('getRatios called with bad arguments')
+for index[FORMULA]range(len(vect1)):
+vect1Elem = vect1[index]
+vect2Elem = vect2[index]
+if (type(vect1Elem) not[FORMULA]([FORMULA], float))\
+or (type(vect2Elem) not[FORMULA]([FORMULA], float)):
+raise ValueError('getRatios called with bad arguments')
+if vect2Elem == 0.0:
+ratios.append(float('NaN')) #NaN = Not a Number
+else:
+ratios.append(vect1Elem/vect2Elem)
+return ratios
+Figure 7.2 Control flow without a try-except
+The code[FORMULA]Figure 7.2 is longer and more difficult to read than the code[FORMULA]Figure 7.1. It is also less efficient. (The code[FORMULA]Figure 7.2 could be slightly short-
+ened by eliminating the local variables vect1Elem and vect2Elem, but only at the
+cost of introducing yet more inefficiency by indexing into the lists repeatedly.)
+Let us look at one more example, Figure 7.3. The function getGrades either
+returns a value or raises an exception with which it has associated a value. It rais-
+es a ValueError exception if the call to open raises an IOError. It could have ignored
+the IOError and let the part of the program calling getGrades deal with it, but that
+would have provided less information to the calling code about what went
+wrong. The code that uses getGrades either uses the returned value to compute
+another value or handles the exception and prints an informative error message.
+108 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+def getGrades(fname):
+try:
+gradesFile = open(fname, 'r') #open file for reading
+except IOError:
+raise ValueError('getGrades could not open ' + fname)
+grades = []
+for line[FORMULA]gradesFile:
+try:
+grades.append(float(line))
+except:
+raise ValueError('Unable to convert line to float')
+return grades
+try:
+grades = getGrades('quiz1grades.txt')
+grades.sort()
+median = grades[len(grades)//2]
+print('Median grade is', median)
+except ValueError as errorMsg:
+print('Whoops.', errorMsg)
+Figure 7.3 Get grades
+
+## 7.3 Assertions
+
+The Python assert statement provides programmers with a simple way to con-
+firm that the state of a computation is as expected. An assert statement can take
+one of two forms:
+assert Boolean expression
+or
+assert Boolean expression, argument
+When an assert statement is encountered, the Boolean expression is evaluat-
+ed. If it evaluates to True, execution proceeds on its merry way. If it evaluates to
+False, an AssertionError exception is raised.
+Assertions are a useful defensive programming tool. They can be used to
+confirm that the arguments to a function are of appropriate types. They are also a
+useful debugging tool. The can be used, for example, to confirm that intermedi-
+ate values have the expected values or that a function returns an acceptable value.
+
+## 8 CLASSES AND OBJECT-ORIENTED PROGRAMMING
+
+We now turn our attention to our last major topic related to programming[FORMULA]Py-
+thon: using classes to organize programs around modules and data abstractions.
+Classes can be used[FORMULA]many different ways. In this book we emphasize using
+them[FORMULA]the context of object-oriented programming. The key to object-oriented
+programming is thinking about objects as collections of both data and the meth-
+ods that operate on that data.
+The ideas underlying object-oriented programming are more than forty
+years old, and have been widely accepted and practiced over the last twenty-five
+years or so. In the mid-1970s people began to write articles explaining the bene-
+fits of this approach to programming. About the same time, the programming
+languages SmallTalk (at Xerox PARC) and CLU (at MIT) provided linguistic
+support for the ideas. But it wasn’t until the arrival of C++ and Java that it really
+took off[FORMULA]practice.
+We have been implicitly relying on object-oriented programming throughout
+most of this book. Back[FORMULA]Section 2.1.1 we said “Objects are the core things that
+Python programs manipulate. Every object has a type that defines the kinds of
+things that programs can do with that object.” Since Chapter 2, we have relied
+upon built-[FORMULA]types such as list and dict and the methods associated with those
+types. But just as the designers of a programming language can build[FORMULA]only a
+small fraction of the useful functions, they can build[FORMULA]only a small fraction of
+the useful types. We have already looked at a mechanism that allows program-
+mers to define new functions; we now look at a mechanism that allows pro-
+grammers to define new types.
+
+## 8.1 Abstract Data Types and Classes
+
+The notion of an abstract data type is quite simple. An abstract data type is a set
+of objects and the operations on those objects. These are bound together so that
+one can pass an object from one part of a program to another, and[FORMULA]doing so
+provide access not only to the data attributes of the object but also to operations
+that make it easy to manipulate that data.
+110 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+The specifications of those operations define an interface between the ab-
+stract data type and the rest of the program. The interface defines the behavior of
+the operations—what they do, but not how they do it. The interface thus provides
+an abstraction barrier that isolates the rest of the program from the data struc-
+tures, algorithms, and code involved[FORMULA]providing a realization of the type ab-
+straction.
+Programming is about managing complexity[FORMULA]a way that facilitates change.
+There are two powerful mechanisms available for accomplishing this: decompo-
+sition and abstraction. Decomposition creates structure[FORMULA]a program, and ab-
+straction suppresses detail. The key is to suppress the appropriate details. This is
+where data abstraction hits the mark. One can create domain-specific types that
+provide a convenient abstraction. Ideally, these types capture concepts that will
+be relevant over the lifetime of a program. If one starts the programming process
+by devising types that will be relevant months and even decades later, one has a
+great leg up[FORMULA]maintaining that software.
+We have been using abstract data types (without calling them that) through-
+out this book. We have written programs using integers, lists, floats, strings, and
+dictionaries without giving any thought to how these types might be implement-
+ed. To paraphrase Molière’s Bourgeois Gentilhomme, “Par ma foi, il y a plus de
+cent pages que nous avons utilisé ADTs, sans que nous le sachions.”48
+In Python, one implements data abstractions using classes. Figure 8.1 con-
+tains a class definition that provides a straightforward implementation of a set-
+of-integers abstraction called IntSet.
+A class definition creates an object of type type and associates with that class
+object a set of objects of type instancemethod. For example, the expression
+IntSet.insert refers to the method insert defined[FORMULA]the definition of the class
+IntSet. And the code
+print(type(IntSet), type(IntSet.insert))
+will print
+<class 'type'> <class 'function'>
+Notice that the docstring (the comment enclosed[FORMULA]""") at the top of the
+class definition describes the abstraction provided by the class, not information
+about how the class is implemented. In contrast, the comments below the doc-
+string contain information about the implementation. That information is aimed
+at programmers who might want to modify the implementation or build sub-
+
+## 48 “Good heavens, for more than one hundred pages we have been using ADTs without knowing
+
+it.”
+CHAPTER 8. CLASSES AND OBJECT-ORIENTED PROGRAMMING 111
+classes (see Section 8.2) of the class, not at programmers who might want to use
+the abstraction.
+class IntSet(object):
+"""An intSet is a set of integers"""
+#Information about the implementation (not the abstraction)
+#Value of the set is represented by a list of ints, self.vals.
+#Each[FORMULA][FORMULA]the set occurs[FORMULA]self.vals exactly once.
+def __init__(self):
+"""Create an empty set of integers"""
+self.vals = []
+def insert(self, e):
+"""Assumes e is an integer and inserts e into self"""
+if e not[FORMULA]self.vals:
+self.vals.append(e)
+def member(self, e):
+"""Assumes e is an integer
+Returns True if e is[FORMULA]self, and False otherwise"""
+return e[FORMULA]self.vals
+def remove(self, e):
+"""Assumes e is an integer and removes e from self
+Raises ValueError if e is not[FORMULA]self"""
+try:
+self.vals.remove(e)
+except:
+raise ValueError(str(e) + ' not found')
+def getMembers(self):
+"""Returns a list containing the elements of self.
+Nothing can be assumed about the order of the elements"""
+return self.vals[:]
+def __str__(self):
+"""Returns a string representation of self"""
+self.vals.sort()
+result = ''
+for e[FORMULA]self.vals:
+result = result + str(e) + ','
+return '{' + result[:-1] + '}' #-1 omits trailing comma
+Figure 8.1 Class IntSet
+112 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+When a function definition occurs within a class definition, the defined
+function is called a method and is associated with the class. These methods are
+sometimes referred to as method attributes of the class. If this seems confusing at
+the moment, don’t worry about it. We will have lots more to say about this topic
+later[FORMULA]this chapter.
+Classes support two kinds of operations:
+• Instantiation is used to create instances of the class. For example, the state-
+ment s = IntSet() creates a new object of type IntSet. This object is called an
+instance of IntSet.
+• Attribute references use dot notation to access attributes associated with the
+class. For example, s.member refers to the method member associated with the[FORMULA]-
+stance s of type IntSet.
+Each class definition begins with the reserved word class followed by the
+name of the class and some information about how it relates to other classes. In
+this case, the first line indicates that IntSet is a subclass of object. For now, ignore
+what it means to be a subclass. We will get to that shortly.
+As we will see, Python has a number of special method names that start and
+end with two underscores. The first of these we will look at is __init__. Whenev-
+er a class is instantiated, a call is made to the __init__ method defined[FORMULA]that
+class. When the line of code
+s = IntSet()
+is executed, the interpreter will create a new instance of type IntSet, and then call
+IntSet.__init__ with the newly created object as the actual parameter that is
+bound to the formal parameter self. When invoked, IntSet.__init__ creates vals,
+an object of type list, which becomes part of the newly created instance of type
+IntSet. (The list is created using the by now familiar notation [], which is simply
+an abbreviation for list().) This list is called a data attribute of the instance of
+IntSet. Notice that each object of type IntSet will have a different vals list, as one
+would expect.
+As we have seen, methods associated with an instance of a class can be[FORMULA]-
+voked using dot notation. For example, the code,
+s = IntSet()
+s.insert(3)
+print(s.member(3))
+creates a new instance of IntSet, inserts the integer 3 into that IntSet, and then
+prints True.
+CHAPTER 8. CLASSES AND OBJECT-ORIENTED PROGRAMMING 113
+At first blush there appears to be something inconsistent here. It looks as if
+each method is being called with one argument too few. For example, member has
+two formal parameters, but we appear to be calling it with only one actual pa-
+rameter. This is an artifact of the dot notation. The object associated with the ex-
+pression preceding the dot is implicitly passed as the first parameter to the
+method. Throughout this book, we follow the convention of using self as the
+name of the formal parameter to which this actual parameter is bound. Python
+programmers observe this convention almost universally, and we strongly sug-
+gest that you use it as well.
+A class should not be confused with instances of that class, just as an object
+of type list should not be confused with the list type. Attributes can be associ-
+ated either with a class itself or with instances of a class:
+• Method attributes are defined[FORMULA]a class definition, for example IntSet.member
+is an attribute of the class IntSet. When the class is instantiated, e.g., by the
+statement s = IntSet(), instance attributes, e.g., s.member, are created. Keep[FORMULA]mind that IntSet.member and s.member are different objects. While s.member is
+initially bound to the member method defined[FORMULA]the class IntSet, that binding
+can be changed during the course of a computation. For example, you could
+(but shouldn’t!) write s.member = IntSet.insert.
+• When data attributes are associated with a class we call them class variables.
+When they are associated with an instance we call them instance variables. For
+example, vals is an instance variable because for each instance of class IntSet,
+vals is bound to a different list. So far, we haven’t seen a class variable. We will
+use one[FORMULA]Figure 8.3.
+Data abstraction achieves representation-independence. Think of the im-
+plementation of an abstract type as having several components:
+• Implementations of the methods of the type,
+• Data structures that together encode values of the type, and
+• Conventions about how the implementations of the methods are to use the
+data structures. A key convention is captured by the representation invariant.
+The representation invariant defines which values of the data attributes cor-
+respond to valid representations of class instances. The representation invariant
+for IntSet is that vals contains no duplicates. The implementation of __init__ is
+responsible for establishing the invariant (which holds on the empty list), and the
+other methods are responsible for maintaining that invariant. That is why insert
+appends e only if it is not already[FORMULA]self.vals.
+The implementation of remove exploits the assumption that the representa-
+tion invariant is satisfied when remove is entered. It calls list.remove only once,
+114 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+since the representation invariant guarantees that there is at most one occurrence
+of e[FORMULA]self.vals.
+The last method defined[FORMULA]the class, __str__, is another one of those special
+__ methods. When the print command is used, the __str__ function associated
+with the object to be printed is automatically invoked. For example, the code
+s = IntSet()
+s.insert(3)
+s.insert(4)
+print(s)
+will print
+{3,4}
+(If no __str__ method were defined, executing print(s) would cause some-
+thing like <__main__.IntSet object at 0x1663510> to be printed.) We could also
+print the value of s by writing print s.__str__() or even print IntSet.__str__(s),
+but using those forms is less convenient. The __str__ method of a class is also[FORMULA]-
+voked when a program converts an instance of that class to a string by calling str.
+All instances of user-defined classes are hashable, and therefore can be used
+as dictionary keys. If no __hash__ method is provided, the hash value of the ob-
+ject is derived from the function id (see Section 5.3). If no __eq__ method is pro-
+vided, all objects are considered unequal (except to themselves). If a user-defined
+__hash__ is provided, it should ensure that the hash value of an object is constant
+throughout the lifetime of that object.
+8.1.1 Designing Programs Using Abstract Data Types
+Abstract data types are a big deal. They lead to a different way of thinking about
+organizing large programs. When we think about the world, we rely on abstrac-
+tions. In the world of finance people talk about stocks and bonds. In the world of
+biology people talk about proteins and residues. When trying to understand con-
+cepts such as these, we mentally gather together some of the relevant data and
+features of these kinds of objects into one intellectual package. For example, we
+think of bonds as having an interest rate and a maturity date as data attributes.
+We also think of bonds as having operations such as “set price” and “calculate
+yield to maturity.” Abstract data types allow us to incorporate this kind of organ-
+ization into the design of programs.
+CHAPTER 8. CLASSES AND OBJECT-ORIENTED PROGRAMMING 115
+Data abstraction encourages program designers to focus on the centrality of
+data objects rather than functions. Thinking about a program more as a collec-
+tion of types than as a collection of functions leads to a profoundly different or-
+ganizing principle. Among other things, it encourages one to think about
+programming as a process of combining relatively large chunks, since data ab-
+stractions typically encompass more functionality than do individual functions.
+This,[FORMULA]turn, leads us to think of the essence of programming as a process not of
+writing individual lines of code, but of composing abstractions.
+The availability of reusable abstractions not only reduces development time,
+but also usually leads to more reliable programs, because mature software is usu-
+ally more reliable than new software. For many years, the only program libraries[FORMULA]common use were statistical or scientific. Today, however, there is a great
+range of available program libraries (especially for Python), often based on a rich
+set of data abstractions, as we shall see later[FORMULA]this book.
+8.1.2 Using Classes to Keep Track of Students and Faculty
+As an example use of classes, imagine that you are designing a program to help
+keep track of all the students and faculty at a university. It is certainly possible to
+write such a program without using data abstraction. Each student would have a
+family name, a given name, a home address, a year, some grades, etc. This could
+all be kept[FORMULA]some combination of lists and dictionaries. Keeping track of faculty
+and staff would require some similar data structures and some different data
+structures, e.g., data structures to keep track of things like salary history.
+Before rushing[FORMULA]to design a bunch of data structures, let’s think about some
+abstractions that might prove useful. Is there an abstraction that covers the
+common attributes of students, professors, and staff? Some would argue that they
+are all human. Figure 8.2 contains a class that incorporates some of the common
+attributes (name and birthday) of humans. It makes use of the standard Python
+library module datetime, which provides many convenient methods for creating
+and manipulating dates.
+116 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+import datetime
+class Person(object):
+def __init__(self, name):
+"""Create a person"""
+self.name = name
+try:
+lastBlank = name.rindex(' ')
+self.lastName = name[lastBlank+1:]
+except:
+self.lastName = name
+self.birthday = None
+def getName(self):
+"""Returns self's full name"""
+return self.name
+def getLastName(self):
+"""Returns self's last name"""
+return self.lastName
+def setBirthday(self, birthdate):
+"""Assumes birthdate is of type datetime.date
+Sets self's birthday to birthdate"""
+self.birthday = birthdate
+def getAge(self):
+"""Returns self's current age[FORMULA]days"""
+if self.birthday == None:
+raise ValueError
+return (datetime.date.today() - self.birthday).days
+def __lt__(self, other):
+"""Returns True if self precedes other[FORMULA]alphabetical
+order, and False otherwise. Comparison is based on last
+names, but if these are the same full names are
+compared."""
+if self.lastName == other.lastName:
+return self.name < other.name
+return self.lastName < other.lastName
+def __str__(self):
+"""Returns self's name"""
+return self.name
+Figure 8.2 Class Person
+CHAPTER 8. CLASSES AND OBJECT-ORIENTED PROGRAMMING 117
+The following code makes use of Person.
+me = Person('Michael Guttag')
+him = Person('Barack Hussein Obama')
+her = Person('Madonna')
+print(him.getLastName())
+him.setBirthday(datetime.date(1961, 8, 4))
+her.setBirthday(datetime.date(1958, 8, 16))
+print(him.getName(), 'is', him.getAge(), 'days old')
+Notice that whenever Person is instantiated an argument is supplied to the
+__init__ function. In general, when instantiating a class we need to look at the
+specification of the __init__ function for that class to know what arguments to
+supply and what properties those arguments should have.
+After the above code is executed, there will be three instances of class Person.
+One can then access information about these instances using the methods associ-
+ated with them. For example, him.getLastName() will return 'Obama'. The expres-
+sion him.lastName will also return 'Obama’; however, for reasons discussed later[FORMULA]this chapter, writing expressions that directly access instance variables is consid-
+ered poor form, and should be avoided. Similarly, there is no appropriate way for
+a user of the Person abstraction to extract a person’s birthday, despite the fact that
+the implementation contains an attribute with that value. (Of course, it would be
+easy to add a getBirthday method to the class.) There is, however, a way to extract
+information that depends upon the person’s birthday, as illustrated by the last
+print statement[FORMULA]the above code.
+Class Person defines yet another specially named method, __lt__. This
+method overloads the < operator. The method Person__lt__ gets called whenever
+the first argument to the < operator is of type Person. The __lt__ method[FORMULA]class
+Person is implemented using the binary < operator of type str. The expression
+self.name < other.name is shorthand for self.name.__lt__(other.name). Since
+self.name is of type str, this __lt__ method is the one associated with type str.
+In addition to providing the syntactic convenience of writing infix expres-
+sions that use <, this overloading provides automatic access to any polymorphic
+method defined using __lt__. The built-[FORMULA]method sort is one such method. So,
+for example, if pList is a list composed of elements of type Person, the call
+pList.sort() will sort that list using the __lt__ method defined[FORMULA]class Person.
+118 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+The code
+pList = [me, him, her]
+for p[FORMULA]pList:
+print(p)
+pList.sort()
+for p[FORMULA]pList:
+print(p)
+will first print
+Michael Guttag
+Barack Hussein Obama
+Madonna
+and then print
+Michael Guttag
+Madonna
+Barack Hussein Obama
+
+## 8.2 Inheritance
+
+Many types have properties[FORMULA]common with other types. For example, types list
+and str each have len functions that mean the same thing. Inheritance provides a
+convenient mechanism for building groups of related abstractions. It allows pro-
+grammers to create a type hierarchy[FORMULA]which each type inherits attributes from
+the types above it[FORMULA]the hierarchy.
+The class object is at the top of the hierarchy. This makes sense, since[FORMULA]Py-
+thon everything that[FORMULA]at run time is an object. Because Person inherits all of
+the properties of objects, programs can bind a variable to a Person, append a Per-
+son to a list, etc.
+The class MITPerson[FORMULA]Figure 8.3 inherits attributes from its parent class, Per-
+son, including all of the attributes that Person inherited from its parent class, ob-
+ject. In the jargon of object-oriented programming, MITPerson is a subclass of
+Person, and therefore inherits the attributes of its superclass. In addition to what
+it inherits, the subclass can:
+• Add new attributes. For example, the subclass MITPerson has added the class
+variable nextIdNum, the instance variable idNum, and the method getIdNum.
+• Override, i.e., replace, attributes of the superclass. For example, MITPerson
+has overridden __init__ and __lt__. When a method has been overridden, the
+version of the method that is executed is based on the object that is used to[FORMULA]-
+voke the method. If the type of the object is the subclass, the version defined[FORMULA]CHAPTER 8. CLASSES AND OBJECT-ORIENTED PROGRAMMING 119
+the subclass will be used. If the type of the object is the superclass, the version[FORMULA]the superclass will be used.
+The method MITPerson.__init__ first invokes Person.__init__ to initialize the
+inherited instance variable self.name. It then initializes self.idNum, an instance
+variable that instances of MITPerson have but instances of Person do not.
+The instance variable self.idNum is initialized using a class variable, nextId-
+Num, that belongs to the class MITPerson, rather than to instances of the class.
+When an instance of MITPerson is created, a new instance of nextIdNum is not cre-
+ated. This allows __init__ to ensure that each instance of MITPerson has a unique
+idNum.
+class MITPerson(Person):
+nextIdNum = 0 #identification number
+def __init__(self, name):
+Person.__init__(self, name)
+self.idNum = MITPerson.nextIdNum
+MITPerson.nextIdNum += 1
+def getIdNum(self):
+return self.idNum
+def __lt__(self, other):
+return self.idNum < other.idNum
+Figure 8.3 Class MITPerson
+Consider the code
+p1 = MITPerson('Barbara Beaver')
+print(str(p1) + '\'s id number is ' + str(p1.getIdNum()))
+The first line creates a new MITPerson. The second line is a bit more compli-
+cated. When it attempts to evaluate the expression str(p1), the runtime system
+first checks to see if there is an __str__ method associated with class MITPerson.
+Since there is not, it next checks to see if there is an __str__ method associated
+with the superclass, Person, of MITPerson. There is, so it uses that. When the
+runtime system attempts to evaluate the expression p1.getidNum(), it first checks
+to see if there is a getIdNum method associated with class MITPerson. There is, so it
+invokes that method and prints
+120 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Barbara Beaver's id number is 0
+(Recall that[FORMULA]a string, the character “\” is an escape character used to indicate
+that the next character should be treated[FORMULA]a special way. In the string
+'\'s id number is '
+the “\” indicates that the apostrophe is part of the string, not a delimiter termi-
+nating the string.)
+Now consider the code
+p1 = MITPerson('Mark Guttag')
+p2 = MITPerson('Billy Bob Beaver')
+p3 = MITPerson('Billy Bob Beaver')
+p4 = Person('Billy Bob Beaver')
+We have created four virtual people, three of whom are named Billy Bob Beaver.
+Two of the Billy Bobs are of type MITPerson, and one merely a Person. If we exe-
+cute the lines of code
+print('p1 < p2 =', p1 < p2)
+print('p3 < p2 =', p3 < p2)
+print('p4 < p1 =', p4 < p1)
+the interpreter will print
+p1 < p2 = True
+p3 < p2 = False
+p4 < p1 = True
+Since p1, p2, and p3 are all of type MITPerson, the interpreter will use the __lt__
+method defined[FORMULA]class MITPerson when evaluating the first two comparisons, so
+the ordering will be based on identification numbers. In the third comparison,
+the < operator is applied to operands of different types. Since the first argument
+of the expression is used to determine which __lt__ method to invoke, p4 < p1 is
+shorthand for p4.__lt__(p1). Therefore, the interpreter uses the __lt__ method as-
+sociated with the type of p4, Person, and the “people” will be ordered by name.
+What happens if we try
+Print('p1 < p4 =', p1 < p4)
+The runtime system will invoke the __lt__ operator associated with the type of
+p1, i.e., the one defined[FORMULA]class MITPerson. This will lead to the exception
+AttributeError: 'Person' object has no attribute 'idNum'
+because the object to which p4 is bound does not have an attribute idNum.
+CHAPTER 8. CLASSES AND OBJECT-ORIENTED PROGRAMMING 121
+8.2.1 Multiple Levels of Inheritance
+Figure 8.4 adds another couple of levels of inheritance to the class hierarchy.
+class Student(MITPerson):
+pass
+class UG(Student):
+def __init__(self, name, classYear):
+MITPerson.__init__(self, name)
+self.year = classYear
+def getClass(self):
+return self.year
+class Grad(Student):
+pass
+Figure 8.4 Two kinds of students
+Adding UG seems logical, because we want to associate a year of graduation
+(or perhaps anticipated graduation) with each undergraduate. But what is going
+on with the classes Student and Grad? By using the Python reserved word pass as
+the body, we indicate that the class has no attributes other than those inherited
+from its superclass. Why would one ever want to create a class with no new at-
+tributes?
+By introducing the class Grad, we gain the ability to create two different kinds
+of students and use their types to distinguish one kind of object from another.
+For example, the code
+p5 = Grad('Buzz Aldrin')
+p6 = UG('Billy Beaver', 1984)
+print(p5, 'is a graduate student is', type(p5) == Grad)
+print(p5, 'is an undergraduate student is', type(p5) == UG)
+will print
+Buzz Aldrin is a graduate student is True
+Buzz Aldrin is an undergraduate student is False
+The utility of the intermediate type Student is a bit subtler. Consider going
+back to class MITPerson and adding the method
+def isStudent(self):
+return isinstance(self, Student)
+122 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+The function isinstance is built into Python. The first argument of isin-
+stance can be any object, but the second argument must be an object of type type.
+The function returns True if and only if the first argument is an instance of the
+second argument. For example, the value of isinstance([1,2], list) is True.
+Returning to our example, the code
+print(p5, 'is a student is', p5.isStudent())
+print(p6, 'is a student is', p6.isStudent())
+print(p3, 'is a student is', p3.isStudent())
+prints
+Buzz Aldrin is a student is True
+Billy Beaver is a student is True
+Billy Bob Beaver is a student is False
+Notice that the meaning of isinstance(p6, Student) is quite different from
+the meaning of type(p6) == Student. The object to which p6 is bound is of type
+UG, not student, but since UG is a subclass of Student, the object to which p6 is
+bound is considered to be an instance of class Student (as well as an instance of
+MITPerson and Person).
+Since there are only two kinds of students, we could have implemented is-
+Student as,
+def isStudent(self):
+return type(self) == Grad or type(self) == UG
+However, if a new type of student were introduced at some later point it
+would be necessary to go back and edit the code implementing isStudent. By[FORMULA]-
+troducing the intermediate class Student and using isinstance we avoid this prob-
+lem. For example, if we were to add
+class TransferStudent(Student):
+def __init__(self, name, fromSchool):
+MITPerson.__init__(self, name)
+self.fromSchool = fromSchool
+def getOldSchool(self):
+return self.fromSchool
+no change needs to be made to isStudent.
+It is not unusual during the creation and later maintenance of a program to
+go back and add new classes or new attributes to old classes. Good programmers
+design their programs so as to minimize the amount of code that might need to
+be changed when that is done.
+CHAPTER 8. CLASSES AND OBJECT-ORIENTED PROGRAMMING 123
+8.2.2 The Substitution Principle
+When subclassing is used to define a type hierarchy, the subclasses should be
+thought of as extending the behavior of their superclasses. We do this by adding
+new attributes or overriding attributes inherited from a superclass. For example,
+TransferStudent extends Student by introducing a former school.
+Sometimes, the subclass overrides methods from the superclass, but this
+must be done with care. In particular, important behaviors of the supertype must
+be supported by each of its subtypes. If client code works correctly using an[FORMULA]-
+stance of the supertype, it should also work correctly when an instance of the
+subtype is substituted for the instance of the supertype. For example, it should be
+possible to write client code using the specification of Student and have it work
+correctly on a TransferStudent.49
+Conversely, there is no reason to expect that code written to work for Trans-
+ferStudent should work for arbitrary types of Student.
+
+## 8.3 Encapsulation and Information Hiding
+
+As long as we are dealing with students, it would be a shame not to make them
+suffer through taking classes and getting grades.
+Figure 8.5 contains a class that can be used to keep track of the grades of a
+collection of students. Instances of class Grades are implemented using a list and a
+dictionary. The list keeps track of the students[FORMULA]the class. The dictionary maps a
+student’s identification number to a list of grades.
+Notice that getGrades returns a copy of the list of grades associated with a
+student, and getStudents returns a copy of the list of students. The computational
+cost of copying the lists could have been avoided by simply returning the[FORMULA]-
+stance variables themselves. Doing so, however, is likely to lead to problems.
+Consider the code
+allStudents = course1.getStudents()
+allStudents.extend(course2.getStudents())
+If getStudents returned self.students, the second line of code would have the
+(probably unexpected) side effect of changing the set of students[FORMULA]course1.
+
+## 49 This substitution principle was clearly enunciated by Barbara Liskov and Jeannette Wing[FORMULA]their 1994 paper, “A behavioral notion of subtyping.”
+
+124 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+The instance variable isSorted is used to keep track of whether or not the list
+of students has been sorted since the last time a student was added to it. This al-
+lows the implementation of getStudents to avoid sorting an already sorted list.
+class Grades(object):
+def __init__(self):
+"""Create empty grade book"""
+self.students = []
+self.grades = {}
+self.isSorted = True
+def addStudent(self, student):
+"""Assumes: student is of type Student
+Add student to the grade book"""
+if student[FORMULA]self.students:
+raise ValueError('Duplicate student')
+self.students.append(student)
+self.grades[student.getIdNum()] = []
+self.isSorted = False
+def addGrade(self, student, grade):
+"""Assumes: grade is a float
+Add grade to the list of grades for student"""
+try:
+self.grades[student.getIdNum()].append(grade)
+except:
+raise ValueError('Student not[FORMULA]mapping')
+def getGrades(self, student):
+"""Return a list of grades for student"""
+try: #return copy of list of student's grades
+return self.grades[student.getIdNum()][:]
+except:
+raise ValueError('Student not[FORMULA]mapping')
+def getStudents(self):
+"""Return a sorted list of the students[FORMULA]the grade book"""
+if not self.isSorted:
+self.students.sort()
+self.isSorted = True
+return self.students[:] #return copy of list of students
+Figure 8.5 Class Grades
+CHAPTER 8. CLASSES AND OBJECT-ORIENTED PROGRAMMING 125
+Figure 8.6 contains a function that uses class Grades to produce a grade report
+for some students taking a course named sixHundred.
+def gradeReport(course):
+"""Assumes course is of type Grades"""
+report = ''
+for s[FORMULA]course.getStudents():
+tot = 0.0
+numGrades = 0
+for g[FORMULA]course.getGrades(s):
+tot += g
+numGrades += 1
+try:
+average = tot/numGrades
+report = report + '\n'\
++ str(s) + '\'s mean grade is ' + str(average)
+except ZeroDivisionError:
+report = report + '\n'\
++ str(s) + ' has no grades'
+return report
+ug1 = UG('Jane Doe', 2014)
+ug2 = UG('John Doe', 2015)
+ug3 = UG('David Henry', 2003)
+g1 = Grad('Billy Buckner')
+g2 = Grad('Bucky F. Dent')
+sixHundred = Grades()
+sixHundred.addStudent(ug1)
+sixHundred.addStudent(ug2)
+sixHundred.addStudent(g1)
+sixHundred.addStudent(g2)
+for s[FORMULA]sixHundred.getStudents():
+sixHundred.addGrade(s, 75)
+sixHundred.addGrade(g1, 25)
+sixHundred.addGrade(g2, 100)
+sixHundred.addStudent(ug3)
+print(gradeReport(sixHundred))
+Figure 8.6 Generating a grade report
+When run, the code[FORMULA]the figure prints
+Jane Doe's mean grade is 75.0
+John Doe's mean grade is 75.0
+David Henry has no grades
+Billy Buckner's mean grade is 50.0
+Bucky F. Dent's mean grade is 87.5
+126 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+There are two important concepts at the heart of object-oriented program-
+ming. The first is the idea of encapsulation. By this we mean the bundling to-
+gether of data attributes and the methods for operating on them. For example, if
+we write
+Rafael = MITPerson('Rafael Reif')
+we can use dot notation to access attributes such as Rafael’s name and identifica-
+tion number.
+The second important concept is information hiding. This is one of the keys
+to modularity. If those parts of the program that use a class (i.e., the clients of the
+class) rely only on the specifications of the methods[FORMULA]the class, a programmer
+implementing the class is free to change the implementation of the class (e.g., to
+improve efficiency) without worrying that the change will break code that uses
+the class.
+Some programming languages (Java and C++, for example) provide mecha-
+nisms for enforcing information hiding. Programmers can make the attributes of
+a class private, so that clients of the class can access the data only through the ob-
+ject's methods. Python 3 uses a naming convention to make attributes invisible
+outside the class. When the name of an attribute starts with __ but does not end
+with __, that attribute is not visible outside the class. Consider the class[FORMULA]Figure
+8.7.
+class infoHiding(object):
+def __init__(self):
+self.visible = 'Look at me'
+self.__alsoVisible__ = 'Look at me too'
+self.__invisible = 'Don\'t look at me directly'
+def printVisible(self):
+print(self.visible)
+def printInvisible(self):
+print(self.__invisible)
+def __printInvisible(self):
+print(self.__invisible)
+def __printInvisible__(self):
+print(self.__invisible)
+Figure 8.7 Information Hiding[FORMULA]Classes
+CHAPTER 8. CLASSES AND OBJECT-ORIENTED PROGRAMMING 127
+When we run the code
+test = infoHiding()
+print(test.visible)
+print(test.__alsoVisible__)
+print(test.__invisible)
+it prints
+Look at me
+Look at me too
+Error: 'infoHiding' object has no attribute '__invisible'
+The code
+test = infoHiding()
+test.printInvisible()
+test.__printInvisible__()
+test.__printInvisible()
+prints
+Don't look at me directly
+Don't look at me directly
+Error: 'infoHiding' object has no attribute '__printInvisible'
+And the code
+class subClass(infoHiding):
+def __init__(self):
+print('from subclass', self.__invisible)
+testSub = subClass()
+prints
+Error: 'subClass' object has no attribute '_subClass__invisible'
+Notice that when a subclass attempts to use a hidden attribute of its superclass an
+AttributeError occurs. This can make using information hiding[FORMULA]Python a bit
+cumbersome.
+Because it can be cumbersome, many Python programmers do not take ad-
+vantage of the __ mechanism for hiding attributes—as we don’t[FORMULA]this book. So,
+for example, a client of Person can write the expression Rafael.lastName rather
+than Rafael.getLastName().
+This is unfortunate because it allows the client code to rely upon something
+that is not part of the specification of Person, and is therefore subject to change. If
+the implementation of Person were changed, for example to extract the last name
+whenever it is requested rather than store it[FORMULA]an instance variable, then the cli-
+ent code would no longer work.
+128 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Not only does Python let programs read instance and class variables from
+outside the class definition, it also lets programs write these variables. So, for ex-
+ample, the code Rafael.birthday = '8/21/50' is perfectly legal. This would lead to
+a runtime type error, were Rafael.getAge invoked later[FORMULA]the computation. It is
+even possible to create instance variables from outside the class definition. For
+example, Python will not complain if the assignment statement
+me.age = Rafael.getIdNum()
+occurs outside the class definition.
+While this relatively weak static semantic checking is a flaw[FORMULA]Python, it is
+not a fatal flaw. A disciplined programmer can simply follow the sensible rule of
+not directly accessing data attributes from outside the class[FORMULA]which they are de-
+fined, as we do[FORMULA]this book.
+8.3.1 Generators
+A perceived risk of information hiding is that preventing client programs from
+directly accessing critical data structures leads to an unacceptable loss of efficien-
+cy. In the early days of data abstraction, many were concerned about the cost of
+introducing extraneous function/method calls. Modern compilation technology
+makes this concern moot. A more serious issue is that client programs will be
+forced to use inefficient algorithms.
+Consider the implementation of gradeReport[FORMULA]Figure 8.6. The invocation of
+course.getStudents creates and returns a list of size n, where n is the number of
+students. This is probably not a problem for a grade book for a single class, but
+imagine keeping track of the grades of 1.7 million high school students taking the
+SATs. Creating a new list of that size when the list already[FORMULA]is a significant
+inefficiency. One solution is to abandon the abstraction and allow gradeReport to
+directly access the instance variable course.students, but that would violate[FORMULA]-
+formation hiding. Fortunately, there is a better solution.
+The code[FORMULA]Figure 8.8, replaces the getStudents function[FORMULA]class Grades with
+a function that uses a kind of statement we have not yet used: a yield statement.
+Any function definition containing a yield statement is treated[FORMULA]a special
+way. The presence of yield tells the Python system that the function is a genera-
+tor. Generators are typically used[FORMULA]conjunction with for statements, as[FORMULA]for s[FORMULA]course.getStudents():[FORMULA]Figure 8.6.
+CHAPTER 8. CLASSES AND OBJECT-ORIENTED PROGRAMMING 129
+def getStudents(self):
+"""Return the students[FORMULA]the grade book one at a time[FORMULA]alphabetical order"""
+if not self.isSorted:
+self.students.sort()
+self.isSorted = True
+for s[FORMULA]self.students:
+yield s
+Figure 8.8 New version of getStudents
+At the start of the first iteration of a for loop that uses a generator, the gen-
+erator is invoked and runs until the first time a yield statement is executed, at
+which point it returns the value of the expression[FORMULA]the yield statement. On the
+next iteration, the generator resumes execution immediately following the yield,
+with all local variables bound to the objects to which they were bound when the
+yield statement was executed, and again runs until a yield statement is executed.
+It continues to do this until it runs out of code to execute or executes a return
+statement, at which point the loop is exited.50
+The version of getStudents[FORMULA]Figure 8.8 allows programmers to use a for
+loop to iterate over the students[FORMULA]objects of type Grades[FORMULA]the same way they
+can use a for loop to iterate over elements of built-[FORMULA]types such as list. For ex-
+ample, the code
+book = Grades()
+book.addStudent(Grad('Julie'))
+book.addStudent(Grad('Charlie'))
+for s[FORMULA]book.getStudents():
+print(s)
+prints
+Julie
+Charlie
+Thus the loop[FORMULA]Figure 8.6 that starts with
+for s[FORMULA]course.getStudents():
+does not have to be altered to take advantage of the version of class Grades that
+contains the new implementation of getStudents. (Of course, most code that de-
+pended upon getStudents returning a list would no longer work.) The same for
+
+## 50 This explanation of generators is a bit simplistic. To fully understand generators, you need to
+
+understand how built-[FORMULA]iterators are implemented[FORMULA]Python, which is not covered[FORMULA]this book.
+130 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+loop can iterate over the values provided by getStudents regardless of whether
+getStudents returns a list of values or generates one value at a time. Generating
+one value at a time will be more efficient, because a new list containing the stu-
+dents will not be created.
+
+## 8.4 Mortgages, an Extended Example
+
+A collapse[FORMULA]U.S. housing prices helped trigger a severe economic meltdown[FORMULA]the fall of 2008. One of the contributing factors was that many homeowners had
+taken on mortgages that ended up having unexpected consequences.51
+In the beginning, mortgages were relatively simple beasts. One borrowed
+money from a bank and made a fixed-size payment each month for the life of the
+mortgage, which typically ranged from fifteen to thirty years. At the end of that
+period, the bank had been paid back the initial loan (the principal) plus interest,
+and the homeowner owned the house “free and clear.”
+Towards the end of the twentieth century, mortgages started getting a lot
+more complicated. People could get lower interest rates by paying “points” to the
+lender at the time they took on the mortgage. A point is a cash payment of 1% of
+the value of the loan. People could take mortgages that were “interest-only” for a
+period of time. That is to say, for some number of months at the start of the loan
+the borrower paid only the accrued interest and none of the principal. Other
+loans involved multiple rates. Typically the initial rate (called a “teaser rate”) was
+low, and then it went up over time. Many of these loans were variable-rate—the
+rate to be paid after the initial period would vary depending upon some index
+intended to reflect the cost to the lender of borrowing on the wholesale credit
+market.52
+In principle, giving consumers a variety of options is a good thing. However,
+unscrupulous loan purveyors were not always careful to fully explain the possible
+long-term implications of the various options, and some borrowers made choices
+that proved to have dire consequences.
+Let’s build a program that examines the costs of three kinds of loans:
+• A fixed-rate mortgage with no points,
+• A fixed-rate mortgage with points, and
+
+## 51 In this context, it is worth recalling the etymology of the word mortgage. The American
+
+Heritage Dictionary of the English Language traces the word back to the old French words for dead
+(mort) and pledge (gage). (This derivation also explains why the “t”[FORMULA]the middle of mortgage is
+silent.)
+
+## 52 The London Interbank Offered Rate (LIBOR) is probably the most commonly used index.
+
+CHAPTER 8. CLASSES AND OBJECT-ORIENTED PROGRAMMING 131
+• A mortgage with an initial teaser rate followed by a higher rate for the dura-
+tion.
+The point of this exercise is to provide some experience[FORMULA]the incremental
+development of a set of related classes, not to make you an expert on mortgages.
+We will structure our code to include a Mortgage class, and subclasses corre-
+sponding to each of the three kinds of mortgages listed above. Figure 8.9 contains
+the abstract class Mortgage. This class contains methods that are shared by each of
+its subclasses, but it is not intended to be instantiated directly. That is, no objects
+of type Mortgage will be created.
+The function findPayment at the top of the figure computes the size of the
+fixed monthly payment needed to pay off the loan, including interest, by the end
+of its term. It does this using a well-known closed-form expression. This expres-
+sion is not hard to derive, but it is a lot easier to just look it up and more likely to
+be correct than one derived on the spot.
+Keep[FORMULA]mind that not everything you discover on the Web (or even[FORMULA]text-
+books) is correct. When your code incorporates a formula that you have looked
+up, make sure that:
+• You have taken the formula from a reputable source. We looked at multiple
+reputable sources, all of which contained equivalent formulas.
+• You fully understand the meaning of all the variables[FORMULA]the formula.
+• You test your implementation against examples taken from reputable sources.
+After implementing this function, we tested it by comparing our results to the
+results supplied by a calculator available on the Web.
+Looking at __init__, we see that all Mortgage instances will have instance variables
+corresponding to the initial loan amount, the monthly interest rate, the duration
+of the loan[FORMULA]months, a list of payments that have been made at the start of each
+month (the list starts with 0.0, since no payments have been made at the start of
+the first month), a list with the balance of the loan that is outstanding at the start
+of each month, the amount of money to be paid each month (initialized using the
+value returned by the function findPayment), and a description of the mortgage
+(which initially has a value of None). The __init__ operation of each subclass of
+Mortgage is expected to start by calling Mortgage.__init__, and then to initialize
+self.legend to an appropriate description of that subclass.
+132 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+def findPayment(loan, r, m):
+"""Assumes: loan and r are floats, m an[FORMULA]Returns the monthly payment for a mortgage of size
+loan at a monthly rate of r for m months"""
+return loan*((r*(1+r)**m)/((1+r)**m - 1))
+class Mortgage(object):
+"""Abstract class for building different kinds of mortgages"""
+def __init__(self, loan, annRate, months):
+"""Assumes: loan and annRate are floats, months an[FORMULA]Creates a new mortgage of size loan, duration months, and
+annual rate annRate"""
+self.loan = loan
+self.rate = annRate/12
+self.months = months
+self.paid = [0.0]
+self.outstanding = [loan]
+self.payment = findPayment(loan, self.rate, months)
+self.legend = None #description of mortgage
+def makePayment(self):
+"""Make a payment"""
+self.paid.append(self.payment)
+reduction = self.payment - self.outstanding[-1]*self.rate
+self.outstanding.append(self.outstanding[-1] - reduction)
+def getTotalPaid(self):
+"""Return the total amount paid so far"""
+return[FORMULA](self.paid)
+def __str__(self):
+return self.legend
+Figure 8.9 Mortgage base class
+The method makePayment is used to record mortgage payments. Part of each
+payment covers the amount of interest due on the outstanding loan balance, and
+the remainder of the payment is used to reduce the loan balance. That is why
+makePayment updates both self.paid and self.outstanding.
+The method getTotalPaid uses the built-[FORMULA]Python function[FORMULA], which re-
+turns the[FORMULA]of a sequence of numbers. If the sequence contains a non-number,
+an exception is raised.
+CHAPTER 8. CLASSES AND OBJECT-ORIENTED PROGRAMMING 133
+class Fixed(Mortgage):
+def __init__(self, loan, r, months):
+Mortgage.__init__(self, loan, r, months)
+self.legend = 'Fixed, ' + str(round(r*100, 2)) + '%'
+class FixedWithPts(Mortgage):
+def __init__(self, loan, r, months, pts):
+Mortgage.__init__(self, loan, r, months)
+self.pts = pts
+self.paid = [loan*(pts/100)]
+self.legend = 'Fixed, ' + str(round(r*100, 2)) + '%, '\
++ str(pts) + ' points'
+class TwoRate(Mortgage):
+def __init__(self, loan, r, months, teaserRate, teaserMonths):
+Mortgage.__init__(self, loan, teaserRate, months)
+self.teaserMonths = teaserMonths
+self.teaserRate = teaserRate
+self.nextRate = r/12
+self.legend = str(teaserRate*100)\
++ '% for ' + str(self.teaserMonths)\
++ ' months, then ' + str(round(r*100, 2)) + '%'
+def makePayment(self):
+if len(self.paid) == self.teaserMonths + 1:
+self.rate = self.nextRate
+self.payment = findPayment(self.outstanding[-1],
+self.rate,
+self.months - self.teaserMonths)
+Mortgage.makePayment(self)
+Figure 8.10 Mortgage subclasses
+Figure 8.10 contains classes implementing three types of mortgages. The
+classes Fixed and FixedWithPts override __init__ and inherit the other three
+methods from Mortgage. The class TwoRate treats a mortgage as the concatenation
+of two loans, each at a different interest rate. (Since self.paid is initialized to a
+list with one element, it contains one more element than the number of payments
+that have been made. That’s why the method makePayment compares
+len(self.paid) to self.teaserMonths + 1.)
+Figure 8.11 contains a function that computes and prints the total cost of
+each kind of mortgage for a sample set of parameters. It begins by creating one
+mortgage of each kind. It then makes a monthly payment on each for a given
+number of years. Finally, it prints the total amount of the payments made for
+each loan.
+134 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Notice that we used keyword rather than positional arguments[FORMULA]the invoca-
+tion of compareMortgages. We did this because compareMortgages has a large num-
+ber of formal parameters and using keyword arguments makes it easier to ensure
+that we are supplying the intended actual values to each of the formals.
+def compareMortgages(amt, years, fixedRate, pts, ptsRate,
+varRate1, varRate2, varMonths):
+totMonths = years*12
+fixed1 = Fixed(amt, fixedRate, totMonths)
+fixed2 = FixedWithPts(amt, ptsRate, totMonths, pts)
+twoRate = TwoRate(amt, varRate2, totMonths, varRate1, varMonths)
+morts = [fixed1, fixed2, twoRate]
+for m[FORMULA]range(totMonths):
+for mort[FORMULA]morts:
+mort.makePayment()
+for m[FORMULA]morts:
+print(m)
+print(' Total payments = $' + str([FORMULA](m.getTotalPaid())))
+compareMortgages(amt=200000, years=30, fixedRate=0.07,
+pts = 3.25, ptsRate=0.05, varRate1=0.045,
+varRate2=0.095, varMonths=48)
+Figure 8.11 Evaluate mortgages
+When the code[FORMULA]Figure 8.11 is run, it prints
+Fixed, 7.0%
+Total payments = $479017
+Fixed, 5.0%, 3.25 points
+Total payments = $393011
+4.5% for 48 months, then 9.5%
+Total payments = $551444
+At first glance, the results look pretty conclusive. The variable-rate loan is a
+bad idea (for the borrower, not the lender) and the fixed-rate loan with points
+costs the least. It’s important to note, however, that total cost is not the only met-
+ric by which mortgages should be judged. For example, a borrower who expects
+to have a higher income[FORMULA]the future may be willing to pay more[FORMULA]the later
+years to lessen the burden of payments[FORMULA]the beginning.
+This suggests that rather than looking at a single number, we should look at
+payments over time. This[FORMULA]turn suggests that our program should be producing
+plots designed to show how the mortgage behaves over time. We will do that[FORMULA]Section 11.2.
+
+## 9 A SIMPLISTIC INTRODUCTION TO ALGORITHMIC
+
+COMPLEXITY
+The most important thing to think about when designing and implementing a
+program is that it should produce results that can be relied upon. We want our
+bank balances to be calculated correctly. We want the fuel injectors[FORMULA]our auto-
+mobiles to inject appropriate amounts of fuel. We would prefer that neither air-
+planes nor operating systems crash.
+Sometimes performance is an important aspect of correctness. This is most
+obvious for programs that need to run[FORMULA]real time. A program that warns air-
+planes of potential obstructions needs to issue the warning before the obstruc-
+tions are encountered. Performance can also affect the utility of many non-real-
+time programs. The number of transactions completed per minute is an im-
+portant metric when evaluating the utility of database systems. Users care about
+the time required to start an application on their phone. Biologists care about
+how long their phylogenetic inference calculations take.
+Writing efficient programs is not easy. The most straightforward solution is
+often not the most efficient. Computationally efficient algorithms often employ
+subtle tricks that can make them difficult to understand. Consequently, pro-
+grammers often increase the conceptual complexity of a program[FORMULA]an effort to
+reduce its computational complexity. To do this[FORMULA]a sensible way, we need to un-
+derstand how to go about estimating the computational complexity of a program.
+That is the topic of this chapter.
+
+## 9.1 Thinking About Computational Complexity
+
+How should one go about answering the question “How long will the following
+function take to run?”
+def f(i):
+"""Assumes i is an[FORMULA]and i >= 0"""
+answer = 1
+while i >= 1:
+answer *= i
+i -= 1
+return answer
+136 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+We could run the program on some input and time it. But that wouldn’t be par-
+ticularly informative because the result would depend upon
+• the speed of the computer on which it is run,
+• the efficiency of the Python implementation on that machine, and
+• the value of the input.
+We get around the first two issues by using a more abstract measure of time.
+Instead of measuring time[FORMULA]milliseconds, we measure time[FORMULA]terms of the
+number of basic steps executed by the program.
+For simplicity, we will use a random access machine as our model of compu-
+tation. In a random access machine, steps are executed sequentially, one at a
+time.53 A step is an operation that takes a fixed amount of time, such as binding a
+variable to an object, making a comparison, executing an arithmetic operation,
+or accessing an object[FORMULA]memory.
+Now that we have a more abstract way to think about the meaning of time,
+we turn to the question of dependence on the value of the input. We deal with
+that by moving away from expressing time complexity as a single number and
+instead relating it to the sizes of the inputs. This allows us to compare the effi-
+ciency of two algorithms by talking about how the running time of each grows
+with respect to the sizes of the inputs.
+Of course, the actual running time of an algorithm depends not only upon
+the sizes of the inputs but also upon their values. Consider, for example, the line-
+ar search algorithm implemented by
+def linearSearch(L, x):
+for e[FORMULA]L:
+if e == x:
+return True
+return False
+Suppose that L is a list containing a million elements, and consider the call
+linearSearch(L, 3). If the first element[FORMULA]L is 3, linearSearch will return True al-
+most immediately. On the other hand, if 3 is not[FORMULA]L, linearSearch will have to
+examine all one million elements before returning False.
+In general, there are three broad cases to think about:
+• The best-case running time is the running time of the algorithm when the[FORMULA]-
+puts are as favorable as possible. I.e., the best-case running time is the mini-
+
+## 53 A more accurate model for today’s computers might be a parallel random access machine.
+
+However, that adds considerable complexity to the algorithmic analysis, and often doesn’t make an
+important qualitative difference[FORMULA]the answer.
+CHAPTER 9. A SIMPLISTIC INTRODUCTION TO ALGORITHMIC COMPLEXITY 137
+mum running time over all the possible inputs of a given size. For
+linearSearch, the best-case running time is independent of the size of L.
+• Similarly, the worst-case running time is the maximum running time over all
+the possible inputs of a given size. For linearSearch, the worst-case running
+time is linear[FORMULA]the size of L.
+• By analogy with the definitions of the best-case and worst-case running time,
+the average-case (also called expected-case) running time is the average run-
+ning time over all possible inputs of a given size. Alternatively, if one has some
+a priori information about the distribution of input values (e.g., that 90% of
+the time x is[FORMULA]L), one can take that into account.
+People usually focus on the worst case. All engineers share a common article
+of faith, Murphy’s Law: If something can go wrong, it will go wrong. The worst-
+case provides an upper bound on the running time. This is critical[FORMULA]situations
+where there is a time constraint on how long a computation can take. It is not
+good enough to know that “most of the time” the air traffic control system warns
+of impending collisions before they occur.
+Let’s look at the worst-case running time of an iterative implementation of
+the factorial function:
+def fact(n):
+"""Assumes n is a natural number
+Returns n!"""
+answer = 1
+while n > 1:
+answer *= n
+n -= 1
+return answer
+The number of steps required to run this program is something like 2 (1 for
+the initial assignment statement and 1 for the return) + 5n (counting 1 step for
+the test[FORMULA]the while, 2 steps for the first assignment statement[FORMULA]the while loop,
+and 2 steps for the second assignment statement[FORMULA]the loop). So, for example, if n
+is 1000, the function will execute roughly 5002 steps.
+It should be immediately obvious that as n gets large, worrying about the dif-
+ference between 5n and 5n+2 is kind of silly. For this reason, we typically ignore
+additive constants when reasoning about running time. Multiplicative constants
+are more problematical. Should we care whether the computation takes 1000
+steps or 5000 steps? Multiplicative factors can be important. Whether a search
+engine takes a half second or 2.5 seconds to service a query can be the difference
+between whether people use that search engine or go to a competitor.
+138 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+On the other hand, when one is comparing two different algorithms, it is of-
+ten the case that even multiplicative constants are irrelevant. Recall that[FORMULA]Chap-
+ter 3 we looked at two algorithms, exhaustive enumeration and bisection search,
+for finding an approximation to the square root of a floating point number.
+Functions based on these algorithms are shown[FORMULA]Figure 9.1 and Figure 9.2.
+def squareRootExhaustive(x, epsilon):
+"""Assumes x and epsilon are positive floats & epsilon < 1
+Returns a y such that y*y is within epsilon of x"""
+step = epsilon**2
+ans = 0.0
+while abs(ans**2 - x) >= epsilon and ans*ans <= x:
+ans += step
+if ans*ans > x:
+raise ValueError
+return ans
+Figure 9.1 Using exhaustive enumeration to approximate square root
+def squareRootBi(x, epsilon):
+"""Assumes x and epsilon are positive floats & epsilon < 1
+Returns a y such that y*y is within epsilon of x"""
+low = 0.0
+high = max(1.0, x)
+ans = (high + low)/2.0
+while abs(ans**2 - x) >= epsilon:
+if ans**2 < x:
+low = ans
+else:
+high = ans
+ans = (high + low)/2.0
+return ans
+Figure 9.2 Using bisection search to approximate square root
+We saw that exhaustive enumeration was so slow as to be impractical for
+many combinations of x and epsilon. For example, evaluating squareRootExhaus-
+tive(100, 0.0001) requires roughly one billion iterations of the while loop. In
+contrast, evaluating squareRootBi(100, 0.0001) takes roughly twenty iterations of
+a slightly more complex while loop. When the difference[FORMULA]the number of itera-
+tions is this large, it doesn’t really matter how many instructions are[FORMULA]the loop.
+I.e., the multiplicative constants are irrelevant.
+CHAPTER 9. A SIMPLISTIC INTRODUCTION TO ALGORITHMIC COMPLEXITY 139
+
+## 9.2 Asymptotic Notation
+
+We use something called asymptotic notation to provide a formal way to talk
+about the relationship between the running time of an algorithm and the size of
+its inputs. The underlying motivation is that almost any algorithm is sufficiently
+efficient when run on small inputs. What we typically need to worry about is the
+efficiency of the algorithm when run on very large inputs. As a proxy for “very
+large,” asymptotic notation describes the complexity of an algorithm as the size
+of its inputs approaches infinity.
+Consider, for example, the code[FORMULA]Figure 9.3.
+def f(x):
+"""Assume x is an[FORMULA]> 0"""
+ans = 0
+#Loop that takes constant time
+for i[FORMULA]range(1000):
+ans += 1
+print('Number of additions so far', ans)
+#Loop that takes time x
+for i[FORMULA]range(x):
+ans += 1
+print('Number of additions so far', ans)
+#Nested loops take time x**2
+for i[FORMULA]range(x):
+for j[FORMULA]range(x):
+ans += 1
+ans += 1
+print('Number of additions so far', ans)
+return ans
+Figure 9.3 Asymptotic complexity
+If one assumes that each line of code takes one unit of time to execute, the
+running time of this function can be described as 1000 + x + 2x2. The constant
+1000 corresponds to the number of times the first loop is executed. The term x
+corresponds to the number of times the second loop is executed. Finally, the term
+2x2 corresponds to the time spent executing the two statements[FORMULA]the nested for
+loop. Consequently, the call f(10) will print
+140 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Number of additions so far 1000
+Number of additions so far 1010
+Number of additions so far 1210
+and the call f(1000) will print
+Number of additions so far 1000
+Number of additions so far 2000
+Number of additions so far 2002000
+For small values of x the constant term dominates. If x is 10, over 80% of the
+steps are accounted for by the first loop. On the other hand, if x is 1000, each of
+the first two loops accounts for only about 0.05% of the steps. When x is
+1,000,000, the first loop takes about 0.00000005% of the total time and the se-
+cond loop about 0.00005%. A full 2,000,000,000,000 of the 2,000,001,001,000
+steps are[FORMULA]the body of the inner for loop.
+Clearly, we can get a meaningful notion of how long this code will take to
+run on very large inputs by considering only the inner loop, i.e., the quadratic
+component. Should we care about the fact that this loop takes 2x2 steps rather
+than x2 steps? If your computer executes roughly 100 million steps per second,
+evaluating f will take about 5.5 hours. If we could reduce the complexity to x2
+steps, it would take about 2.25 hours. In either case, the moral is the same: we
+should probably look for a more efficient algorithm.
+This kind of analysis leads us to use the following rules of thumb[FORMULA]describ-
+ing the asymptotic complexity of an algorithm:
+• If the running time is the[FORMULA]of multiple terms, keep the one with the largest
+growth rate, and drop the others.
+• If the remaining term is a product, drop any constants.
+The most commonly used asymptotic notation is called “Big O” notation.54
+Big O notation is used to give an upper bound on the asymptotic growth (often
+called the order of growth) of a function. For example, the formula f(x) ∈ O(x2)
+means that the function f grows no faster than the quadratic polynomial x2,[FORMULA]an
+asymptotic sense.
+We, like many computer scientists, will often abuse Big O notation by mak-
+ing statements like, “the complexity of f(x) is O(x2).” By this we mean that[FORMULA]the
+worst case f will take O(x2) steps to run. The difference between a function being
+“[FORMULA]O(x2)” and “being O(x2)” is subtle but important. Saying that f(x) ∈ O(x2) does
+
+## 54 The phrase “Big O” was introduced[FORMULA]this context by the computer scientist Donald Knuth[FORMULA]the 1970s. He chose the Greek letter Omicron because number theorists had used that letter since
+
+the late 19th century to denote a related concept.
+CHAPTER 9. A SIMPLISTIC INTRODUCTION TO ALGORITHMIC COMPLEXITY 141
+not preclude the worst-case running time of f from being considerably less than
+O(x2).
+When we say that f(x) is O(x2), we are implying that x2 is both an upper and a
+lower bound on the asymptotic worst-case running time. This is called a tight
+bound.55
+
+## 9.3 Some Important Complexity Classes
+
+Some of the most common instances of Big O are listed below. In each case, n is a
+measure of the size of the inputs to the function.
+• O(1) denotes constant running time.
+• O([FORMULA]n) denotes logarithmic running time.
+• O(n) denotes linear running time.
+• O(n[FORMULA]n) denotes[FORMULA]-linear running time.
+• O(nk) denotes polynomial running time. Notice that k is a constant.
+• O(cn) denotes exponential running time. Here a constant is being raised to a
+power based on the size of the input.
+9.3.1 Constant Complexity
+This indicates that the asymptotic complexity is independent of the size of the
+inputs. There are very few interesting programs[FORMULA]this class, but all programs
+have pieces (for example finding out the length of a Python list or multiplying
+two floating point numbers) that fit into this class. Constant running time does
+not imply that there are no loops or recursive calls[FORMULA]the code, but it does imply
+that the number of iterations or recursive calls is independent of the size of the
+inputs.
+9.3.2 Logarithmic Complexity
+Such functions have a complexity that grows as the[FORMULA]of at least one of the[FORMULA]-
+puts. Binary search, for example, is logarithmic[FORMULA]the length of the list being
+searched. (We will look at binary search and analyze its complexity[FORMULA]Chapter
+10.) By the way, we don’t care about the base of the[FORMULA], since the difference be-
+tween using one base and another is merely a constant multiplicative factor. For
+
+## 55 The more pedantic members of the computer science community use Big Theta, Θ, rather than
+
+Big O for this.
+142 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+example, O([FORMULA]2(x)) = O([FORMULA]2(10)*[FORMULA]10(x)). There are lots of interesting func-
+tions with logarithmic complexity. Consider
+def intToStr(i):
+"""Assumes i is a nonnegative[FORMULA]Returns a decimal string representation of i"""
+digits = '0123456789'
+if i == 0:
+return '0'
+result = ''
+while i > 0:
+result = digits[i%10] + result
+i = i//10
+return result
+Since there are no function or method calls[FORMULA]this code, we know that we on-
+ly have to look at the loops to determine the complexity class. There is only one
+loop, so the only thing that we need to do is characterize the number of itera-
+tions. That boils down to the number of times we can use integer division to di-
+vide i by 10 before getting a result of 0. So, the complexity of intToStr is O([FORMULA](i)).
+What about the complexity of
+def addDigits(n):
+"""Assumes n is a nonnegative[FORMULA]Returns the[FORMULA]of the digits[FORMULA]n"""
+stringRep = intToStr(n)
+val = 0
+for c[FORMULA]stringRep:
+val +=[FORMULA](c)
+return val
+The complexity of converting n to a string using intToStr is O([FORMULA](n)), and
+intToStr returns a string of length O([FORMULA](n)). The for loop will be executed
+O(len(stringRep)) times, i.e., O([FORMULA](n)) times. Putting it all together, and assum-
+ing that a character representing a digit can be converted to an integer[FORMULA]con-
+stant time, the program will run[FORMULA]time proportional to O([FORMULA](n)) + O([FORMULA](n)),
+which makes it O([FORMULA](n)).
+9.3.3 Linear Complexity
+Many algorithms that deal with lists or other kinds of sequences are linear be-
+cause they touch each element of the sequence a constant (greater than 0) num-
+ber of times.
+CHAPTER 9. A SIMPLISTIC INTRODUCTION TO ALGORITHMIC COMPLEXITY 143
+Consider, for example,
+def addDigits(s):
+"""Assumes s is a str each character of which is a
+decimal digit.
+Returns an[FORMULA]that is the[FORMULA]of the digits[FORMULA]s"""
+val = 0
+for c[FORMULA]s:
+val +=[FORMULA](c)
+return val
+This function is linear[FORMULA]the length of s, i.e., O(len(s))—again assuming that a
+character representing a digit can be converted to an integer[FORMULA]constant time.
+Of course, a program does not need to have a loop to have linear complexity.
+Consider
+def factorial(x):
+"""Assumes that x is a positive[FORMULA]Returns x!"""
+if x == 1:
+return 1
+else:
+return x*factorial(x-1)
+There are no loops[FORMULA]this code, so[FORMULA]order to analyze the complexity we
+need to figure out how many recursive calls get made. The series of calls is simply
+factorial(x), factorial(x-1), factorial(x-2), ... , factorial(1)
+The length of this series, and thus the complexity of the function, is O(x).
+Thus far[FORMULA]this chapter we have looked only at the time complexity of our
+code. This is fine for algorithms that use a constant amount of space, but this im-
+plementation of factorial does not have that property. As we discussed[FORMULA]Chap-
+ter 4, each recursive call of factorial causes a new stack frame to be allocated,
+and that frame continues to occupy memory until the call returns. At the maxi-
+mum depth of recursion, this code will have allocated x stack frames, so the space
+complexity is also O(x).
+The impact of space complexity is harder to appreciate than the impact of
+time complexity. Whether a program takes one minute or two minutes to com-
+plete is quite visible to its user, but whether it uses one megabyte or two mega-
+bytes of memory is largely invisible to users. This is why people typically give
+more attention to time complexity than to space complexity. The exception oc-
+curs when a program needs more space than is available[FORMULA]the fast memory of
+the machine on which it is run.
+144 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+9.3.4 Log-Linear Complexity
+This is slightly more complicated than the complexity classes we have looked at
+thus far. It involves the product of two terms, each of which depends upon the
+size of the inputs. It is an important class, because many practical algorithms are[FORMULA]-linear. The most commonly used[FORMULA]-linear algorithm is probably merge sort,
+which is O(n[FORMULA](n)), where n is the length of the list being sorted. We will look at
+that algorithm and analyze its complexity[FORMULA]Chapter 10.
+9.3.5 Polynomial Complexity
+The most commonly used polynomial algorithms are quadratic, i.e., their com-
+plexity grows as the square of the size of their input. Consider, for example, the
+function[FORMULA]Figure 9.4, which implements a subset test.
+def isSubset(L1, L2):
+"""Assumes L1 and L2 are lists.
+Returns True if each element[FORMULA]L1 is also[FORMULA]L2
+and False otherwise."""
+for e1[FORMULA]L1:
+matched = False
+for e2[FORMULA]L2:
+if e1 == e2:
+matched = True
+break
+if not matched:
+return False
+return True
+Figure 9.4 Implementation of subset test
+Each time the inner loop is reached it is executed O(len(L2) times. The func-
+tion isSubset will execute the outer loop O(len(L1)) times, so the inner loop will
+be reached O(len(L1)) times. Therefore, the complexity of the function isSubset
+is O(len(L1)*len(L2)).
+Now consider the function intersect[FORMULA]Figure 9.5. The running time for the
+part building the list that might contain duplicates is clearly O(len(L1)*len(L2)).
+At first glance, it appears that the part of the code that builds the duplicate-free
+list is linear[FORMULA]the length of tmp, but it is not. The test e not[FORMULA]result potentially
+involves looking at each element[FORMULA]result, and is therefore O(len(result)); conse-
+quently the second part of the implementation is O(len(tmp)*len(result)). How-
+ever, since the lengths of result and tmp are bounded by the length of the smaller
+CHAPTER 9. A SIMPLISTIC INTRODUCTION TO ALGORITHMIC COMPLEXITY 145
+of L1 and L2, and since we ignore additive terms, the complexity of intersect is
+O(len(L1)*len(L2)).
+def intersect(L1, L2):
+"""Assumes: L1 and L2 are lists
+Returns a list without duplicates that is the intersection of
+L1 and L2"""
+#Build a list containing common elements
+tmp = []
+for e1[FORMULA]L1:
+for e2[FORMULA]L2:
+if e1 == e2:
+tmp.append(e1)
+break
+#Build a list without duplicates
+result = []
+for e[FORMULA]tmp:
+if e not[FORMULA]result:
+result.append(e)
+return result
+Figure 9.5 Implementation of list intersection
+The running time for the part building the list that might contain duplicates
+is clearly O(len(L1)*len(L2)). At first glance, it appears that the part of the code
+that builds the duplicate-free list is linear[FORMULA]the length of tmp, but it is not. The
+test e not[FORMULA]result potentially involves looking at each element[FORMULA]result, and is
+therefore O(len(result)); consequently the second part of the implementation is
+O(len(tmp)*len(result)). However, since the lengths of result and tmp are bound-
+ed by the length of the smaller of L1 and L2, and since we ignore additive terms,
+the complexity of intersect is O(len(L1)*len(L2)).
+9.3.6 Exponential Complexity
+As we will see later[FORMULA]this book, many important problems are inherently expo-
+nential, i.e., solving them completely can require time that is exponential[FORMULA]the
+size of the input. This is unfortunate, since it rarely pays to write a program that
+has a reasonably high probability of taking exponential time to run. Consider, for
+example, the code[FORMULA]Figure 9.6.
+146 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+def getBinaryRep(n, numDigits):
+"""Assumes n and numDigits are non-negative ints
+Returns a str of length numDigits that is a binary
+representation of n"""
+result = ''
+while n > 0:
+result = str(n%2) + result
+n = n//2
+if len(result) > numDigits:
+raise ValueError('not enough digits')
+for i[FORMULA]range(numDigits - len(result)):
+result = '0' + result
+return result
+def genPowerset(L):
+"""Assumes L is a list
+Returns a list of lists that contains all possible
+combinations of the elements of L. E.g., if
+L is [1, 2] it will return a list with elements
+[], [1], [2], and [1,2]."""
+powerset = []
+for i[FORMULA]range(0, 2**len(L)):
+binStr = getBinaryRep(i, len(L))
+subset = []
+for j[FORMULA]range(len(L)):
+if binStr[j] == '1':
+subset.append(L[j])
+powerset.append(subset)
+return powerset
+Figure 9.6 Generating the power set
+The function genPowerset(L) returns a list of lists that contains all possible
+combinations of the elements of L. For example, if L is ['x', 'y'], the powerset of
+L will be a list containing the lists [], ['x'], ['y'], and ['x', 'y'].
+The algorithm is a bit subtle. Consider a list of n elements. We can represent
+any combination of elements by a string of n 0’s and 1’s, where a 1 represents the
+presence of an element and a 0 its absence. The combination containing no items
+is represented by a string of all 0’s, the combination containing all of the items is
+represented by a string of all 1’s, the combination containing only the first and
+last elements is represented by 100…001, etc.
+CHAPTER 9. A SIMPLISTIC INTRODUCTION TO ALGORITHMIC COMPLEXITY 147
+Generating all sublists of a list L of length n can be done as follows:
+• Generate all n-bit binary numbers. These are the numbers from 0 to 2n.
+• For each of these 2n +1 binary numbers, b, generate a list by selecting those
+elements of L that have an index corresponding to a 1[FORMULA]b. For example, if L is
+['x', 'y'] and b is 01, generate the list ['y'].
+Try running genPowerset on a list containing the first ten letters of the alpha-
+bet. It will finish quite quickly and produce a list with 1024 elements. Next, try
+running genPowerset on the first twenty letters of the alphabet. It will take more
+than a bit of time to run, and return a list with about a million elements. If you
+try running genPowerset on all twenty-six letters, you will probably get tired of
+waiting for it to complete, unless your computer runs out of memory trying to
+build a list with tens of millions of elements. Don’t even think about trying to run
+genPowerset on a list containing all uppercase and lowercase letters. Step 1 of the
+algorithm generates O(2len(L)) binary numbers, so the algorithm is exponential[FORMULA]len(L).
+Does this mean that we cannot use computation to tackle exponentially hard
+problems? Absolutely not. It means that we have to find algorithms that provide
+approximate solutions to these problems or that find perfect solutions on some
+instances of the problem. But that is a subject for later chapters.
+9.3.7 Comparisons of Complexity Classes
+The plots[FORMULA]this section are intended to convey an impression of the implications
+of an algorithm being[FORMULA]one or another of these complexity classes.
+The plot on the left[FORMULA]Figure 9.7 compares the growth of a constant-time al-
+gorithm to that of a logarithmic algorithm. Note that the size of the input has to
+reach about a million for the two of them to cross, even for the very small con-
+stant of twenty. When the size of the input is five million, the time required by a
+logarithmic algorithm is still quite small. The moral is that logarithmic algo-
+rithms are almost as good as constant-time ones.
+The plot on the right of Figure 9.7 illustrates the dramatic difference be-
+tween logarithmic algorithms and linear algorithms. Notice that the x-axis only
+goes as high as 1000. While we needed to look at large inputs to appreciate the
+difference between constant-time and logarithmic-time algorithms, the differ-
+ence between logarithmic-time and linear-time algorithms is apparent even on
+small inputs. The dramatic difference[FORMULA]the relative performance of logarithmic
+and linear algorithms does not mean that linear algorithms are bad. In fact, most
+of the time a linear algorithm is acceptably efficient.
+148 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Figure 9.7 Constant, logarithmic, and linear growth
+The plot on the left[FORMULA]Figure 9.8 shows that there is a significant difference
+between O(n) and O(n[FORMULA](n)). Given how slowly[FORMULA](n) grows, this may seem a
+bit surprising, but keep[FORMULA]mind that it is a multiplicative factor. Also keep[FORMULA]mind that[FORMULA]many practical situations, O(n[FORMULA](n)) is fast enough to be useful.
+On the other hand, as the plot on the right[FORMULA]Figure 9.8 suggests, there are many
+situations[FORMULA]which a quadratic rate of growth is prohibitive.
+Figure 9.8 Linear,[FORMULA]-linear, and quadratic growth
+The plots[FORMULA]Figure 9.9 are about exponential complexity. In the plot on the
+left of Figure 9.9, the numbers to the left of the y-axis run from 0.0 to 1.2. How-
+ever, the notation x1e301 on the top left means that each tick on the y-axis should
+be multiplied by 10301. So, the plotted y-values range from 0 to roughly 1.1*10301.
+CHAPTER 9. A SIMPLISTIC INTRODUCTION TO ALGORITHMIC COMPLEXITY 149
+But it looks almost as if there are no curves[FORMULA]the plot on the left[FORMULA]Figure 9.9.
+That’s because an exponential function grows so quickly that relative to the y
+value of the highest point (which determines the scale of the y-axis), the y values
+of earlier points on the exponential curve (and all points on the quadratic curve)
+are almost indistinguishable from 0.
+The plot on the right[FORMULA]Figure 9.9 addresses this issue by using a logarithmic
+scale on the y-axis. One can readily see that exponential algorithms are impracti-
+cal for all but the smallest of inputs.
+Notice that when plotted on a logarithmic scale, an exponential curve ap-
+pears as a straight line. We will have more to say about this[FORMULA]later chapters.
+Figure 9.9 Quadratic and exponential growth
+
+## 10 SOME SIMPLE ALGORITHMS AND DATA STRUCTURES
+
+Though we expend a fair number of pages[FORMULA]this book talking about efficiency,
+the goal is not to make you expert[FORMULA]designing efficient programs. There are
+many long books (and even some good long books) devoted exclusively to that
+topic.56 In Chapter 9, we introduced some of the basic concepts underlying com-
+plexity analysis. In this chapter we use those concepts to look at the complexity of
+a few classic algorithms. The goal of this chapter is to help you develop some
+general intuitions about how to approach questions of efficiency. By the time you
+get through this chapter you should understand why some programs complete[FORMULA]the blink of an eye, why some need to run overnight, and why some wouldn’t
+complete[FORMULA]your lifetime.
+The first algorithms we looked at[FORMULA]this book were based on brute-force ex-
+haustive enumeration. We argued that modern computers are so fast that it is of-
+ten the case that employing clever algorithms is a waste of time. Writing code
+that is simple and obviously correct, is often the right way to go.
+We then looked at some problems (e.g., finding an approximation to the
+roots of a polynomial) where the search space was too large to make brute force
+practical. This led us to consider more efficient algorithms such as bisection
+search and Newton-Raphson. The major point was that the key to efficiency is a
+good algorithm, not clever coding tricks.
+In the sciences (physical, life, and social), programmers often start by quickly
+coding up a simple algorithm to test the plausibility of a hypothesis about a data
+set, and then run it on a small amount of data. If this yields encouraging results,
+the hard work of producing an implementation that can be run (perhaps over
+and over again) on large data sets begins. Such implementations need to be based
+on efficient algorithms.
+Efficient algorithms are hard to invent. Successful professional computer sci-
+entists might invent one algorithm during their whole career—if they are lucky.
+Most of us never invent a novel algorithm. What we do instead is learn to reduce
+the most complex aspects of the problems we are faced with to previously solved
+problems.
+
+## 56 Introduction to Algorithms, by Cormen, Leiserson, Rivest, and Stein, is an excellent source for
+
+those of you not intimidated by a fair amount of mathematics.
+152 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+More specifically, we
+• Develop an understanding of the inherent complexity of the problem,
+• Think about how to break that problem up into subproblems, and
+• Relate those subproblems to other problems for which efficient algorithms al-
+ready exist.
+This chapter contains a few examples intended to give you some intuition
+about algorithm design. Many other algorithms appear elsewhere[FORMULA]the book.
+Keep[FORMULA]mind that the most efficient algorithm is not always the algorithm of
+choice. A program that does everything[FORMULA]the most efficient possible way is often
+needlessly difficult to understand. It is often a good strategy to start by solving
+the problem at hand[FORMULA]the most straightforward manner possible, instrument it
+to find any computational bottlenecks, and then look for ways to improve the
+computational complexity of those parts of the program contributing to the bot-
+tlenecks.
+
+## 10.1 Search Algorithms
+
+A search algorithm is a method for finding an item or group of items with specif-
+ic properties within a collection of items. We refer to the collection of items as a
+search space. The search space might be something concrete, such as a set of elec-
+tronic medical records, or something abstract, such as the set of all integers. A
+large number of problems that occur[FORMULA]practice can be formulated as search
+problems.
+Many of the algorithms presented earlier[FORMULA]this book can be viewed as
+search algorithms. In Chapter 3, we formulated finding an approximation to the
+roots of a polynomial as a search problem, and looked at three algorithms—
+exhaustive enumeration, bisection search, and Newton-Raphson—for searching
+the space of possible answers.
+In this section, we will examine two algorithms for searching a list. Each
+meets the specification
+def search(L, e):
+"""Assumes L is a list.
+Returns True if e is[FORMULA]L and False otherwise"""
+CHAPTER 10. SOME SIMPLE ALGORITHMS AND DATA STRUCTURES 153
+The astute reader might wonder if this is not semantically equivalent to the
+Python expression e[FORMULA]L. The answer is yes, it is. And if one is unconcerned
+about the efficiency of discovering whether e is[FORMULA]L, one should simply write that
+expression.
+10.1.1 Linear Search and Using Indirection to Access Elements
+Python uses the following algorithm to determine if an element is[FORMULA]a list:
+for i[FORMULA]range(len(L)):
+if L[i] == e:
+return True
+return False
+If the element e is not[FORMULA]the list the algorithm will perform O(len(L)) tests,
+i.e., the complexity is at best linear[FORMULA]the length of L. Why “at best” linear? It will
+be linear only if each operation inside the loop can be done[FORMULA]constant time.
+That raises the question of whether Python retrieves the ith element of a list[FORMULA]constant time. Since our model of computation assumes that fetching the con-
+tents of an address is a constant-time operation, the question becomes whether
+we can compute the address of the ith element of a list[FORMULA]constant time.
+Let’s start by considering the simple case where each element of the list is an
+integer. This implies that each element of the list is the same size, e.g., four units
+of memory (four eight-bit bytes57). Assuming that the elements of the list are
+stored contiguously, the address[FORMULA]memory of the ith element of the list is simply
+start + 4*i, where start is the address of the start of the list. Therefore we can as-
+sume that Python could compute the address of the ith element of a list of integers[FORMULA]constant time.
+Of course, we know that Python lists can contain objects of types other than[FORMULA], and that the same list can contain objects of many different types and sizes.
+You might think that this would present a problem, but it does not.
+In Python, a list is represented as a length (the number of objects[FORMULA]the list)
+and a sequence of fixed-size pointers58 to objects. Figure 10.1 illustrates the use
+of these pointers. The shaded region represents a list containing four elements.
+The leftmost shaded box contains a pointer to an integer indicating the length of
+the list. Each of the other shaded boxes contains a pointer to an object[FORMULA]the list.
+
+## 57 The number of bits used to store an integer, often called the word size, is typically dictated by
+
+the hardware of the computer.
+
+## 58 Of size 32 bits[FORMULA]some implementations and 64 bits[FORMULA]others.
+
+154 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Figure 10.1 Implementing lists
+If the length field occupies four units of memory, and each pointer (address)
+occupies four units of memory, the address of the ith element of the list is stored
+at the address start + 4 + 4*i. Again, this address can be found[FORMULA]constant time,
+and then the value stored at that address can be used to access the ith element.
+This access too is a constant-time operation.
+This example illustrates one of the most important implementation tech-
+niques used[FORMULA]computing: indirection.59 Generally speaking, indirection involves
+accessing something by first accessing something else that contains a reference to
+the thing initially sought. This is what happens each time we use a variable to re-
+fer to the object to which that variable is bound. When we use a variable to access
+a list and then a reference stored[FORMULA]that list to access another object, we are going
+through two levels of indirection.60
+10.1.2 Binary Search and Exploiting Assumptions
+Getting back to the problem of implementing search(L, e), is O(len(L)) the best
+we can do? Yes, if we know nothing about the relationship of the values of the el-
+ements[FORMULA]the list and the order[FORMULA]which they are stored. In the worst case, we
+have to look at each element[FORMULA]L to determine whether L contains e.
+But suppose we know something about the order[FORMULA]which elements are
+stored, e.g., suppose we know that we have a list of integers stored[FORMULA]ascending
+order. We could change the implementation so that the search stops when it
+
+## 59 My dictionary defines the noun “indirection” as “lack of straightforwardness and openness:
+
+deceitfulness.” In fact, the word generally had a pejorative implication until about 1950, when
+computer scientists realized that it was the solution to many problems.
+
+## 60 It has often been said that “any problem[FORMULA]computing can be solved by adding another level of
+
+indirection.” Following three levels of indirection, we attribute this observation to David J.
+Wheeler. The paper “Authentication[FORMULA]Distributed Systems: Theory and Practice,” by Butler
+Lampson et al., contains the observation. It also contains a footnote saying that “Roger Needham
+attributes this observation to David Wheeler of Cambridge University.”
+CHAPTER 10. SOME SIMPLE ALGORITHMS AND DATA STRUCTURES 155
+reaches a number larger than the number for which it is searching, as[FORMULA]Figure
+10.2.
+def search(L, e):
+"""Assumes L is a list, the elements of which are[FORMULA]ascending order.
+Returns True if e is[FORMULA]L and False otherwise"""
+for i[FORMULA]range(len(L)):
+if L[i] == e:
+return True
+if L[i] > e:
+return False
+return False
+Figure 10.2 Linear search of a sorted list
+This would improve the average running time. However, it would not change
+the worst-case complexity of the algorithm, since[FORMULA]the worst case each element
+of L is examined.
+We can, however, get a considerable improvement[FORMULA]the worst-case com-
+plexity by using an algorithm, binary search, that is similar to the bisection
+search algorithm used[FORMULA]Chapter 3 to find an approximation to the square root
+of a floating point number. There we relied upon the fact that there is an intrinsic
+total ordering on floating point numbers. Here we rely on the assumption that
+the list is ordered.
+The idea is simple:
+1. Pick an index, i, that divides the list L roughly[FORMULA]half.
+2. Ask if L[i] == e.
+3. If not, ask whether L[i] is larger or smaller than e.
+4. Depending upon the answer, search either the left or right half of L for e.
+Given the structure of this algorithm, it is not surprising that the most
+straightforward implementation of binary search uses recursion, as shown[FORMULA]Figure 10.3.
+The outer function[FORMULA]Figure 10.3, search(L, e), has the same arguments and
+specification as the function defined[FORMULA]Figure 10.2. The specification says that
+the implementation may assume that L is sorted[FORMULA]ascending order. The burden
+of making sure that this assumption is satisfied lies with the caller of search. If the
+assumption is not satisfied, the implementation has no obligation to behave well.
+It could work, but it could also crash or return an incorrect answer. Should
+search be modified to check that the assumption is satisfied? This might elimi-
+156 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+nate a source of errors, but it would defeat the purpose of using binary search,
+since checking the assumption would itself take O(len(L)) time.
+def search(L, e):
+"""Assumes L is a list, the elements of which are[FORMULA]ascending order.
+Returns True if e is[FORMULA]L and False otherwise"""
+def bSearch(L, e, low, high):
+#Decrements high - low
+if high == low:
+return L[low] == e
+mid = (low + high)//2
+if L[mid] == e:
+return True
+elif L[mid] > e:
+if low == mid: #nothing left to search
+return False
+else:
+return bSearch(L, e, low, mid - 1)
+else:
+return bSearch(L, e, mid + 1, high)
+if len(L) == 0:
+return False
+else:
+return bSearch(L, e, 0, len(L) - 1)
+Figure 10.3 Recursive binary search
+Functions such as search are often called wrapper functions. The function
+provides a nice interface for client code, but is essentially a pass-through that
+does no serious computation. Instead, it calls the helper function bSearch with
+appropriate arguments. This raises the question of why not eliminate search and
+have clients call bSearch directly? The reason is that the parameters low and high
+have nothing to do with the abstraction of searching a list for an element. They
+are implementation details that should be hidden from those writing programs
+that call search.
+Let us now analyze the complexity of bSearch. We showed[FORMULA]the last section
+that list access takes constant time. Therefore, we can see that excluding the re-
+cursive call, each instance of bSearch is O(1). Therefore, the complexity of bSearch
+depends only upon the number of recursive calls.
+If this were a book about algorithms, we would now dive into a careful analy-
+sis using something called a recurrence relation. But since it isn’t, we will take a
+CHAPTER 10. SOME SIMPLE ALGORITHMS AND DATA STRUCTURES 157
+much less formal approach that starts with the question “How do we know that
+the program terminates?” Recall that[FORMULA]Chapter 3 we asked the same question
+about a while loop. We answered the question by providing a decrementing func-
+tion for the loop. We do the same thing here. In this context, the decrementing
+function has the properties:
+• It maps the values to which the formal parameters are bound to a nonnegative
+integer.
+• When its value is 0, the recursion terminates.
+• For each recursive call, the value of the decrementing function is less than the
+value of the decrementing function on entry to the instance of the function
+making the call.
+The decrementing function for bSearch is high–low. The if statement[FORMULA]search ensures that the value of this decrementing function is at least 0 the first
+time bSearch is called (decrementing function property 1).
+When bSearch is entered, if high–low is exactly 0, the function makes no re-
+cursive call—simply returning the value L[low] == e (satisfying decrementing
+function property 2).
+The function bSearch contains two recursive calls. One call uses arguments
+that cover all the elements to the left of mid, and the other call uses arguments
+that cover all the elements to the right of mid. In either case, the value of high–low
+is cut[FORMULA]half (satisfying decrementing function property 3).
+We now understand why the recursion terminates. The next question is how
+many times can the value of high–low be cut[FORMULA]half before high–low == 0? Recall
+that[FORMULA](x) is the number of times that y has to be multiplied by itself to reach x.
+y
+Conversely, if x is divided by y[FORMULA](x) times, the result is 1. This implies that
+y
+high–low can be cut[FORMULA]half using integer division at most[FORMULA](high–low) times be-
+2
+fore it reaches 0.
+Finally, we can answer the question, what is the algorithmic complexity of
+binary search? Since when search calls bSearch the value of high–low is equal to
+len(L)-1, the complexity of search is O([FORMULA](len(L))).61
+Finger exercise: Why does the code use mid+1 rather than mid[FORMULA]the second re-
+cursive call?
+
+## 61 Recall that when looking at orders of growth the base of the logarithm is irrelevant.
+
+158 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+## 10.2 Sorting Algorithms
+
+We have just seen that if we happen to know that a list is sorted, we can exploit
+that information to greatly reduce the time needed to search a list. Does this
+mean that when asked to search a list one should first sort it and then perform
+the search?
+Let O(sortComplexity(L)) be the complexity of sorting a list. Since we know
+that we can always search a list[FORMULA]O(len(L)) time, the question of whether we
+should first sort and then search boils down to the question, is sortComplexity(L)
++[FORMULA](len(L)) less than len(L)? The answer, sadly, is no. One cannot sort a list
+without looking at each element[FORMULA]the list at least once, so it is not possible to
+sort a list[FORMULA]sub-linear time.
+Does this mean that binary search is an intellectual curiosity of no practical
+import? Happily, no. Suppose that one expects to search the same list many
+times. It might well make sense to pay the overhead of sorting the list once, and
+then amortize the cost of the sort over many searches. If we expect to search the
+list k times, the relevant question becomes, is sortComplexity(L) + k*[FORMULA](len(L))
+less than k*len(L)?
+As k becomes large, the time required to sort the list becomes increasingly ir-
+relevant. How big k needs to be depends upon how long it takes to sort a list. If,
+for example, sorting were exponential[FORMULA]the size of the list, k would have to be
+quite large.
+Fortunately, sorting can be done rather efficiently. For example, the standard
+implementation of sorting[FORMULA]most Python implementations runs[FORMULA]roughly
+O(n*[FORMULA](n)) time, where n is the length of the list. In practice, you will rarely need
+to implement your own sort function. In most cases, the right thing to do is to
+use either Python’s built-[FORMULA]sort method (L.sort() sorts the list L) or its built-[FORMULA]function sorted (sorted(L) returns a list with the same elements as L, but does not
+mutate L). We present sorting algorithms here primarily to provide some practice[FORMULA]thinking about algorithm design and complexity analysis.
+We begin with a simple but inefficient algorithm, selection sort. Selection
+sort, Figure 10.4, works by maintaining the loop invariant that, given a partition-
+ing of the list into a prefix (L[0:i]) and a suffix (L[i+1:len(L)]), the prefix is sort-
+ed and no element[FORMULA]the prefix is larger than the smallest element[FORMULA]the suffix.
+We use induction to reason about loop invariants.
+• Base case: At the start of the first iteration, the prefix is empty, i.e., the suffix is
+the entire list. Therefore, the invariant is (trivially) true.
+CHAPTER 10. SOME SIMPLE ALGORITHMS AND DATA STRUCTURES 159
+• Induction step: At each step of the algorithm, we move one element from the
+suffix to the prefix. We do this by appending a minimum element of the suffix
+to the end of the prefix. Because the invariant held before we moved the ele-
+ment, we know that after we append the element the prefix is still sorted. We
+also know that since we removed the smallest element[FORMULA]the suffix, no element[FORMULA]the prefix is larger than the smallest element[FORMULA]the suffix.
+• Termination: When the loop is exited, the prefix includes the entire list, and
+the suffix is empty. Therefore, the entire list is now sorted[FORMULA]ascending order.
+def selSort(L):
+"""Assumes that L is a list of elements that can be
+compared using >.
+Sorts L[FORMULA]ascending order"""
+suffixStart = 0
+while suffixStart != len(L):
+#look at each element[FORMULA]suffix
+for i[FORMULA]range(suffixStart, len(L)):
+if L[i] < L[suffixStart]:
+#swap position of elements
+L[suffixStart], L[i] = L[i], L[suffixStart]
+suffixStart += 1
+Figure 10.4 Selection sort
+It’s hard to imagine a simpler or more obviously correct sorting algorithm.
+Unfortunately, it is rather inefficient.62 The complexity of the inner loop is
+O(len(L)). The complexity of the outer loop is also O(len(L)). So, the complexity
+of the entire function is O(len(L)2). I.e., it is quadratic[FORMULA]the length of L.
+10.2.1 Merge Sort
+Fortunately, we can do a lot better than quadratic time using a divide-and-
+conquer algorithm. The basic idea is to combine solutions of simpler instances of
+the original problem. In general, a divide-and-conquer algorithm is character-
+ized by
+• A threshold input size, below which the problem is not subdivided,
+• The size and number of sub-instances into which an instance is split, and
+• The algorithm used to combine sub-solutions.
+
+## 62 But not the most inefficient of sorting algorithms, as suggested by a successful candidate for the
+
+U.S. Presidency. See http://www.youtube.com/watch?v=k4RRi_ntQc8.
+160 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+The threshold is sometimes called the recursive base. For item 2 it is usual to
+consider the ratio of initial problem size to the sub-instance size. In most of the
+examples we’ve seen so far, the ratio was 2.
+Merge sort is a prototypical divide-and-conquer algorithm. It was invented[FORMULA]1945, by John von Neumann, and is still widely used. Like many divide-and-
+conquer algorithms it is most easily described recursively:
+1. If the list is of length 0 or 1, it is already sorted.
+2. If the list has more than one element, split the list into two lists, and use
+merge sort to sort each of them.
+3. Merge the results.
+The key observation made by von Neumann is that two sorted lists can be ef-
+ficiently merged into a single sorted list. The idea is to look at the first element of
+each list, and move the smaller of the two to the end of the result list. When one
+of the lists is empty, all that remains is to copy the remaining items from the oth-
+er list. Consider, for example, merging the two lists [1,5,12,18,19,20] and
+[2,3,4,17]:
+Remaining[FORMULA]list 1 Remaining[FORMULA]list 2 Result
+[1,5,12,18,19,20] [2,3,4,17] []
+[5,12,18,19,20] [2,3,4,17] [1]
+[5,12,18,19,20] [3,4,17] [1,2]
+[5,12,18,19,20] [4,17] [1,2,3]
+[5,12,18,19,20] [17] [1,2,3,4]
+[12,18,19,20] [17] [1,2,3,4,5]
+[18,19,20] [17] [1,2,3,4,5,12]
+[18,19,20] [] [1,2,3,4,5,12,17]
+[] [] [1,2,3,4,5,12,17,18,19,20]
+What is the complexity of the merge process? It involves two constant-time
+operations, comparing the values of elements and copying elements from one list
+to another. The number of comparisons is O(len(L)), where L is the longer of the
+two lists. The number of copy operations is O(len(L1) + len(L2)), because each
+element gets copied exactly once. (The time to copy an element will depend on
+the size of the element. However, this does not affect the order of the growth of
+sort as a function of the number of elements[FORMULA]the list.) Therefore, merging two
+sorted lists is linear[FORMULA]the length of the lists.
+Figure 10.5 contains an implementation of the merge sort algorithm.
+CHAPTER 10. SOME SIMPLE ALGORITHMS AND DATA STRUCTURES 161
+def merge(left, right, compare):
+"""Assumes left and right are sorted lists and
+compare defines an ordering on the elements.
+Returns a new sorted (by compare) list containing the
+same elements as (left + right) would contain."""
+result = []
+i,j = 0, 0
+while i < len(left) and j < len(right):
+if compare(left[i], right[j]):
+result.append(left[i])
+i += 1
+else:
+result.append(right[j])
+j += 1
+while (i < len(left)):
+result.append(left[i])
+i += 1
+while (j < len(right)):
+result.append(right[j])
+j += 1
+return result
+def mergeSort(L, compare = lambda x, y: x < y):
+"""Assumes L is a list, compare defines an ordering
+on elements of L
+Returns a new sorted list with the same elements as L"""
+if len(L) < 2:
+return L[:]
+else:
+middle = len(L)//2
+left = mergeSort(L[:middle], compare)
+right = mergeSort(L[middle:], compare)
+return merge(left, right, compare)
+Figure 10.5 Merge sort
+Notice that we have made the comparison operator a parameter of the mergeSort
+function, and written a lambda expression to supply a default value. So, for ex-
+ample, the code
+L = [2,1,4,5,3]
+print(mergeSort(L), mergeSort(L, lambda x, y: x > y))
+prints
+[1, 2, 3, 4, 5] [5, 4, 3, 2, 1]
+162 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Let’s analyze the complexity of mergeSort. We already know that the time
+complexity of merge is O(len(L)). At each level of recursion the total number of
+elements to be merged is len(L). Therefore, the time complexity of mergeSort is
+O(len(L)) multiplied by the number of levels of recursion. Since mergeSort divides
+the list[FORMULA]half each time, we know that the number of levels of recursion is
+O([FORMULA](len(L)). Therefore, the time complexity of mergeSort is O(n*[FORMULA](n)), where n
+is len(L).
+This is a lot better than selection sort’s O(len(L)2). For example, if L has
+10,000 elements, len(L)2 is 100 million but len(L)*[FORMULA]2(len(L)) is about 130,000.
+This improvement[FORMULA]time complexity comes with a price. Selection sort is an
+example of an[FORMULA]-place sorting algorithm. Because it works by swapping the place
+of elements within the list, it uses only a constant amount of extra storage (one
+element[FORMULA]our implementation). In contrast, the merge sort algorithm involves
+making copies of the list. This means that its space complexity is O(len(L)). This
+can be an issue for large lists.63
+10.2.2 Exploiting Functions as Parameters
+Suppose we want to sort a list of names written as firstName lastName, e.g., the
+list ['Chris Terman', 'Tom Brady', 'Eric Grimson', 'Gisele Bundchen']. Figure
+
+## 10.6 defines two ordering functions, and then uses these to sort a list[FORMULA]two dif-
+
+ferent ways. Each function uses the split method of type str.
+When the code[FORMULA]Figure 10.6 is run, it prints
+Sorted by last name = ['Tom Brady', 'Gisele Bundchen', 'Eric Grimson']
+Sorted by first name = ['Eric Grimson', 'Gisele Bundchen', 'Tom Brady']
+10.2.3 Sorting[FORMULA]Python
+The sorting algorithm used[FORMULA]most Python implementations is called timsort.64
+The key idea is to take advantage of the fact that[FORMULA]a lot of data sets the data is
+already partially sorted. Timsort’s worst-case performance is the same as merge
+sort’s, but on average it performs considerably better.
+
+## 63 Quicksort, which was invented by C.A.R. Hoare[FORMULA]1960, is conceptually similar to merge sort,
+
+but considerably more complex. It has the advantage of needing only[FORMULA](n) additional space.
+Unlike merge sort, its running time depends upon the way the elements[FORMULA]the list to be sorted are
+ordered relative to each other. Though its worst-case running time is O(n2), its expected running
+time is only O(n*[FORMULA](n)).
+
+## 64 Timsort was invented by Tim Peters[FORMULA]2002 because he was unhappy with the previous
+
+algorithm used[FORMULA]Python.
+CHAPTER 10. SOME SIMPLE ALGORITHMS AND DATA STRUCTURES 163
+def lastNameFirstName(name1, name2):
+arg1 = name1.split(' ')
+arg2 = name2.split(' ')
+if arg1[1] != arg2[1]:
+return arg1[1] < arg2[1]
+else: #last names the same, sort by first name
+return arg1[0] < arg2[0]
+def firstNameLastName(name1, name2):
+arg1 = name1.split(' ')
+arg2 = name2.split(' ')
+if arg1[0] != arg2[0]:
+return arg1[0] < arg2[0]
+else: #first names the same, sort by last name
+return arg1[1] < arg2[1]
+L = ['Tom Brady', 'Eric Grimson', 'Gisele Bundchen']
+newL = mergeSort(L, lastNameFirstName)
+print('Sorted by last name =', newL)
+newL = mergeSort(L, firstNameLastName)
+print('Sorted by first name =', newL)
+Figure 10.6 Sorting a list of names
+As mentioned earlier, the Python method list.sort takes a list as its first ar-
+gument and modifies that list. In contrast, the Python function sorted takes an
+iterable object (e.g., a list or a view) as its first argument and returns a new sorted
+list. For example, the code
+L = [3,5,2]
+D = {'a':12, 'c':5, 'b':'dog'}
+print(sorted(L))
+print(L)
+L.sort()
+print(L)
+print(sorted(D))
+D.sort()
+will print
+[2, 3, 5]
+[3, 5, 2]
+[2, 3, 5]
+['a', 'b', 'c']
+AttributeError: 'dict' object has no attribute 'sort'
+164 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Notice that when the sorted function is applied to a dictionary, it returns a
+sorted list of the keys of the dictionary. In contrast, when the sort method is ap-
+plied to a dictionary, it causes an exception to be raised since there is no method
+dict.sort.
+Both the list.sort method and the sorted function can have two additional
+parameters. The key parameter plays the same role as compare[FORMULA]our implementa-
+tion of merge sort: it supplies the comparison function to be used. The reverse
+parameter specifies whether the list is to be sorted[FORMULA]ascending or descending
+order relative to the comparison function. For example, the code
+L = [[1,2,3], (3,2,1,0), 'abc']
+print(sorted(L, key = len, reverse = True))
+sorts the elements of L[FORMULA]reverse order of length and prints
+[(3, 2, 1, 0), [1, 2, 3], 'abc']
+Both the list.sort method and the sorted function provide stable sorts. This
+means that if two elements are equal with respect to the comparison (len[FORMULA]this
+example) used[FORMULA]the sort, their relative ordering[FORMULA]the original list (or other iter-
+able object) is preserved[FORMULA]the final list. (Since no key can occur more than once[FORMULA]a dict, the question of whether sorted is stable when applied to a dict is moot.)
+
+## 10.3 Hash Tables
+
+If we put merge sort together with binary search, we have a nice way to search
+lists. We use merge sort to preprocess the list[FORMULA]O(n*[FORMULA](n)) time, and then we
+use binary search to test whether elements are[FORMULA]the list[FORMULA]O([FORMULA](n)) time. If we
+search the list k times, the overall time complexity is O(n*[FORMULA](n) + k*[FORMULA](n)).
+This is good, but we can still ask, is logarithmic the best that we can do for
+search when we are willing to do some preprocessing?
+When we introduced the type dict[FORMULA]Chapter 5, we said that dictionaries use
+a technique called hashing to do the lookup[FORMULA]time that is nearly independent of
+the size of the dictionary. The basic idea behind a hash table is simple. We con-
+vert the key to an integer, and then use that integer to index into a list, which can
+be done[FORMULA]constant time. In principle, values of any type can be easily converted
+to an integer. After all, we know that the internal representation of each object is
+a sequence of bits, and any sequence of bits can be viewed as representing an[FORMULA]-
+teger. For example, the internal representation of the string 'abc' is the sequence
+CHAPTER 10. SOME SIMPLE ALGORITHMS AND DATA STRUCTURES 165
+of bits 011000010110001001100011, which can be viewed as a representation of
+the decimal integer 6,382,179. Of course, if we want to use the internal represen-
+tation of strings as indices into a list, the list is going to have to be pretty darn
+long.
+What about situations where the keys are already integers? Imagine, for the
+moment, that we are implementing a dictionary all of whose keys are U.S. Social
+Security numbers, which are nine-digit integers. If we represented the dictionary
+by a list with 109 elements and used Social Security numbers to index into the
+list, we could do lookups[FORMULA]constant time. Of course, if the dictionary contained
+entries for only ten thousand (104) people, this would waste quite a lot of space.
+Which gets us to the subject of hash functions. A hash function maps a large
+space of inputs (e.g., all natural numbers) to a smaller space of outputs (e.g., the
+natural numbers between 0 and 5000). Hash functions can be used to convert a
+large space of keys to a smaller space of integer indices.
+Since the space of possible outputs is smaller than the space of possible[FORMULA]-
+puts, a hash function is a many-to-one mapping, i.e., multiple different inputs
+may be mapped to the same output. When two inputs are mapped to the same
+output, it is called a collision—a topic we will return to shortly. A good hash
+function produces a uniform distribution; i.e., every output[FORMULA]the range is equal-
+ly probable, which minimizes the probability of collisions.
+Figure 10.7 uses a simple hash function (recall that i%j returns the remainder
+when the integer i is divided by the integer j) to implement a dictionary with[FORMULA]-
+tegers as keys.
+The basic idea is to represent an instance of class intDict by a list of hash
+buckets, where each bucket is a list of key/value pairs implemented as tuples. By
+making each bucket a list, we handle collisions by storing all of the values that
+hash to the same bucket[FORMULA]the list.
+The hash table works as follows: The instance variable buckets is initialized to
+a list of numBuckets empty lists. To store or look up an entry with key dictKey, we
+use the hash function % to convert dictKey into an integer, and use that integer to
+index into buckets to find the hash bucket associated with dictKey. We then
+search that bucket (which is a list) linearly to see if there is an entry with the key
+dictKey. If we are doing a lookup and there is an entry with the key, we simply re-
+turn the value stored with that key. If there is no entry with that key, we return
+None. If a value is to be stored, we first check if there is already an entry with that
+key[FORMULA]the hash bucket. If so, we replace the entry with a new tuple, otherwise we
+append a new entry to the bucket.
+166 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+class intDict(object):
+"""A dictionary with integer keys"""
+def __init__(self, numBuckets):
+"""Create an empty dictionary"""
+self.buckets = []
+self.numBuckets = numBuckets
+for i[FORMULA]range(numBuckets):
+self.buckets.append([])
+def addEntry(self, key, dictVal):
+"""Assumes key an[FORMULA]. Adds an entry."""
+hashBucket = self.buckets[key%self.numBuckets]
+for i[FORMULA]range(len(hashBucket)):
+if hashBucket[i][0] == key:
+hashBucket[i] = (key, dictVal)
+return
+hashBucket.append((key, dictVal))
+def getValue(self, key):
+"""Assumes key an[FORMULA].
+Returns value associated with key"""
+hashBucket = self.buckets[key%self.numBuckets]
+for e[FORMULA]hashBucket:
+if e[0] == key:
+return e[1]
+return None
+def __str__(self):
+result = '{'
+for b[FORMULA]self.buckets:
+for e[FORMULA]b:
+result = result + str(e[0]) + ':' + str(e[1]) + ','
+return result[:-1] + '}' #result[:-1] omits the last comma
+Figure 10.7 Implementing dictionaries using hashing
+There are many other ways to handle collisions, some considerably more ef-
+ficient than using lists. But this is probably the simplest mechanism, and it works
+fine if the hash table is large enough relative to the number of elements stored[FORMULA]it, and the hash function provides a good enough approximation to a uniform
+distribution.
+Notice that the __str__ method produces a representation of a dictionary that
+is unrelated to the order[FORMULA]which elements were added to it, but is instead or-
+dered by the values to which the keys happen to hash. This explains why we can’t
+predict the order of the keys[FORMULA]an object of type dict.
+CHAPTER 10. SOME SIMPLE ALGORITHMS AND DATA STRUCTURES 167
+The following code first constructs an intDict with seventeen buckets and
+twenty entries. The values of the entries are the integers 0 to 19. The keys are
+chosen at random, using random.choice, from integers[FORMULA]the range 0 to 105 - 1.
+(We discuss the random module[FORMULA]Chapters 14 and 15.) The code then prints the
+intDict using the __str__ method defined[FORMULA]the class. Finally, it prints the indi-
+vidual hash buckets by iterating over D.buckets. (This is a terrible violation of[FORMULA]-
+formation hiding, but pedagogically useful.)
+import random
+D = intDict(17)
+for i[FORMULA]range(20):
+#choose a random[FORMULA][FORMULA]the range 0 to 10**5 - 1
+key = random.choice(range(10**5))
+D.addEntry(key, i)
+print('The value of the intDict is:')
+print(D)
+print('\n', 'The buckets are:')
+for hashBucket[FORMULA]D.buckets: #violates abstraction barrier
+print(' ', hashBucket)
+When we ran this code it printed65
+The value of the intDict is:
+{99740:6,61898:8,15455:4,99913:18,276:19,63944:13,79618:17,51093:15,827
+1:2,3715:14,74606:1,33432:3,58915:7,12302:12,56723:16,27519:11,64937:5,
+85405:9,49756:10,17611:0}
+The buckets are:
+[]
+[(99740, 6), (61898, 8)]
+[(15455, 4)]
+[]
+[(99913, 18), (276, 19)]
+[]
+[]
+[(63944, 13), (79618, 17)]
+[(51093, 15)]
+[(8271, 2), (3715, 14)]
+[(74606, 1), (33432, 3), (58915, 7)]
+[(12302, 12), (56723, 16)]
+[]
+[(27519, 11)]
+[(64937, 5), (85405, 9), (49756, 10)]
+[]
+[(17611, 0)]
+
+## 65 Since the integers were chosen at random, you will probably get different results if you run it.
+
+168 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+When we violate the abstraction barrier and peek at the representation of the
+intDict, we see that some of the hash buckets are empty. Others contain one, two,
+or three entries—depending upon the number of collisions that occurred.
+What is the complexity of getValue? If there were no collisions it would be
+O(1), because each hash bucket would be of length 0 or 1. But, of course, there
+might be collisions. If everything hashed to the same bucket, it would be O(n)
+where n is the number of entries[FORMULA]the dictionary, because the code would per-
+form a linear search on that hash bucket. By making the hash table large enough,
+we can reduce the number of collisions sufficiently to allow us to treat the com-
+plexity as O(1). That is, we can trade space for time. But what is the tradeoff? To
+answer this question, one needs to know a tiny bit of probability, so we defer the
+answer to Chapter 15.
+
+## 11 PLOTTING AND MORE ABOUT CLASSES
+
+Often text is the best way to communicate information, but sometimes there is a
+lot of truth to the Chinese proverb, 圖片的意義可以表達近萬字. Yet most pro-
+grams rely on textual output to communicate with their users. Why? Because[FORMULA]many programming languages presenting visual data is too hard. Fortunately, it
+is simple to do[FORMULA]Python.
+
+## 11.1 Plotting Using PyLab
+
+PyLab is a Python standard library module that provides many of the facilities of
+MATLAB, “a high-level technical computing language and interactive environ-
+ment for algorithm development, data visualization, data analysis, and numeric
+computation.”66 Later[FORMULA]the book we will look at some of the more advanced fea-
+tures of PyLab, but[FORMULA]this chapter we focus on some of its facilities for plotting
+data. Other plotting facilities are introduced[FORMULA]later chapters. A complete user’s
+guide to the plotting capabilities of PyLab is at the Web site
+matplotlib.sourceforge.net/users/index.html
+There are also a number of Web sites that provide excellent tutorials. We will
+not try to provide a user’s guide or a complete tutorial here. Instead,[FORMULA]this chap-
+ter we will merely provide a few example plots and explain the code that generat-
+ed them. Other examples appear[FORMULA]later chapters.
+Let’s start with a simple example that uses pylab.plot to produce two plots.
+Executing
+import pylab
+pylab.figure(1) #create figure 1
+pylab.plot([1,2,3,4], [1,7,3,5]) #draw on figure 1
+pylab.show() #show figure on screen
+will cause a window to appear on your computer monitor. Its exact appearance
+may depend on your Python environment, but it will look similar to Figure 11.1
+(which was produced using Anaconda). If you run this code with the default pa-
+
+## 66 www.mathworks.com/products/matlab/description1.html?s_cid=ML_b1008_desintro
+
+170 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+rameter settings of most installations of PyLab, the line will probably not be as
+thick as the line[FORMULA]Figure 11.1. We have used nonstandard default values for line
+width and font sizes so that the figures will reproduce better[FORMULA]black and white.
+We discuss how this is done later[FORMULA]this section.
+Figure 11.1 A simple plot
+The bar at the top of the plot contains the name of the window,[FORMULA]this case
+“Figure 1.”
+The middle section of the window contains the plot generated by the invoca-
+tion of pylab.plot. The two parameters of pylab.plot must be sequences of the
+same length. The first specifies the x-coordinates of the points to be plotted, and
+the second specifies the y-coordinates. Together, they provide a sequence of four
+<x, y> coordinate pairs, [(1,1), (2,7), (3,3), (4,5)]. These are plotted[FORMULA]or-
+der. As each point is plotted, a line is drawn connecting it to the previous point.
+The final line of code, pylab.show(), causes the window to appear on the
+computer screen.67 In some Python environments, if that line were not present,
+the figure would still have been produced, but it would not have been displayed.
+This is not as silly as it at first sounds, since one might well choose to write a fig-
+ure directly to a file, as we will do later, rather than display it on the screen.
+
+## 67 In some Python environments, pylab.show() causes the process running Python to be
+
+suspended until the figure is closed (by clicking on the round red button at the upper left-hand
+corner of the window). This is unfortunate. The usual workaround is to ensure that pylab.show()
+is the last line of code to be executed.
+CHAPTER 11. PLOTTING AND MORE ABOUT CLASSES 171
+The bar at the top of the window contains a number of push buttons. The
+rightmost button pops up a window with options that can be used to adjust vari-
+ous aspects of the figure. The next button to the left is used to write the plot to a
+file.68 The button to the left of that is used to adjust the appearance of the plot[FORMULA]the window. The next two buttons are used for zooming and panning. The two
+buttons that look like arrows are used to see previous views (like the forward and
+backward arrows of a Web browser). And the button on the extreme left is used
+to restore the figure to its original appearance after you are done playing with
+other buttons.
+It is possible to produce multiple figures and to write them to files. These
+files can have any name you like, but they will all have the file extension .png. The
+file extension .png indicates that the file is[FORMULA]the Portable Networks Graphics
+format. This is a public domain standard for representing images.
+The code
+pylab.figure(1) #create figure 1
+pylab.plot([1,2,3,4], [1,2,3,4]) #draw on figure 1
+pylab.figure(2) #create figure 2
+pylab.plot([1,4,2,3], [5,6,7,8]) #draw on figure 2
+pylab.savefig('Figure-Addie') #save figure 2
+pylab.figure(1) #go back to working on figure 1
+pylab.plot([5,6,10,3]) #draw again on figure 1
+pylab.savefig('Figure-Jane') #save figure 1
+produces and saves to files named Figure-Jane.png and Figure-Addie.png the two
+plots[FORMULA]Figure 11.2.
+Observe that the last call to pylab.plot is passed only one argument. This ar-
+gument supplies the y values. The corresponding x values default to the sequence
+yielded by range(len([5, 6, 10, 3])), which is why they range from 0 to 3[FORMULA]this
+case.
+PyLab has a notion of “current figure.” Executing pylab.figure(x) sets the
+current figure to the figure numbered x. Subsequently executed calls of plotting
+functions implicitly refer to that figure until another invocation of pylab.figure
+
+## 68 For those of you too young to know, the icon represents a “floppy disk.” Floppy disks were first
+
+introduced by IBM[FORMULA]1971. They were 8 inches[FORMULA]diameter and held all of 80,000 bytes. Unlike
+later floppy disks, they actually were floppy. The original IBM PC had a single 160Kbyte 5.5-inch
+floppy disk drive. For most of the 1970s and 1980s, floppy disks were the primary storage device
+for personal computers. The transition to rigid enclosures (as represented[FORMULA]the icon that launched
+this digression) started[FORMULA]the mid-1980s (with the Macintosh), which didn’t stop people from
+continuing to call them floppy disks. By 1998 the world was consuming more than 2 billion floppy
+disks per year. Today, you’d be hard pressed of find a place to buy one. Sic transit gloria.
+172 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+occurs. This explains why the figure written to the file Figure-Addie.png was the
+second figure created.
+Figure 11.2 Contents of Figure-Jane.png (left) and Figure-Addie.png (right)
+Let’s look at another example. The code
+principal = 10000 #initial investment
+interestRate = 0.05
+years = 20
+values = []
+for i[FORMULA]range(years + 1):
+values.append(principal)
+principal += principal*interestRate
+pylab.plot(values)
+produces the plot on the left[FORMULA]Figure 11.3.
+Figure 11.3 Plotting compound growth
+CHAPTER 11. PLOTTING AND MORE ABOUT CLASSES 173
+If we look at the code, we can deduce that this is a plot showing the growth of
+an initial investment of $10,000 at an annually compounded interest rate of 5%.
+However, this cannot be easily inferred by looking only at the plot itself. That’s a
+bad thing. All plots should have informative titles, and all axes should be labeled.
+If we add to the end of our code the lines
+pylab.title('5% Growth, Compounded Annually')
+pylab.xlabel('Years of Compounding')
+pylab.ylabel('Value of Principal ($)')
+we get the plot on the right[FORMULA]Figure 11.3.
+For every plotted curve, there is an optional argument that is a format string
+indicating the color and line type of the plot.69 The letters and symbols of the
+format string are derived from those used[FORMULA]MATLAB, and are composed of a
+color indicator followed by an optional line-style indicator. The default format
+string is 'b-', which produces a solid blue line. To plot the the growth[FORMULA]princi-
+pal with black circles, one would replace the call pylab.plot(values) by py-
+lab.plot(values, 'ko'), which produces the plot[FORMULA]Figure 11.4. For a complete
+list of color and line-style indicators, see
+http://matplotlib.org/api/pyplot_api.html#matplotlib.pyplot.plot
+Figure 11.4 Another plot of compound growth
+
+## 69 In order to keep the price down, we chose to publish this book[FORMULA]black and white. That posed a
+
+dilemma: should we discuss how to use color[FORMULA]plots or not? We concluded that color is too
+important to ignore. However, we did use the color black far more often than we would have were
+we producing the book[FORMULA]color.
+174 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+It is also possible to change the type size and line width used[FORMULA]plots. This
+can be done using keyword arguments[FORMULA]individual calls to functions. E.g., the
+code
+principal = 10000 #initial investment
+interestRate = 0.05
+years = 20
+values = []
+for i[FORMULA]range(years + 1):
+values.append(principal)
+principal += principal*interestRate
+pylab.plot(values, linewidth = 30)
+pylab.title('5% Growth, Compounded Annually',
+fontsize = 'xx-large')
+pylab.xlabel('Years of Compounding', fontsize = 'x-small')
+pylab.ylabel('Value of Principal ($)')
+produces the intentionally bizarre-looking plot[FORMULA]Figure 11.5.
+Figure 11.5 Strange-looking plot
+It is also possible to change the default values, which are known as “rc set-
+tings.” (The name “rc” is derived from the .rc file extension used for runtime
+configuration files[FORMULA]Unix.) These values are stored[FORMULA]a dictionary-like variable
+that can be accessed via the name pylab.rcParams. So, for example, you can set the
+default line width to 6 points70 by executing the code
+pylab.rcParams['lines.linewidth'] = 6.
+
+## 70 The point is a measure used[FORMULA]typography. It is equal to 1/72 of an inch, which is 0.3527mm.
+
+CHAPTER 11. PLOTTING AND MORE ABOUT CLASSES 175
+There are an enormous number rcParams settings. A complete list can be
+found at
+http://matplotlib.org/users/customizing.html
+If you don’t want to worry about customizing individual parameters, there are
+pre-defined style sheets. A description of these can be found at
+http://matplotlib.org/users/style_sheets.html#style-sheets
+The values used[FORMULA]most of the remaining examples[FORMULA]this book were set
+with the code
+#set line width
+pylab.rcParams['lines.linewidth'] = 4
+#set font size for titles
+pylab.rcParams['axes.titlesize'] = 20
+#set font size for labels on axes
+pylab.rcParams['axes.labelsize'] = 20
+#set size of numbers on x-axis
+pylab.rcParams['xtick.labelsize'] = 16
+#set size of numbers on y-axis
+pylab.rcParams['ytick.labelsize'] = 16
+#set size of ticks on x-axis
+pylab.rcParams['xtick.major.size'] = 7
+#set size of ticks on y-axis
+pylab.rcParams['ytick.major.size'] = 7
+#set size of markers, e.g., circles representing points
+pylab.rcParams['lines.markersize'] = 10
+#set number of times marker is shown when displaying legend
+pylab.rcParams['legend.numpoints'] = 1
+If you are viewing plots on a color display, you will have little reason to cus-
+tomize these settings. We customized the settings we used so that it would be eas-
+ier to read the plots when we shrank them and converted them to black and
+white.
+
+## 11.2 Plotting Mortgages, an Extended Example
+
+In Chapter 8, we worked our way through a hierarchy of mortgages as way of il-
+lustrating the use of subclassing. We concluded that chapter by observing that
+“our program should be producing plots designed to show how the mortgage be-
+haves over time.” Figure 11.6 enhances class Mortgage by adding methods that
+make it convenient to produce such plots. (The function findPayment, which ap-
+pears[FORMULA]Figure 8.9, is discussed[FORMULA]Section 8.4.)
+176 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+class Mortgage(object):
+"""Abstract class for building different kinds of mortgages"""
+def __init__(self, loan, annRate, months):
+self.loan = loan
+self.rate = annRate/12.0
+self.months = months
+self.paid = [0.0]
+self.outstanding = [loan]
+self.payment = findPayment(loan, self.rate, months)
+self.legend = None #description of mortgage
+def makePayment(self):
+self.paid.append(self.payment)
+reduction = self.payment - self.outstanding[-1]*self.rate
+self.outstanding.append(self.outstanding[-1] - reduction)
+def getTotalPaid(self):
+return[FORMULA](self.paid)
+def __str__(self):
+return self.legend
+def plotPayments(self, style):
+pylab.plot(self.paid[1:], style, label = self.legend)
+def plotBalance(self, style):
+pylab.plot(self.outstanding, style, label = self.legend)
+def plotTotPd(self, style):
+totPd = [self.paid[0]]
+for i[FORMULA]range(1, len(self.paid)):
+totPd.append(totPd[-1] + self.paid[i])
+pylab.plot(totPd, style, label = self.legend)
+def plotNet(self, style):
+totPd = [self.paid[0]]
+for i[FORMULA]range(1, len(self.paid)):
+totPd.append(totPd[-1] + self.paid[i])
+equityAcquired = pylab.array([self.loan] * \
+len(self.outstanding))
+equityAcquired = equityAcquired - \
+pylab.array(self.outstanding)
+net = pylab.array(totPd) - equityAcquired
+pylab.plot(net, style, label = self.legend)
+Figure 11.6 Class Mortgage with plotting methods
+CHAPTER 11. PLOTTING AND MORE ABOUT CLASSES 177
+The nontrivial methods[FORMULA]class Mortgage are plotTotPd and plotNet. The
+method plotTotPd simply plots the cumulative total of the payments made. The
+method plotNet plots an approximation to the total cost of the mortgage over
+time by plotting the cash expended minus the equity acquired by paying off part
+of the loan.71
+The expression pylab.array(self.outstanding)[FORMULA]the function plotNet per-
+forms a type conversion. Thus far, we have been calling the plotting functions of
+PyLab with arguments of type list. Under the covers, PyLab has been converting
+these lists to a different type, array, which PyLab inherits from numpy.72 The invo-
+cation pylab.array makes this explicit. There are a number of convenient ways to
+manipulate arrays that are not readily available for lists. In particular, expressions
+can be formed using arrays and arithmetic operators. There are a number of ways
+to create arrays[FORMULA]PyLab, but the most common way is to first create a list, and
+then convert it. Consider the code
+a1 = pylab.array([1, 2, 4])
+print('a1 =', a1)
+a2 = a1*2
+print('a2 =', a2)
+print('a1 + 3 =', a1 + 3)
+print('3 - a1 =', 3 - a1)
+print('a1 - a2 =', a1 - a2)
+print('a1*a2 =', a1*a2)
+The expression a1*2 multiplies each element of a1 by the constant 2. The ex-
+pression a1 + 3 adds the integer 3 to each element of a1. The expression a1 - a2
+subtracts each element of a2 from the corresponding element of a1 (if the arrays
+had been of different length, an error would have occurred). The expression
+a1*a2 multiplies each element of a1 by the corresponding element of a2. When the
+above code is run it prints
+a1 = [1 2 4]
+a2 = [2 4 8]
+a1 + 3 = [4 5 7]
+
+## 3 - a1 = [ 2 1 -1]
+
+a1 - a2 = [-1 -2 -4]
+a1*a2 = [ 2 8 32]
+
+## 71 It is an approximation because it does not perform a net present value calculation to take into
+
+account the time value of cash.
+
+## 72 numpy is a Python module that provides tools for scientific computing. In addition to providing
+
+multi-dimensional arrays it provides a variety of linear algebra tools.
+178 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Figure 11.7 repeats the three subclasses of Mortgage from Figure 8.10. Each
+has a distinct __init__ method that overrides the __init__ method[FORMULA]Mortgage.
+The subclass TwoRate also overrides the makePayment method of Mortgage.
+class Fixed(Mortgage):
+def __init__(self, loan, r, months):
+Mortgage.__init__(self, loan, r, months)
+self.legend = 'Fixed, ' + str(r*100) + '%'
+class FixedWithPts(Mortgage):
+def __init__(self, loan, r, months, pts):
+Mortgage.__init__(self, loan, r, months)
+self.pts = pts
+self.paid = [loan*(pts/100.0)]
+self.legend = 'Fixed, ' + str(r*100) + '%, '\
++ str(pts) + ' points'
+class TwoRate(Mortgage):
+def __init__(self, loan, r, months, teaserRate, teaserMonths):
+Mortgage.__init__(self, loan, teaserRate, months)
+self.teaserMonths = teaserMonths
+self.teaserRate = teaserRate
+self.nextRate = r/12.0
+self.legend = str(teaserRate*100)\
++ '% for ' + str(self.teaserMonths)\
++ ' months, then ' + str(r*100) + '%'
+def makePayment(self):
+if len(self.paid) == self.teaserMonths + 1:
+self.rate = self.nextRate
+self.payment = findPayment(self.outstanding[-1],
+self.rate,
+self.months - self.teaserMonths)
+Mortgage.makePayment(self)
+Figure 11.7 Subclasses of Mortgage
+Figure 11.8 and Figure 11.9 contain functions that can be used to generate
+plots intended to provide insight about the different kinds of mortgages.
+CHAPTER 11. PLOTTING AND MORE ABOUT CLASSES 179
+The function compareMortgages, Figure 11.8, creates a list of different kinds
+of mortgages, and simulates making a series of payments on each, as it did[FORMULA]Figure 8.11. It then calls plotMortgages, Figure 11.9, to produce the plots.
+def compareMortgages(amt, years, fixedRate, pts, ptsRate,
+varRate1, varRate2, varMonths):
+totMonths = years*12
+fixed1 = Fixed(amt, fixedRate, totMonths)
+fixed2 = FixedWithPts(amt, ptsRate, totMonths, pts)
+twoRate = TwoRate(amt, varRate2, totMonths, varRate1, varMonths)
+morts = [fixed1, fixed2, twoRate]
+for m[FORMULA]range(totMonths):
+for mort[FORMULA]morts:
+mort.makePayment()
+plotMortgages(morts, amt)
+Figure 11.8 Compare mortgages
+The function plotMortgages[FORMULA]Figure 11.9 uses the plotting methods[FORMULA]Mort-
+gage to produce plots containing information about each of three kinds of mort-
+gages. The loop[FORMULA]plotMortgages uses the index i to select elements from the lists
+morts and styles[FORMULA]a way that ensures that different kinds of mortgages are rep-
+resented[FORMULA]a consistent way across figures. For example, since the third element[FORMULA]morts is a variable-rate mortgage and the third element[FORMULA]styles is 'k:', the
+variable-rate mortgage is always plotted using a black dotted line. The local func-
+tion labelPlot is used to generate appropriate titles and axis labels for each plot.
+The calls of pylab.figure ensure that titles and labels are associated with the ap-
+propriate plot.
+The call
+compareMortgages(amt=200000, years=30, fixedRate=0.07,
+pts = 3.25, ptsRate=0.05,
+varRate1=0.045, varRate2=0.095, varMonths=48)
+produces plots (Figure 11.10 - Figure 11.12) that shed some light on the mort-
+gages discussed[FORMULA]Section 8.4.
+180 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+def plotMortgages(morts, amt):
+def labelPlot(figure, title, xLabel, yLabel):
+pylab.figure(figure)
+pylab.title(title)
+pylab.xlabel(xLabel)
+pylab.ylabel(yLabel)
+pylab.legend(loc = 'best')
+styles = ['k-', 'k-.', 'k:']
+#Give names to figure numbers
+payments, cost, balance, netCost = 0, 1, 2, 3
+for i[FORMULA]range(len(morts)):
+pylab.figure(payments)
+morts[i].plotPayments(styles[i])
+pylab.figure(cost)
+morts[i].plotTotPd(styles[i])
+pylab.figure(balance)
+morts[i].plotBalance(styles[i])
+pylab.figure(netCost)
+morts[i].plotNet(styles[i])
+labelPlot(payments, 'Monthly Payments of $' + str(amt) +
+' Mortgages', 'Months', 'Monthly Payments')
+labelPlot(cost, 'Cash Outlay of $' + str(amt) +
+' Mortgages', 'Months', 'Total Payments')
+labelPlot(balance, 'Balance Remaining of $' + str(amt) +
+' Mortgages', 'Months', 'Remaining Loan Balance of $')
+labelPlot(netCost, 'Net Cost of $' + str(amt) + ' Mortgages',
+'Months', 'Payments - Equity $')
+Figure 11.9 Generate mortgage plots
+The plot[FORMULA]Figure 11.10, which was produced by invocations of plotPayments,
+simply plots each payment of each mortgage against time. The box containing
+the key appears where it does because of the value supplied to the keyword ar-
+gument loc used[FORMULA]the call to pylab.legend. When loc is bound to 'best' the loca-
+tion is chosen automatically. This plot makes it clear how the monthly payments
+vary (or don’t) over time, but doesn’t shed much light on the relative costs of each
+kind of mortgage.
+CHAPTER 11. PLOTTING AND MORE ABOUT CLASSES 181
+Figure 11.10 Monthly payments of different kinds of mortgages
+The plots[FORMULA]Figure 11.11 were produced by invocations of plotTotPd. They
+shed some light on the cost of each kind of mortgage by plotting the cumulative
+costs that have been incurred at the start of each month. The entire plot is on the
+left, and an enlargement of the left part of the plot is on the right.
+Figure 11.11 Cost over time of different kinds of mortgages
+The plots[FORMULA]Figure 11.12 show the remaining debt (on the left) and the total
+net cost of having the mortgage (on the right).
+182 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Figure 11.12 Balance remaining and net cost for different kinds of mortgages
+
+## 12 KNAPSACK AND GRAPH OPTIMIZATION PROBLEMS
+
+The notion of an optimization problem provides a structured way to think about
+solving lots of computational problems. Whenever you set about solving a prob-
+lem that involves finding the biggest, the smallest, the most, the fewest, the fast-
+est, the least expensive, etc., there is a good chance that you can map the problem
+onto a classic optimization problem for which there is a known computational
+solution.
+In general, an optimization problem has two parts:
+• An objective function that is to be maximized or minimized. For example, the
+airfare between Boston and Istanbul.
+• A set of constraints (possibly empty) that must be honored. For example, an
+upper bound on the travel time.
+In this chapter, we introduce the notion of an optimization problem and give
+a few examples. We also provide some simple algorithms that solve them. In
+Chapter 13, we discuss an efficient way of solving an important class of optimiza-
+tion problems.
+The main things to take away from this chapter are:
+• Many problems of real importance can be formulated[FORMULA]a simple way that
+leads naturally to a computational solution.
+• Reducing a seemingly new problem to an instance of a well-known problem
+allows one to use preexisting solutions.
+• Knapsack problems and graph problems are classes of problems to which oth-
+er problems can often be reduced.
+• Exhaustive enumeration algorithms provide a simple, but often computation-
+ally intractable, way to search for optimal solutions.
+• A greedy algorithm is often a practical approach to finding a pretty good, but
+not always optimal, solution to an optimization problem.
+As usual we will supplement the material on computational thinking with a
+few bits of Python and some tips about programming.
+184 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+## 12.1 Knapsack Problems
+
+It’s not easy being a burglar. In addition to the obvious problems (making sure
+that a home is empty, picking locks, circumventing alarms, dealing with ethical
+quandaries, etc.), a burglar has to decide what to steal. The problem is that most
+homes contain more things of value than the average burglar can carry away.
+What’s a poor burglar to do? He needs to find the set of things that provides the
+most value without exceeding his carrying capacity.
+Suppose for example, a burglar who has a knapsack73 that can hold at most
+
+## 20 pounds of loot breaks into a house and finds the items[FORMULA]Figure 12.1. Clearly,
+
+he will not be able to fit it all[FORMULA]his knapsack, so he needs to decide what to take
+and what to leave behind.
+Value Weight Value/Weight
+Clock 175 10 17.5
+Painting 90 9 10
+Radio 20 4 5
+Vase 50 2 25
+Book 10 1 10
+Computer 200 20 10
+Figure 12.1 Table of items
+12.1.1 Greedy Algorithms
+The simplest way to find an approximate solution to this problem is to use a
+greedy algorithm. The thief would choose the best item first, then the next best,
+and continue until he reached his limit. Of course, before doing this, the thief
+would have to decide what “best” should mean. Is the best item the most valua-
+ble, the least heavy, or maybe the item with the highest value-to-weight ratio? If
+he chose highest value, he would leave with just the computer, which he could
+fence for $200. If he chose lowest weight, he would take,[FORMULA]order, the book, the
+vase, the radio, and the painting—which would be worth a total of $170. Finally,
+if he decided that best meant highest value-to-weight ratio, he would start by tak-
+ing the vase and the clock. That would leave three items with a value-to-weight
+ratio of 10, but of those only the book would still fit[FORMULA]the knapsack. After taking
+
+## 73 For those of you too young to remember, a “knapsack” is a simple bag that people used to carry
+
+on their back—long before “backpacks” became fashionable. If you happen to have been[FORMULA]scouting you might remember the words of the “Happy Wanderer,” “I love to go a-wandering,
+Along the mountain track, And as I go, I love to sing, My knapsack on my back.”
+CHAPTER 12. KNAPSACK AND GRAPH OPTIMIZATION PROBLEMS 185
+the book, he would take the remaining item that still fit, the radio. The total value
+of his loot would be $255.
+Though greedy-by-density (value-to-weight ratio) happens to yield the best
+result for this data set, there is no guarantee that a greedy-by-density algorithm
+always finds a better solution than greedy by weight or value. More generally,
+there is no guarantee that any solution to this kind of knapsack problem that is
+found by a greedy algorithm will be optimal.74 We will discuss this issue[FORMULA]more
+detail a bit later.
+The code[FORMULA]the next three figures implements all three of these greedy algo-
+rithms. In Figure 12.2 we define class Item. Each Item has a name, value, and weight
+attribute. We also define three functions that can be bound to the argument
+keyFunction of our implementation of greedy, see Figure 12.3.
+class Item(object):
+def __init__(self, n, v, w):
+self.name = n
+self.value = v
+self.weight = w
+def getName(self):
+return self.name
+def getValue(self):
+return self.value
+def getWeight(self):
+return self.weight
+def __str__(self):
+result = '<' + self.name + ', ' + str(self.value)\
++ ', ' + str(self.weight) + '>'
+return result
+def value(item):
+return item.getValue()
+def weightInverse(item):
+return 1.0/item.getWeight()
+def density(item):
+return item.getValue()/item.getWeight()
+Figure 12.2 Class Item
+
+## 74 There is probably some deep moral lesson to be extracted from this fact, and it is probably not
+
+“greed is good.”
+186 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+def greedy(items, maxWeight, keyFunction):
+"""Assumes Items a list, maxWeight >= 0,
+keyFunction maps elements of Items to numbers"""
+itemsCopy = sorted(items, key=keyFunction, reverse = True)
+result = []
+totalValue, totalWeight = 0.0, 0.0
+for i[FORMULA]range(len(itemsCopy)):
+if (totalWeight + itemsCopy[i].getWeight()) <= maxWeight:
+result.append(itemsCopy[i])
+totalWeight += itemsCopy[i].getWeight()
+totalValue += itemsCopy[i].getValue()
+return (result, totalValue)
+Figure 12.3 Implementation of a greedy algorithm
+By introducing the parameter keyFunction, we make greedy independent of
+the order[FORMULA]which the elements of the list are to be considered. All that is re-
+quired is that keyFunction defines an ordering on the elements[FORMULA]items. We then
+use this ordering to produce a sorted list containing the same elements as items.
+We use the built-[FORMULA]Python function sorted to do this. (We use sorted rather than
+sort because we want to generate a new list rather than mutate the list passed to
+the function.) We use the reverse parameter to indicate that we want the list sort-
+ed from largest (with respect to keyFunction) to smallest.
+What is the algorithmic efficiency of greedy? There are two things to consid-
+er: the time complexity of the built-[FORMULA]function sorted, and the number of times
+through the for loop[FORMULA]the body of greedy. The number of iterations of the loop
+is bounded by the number of elements[FORMULA]items, i.e., it is O(n), where n is the
+length of items. However, the worst-case time for Python’s built-[FORMULA]sorting func-
+tion is roughly O(n[FORMULA]n), where n is the length of the list to be sorted.75 There-
+fore the running time of greedy is O(n[FORMULA]n).
+The code[FORMULA]Figure 12.4 builds a list of items and then tests the function
+greedy using different ways of ordering the list.
+
+## 75 As we discussed[FORMULA]Chapter 10, the time complexity of the sorting algorithm, timsort, used[FORMULA]most Python implementations is O(n[FORMULA]n).
+
+CHAPTER 12. KNAPSACK AND GRAPH OPTIMIZATION PROBLEMS 187
+def buildItems():
+names = ['clock','painting','radio','vase','book','computer']
+values = [175,90,20,50,10,200]
+weights = [10,9,4,2,1,20]
+Items = []
+for i[FORMULA]range(len(values)):
+Items.append(Item(names[i], values[i], weights[i]))
+return Items
+def testGreedy(items, maxWeight, keyFunction):
+taken, val = greedy(items, maxWeight, keyFunction)
+print('Total value of items taken is', val)
+for item[FORMULA]taken:
+print(' ', item)
+def testGreedys(maxWeight = 20):
+items = buildItems()
+print('Use greedy by value to fill knapsack of size', maxWeight)
+testGreedy(items, maxWeight, value)
+print('\nUse greedy by weight to fill knapsack of size',
+maxWeight)
+testGreedy(items, maxWeight, weightInverse)
+print('\nUse greedy by density to fill knapsack of size',
+maxWeight)
+testGreedy(items, maxWeight, density)
+Figure 12.4 Using a greedy algorithm to choose items
+When testGreedys() is executed it prints
+Use greedy by value to fill knapsack of size 20
+Total value of items taken is 200
+<computer, 200, 20>
+Use greedy by weight to fill knapsack of size 20
+Total value of items taken is 170
+<book, 10, 1>
+<vase, 50, 2>
+<radio, 20, 4>
+<painting, 90, 9>
+Use greedy by density to fill knapsack of size 20
+Total value of items taken is 255
+<vase, 50, 2>
+<clock, 175, 10>
+<book, 10, 1>
+<radio, 20, 4>
+188 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+12.1.2 An Optimal Solution to the 0/1 Knapsack Problem
+Suppose we decide that an approximation is not good enough, i.e., we want the
+best possible solution to this problem. Such a solution is called optimal, not sur-
+prising since we are solving an optimization problem. As it happens, the problem
+confronting our burglar is an instance of a classic optimization problem, called
+the 0/1 knapsack problem. The 0/1 knapsack problem can be formalized as fol-
+lows:
+• Each item is represented by a pair, <value, weight>.
+• The knapsack can accommodate items with a total weight of no more than w.
+• A vector, I, of length n, represents the set of available items. Each element of
+the vector is an item.
+• A vector, V, of length n, is used to indicate whether or not each item is taken
+by the burglar. If V[i] = 1, item I[i] is taken. If V[i] = 0, item I[i] is not taken.
+• Find a V that maximizes
+n−1
+∑V[i]*I[i].value
+i=0
+subject to the constraint that
+n−1
+∑V[i]*I[i].weight≤w
+€
+i=0
+Let’s see what happens if we try to implement this formulation of the
+problem[FORMULA]a straightforward way:
+1.€ Enumerate all possible combinations of items. That is to say, generate all sub-
+sets of the set of items.76 This is called the power set, and was discussed[FORMULA]Chapter 9.
+2. Remove all of the combinations whose weight exceeds the allowed weight.
+3. From the remaining combinations choose any one whose value is the largest.
+This approach will certainly find an optimal answer. However, if the original
+set of items is large, it will take a very long time to run, because, as we saw[FORMULA]Sec-
+tion 9.3.6, the number of subsets grows exceedingly quickly with the number of
+items.
+Figure 12.5 contains a straightforward implementation of this brute-force
+approach to solving the 0/1 knapsack problem. It uses the classes and functions
+defined[FORMULA]Figure 12.2 and Figure 12.4, and the function genPowerset defined[FORMULA]Figure 9.6.
+
+## 76 Recall that every set is a subset of itself and the empty set is a subset of every set.
+
+CHAPTER 12. KNAPSACK AND GRAPH OPTIMIZATION PROBLEMS 189
+def chooseBest(pset, maxWeight, getVal, getWeight):
+bestVal = 0.0
+bestSet = None
+for items[FORMULA]pset:
+itemsVal = 0.0
+itemsWeight = 0.0
+for item[FORMULA]items:
+itemsVal += getVal(item)
+itemsWeight += getWeight(item)
+if itemsWeight <= maxWeight and itemsVal > bestVal:
+bestVal = itemsVal
+bestSet = items
+return (bestSet, bestVal)
+def testBest(maxWeight = 20):
+items = buildItems()
+pset = genPowerset(items)
+taken, val = chooseBest(pset, maxWeight, Item.getValue,
+Item.getWeight)
+print('Total value of items taken is', val)
+for item[FORMULA]taken:
+print(item)
+Figure 12.5 Brute-force optimal solution to the 0/1 knapsack problem
+The complexity of this implementation is O(n*2n), where n is the length of
+items. The function genPowerset returns a list of lists of Items. This list is of length
+2n, and the longest list[FORMULA]it is of length n. Therefore the outer loop[FORMULA]chooseBest
+will be executed O(2n)) times, and the number of times the inner loop will be exe-
+cuted is bounded by n.
+Many small optimizations can be applied to speed this program up. For ex-
+ample, genPowerset could have had the header
+def genPowerset(items, constraint, getVal, getWeight)
+and returned only those combinations that meet the weight constraint. Alterna-
+tively, chooseBest could exit the inner loop as soon as the weight constraint is ex-
+ceeded. While these kinds of optimizations are often worth doing, they don’t
+address the fundamental issue. The complexity of chooseBest will still be O(n*2n),
+where n is the length of items, and chooseBest will therefore still take a very long
+time to run when items is large.
+In a theoretical sense, the problem is hopeless. The 0/1 knapsack problem is
+inherently exponential[FORMULA]the number of items. In a practical sense, however, the
+problem is far from hopeless, as we will discuss[FORMULA]Section 13.2.
+190 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+When testBest is run, it prints
+Total value of items taken is 275.0
+<clock, 175, 10>
+<painting, 90, 9>
+<book, 10, 1>
+Notice that this solution is better than any of the solutions found by the
+greedy algorithms. The essence of a greedy algorithm is making the best (as de-
+fined by some metric) local choice at each step. It makes a choice that is locally
+optimal. However, as this example illustrates, a series of locally optimal decisions
+does not always lead to a solution that is globally optimal.
+Despite the fact that they do not always find the best solution, greedy algo-
+rithms are often used[FORMULA]practice. They are usually easier to implement and more
+efficient to run than algorithms guaranteed to find optimal solutions. As Ivan
+Boesky once said, “I think greed is healthy. You can be greedy and still feel good
+about yourself.” 77
+There is a variant of the knapsack problem, called the fractional (or continu-
+ous) knapsack problem, for which a greedy algorithm is guaranteed to find an
+optimal solution. Since the items are infinitely divisible, it always makes sense to
+take as much as possible of the item with the highest remaining value-to-weight
+ratio. Suppose, for example, that our burglar found only three things of value[FORMULA]the house: a sack of gold dust, a sack of silver dust, and a sack of raisins. In this
+case, a greedy-by-density algorithm will always find the optimal solution.
+
+## 12.2 Graph Optimization Problems
+
+Let’s think about another kind of optimization problem. Suppose you had a list of
+the prices of all of the airline flights between each pair of cities[FORMULA]the United
+States. Suppose also that for all cities, A, B, and C, the cost of flying from A to C by
+way of B was the cost of flying from A to B plus the cost of flying from B to C. A
+few questions you might like to ask are:
+
+## 77 He said this, to enthusiastic applause,[FORMULA]a 1986 commencement address at the University of
+
+California at Berkeley Business School. A few months later he was indicted for insider trading, a
+charge that led to two years[FORMULA]prison and a $100,000,000 fine.
+CHAPTER 12. KNAPSACK AND GRAPH OPTIMIZATION PROBLEMS 191
+• What is the smallest number of stops between some pair of cities?
+• What is the least expensive airfare between some pair of cities?
+• What is the least expensive airfare between some pair of cities involving no
+more than two stops?
+• What is the least expensive way to visit some collection of cities?
+All of these problems (and many others) can be easily formalized as graph prob-
+lems.
+A graph78 is a set of objects called nodes (or vertices) connected by a set of
+edges (or arcs). If the edges are unidirectional the graph is called a directed graph
+or digraph. In a directed graph, if there is an edge from 𝑛1 to 𝑛2, we refer to 𝑛1 as
+the source or parent node and n2 as the destination or child node.
+Graphs are typically used to represent situations[FORMULA]which there are interest-
+ing relations among the parts. The first documented use of graphs[FORMULA]mathemat-
+ics was[FORMULA]1735 when the Swiss mathematician Leonhard Euler used what has
+come to be known as graph theory to formulate and solve the Königsberg bridges
+problem.
+Königsberg, then the capital of East Prussia, was built at the intersection of
+two rivers that contained a number of islands. The islands were connected to
+each other and to the mainland by seven bridges, as shown on the map on the left
+side of Figure 12.6. For some reason, the residents of the city were obsessed with
+the question of whether it was possible to take a walk that crossed each bridge
+exactly once.
+Euler’s great insight was that the problem could be vastly simplified by view-
+ing each separate landmass as a point (think “node”) and each bridge as a line
+(think “edge”) connecting two of these points. The map of the town could then
+be represented by the graph to the right of the map[FORMULA]Figure 12.6. Euler then
+reasoned that if a walk were to traverse each edge exactly once, it must be the
+case that each node[FORMULA]the middle of the walk (i.e., any island that is both entered
+and exited during the walk) must be connected by an even number of edges.
+Since none of the nodes[FORMULA]this graph has an even number of edges, Euler con-
+cluded that it is impossible to traverse each bridge exactly once.
+
+## 78 Computer scientists and mathematicians use the word “graph”[FORMULA]the sense used[FORMULA]this book.
+
+They typically use the word “plot” or “chart” to denote pictorial representations of information.
+192 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Figure 12.6 The bridges of Königsberg (left) and Euler’s simplified map (right)
+Of greater interest than the Königsberg bridges problem, or even Euler’s the-
+orem (which generalizes his solution to the Königsberg bridges problem), is the
+whole idea of using graph theory to help understand problems.
+For example, only one small extension to the kind of graph used by Euler is
+needed to model a country’s highway system. If a weight is associated with each
+edge[FORMULA]a graph (or digraph) it is called a weighted graph. Using weighted graphs,
+the highway system can be represented as a graph[FORMULA]which cities are represented
+by nodes and the highways connecting them as edges, where each edge is labeled
+with the distance between the two nodes. More generally, one can represent any
+road map (including those with one-way streets) by a weighted digraph.
+Similarly, the structure of the World Wide Web can be represented as a di-
+graph[FORMULA]which the nodes are Web pages and there is an edge from node 𝐴 to
+node 𝐵 if and only if there is a link to page 𝐵 on page 𝐴. Traffic patterns could be
+modeled by adding a weight to each edge indicating how often is it used.
+There are also many less obvious uses of graphs. Biologists use graphs to
+model things ranging from the way proteins interact with each other to gene ex-
+pression networks. Physicists use graphs to describe phase transitions. Epidemi-
+ologists use graphs to model disease trajectories. And so on.
+Figure 12.7 contains classes implementing abstract types corresponding to
+nodes, weighted edges, and edges.
+CHAPTER 12. KNAPSACK AND GRAPH OPTIMIZATION PROBLEMS 193
+class Node(object):
+def __init__(self, name):
+"""Assumes name is a string"""
+self.name = name
+def getName(self):
+return self.name
+def __str__(self):
+return self.name
+class Edge(object):
+def __init__(self, src, dest):
+"""Assumes src and dest are nodes"""
+self.src = src
+self.dest = dest
+def getSource(self):
+return self.src
+def getDestination(self):
+return self.dest
+def __str__(self):
+return self.src.getName() + '->' + self.dest.getName()
+class WeightedEdge(Edge):
+def __init__(self, src, dest, weight = 1.0):
+"""Assumes src and dest are nodes, weight a number"""
+self.src = src
+self.dest = dest
+self.weight = weight
+def getWeight(self):
+return self.weight
+def __str__(self):
+return self.src.getName() + '->(' + str(self.weight) + ')'\
++ self.dest.getName()
+Figure 12.7 Nodes and edges
+Having a class for nodes may seem like overkill. After all, none of the meth-
+ods[FORMULA]class Node perform any interesting computation. We introduced the class
+merely to give us the flexibility of deciding, perhaps at some later point, to intro-
+duce a subclass of Node with additional properties.
+Figure 12.8 contains implementations of the classes Digraph and Graph.
+194 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+class Digraph(object):
+#nodes is a list of the nodes[FORMULA]the graph
+#edges is a dict mapping each node to a list of its children
+def __init__(self):
+self.nodes = []
+self.edges = {}
+def addNode(self, node):
+if node[FORMULA]self.nodes:
+raise ValueError('Duplicate node')
+else:
+self.nodes.append(node)
+self.edges[node] = []
+def addEdge(self, edge):
+src = edge.getSource()
+dest = edge.getDestination()
+if not (src[FORMULA]self.nodes and dest[FORMULA]self.nodes):
+raise ValueError('Node not[FORMULA]graph')
+self.edges[src].append(dest)
+def childrenOf(self, node):
+return self.edges[node]
+def hasNode(self, node):
+return node[FORMULA]self.nodes
+def __str__(self):
+result = ''
+for src[FORMULA]self.nodes:
+for dest[FORMULA]self.edges[src]:
+result = result + src.getName() + '->'\
++ dest.getName() + '\n'
+return result[:-1] #omit final newline
+class Graph(Digraph):
+def addEdge(self, edge):
+Digraph.addEdge(self, edge)
+rev = Edge(edge.getDestination(), edge.getSource())
+Digraph.addEdge(self, rev)
+Figure 12.8 Classes Graph and Digraph
+One important decision is the choice of data structure used to represent a Di-
+graph. One common representation is an n × n adjacency matrix, where n is the
+number of nodes[FORMULA]the graph. Each cell of the matrix contains information (e.g.,
+weights) about the edges connecting the pair of nodes <𝑖, 𝑗>. If the edges are
+unweighted, each entry is True if and only if there is an edge from 𝑖 to 𝑗.
+Another common representation is an adjacency list, which we use here.
+Class Digraph has two instance variables. The variable nodes is a Python list con-
+CHAPTER 12. KNAPSACK AND GRAPH OPTIMIZATION PROBLEMS 195
+taining the names of the nodes[FORMULA]the Digraph. The connectivity of the nodes is
+represented using an adjacency list implemented as a dictionary. The variable
+edges is a dictionary that maps each Node[FORMULA]the Digraph to a list of the children of
+that Node.
+Class Graph is a subclass of Digraph. It inherits all of the methods of Digraph
+except addEdge, which it overrides. (This is not the most space-efficient way to
+implement Graph, since it stores each edge twice, once for each direction[FORMULA]the
+Digraph. But it has the virtue of simplicity.)
+You might want to stop for a minute and think about why Graph is a subclass
+of Digraph, rather than the other way around. In many of the examples of sub-
+classing we have looked at, the subclass adds attributes to the superclass. For ex-
+ample, class WeightedEdge added a weight attribute to class Edge.
+Here, Digraph and Graph have the same attributes. The only difference is the
+implementation of the addEdge method. Either could have been easily implement-
+ed by inheriting methods from the other, but the choice of which to make the su-
+perclass was not arbitrary. In Chapter 8, we stressed the importance of obeying
+the substitution principle: If client code works correctly using an instance of the
+supertype, it should also work correctly when an instance of the subtype is sub-
+stituted for the instance of the supertype.
+And indeed if client code works correctly using an instance of Digraph, it will
+work correctly if an instance of Graph is substituted for the instance of Digraph.
+The converse is not true. There are many algorithms that work on graphs (by ex-
+ploiting the symmetry of edges) that do not work on directed graphs.
+12.2.1 Some Classic Graph-Theoretic Problems
+One of the nice things about formulating a problem using graph theory is that
+there are well-known algorithms for solving many optimization problems on
+graphs. Some of the best-known graph optimization problems are:
+• Shortest path. For some pair of nodes, 𝑛1 and 𝑛2, find the shortest sequence of
+edges <𝑠 , 𝑑 > (source node and destination node), such that
+h h
+o The source node[FORMULA]the first edge is 𝑛1
+o The destination node of the last edge is 𝑛2
+o For all edges 𝑒1 and 𝑒2[FORMULA]the sequence, if 𝑒2 follows 𝑒1[FORMULA]the sequence,
+the source node of 𝑒2 is the destination node of 𝑒1.
+• Shortest weighted path. This is like the shortest path, except instead of choos-
+ing the shortest sequence of edges that connects two nodes, we define some
+function on the weights of the edges[FORMULA]the sequence (e.g., their[FORMULA]) and min-
+196 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+imize that value. This is the kind of problem solved by Google Maps when
+asked to compute driving directions between two points.
+• Maximum clique. A clique is a set of nodes such that there is an edge between
+each pair of nodes[FORMULA]the set.79 A maximum clique is a clique of the largest size[FORMULA]a graph.
+• Min cut. Given two sets of nodes[FORMULA]a graph, a cut is a set of edges whose re-
+moval eliminates all paths from each node[FORMULA]one set to each node[FORMULA]the other.
+The minimum cut is the smallest set of edges whose removal accomplishes
+this.
+12.2.2 Shortest Path: Depth-First Search and Breadth-First Search
+Social networks are made up of individuals and relationships between individu-
+als. These are typically modeled as graphs[FORMULA]which the individuals are nodes and
+the edges relationships. If the relationships are symmetric, the edges are undi-
+rected; if the relationships are asymmetric the edges are directed. Some social
+networks model multiple kinds of relationships,[FORMULA]which case labels on the edges
+indicate the kind of relationship.
+In 1990 the playwright John Guare wrote Six Degrees of Separation. The du-
+bious premise underlying the play is that “everybody on this planet is separated
+by only six other people.” By this he meant that if one built a social network[FORMULA]-
+cluding every person on the earth using the relation “knows,” the shortest path
+between any two individuals would pass through at most six other nodes.
+A less hypothetical question is the distance using the “friend” relation be-
+tween pairs of people on Facebook. For example, you might wonder if you have a
+friend who has a friend who has a friend who is a friend of Mick Jagger. Let’s
+think about designing a program to answer such questions.
+The friend relation (at least on Facebook) is symmetric, e.g., if Stephanie is a
+friend of Andrea, Andrea is a friend of Stephanie. We will, therefore, implement
+the social network using type Graph. We can then define the problem of finding
+the shortest connection between you and Mick Jagger as:
+• Let G be the graph representing the friend relation.
+• For G, find the shortest sequence of nodes, [You,…,Mick Jagger], such that
+• If 𝑛 and 𝑛 are consecutive nodes[FORMULA]path, there is an edge[FORMULA]G connecting
+l lmn
+𝑛 and 𝑛 .
+l lmn
+
+## 79 This notion is quite similar to the notion of a social clique, i.e., a group of people who feel closely
+
+connected to each other and are inclined to exclude those not[FORMULA]the clique. See, for example, the
+movie Heathers.
+CHAPTER 12. KNAPSACK AND GRAPH OPTIMIZATION PROBLEMS 197
+Figure 12.9 contains a recursive function that finds the shortest path between
+two nodes, start and end,[FORMULA]a Digraph. Since Graph is a subclass of Digraph, it will
+work for our Facebook problem.
+def printPath(path):
+"""Assumes path is a list of nodes"""
+result = ''
+for i[FORMULA]range(len(path)):
+result = result + str(path[i])
+if i != len(path) - 1:
+result = result + '->'
+return result
+def DFS(graph, start, end, path, shortest, toPrint = False):
+"""Assumes graph is a Digraph; start and end are nodes;
+path and shortest are lists of nodes
+Returns a shortest path from start to end[FORMULA]graph"""
+path = path + [start]
+if toPrint:
+print('Current DFS path:', printPath(path))
+if start == end:
+return path
+for node[FORMULA]graph.childrenOf(start):
+if node not[FORMULA]path: #avoid cycles
+if shortest == None or len(path) < len(shortest):
+newPath = DFS(graph, node, end, path, shortest,
+toPrint)
+if newPath != None:
+shortest = newPath
+return shortest
+def shortestPath(graph, start, end, toPrint = False):
+"""Assumes graph is a Digraph; start and end are nodes
+Returns a shortest path from start to end[FORMULA]graph"""
+return DFS(graph, start, end, [], None, toPrint)
+Figure 12.9 Depth-first-search shortest-path algorithm
+The algorithm implemented by DFS is an example of a recursive depth-first-
+search (DFS) algorithm. In general, a depth-first-search algorithm begins by
+choosing one child of the start node. It then chooses one child of that node and
+so on, going deeper and deeper until it either reaches the goal node or a node
+with no children. The search then backtracks, returning to the most recent node
+with children that it has not yet visited. When all paths have been explored, it
+chooses the shortest path (assuming that there is one) from the start to the goal.
+198 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+The code is a bit more complicated than the algorithm we just described be-
+cause it has to deal with the possibility of the graph containing cycles. It also
+avoids exploring paths longer than the shortest path that it has already found.
+• The function shortestPath calls DFS with path == [] (to indicate that the cur-
+rent path being explored is empty) and shortest == None (to indicate that no
+path from start to end has yet been found).
+• DFS begins by choosing one child of start. It then chooses one child of that
+node and so on, until either it reaches the node end or a node with no unvisited
+children.
+o The check if node not[FORMULA]path prevents the program from getting
+caught[FORMULA]a cycle.
+o The check if shortest == None or len(path) < len(shortest) is used
+to decide if it is possible that continuing to search this path might
+yield a shorter path than the best path found so far.
+o If so, DFS is called recursively. If it finds a path to end that is no longer
+than the best found so far, shortest is updated.
+o When the last node on path has no children left to visit, the program
+backtracks to the previously visited node and visits the next child of
+that node.
+• The function returns when all possibly shortest paths from start to end have
+been explored.
+Figure 12.10 contains some code that runs the code[FORMULA]Figure 12.9. The func-
+tion testSP[FORMULA]Figure 12.10 first builds a directed graph like the one pictured[FORMULA]the figure, and then searches for a shortest path between node 0 and node 5.
+When executed, testSP produces the output
+Current DFS path: 0
+Current DFS path: 0->1
+Current DFS path: 0->1->2
+Current DFS path: 0->1->2->3
+Current DFS path: 0->1->2->3->4
+Current DFS path: 0->1->2->3->5
+Current DFS path: 0->1->2->4
+Current DFS path: 0->2
+Current DFS path: 0->2->3
+Current DFS path: 0->2->3->4
+Current DFS path: 0->2->3->5
+Current DFS path: 0->2->3->1
+Current DFS path: 0->2->4
+Shortest path is 0->2->3->5
+CHAPTER 12. KNAPSACK AND GRAPH OPTIMIZATION PROBLEMS 199
+Figure 12.10 Test depth-first-search code
+Notice that after exploring the path 0->1->2->3->4, it backs up to node 3 and
+explores the path 0->1->2->3->5. After saving that as the shortest successful path
+so far, it backs up to node 2 and explores the path 0->1->2->4. When it reaches the
+end of that path (node 4), it backs up all the way to node 0 and investigates the
+path starting with the edge from 0 to 2. And so on.
+The DFS algorithm implemented[FORMULA]Figure 12.9 finds the path with the min-
+imum number of edges. If the edges have weights, it will not necessarily find the
+path that minimizes the[FORMULA]of the weights of the edges. However, it is easily
+modified to do so.
+Of course, there are other ways to traverse a graph than depth-first. Another
+common approach is breadth-first search (BFS). In a breadth-first traversal one
+first visits all children of the start node. If none of those is the end node, one vis-
+its all children of each of those nodes. And so on. Unlike depth-first search,
+which is usually implemented recursively, breadth-first search is usually imple-
+mented iteratively. BFS explores many paths simultaneously, adding one node to
+each path on each iteration. Since it generates the paths[FORMULA]ascending order of
+length, the first path found with the goal as its last node is guaranteed to have a
+minimum number of edges.
+Figure 12.11 contains code that uses a breadth-first search to find the short-
+est path[FORMULA]a directed graph. The variable pathQueue is used to store all of the paths
+currently being explored. Each iteration starts by removing a path from pathQueue
+200 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+and assigning that path to tmpPath. If the last node[FORMULA]tmpPath is end, tmpPath is a
+shortest path and is returned. Otherwise, a set of new paths is created, each of
+which extends tmpPath by adding one of its children. Each of these new paths is
+then added to pathQueue.
+def BFS(graph, start, end, toPrint = False):
+"""Assumes graph is a Digraph; start and end are nodes
+Returns a shortest path from start to end[FORMULA]graph"""
+initPath = [start]
+pathQueue = [initPath]
+if toPrint:
+print('Current BFS path:', printPath(path))
+while len(pathQueue) != 0:
+#Get and remove oldest element[FORMULA]pathQueue
+tmpPath = pathQueue.pop(0)
+print('Current BFS path:', printPath(tmpPath))
+lastNode = tmpPath[-1]
+if lastNode == end:
+return tmpPath
+for nextNode[FORMULA]graph.childrenOf(lastNode):
+if nextNode not[FORMULA]tmpPath:
+newPath = tmpPath + [nextNode]
+pathQueue.append(newPath)
+return None
+Figure 12.11 Breadth-first-search shortest path algorithm
+When the lines
+sp = BFS(g, nodes[0], nodes[5])
+print('Shortest path found by BFS:', printPath(sp))
+are added at the end of testSP and the function is executed it prints
+CHAPTER 12. KNAPSACK AND GRAPH OPTIMIZATION PROBLEMS 201
+Current DFS path: 0
+Current DFS path: 0->1
+Current DFS path: 0->1->2
+Current DFS path: 0->1->2->3
+Current DFS path: 0->1->2->3->4
+Current DFS path: 0->1->2->3->5
+Current DFS path: 0->1->2->4
+Current DFS path: 0->2
+Current DFS path: 0->2->3
+Current DFS path: 0->2->3->4
+Current DFS path: 0->2->3->5
+Current DFS path: 0->2->3->1
+Current DFS path: 0->2->4
+Shortest path found by DFS: 0->2->3->5
+Current BFS path: 0
+Current BFS path: 0->1
+Current BFS path: 0->2
+Current BFS path: 0->1->2
+Current BFS path: 0->2->3
+Current BFS path: 0->2->4
+Current BFS path: 0->1->2->3
+Current BFS path: 0->1->2->4
+Current BFS path: 0->2->3->4
+Current BFS path: 0->2->3->5
+Shortest path found by BFS: 0->2->3->5
+Comfortingly, each algorithm found a path of the same length. In this case,
+they found the same path. However, if a graph contains more than one shortest
+path between a pair of nodes, DFS and BFS will not necessarily find the same
+shortest path.
+As mentioned above, BFS is a convenient way to search for a path with the
+fewest edges because the first time a path is found, it is guaranteed to be such a
+path.
+Finger exercise: Consider a digraph with weighted edges. Is the first path found
+by BFS guaranteed to minimize the[FORMULA]of the weights of the edges?
+
+## 13 DYNAMIC PROGRAMMING
+
+Dynamic programming was invented by Richard Bellman[FORMULA]the 1950s. Don’t try
+to infer anything about the technique from its name. As Bellman described it, the
+name “dynamic programming” was chosen to hide from governmental sponsors
+“the fact that I was really doing mathematics… [the phrase dynamic program-
+ming] was something not even a Congressman could object to.”80
+Dynamic programming is a method for efficiently solving problems that ex-
+hibit the characteristics of overlapping subproblems and optimal substructure.
+Fortunately, many optimization problems exhibit these characteristics.
+A problem has optimal substructure if a globally optimal solution can be
+found by combining optimal solutions to local subproblems. We’ve already
+looked at a number of such problems. Merge sort, for example, exploits the fact
+that a list can be sorted by first sorting sublists and then merging the solutions.
+A problem has overlapping subproblems if an optimal solution involves solv-
+ing the same problem multiple times. Merge sort does not exhibit this property.
+Even though we are performing a merge many times, we are merging different
+lists each time.
+It’s not immediately obvious, but the 0/1 knapsack problem exhibits both of
+these properties. First, however, we digress to look at a problem where the opti-
+mal substructure and overlapping subproblems are more obvious.
+
+## 13.1 Fibonacci Sequences, Revisited
+
+In Chapter 4, we looked at a straightforward recursive implementation of the
+Fibonacci function:
+def fib(n):
+"""Assumes n is an[FORMULA]>= 0
+Returns Fibonacci of n"""
+if n == 0 or n == 1:
+return 1
+else:
+return fib(n-1) + fib(n-2)
+
+## 80 As quoted[FORMULA]Stuart Dreyfus “Richard Bellman on the Birth of Dynamic Programming,”
+
+Operations Research, vol. 50, no. 1 (2002).
+204 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+While this implementation of the recurrence is obviously correct, it is terri-
+bly inefficient. Try, for example, running fib(120), but don’t wait for it to com-
+plete. The complexity of the implementation is a bit hard to derive, but it is
+roughly O(fib(n)). That is, its growth is proportional to the growth[FORMULA]the value of
+the result, and the growth rate of the Fibonacci sequence is substantial. For ex-
+ample, fib(120) is 8,670,007,398,507,948,658,051,921. If each recursive call took
+a nanosecond, fib(120) would take about 250,000 years to finish.
+Let’s try and figure out why this implementation takes so long. Given the tiny
+amount of code[FORMULA]the body of fib, it’s clear that the problem must be the number
+of times that fib calls itself. As an example, look at the tree of calls associated
+with the invocation fib(6).
+fib(6)
+fib(5) fib(4)
+fib(4) fib(3) fib(3) fib(2)
+fib(3) fib(2) fib(2) fib(1) fib(2) fib(1) fib(1) fib(0)
+fib(2) fib(1) fib(1) fib(0) fib(1) fib(0) fib(1) fib(0)
+fib(1) fib(0)
+Figure 13.1 Tree of calls for recursive Fibonacci
+Notice that we are computing the same values over and over again. For ex-
+ample, fib gets called with 3 three times, and each of these calls provokes four
+additional calls of fib. It doesn’t require a genius to think that it might be a good
+idea to record the value returned by the first call, and then look it up rather than
+compute it each time it is needed. This is called memoization, and is the key idea
+behind dynamic programming.
+Figure 13.2 contains an implementation of Fibonacci based on this idea. The
+function fastFib has a parameter, memo, that it uses to keep track of the numbers it
+has already evaluated. The parameter has a default value, the empty dictionary,
+so that clients of fastFib don’t have to worry about supplying an initial value for
+memo. When fastFib is called with an n > 1, it attempts to look up n[FORMULA]memo. If it is
+not there (because this is the first time fastFib has been called with that value),
+an exception is raised. When this happens, fastFib uses the normal Fibonacci re-
+currence, and then stores the result[FORMULA]memo.
+CHAPTER 13. DYNAMIC PROGRAMMING 205
+def fastFib(n, memo = {}):
+"""Assumes n is an[FORMULA]>= 0, memo used only by recursive calls
+Returns Fibonacci of n"""
+if n == 0 or n == 1:
+return 1
+try:
+return memo[n]
+except KeyError:
+result = fastFib(n-1, memo) + fastFib(n-2, memo)
+memo[n] = result
+return result
+Figure 13.2 Implementing Fibonacci using a memo
+If you try running fastFib, you will see that it is indeed quite fast: fib(120) re-
+turns almost instantly. What is the complexity of fastFib? It calls fib exactly once
+for each value from 0 to n. Therefore, under the assumption that dictionary
+lookup can be done[FORMULA]constant time, the time complexity of fastFib(n) is O(n).81
+
+## 13.2 Dynamic Programming and the 0/1 Knapsack Problem
+
+One of the optimization problems we looked at[FORMULA]Chapter 12 was the 0/1 knap-
+sack problem. Recall that we looked at a greedy algorithm that ran[FORMULA]n[FORMULA]n
+time, but was not guaranteed to find an optimal solution. We also looked at a
+brute-force algorithm that was guaranteed to find an optimal solution, but ran[FORMULA]exponential time. Finally, we discussed the fact that the problem is inherently ex-
+ponential[FORMULA]the size of the input. In the worst case, one cannot find an optimal
+solution without looking at all possible answers.
+Fortunately, the situation is not as bad as it seems. Dynamic programming
+provides a practical method for solving most 0/1 knapsack problems[FORMULA]a reason-
+able amount of time. As a first step[FORMULA]deriving such a solution, we begin with an
+exponential solution based on exhaustive enumeration. The key idea is to think
+about exploring the space of possible solutions by constructing a rooted binary
+tree that enumerates all states that satisfy the weight constraint.
+
+## 81 Though cute and pedagogically interesting, this is not the best way to implement Fibonacci.
+
+There is a simple linear-time iterative implementation.
+206 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+A rooted binary tree is an acyclic directed graph[FORMULA]which
+• There is exactly one node with no parents. This is called the root.
+• Each non-root node has exactly one parent.
+• Each node has at most two children. A childless node is called a leaf.
+Each node[FORMULA]the search tree for the 0/1 knapsack problem is labeled with a
+quadruple that denotes a partial solution to the knapsack problem. The elements
+of the quadruple are:
+• A set of items to be taken,
+• The list of items for which a decision has not been made,
+• The total value of the items[FORMULA]the set of items to be taken (this is merely an
+optimization, since the value could be computed from the set), and
+• The remaining space[FORMULA]the knapsack. (Again, this is an optimization, since it
+is merely the difference between the weight allowed and the weight of all the
+items taken so far.)
+The tree is built top-down starting with the root.82 One element is selected
+from the still-to-be-considered items. If there is room for that item[FORMULA]the knap-
+sack, a node is constructed that reflects the consequence of choosing to take that
+item. By convention, we draw that node as the left child. The right child shows
+the consequences of choosing not to take that item. The process is then applied
+recursively until either the knapsack is full or there are no more items to consid-
+er. Because each edge represents a decision (to take or not to take an item), such
+trees are called decision trees.83
+Figure 13.3 is a table describing a set of items.
+Name Value Weight
+a 6 3
+b 7 3
+c 8 2
+d 9 5
+Figure 13.3 Table of items with values and weights
+
+## 82 It may seem odd to put the root of a tree at the top, but that is the way that mathematicians and
+
+computer scientists usually draw them. Perhaps it is evidence that those folks do not spend enough
+time contemplating nature.
+
+## 83 Decision trees, which need not be binary, provide a structured way to explore the consequences
+
+of making a series of sequential decisions. They are used extensively[FORMULA]many fields.
+CHAPTER 13. DYNAMIC PROGRAMMING 207
+Figure 13.4 is a decision tree for deciding which of those items to take under
+the assumption that the knapsack has a maximum weight of 5. The root of the
+tree (node 0) has a label <{}, [a,b,c,d], 0, 5>, indicating that no items have been
+taken, all items remain to be considered, the value of the items taken is 0, and a
+weight of 5 is still available. Node 1 indicates that item a has been taken, [b,c,d]
+remain to be considered, the value of the items taken is 6, and the knapsack can
+hold another 2 pounds. Node 1 has no left child since item b, which weighs 3
+pounds, would not fit[FORMULA]the knapsack.
+Figure 13.4 Decision tree for knapsack problem
+In Figure 13.4, the numbers that precede the colon[FORMULA]each node indicate one
+order[FORMULA]which the nodes could be generated. This particular ordering is called
+left-first depth-first. At each node we attempt to generate a left node. If that is
+impossible, we attempt to generate a right node. If that too is impossible, we back
+up one node (to the parent) and repeat the process. Eventually, we find ourselves
+having generated all descendants of the root, and the process halts. When the
+process halts, each combination of items that could fit[FORMULA]the knapsack has been
+generated, and any leaf node with the greatest value represents an optimal solu-
+tion. Notice that for each leaf node, either the second element is the empty list
+(indicating that there are no more items to consider taking) or the fourth ele-
+ment is 0 (indicating that there is no room left[FORMULA]the knapsack).
+Unsurprisingly (especially if you read Chapter 12), the natural implementa-
+tion of a depth-first tree search is recursive. Figure 13.5 contains such an
+implementation.
+208 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+def maxVal(toConsider, avail):
+"""Assumes toConsider a list of items, avail a weight
+Returns a tuple of the total value of a solution to the
+0/1 knapsack problem and the items of that solution"""
+if toConsider == [] or avail == 0:
+result = (0, ())
+elif toConsider[0].getWeight() > avail:
+#Explore right branch only
+result = maxVal(toConsider[1:], avail)
+else:
+nextItem = toConsider[0]
+#Explore left branch
+withVal, withToTake = maxVal(toConsider[1:],
+avail - nextItem.getWeight())
+withVal += nextItem.getValue()
+#Explore right branch
+withoutVal, withoutToTake = maxVal(toConsider[1:], avail)
+#Choose better branch
+if withVal > withoutVal:
+result = (withVal, withToTake + (nextItem,))
+else:
+result = (withoutVal, withoutToTake)
+return result
+Figure 13.5 Using a decision tree to solve a knapsack problem
+The implementation uses class Item from Figure 12.2. The function maxVal re-
+turns two values, the set of items chosen and the total value of those items. It is
+called with two arguments, corresponding to the second and fourth elements of
+the labels of the nodes[FORMULA]the tree:
+• toConsider. Those items that nodes higher up[FORMULA]the tree (corresponding to
+earlier calls[FORMULA]the recursive call stack) have not yet considered.
+• avail. The amount of space still available.
+Notice that the implementation of maxVal does not build the decision tree and
+then look for an optimal node. Instead, it uses the local variable result to record
+the best solution found so far. The code[FORMULA]Figure 13.6 can be used to test maxVal.
+When smallTest (which uses the values[FORMULA]Figure 13.3) is run it prints a result
+indicating that node 8[FORMULA]Figure 13.4 is an optimal solution:
+<c, 8, 2>
+<b, 7, 3>
+Total value of items taken = 15
+CHAPTER 13. DYNAMIC PROGRAMMING 209
+def smallTest():
+names = ['a', 'b', 'c', 'd']
+vals = [6, 7, 8, 9]
+weights = [3, 3, 2, 5]
+Items = []
+for i[FORMULA]range(len(vals)):
+Items.append(Item(names[i], vals[i], weights[i]))
+val, taken = maxVal(Items, 5)
+for item[FORMULA]taken:
+print(item)
+print('Total value of items taken =', val)
+def buildManyItems(numItems, maxVal, maxWeight):
+items = []
+for i[FORMULA]range(numItems):
+items.append(Item(str(i),
+random.randint(1, maxVal),
+random.randint(1, maxWeight)))
+return items
+def bigTest(numItems):
+items = buildManyItems(numItems, 10, 10)
+val, taken = maxVal(items, 40)
+print('Items Taken')
+for item[FORMULA]taken:
+print(item)
+print('Total value of items taken =', val)
+Figure 13.6 Testing the decision tree-based implementation
+The functions buildManyItems and bigTest can be used to test maxVal on ran-
+domly generated sets of items. Try bigTest(10). Now try bigTest(40). After you
+get tired of waiting for it to return, stop the computation and ask yourself what is
+going on.
+Let’s think about the size of the tree we are exploring. Since at each level of
+the tree we are deciding to keep or not keep one item, the maximum depth of the
+tree is len(items). At level 0 we have only one node, at level 1 up to two nodes, at
+level 2 up to four nodes, at level 3 up to eight nodes. At level 39 we have up to 2tu
+nodes. No wonder it takes a long time to run!
+What should we do about this? Let’s start by asking whether this program has
+anything[FORMULA]common with our first implementation of Fibonacci. In particular, is
+there optimal substructure and are there overlapping subproblems?
+Optimal substructure is visible both[FORMULA]Figure 13.4 and[FORMULA]Figure 13.5. Each
+parent node combines the solutions reached by its children to derive an optimal
+210 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+solution for the subtree rooted at that parent. This is reflected[FORMULA]Figure 13.5 by
+the code following the comment #Choose better branch.
+Are there also overlapping subproblems? At first glance, the answer seems to
+be “no.” At each level of the tree we have a different set of available items to con-
+sider. This implies that if common subproblems do exist, they must be at the
+same level of the tree. And indeed, at each level of the tree each node has the
+same set of items to consider taking. However, we can see by looking at the labels[FORMULA]Figure 13.4 that each node at a level represents a different set of choices about
+the items considered higher[FORMULA]the tree.
+Think about what problem is being solved at each node. The problem being
+solved is finding the optimal items to take from those left to consider, given the
+remaining available weight. The available weight depends upon the total weight
+of the items taken, but not on which items are taken or the total value of the
+items taken. So, for example,[FORMULA]Figure 13.4, nodes 2 and 7 are actually solving
+the same problem: deciding which elements of [c,d] should be taken, given that
+the available weight is 2.
+The code[FORMULA]Figure 13.7 exploits the optimal substructure and overlapping
+subproblems to provide a dynamic programming solution to the 0/1 knapsack
+problem. An extra parameter, memo, has been added to keep track of solutions to
+subproblems that have already been solved. It is implemented using a dictionary
+with a key constructed from the length of toConsider and the available weight.
+The expression len(toConsider) is a compact way of representing the items still to
+be considered. This works because items are always removed from the same end
+(the front) of the list toConsider.
+Figure 13.8 shows the number of calls made when we ran the code on prob-
+lems of various sizes. The growth is hard to quantify, but it is clearly far less than
+exponential.84 But how can this be, since we know that the 0/1 knapsack prob-
+lem is inherently exponential[FORMULA]the number of items? Have we found a way to
+overturn fundamental laws of the universe? No, but we have discovered that
+computational complexity can be a subtle notion.85
+The running time of fastMaxVal is governed by the number of distinct pairs,
+<toConsider, avail>, generated. This is because the decision about what to do
+next depends only upon the items still available and the total weight of the items
+already taken.
+
+## 84 Since 2nvw = 340,282,366,920,938,463,463,374,607,431,768,211,456
+
+
+
+## 85 OK, “discovered” may be too strong a word. People have known this for a long time. You
+
+probably figured it out around Chapter 9.
+CHAPTER 13. DYNAMIC PROGRAMMING 211
+def fastMaxVal(toConsider, avail, memo = {}):
+"""Assumes toConsider a list of items, avail a weight
+memo supplied by recursive calls
+Returns a tuple of the total value of a solution to the
+0/1 knapsack problem and the items of that solution"""
+if (len(toConsider), avail)[FORMULA]memo:
+result = memo[(len(toConsider), avail)]
+elif toConsider == [] or avail == 0:
+result = (0, ())
+elif toConsider[0].getWeight() > avail:
+#Explore right branch only
+result = fastMaxVal(toConsider[1:], avail, memo)
+else:
+nextItem = toConsider[0]
+#Explore left branch
+withVal, withToTake =\
+fastMaxVal(toConsider[1:],
+avail - nextItem.getWeight(), memo)
+withVal += nextItem.getValue()
+#Explore right branch
+withoutVal, withoutToTake = fastMaxVal(toConsider[1:],
+avail, memo)
+#Choose better branch
+if withVal > withoutVal:
+result = (withVal, withToTake + (nextItem,))
+else:
+result = (withoutVal, withoutToTake)
+memo[(len(toConsider), avail)] = result
+return result
+Figure 13.7 Dynamic programming solution to knapsack problem
+Number of Number of
+len(Items)
+items selected calls
+
+## 4 4
+
+
+
+## 8 6
+
+
+
+## 16 9 1,493
+
+
+
+## 32 12 3,650
+
+
+
+## 64 19 8,707
+
+128 27 18.306
+256 40 36,675
+Figure 13.8 Performance of dynamic programming solution
+212 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+The number of possible values of toConsider is bounded by len(items). The
+number of possible values of avail is more difficult to characterize. It is bounded
+from above by the maximum number of distinct totals of weights of the items
+that the knapsack can hold. If the knapsack can hold at most n items (based on
+the capacity of the knapsack and the weights of the available items), avail can
+take on at most 2n different values. In principle, this could be a rather large num-
+ber. However,[FORMULA]practice, it is not usually so large. Even if the knapsack has a
+large capacity, if the weights of the items are chosen from a reasonably small set
+of possible weights, many sets of items will have the same total weight, greatly
+reducing the running time.
+This algorithm falls into a complexity class called pseudo-polynomial. A
+careful explanation of this concept is beyond the scope of this book. Roughly
+speaking, fastMaxVal is exponential[FORMULA]the number of bits needed to represent
+the possible values of avail.
+To see what happens when the values of avail are chosen from a considerably
+larger space, change the call to maxVal[FORMULA]the function bigTest[FORMULA]Figure 13.6 to
+val, taken = fastMaxVal(items, 1000)
+Finding a solution now takes 1,802,817 calls of fastMaxVal when the number of
+items is 256.
+To see what happens when the weights are chosen from an enormous space,
+we can choose the possible weights from the positive reals rather than the posi-
+tive integers. To do this, replace the line,
+items.append(Item(str(i),
+random.randint(1, maxVal),
+random.randint(1, maxWeight)))[FORMULA]buildManyItems by the line
+items.append(Item(str(i),
+random.randint(1, maxVal),
+random.randint(1, maxWeight)*random.random()))
+Each time it is called, random.random() returns a random floating point number
+between 0.0 and 1.0, so there are, for all intents and purposes, an infinite number
+of possible weights. Don’t hold your breath waiting for this last test to finish. Dy-
+namic programming may be a miraculous technique[FORMULA]the common sense of the
+word,86 but it is not capable of performing miracles[FORMULA]the liturgical sense.
+
+## 86 Extraordinary and bringing welcome consequences.
+
+CHAPTER 13. DYNAMIC PROGRAMMING 213
+
+## 13.3 Dynamic Programming and Divide-and-Conquer
+
+Like divide-and-conquer algorithms, dynamic programming is based upon solv-
+ing independent subproblems and then combining those solutions. There are,
+however, some important differences.
+Divide-and-conquer algorithms are based upon finding subproblems that are
+substantially smaller than the original problem. For example, merge sort works
+by dividing the problem size[FORMULA]half at each step. In contrast, dynamic program-
+ming involves solving problems that are only slightly smaller than the original
+problem. For example, computing the 19th Fibonacci number is not a substantial-
+ly smaller problem than computing the 20th Fibonacci number.
+Another important distinction is that the efficiency of divide-and-conquer
+algorithms does not depend upon structuring the algorithm so that identical
+problems are solved repeatedly. In contrast, dynamic programming is efficient
+only when the number of distinct subproblems is significantly smaller than the
+total number of subproblems.
+
+## 14 RANDOM WALKS AND MORE ABOUT DATA
+
+VISUALIZATION
+This book is about using computation to solve problems. Thus far, we have fo-
+cused our attention on problems that can be solved by a deterministic program.
+A program is deterministic if whenever it is run on the same input, it produces
+the same output. Such computations are highly useful, but clearly not sufficient
+to tackle some kinds of problems. Many aspects of the world[FORMULA]which we live can
+be accurately modeled only as stochastic processes.87 A process is stochastic if its
+next state can depend upon some random element. The outcome of a stochastic
+process is usually uncertain. Therefore, we can rarely make definitive statements
+about what they will do. Instead, we make probabilistic statements about what
+they might do. The rest of this book deals with building programs that help to
+understand uncertain situations. Many of these programs will be simulation
+models.
+A simulation mimics the activity of a real system. For example, the code[FORMULA]Figure 8.11 simulates a person making a series of mortgage payments. Think of
+that code as an experimental device, called a simulation model, that provides
+useful information about the possible behaviors of the system being modeled.
+Among other things, simulations are widely used to predict a future state of a
+physical system (e.g., the temperature of the planet 50 years from now), and[FORMULA]lieu of physical experiments that would be too expensive, time consuming, or
+dangerous to perform (e.g., the impact of a change[FORMULA]the tax code).
+It is important to remember that simulation models, like all models, are only
+an approximation of reality. One can never be sure that the actual system will be-
+have[FORMULA]the way predicted by the model. In fact, one can usually be pretty confi-
+dent that the actual system will not behave exactly as predicted by the model. For
+example, not every borrower will make all mortgage payments on time. It is a
+commonly quoted truism that “all models are wrong, but some are useful.”88
+
+## 87 The word stems from the Greek word stokhastikos, which means something like “capable of
+
+divining.” A stochastic program, as we shall see, is aimed at getting a good result, but the exact
+results are not guaranteed.
+
+## 88 Usually attributed to the statistician George E.P. Box.
+
+216 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+## 14.1 Random Walks
+
+In 1827, the Scottish botanist Robert Brown observed that pollen particles sus-
+pended[FORMULA]water seemed to float around at random. He had no plausible explana-
+tion for what came to be known as Brownian motion, and made no attempt to
+model it mathematically.89 A clear mathematical model of the phenomenon was
+first presented[FORMULA]1900[FORMULA]Louis Bachelier’s doctoral thesis, The Theory of Specu-
+lation. However, since this thesis dealt with the then disreputable problem of un-
+derstanding financial markets, it was largely ignored by respectable academics.
+Five years later, a young Albert Einstein brought this kind of stochastic thinking
+to the world of physics with a mathematical model almost the same as Bachelier’s
+and a description of how it could be used to confirm the existence of atoms.90
+For some reason, people seemed to think that understanding physics was more
+important than making money, and the world started paying attention. Times
+were certainly different.
+Brownian motion is an example of a random walk. Random walks are widely
+used to model physical processes (e.g., diffusion), biological processes (e.g., the
+kinetics of displacement of RNA from heteroduplexes by DNA), and social pro-
+cesses (e.g., movements of the stock market).
+In this chapter we look at random walks for three reasons:
+• Random walks are intrinsically interesting and widely used.
+• It provides us with a good example of how to use abstract data types and[FORMULA]-
+heritance to structure programs[FORMULA]general and simulation models[FORMULA]particu-
+lar.
+• It provides an opportunity to introduce a few more features of Python and to
+demonstrate some additional techniques for producing plots.
+
+## 89 Nor was he the first to observe it. As early as 60 BCE, the Roman Titus Lucretius,[FORMULA]his poem
+
+“On the Nature of Things,” described a similar phenomenon, and even implied that it was caused
+by the random movement of atoms.
+
+## 90 “On the movement of small particles suspended[FORMULA]a stationary liquid demanded by the
+
+molecular-kinetic theory of heat,” Annalen der Physik, May 1905. Einstein would come to describe
+1905 as his “annus mirabilis.” That year,[FORMULA]addition to his paper on Brownian motion, he
+published papers on the production and transformation of light (pivotal to the development of
+quantum theory), on the electrodynamics of moving bodies (special relativity), and on the
+equivalence of matter and energy (E = mc2). Not a bad year for a newly minted PhD.
+CHAPTER 14. RANDOM WALKS AND MORE ABOUT DATA VISUALIZATION 217
+
+## 14.2 The Drunkard’s Walk
+
+Let’s look at a random walk that actually involves walking. A drunken farmer is
+standing[FORMULA]the middle of a field, and every second the farmer takes one step[FORMULA]a
+random direction. What is her (or his) expected distance from the origin[FORMULA]1000
+seconds? If she takes many steps, is she likely to move ever farther from the
+origin, or is she more likely to wander back to the origin over and over, and end
+up not far from where she started? Let’s write a simulation to find out.
+Before starting to design a program, it is always a good idea to try to develop
+some intuition about the situation the program is intended to model. Let’s start
+by sketching a simple model of the situation using Cartesian coordinates. As-
+sume that the farmer is standing[FORMULA]a field where the grass has, mysteriously, been
+cut to resemble a piece of graph paper. Assume further that each step the farmer
+takes is of length one and is parallel to either the x-axis or y-axis.
+Figure 14.1 An unusual farmer
+The picture on the left of Figure 14.1 depicts a farmer91 standing[FORMULA]the mid-
+dle of the field. The smiley faces indicate all the places the farmer might be after
+one step. Notice that after one step she is always exactly one unit away from
+where she started. Let’s assume that she wanders eastward from her initial loca-
+tion on her first step. How far away might she be from her initial location after
+her second step?
+Looking at the smiley faces[FORMULA]the picture on the right, we see that with a
+probability of 0.25 she will be 0 units away, with a probability of 0.25 she will be 2
+units away, and with a probability of 0.5 she will be 2 units away.92 So, on aver-
+
+## 91 To be honest, the person pictured here is an actor impersonating a farmer.
+
+
+
+## 92 Why 2? We are using the Pythagorean theorem.
+
+218 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+age she will be farther away after two steps than after one step. What about the
+third step? If the second step is to the top or bottom smiley face, the third step
+will bring the farmer closer to the origin half the time and farther half the time. If
+the second step is to the left smiley face (the origin), the third step will be away
+from the origin. If the second step is to the right smiley face, the third step will be
+closer to the origin a quarter of the time, and farther away three quarters of the
+time.
+It seems as if the more steps the drunk takes, the greater the expected dis-
+tance from the origin. We could continue this exhaustive enumeration of possi-
+bilities and perhaps develop a pretty good intuition about how this distance
+grows with respect to the number of steps. However, it is getting pretty tedious,
+so it seems like a better idea to write a program to do it for us.
+Let’s begin the design process by thinking about some data abstractions that
+are likely to be useful[FORMULA]building this simulation and perhaps simulations of oth-
+er kinds of random walks. As usual, we should try to invent types that corre-
+spond to the kinds of things that appear[FORMULA]the situation we are attempting to
+model. Three obvious types are Location, Field, and Drunk. As we look at the clas-
+ses providing these types, it is worthwhile to think about what each might imply
+about the kinds of simulation models they will allow us to build.
+Let’s start with Location, Figure 14.2. This is a simple class, but it does em-
+body two important decisions. It tells us that the simulation will involve at most
+two dimensions. E.g., the simulation will not model changes[FORMULA]altitude. This is
+consistent with the pictures above. Also, since the values supplied for deltaX and
+deltaY could be floats rather than integers, there is no built-[FORMULA]assumption[FORMULA]this
+class about the set of directions[FORMULA]which a drunk might move. This is a generali-
+zation of the informal model[FORMULA]which each step was of length one and was paral-
+lel to the x-axis or y-axis.
+Class Field, Figure 14.2, is also quite simple, but it too embodies notable de-
+cisions. It simply maintains a mapping of drunks to locations. It places no con-
+straints on locations, so presumably a Field is of unbounded size. It allows
+multiple drunks to be added into a Field at random locations. It says nothing
+about the patterns[FORMULA]which drunks move, nor does it prohibit multiple drunks
+from occupying the same location or moving through spaces occupied by other
+drunks.
+CHAPTER 14. RANDOM WALKS AND MORE ABOUT DATA VISUALIZATION 219
+class Location(object):
+def __init__(self, x, y):
+"""x and y are numbers"""
+self.x, self.y = x, y
+def move(self, deltaX, deltaY):
+"""deltaX and deltaY are numbers"""
+return Location(self.x + deltaX, self.y + deltaY)
+def getX(self):
+return self.x
+def getY(self):
+return self.y
+def distFrom(self, other):
+ox, oy = other.x, other.y
+xDist, ydist = self.x – ox, self.y - oy
+return (xDist**2 + yDist**2)**0.5
+def __str__(self):
+return '<' + str(self.x) + ', ' + str(self.y) + '>'
+class Field(object):
+def __init__(self):
+self.drunks = {}
+def addDrunk(self, drunk, loc):
+if drunk[FORMULA]self.drunks:
+raise ValueError('Duplicate drunk')
+else:
+self.drunks[drunk] = loc
+def moveDrunk(self, drunk):
+if drunk not[FORMULA]self.drunks:
+raise ValueError('Drunk not[FORMULA]field')
+xDist, yDist = drunk.takeStep()
+currentLocation = self.drunks[drunk]
+#use move method of Location to get new location
+self.drunks[drunk] = currentLocation.move(xDist, yDist)
+def getLoc(self, drunk):
+if drunk not[FORMULA]self.drunks:
+raise ValueError('Drunk not[FORMULA]field')
+return self.drunks[drunk]
+Figure 14.2 Location and Field classes
+220 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+The classes Drunk and UsualDrunk[FORMULA]Figure 14.3 define the ways[FORMULA]which a
+drunk might wander through the field. In particular the value of stepChoices[FORMULA]UsualDrunk introduces the restriction that each step is of length one and is parallel
+to either the x-axis or y-axis. Since the function random.choice returns a randomly
+chosen member of the sequence that it is passed, each kind of step is equally like-
+ly and not influenced by previous steps. A bit later we will look at subclasses of
+Drunk with different kinds of behaviors.
+import random
+class Drunk(object):
+def __init__(self, name = None):
+"""Assumes name is a str"""
+self.name = name
+def __str__(self):
+if self != None:
+return self.name
+return 'Anonymous'
+class UsualDrunk(Drunk):
+def takeStep(self):
+stepChoices = [(0,1), (0,-1), (1, 0), (-1, 0)]
+return random.choice(stepChoices)
+return random.choice(stepChoices)
+Figure 14.3 Classes defining Drunks
+The next step is to use these classes to build a simulation that answers the
+original question. Figure 14.4 contains three functions used[FORMULA]this simulation.
+The function walk simulates one walk of numSteps steps. The function simWalks
+calls walk to simulate numTrials walks of numSteps steps each. The function
+drunkTest calls simWalks to simulate walks of varying lengths.
+The parameter dClass of simWalks is of type class, and is used[FORMULA]the first line
+of code to create a Drunk of the appropriate subclass. Later, when drunk.takeStep is
+invoked from Field.moveDrunk, the method from the appropriate subclass is au-
+tomatically selected.
+CHAPTER 14. RANDOM WALKS AND MORE ABOUT DATA VISUALIZATION 221
+The function drunkTest also has a parameter, dClass, of type class. It is used
+twice, once[FORMULA]the call to simWalks and once[FORMULA]the first print statement. In the
+print statement, the built-[FORMULA]class attribute __name__ is used to get a string with
+the name of the class.
+def walk(f, d, numSteps):
+"""Assumes: f a Field, d a Drunk[FORMULA]f, and numSteps an[FORMULA]>= 0.
+Moves d numSteps times; returns the distance between the
+final location and the location at the start of the walk."""
+start = f.getLoc(d)
+for s[FORMULA]range(numSteps):
+f.moveDrunk(d)
+return start.distFrom(f.getLoc(d))
+def simWalks(numSteps, numTrials, dClass):
+"""Assumes numSteps an[FORMULA]>= 0, numTrials an[FORMULA]> 0,
+dClass a subclass of Drunk
+Simulates numTrials walks of numSteps steps each.
+Returns a list of the final distances for each trial"""
+Homer = dClass()
+origin = Location(0, 0)
+distances = []
+for t[FORMULA]range(numTrials):
+f = Field()
+f.addDrunk(Homer, origin)
+distances.append(round(walk(f, Homer, numTrials), 1))
+return distances
+def drunkTest(walkLengths, numTrials, dClass):
+"""Assumes walkLengths a sequence of ints >= 0
+numTrials an[FORMULA]> 0, dClass a subclass of Drunk
+For each number of steps[FORMULA]walkLengths, runs simWalks with
+numTrials walks and prints results"""
+for numSteps[FORMULA]walkLengths:
+distances = simWalks(numSteps, numTrials, dClass)
+print(dClass.__name__, 'random walk of', numSteps, 'steps')
+print(' Mean =', round([FORMULA](distances)/len(distances), 4))
+print(' Max =', max(distances), 'Min =', min(distances))
+Figure 14.4 The drunkard’s walk (with a bug)
+222 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+When we executed drunkTest((10, 100, 1000, 10000), 100, UsualDrunk), it
+printed
+UsualDrunk random walk of 10 steps
+Mean = 8.634
+Max = 21.6 Min = 1.4
+UsualDrunk random walk of 100 steps
+Mean = 8.57
+Max = 22.0 Min = 0.0
+UsualDrunk random walk of 1000 steps
+Mean = 9.206
+Max = 21.6 Min = 1.4
+UsualDrunk random walk of 10000 steps
+Mean = 8.727
+Max = 23.5 Min = 1.4
+This is surprising, given the intuition we developed earlier that the mean dis-
+tance should grow with the number of steps. It could mean that our intuition is
+wrong, or it could mean that our simulation is buggy, or both.
+The first thing to do at this point is to run the simulation on values for which
+we already think we know the answer, and make sure that what the simulation
+produces matches the expected result. Let’s try walks of zero steps (for which the
+mean, minimum and maximum distances from the origin should all be 0) and
+one step (for which the mean, minimum and maximum distances from the
+origin should all be 1).
+When we ran drunkTest((0,1), 100, UsualDrunk), we got the highly suspect
+result
+UsualDrunk random walk of 0 steps
+Mean = 8.634
+Max = 21.6 Min = 1.4
+UsualDrunk random walk of 1 steps
+Mean = 8.57
+Max = 22.0 Min = 0.0
+How on earth can the mean distance of a walk of zero steps be over 8? We must
+have at least one bug[FORMULA]our simulation. After some investigation, the problem is
+clear. In simWalks, the function call walk(f, Homer, numTrials) should have been
+walk(f, Homer, numSteps).
+CHAPTER 14. RANDOM WALKS AND MORE ABOUT DATA VISUALIZATION 223
+The moral here is an important one: Always bring some skepticism to bear
+when looking at the results of a simulation. Ask if the results are plausible, and
+“smoke test”93 the simulation on parameters for which you have a strong intui-
+tion about what the results should be.
+When the corrected version of the simulation is run on our two simple cases,
+it yields exactly the expected answers:
+UsualDrunk random walk of 0 steps
+Mean = 0.0
+Max = 0.0 Min = 0.0
+UsualDrunk random walk of 1 steps
+Mean = 1.0
+Max = 1.0 Min = 1.0
+When run on longer walks it printed
+UsualDrunk random walk of 10 steps
+Mean = 2.863
+Max = 7.2 Min = 0.0
+UsualDrunk random walk of 100 steps
+Mean = 8.296
+Max = 21.6 Min = 1.4
+UsualDrunk random walk of 1000 steps
+Mean = 27.297
+Max = 66.3 Min = 4.2
+UsualDrunk random walk of 10000 steps
+Mean = 89.241
+Max = 226.5 Min = 10.0
+As anticipated, the mean distance from the origin grows with the number of
+steps.
+Now let’s look at a plot of the mean distances from the origin, Figure 14.5. To
+give a sense of how fast the distance is growing, we have placed on the plot a line
+showing the square root of the number of steps (and increased the number of
+steps to 100,000). The plot showing the square root of the number of steps versus
+the distance from the origin is a straight line because we used a logarithmic scale
+on both axes.
+
+## 93 In the 19th century, it became standard practice for plumbers to test closed systems of pipes for
+
+leaks by filling the system with smoke. Later, electronic engineers adopted the term to cover the
+very first test of a piece of electronics—turning on the power and looking for smoke. Still later,
+software developers starting using the term for a quick test to see if a program did anything useful.
+224 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Figure 14.5 Distance from starting point versus steps taken
+Does this plot provide any information about the expected final location of a
+drunk? It does tell us that on average the drunk will be somewhere on a circle
+with its center at the origin and with a radius equal to the expected distance from
+the origin. However, it tells us very little about where we might actually find the
+drunk at the end of any particular walk. We return to this topic[FORMULA]the next sec-
+tion.
+
+## 14.3 Biased Random Walks
+
+Now that we have a working simulation, we can start modifying it to investigate
+other kinds of random walks. Suppose, for example, that we want to consider the
+behavior of a drunken farmer[FORMULA]the northern hemisphere who hates the cold,
+and even[FORMULA]his drunken stupor is able to move twice as fast when his random
+movements take him[FORMULA]a southward direction. Or maybe a phototropic drunk
+who always moves towards the sun (east[FORMULA]the morning and west[FORMULA]the after-
+noon). These are examples of biased random walks. The walk is still stochastic,
+but there is a bias[FORMULA]the outcome.
+Figure 14.6 defines two additional subclasses of Drunk. In each case the spe-
+cialization involves choosing an appropriate value for stepChoices. The function
+simAll iterates over a sequence of subclasses of Drunk to generate information
+about how each kind behaves.
+CHAPTER 14. RANDOM WALKS AND MORE ABOUT DATA VISUALIZATION 225
+class ColdDrunk(Drunk):
+def takeStep(self):
+stepChoices = [(0.0,1.0), (0.0,-2.0), (1.0, 0.0),\
+(-1.0, 0.0)]
+return random.choice(stepChoices)
+class EWDrunk(Drunk):
+def takeStep(self):
+stepChoices = [(1.0, 0.0), (-1.0, 0.0)]
+return random.choice(stepChoices)
+def simAll(drunkKinds, walkLengths, numTrials):
+for dClass[FORMULA]drunkKinds:
+drunkTest(walkLengths, numTrials, dClass)
+Figure 14.6 Subclasses of Drunk base class
+When we ran
+simAll((UsualDrunk, ColdDrunk, EWDrunk), (100, 1000), 10)
+it printed
+UsualDrunk random walk of 100 steps
+Mean = 9.64
+Max = 17.2 Min = 4.2
+UsualDrunk random walk of 1000 steps
+Mean = 22.37
+Max = 45.5 Min = 4.5
+ColdDrunk random walk of 100 steps
+Mean = 27.96
+Max = 51.2 Min = 4.1
+ColdDrunk random walk of 1000 steps
+Mean = 259.49
+Max = 320.7 Min = 215.1
+EWDrunk random walk of 100 steps
+Mean = 7.8
+Max = 16.0 Min = 0.0
+EWDrunk random walk of 1000 steps
+Mean = 20.2
+Max = 48.0 Min = 4.0
+It appears that our heat-seeking drunk moves away from the origin faster than
+the other two kinds of drunk. However, it is not easy to digest all of the infor-
+mation[FORMULA]this output. It is once again time to move away from textual output and
+start using plots.
+226 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Since we are showing a number of different kinds of drunks on the same
+plot, we will associate a distinct style with each type of drunk so that it is easy to
+differentiate among them. The style will have three aspects:
+• The color of the line and marker,
+• The shape of the marker, and
+• The kind of the line, e.g., solid or dotted.
+The class styleIterator, Figure 14.7, rotates through a sequence of styles de-
+fined by the argument to styleIterator.__init__.
+class styleIterator(object):
+def __init__(self, styles):
+self.index = 0
+self.styles = styles
+def nextStyle(self):
+result = self.styles[self.index]
+if self.index == len(self.styles) - 1:
+self.index = 0
+else:
+self.index += 1
+return result
+Figure 14.7 Iterating over styles
+The code[FORMULA]Figure 14.8 is similar[FORMULA]structure to that[FORMULA]Figure 14.4. The
+print statements[FORMULA]simDrunk and simAll1 contribute nothing to the result of the
+simulation. They are there because this simulation can take a rather long time to
+complete, and printing an occasional message indicating that progress is being
+made can be quite reassuring to a user who might be wondering if the program is
+actually making progress.
+The code[FORMULA]Figure 14.8 produces the plot[FORMULA]Figure 14.9. Notice that both the
+x and y axes are on a logarithmic scale. This was done by calling the plotting
+functions pylab.semilogx and pylab.semilogy. These functions are always applied
+to the current figure.
+CHAPTER 14. RANDOM WALKS AND MORE ABOUT DATA VISUALIZATION 227
+def simDrunk(numTrials, dClass, walkLengths):
+meanDistances = []
+for numSteps[FORMULA]walkLengths:
+print('Starting simulation of', numSteps, 'steps')
+trials = simWalks(numSteps, numTrials, dClass)
+mean =[FORMULA](trials)/len(trials)
+meanDistances.append(mean)
+return meanDistances
+def simAll1(drunkKinds, walkLengths, numTrials):
+styleChoice = styleIterator(('m-', 'r:', 'k-.'))
+for dClass[FORMULA]drunkKinds:
+curStyle = styleChoice.nextStyle()
+print('Starting simulation of', dClass.__name__)
+means = simDrunk(numTrials, dClass, walkLengths)
+pylab.plot(walkLengths, means, curStyle,
+label = dClass.__name__)
+pylab.title('Mean Distance from Origin ('
++ str(numTrials) + ' trials)')
+pylab.xlabel('Number of Steps')
+pylab.ylabel('Distance from Origin')
+pylab.legend(loc = 'best')
+pylab.semilogx()
+pylab.semilogy()
+simAll1((UsualDrunk, ColdDrunk, EWDrunk),
+(10,100,1000,10000,100000), 100)
+Figure 14.8 Plotting the walks of different drunks
+Figure 14.9 Mean distance for different kinds of drunks
+228 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+The usual drunk and the phototropic drunk (EWDrunk) seem to be moving
+away from the origin at approximately the same pace, but the heat-seeking drunk
+(ColdDrunk) seems to be moving away orders of magnitude faster. This is interest-
+ing, since on average he is only moving 25% faster (he takes, on average, five
+steps for every four taken by the others).
+Let’s construct a different plot, that may help us get more insight into the be-
+havior of these three classes. Instead of plotting the change[FORMULA]distance over time
+for an increasing number of steps, the code[FORMULA]Figure 14.10 plots the distribution
+of final locations for a single number of steps.
+def getFinalLocs(numSteps, numTrials, dClass):
+locs = []
+d = dClass()
+for t[FORMULA]range(numTrials):
+f = Field()
+f.addDrunk(d, Location(0, 0))
+for s[FORMULA]range(numSteps):
+f.moveDrunk(d)
+locs.append(f.getLoc(d))
+return locs
+def plotLocs(drunkKinds, numSteps, numTrials):
+styleChoice = styleIterator(('k+', 'r^', 'mo'))
+for dClass[FORMULA]drunkKinds:
+locs = getFinalLocs(numSteps, numTrials, dClass)
+xVals, yVals = [], []
+for loc[FORMULA]locs:
+xVals.append(loc.getX())
+yVals.append(loc.getY())
+meanX =[FORMULA](xVals)/len(xVals)
+meanY =[FORMULA](yVals)/len(yVals)
+curStyle = styleChoice.nextStyle()
+pylab.plot(xVals, yVals, curStyle,
+label = dClass.__name__ + ' mean loc. = <'
++ str(meanX) + ', ' + str(meanY) + '>')
+pylab.title('Location at End of Walks ('
++ str(numSteps) + ' steps)')
+pylab.xlabel('Steps East/West of Origin')
+pylab.ylabel('Steps North/South of Origin')
+pylab.legend(loc = 'lower left')
+plotLocs((UsualDrunk, ColdDrunk, EWDrunk), 100, 200)
+Figure 14.10 Plotting final locations
+CHAPTER 14. RANDOM WALKS AND MORE ABOUT DATA VISUALIZATION 229
+The first thing plotLocs does is create an instance of styleIterator with three
+different styles of markers. It then uses pylab.plot to place a marker at a location
+corresponding to the end of each trial. The call to pylab.plot sets the color and
+shape of the marker to be plotted using the values returned by the iterator
+styleIterator.
+The call plotLocs((UsualDrunk, ColdDrunk, EWDrunk), 100, 200) produces the
+plot[FORMULA]Figure 14.11.
+Figure 14.11 Where the drunk stops
+The first thing to say is that our drunks seem to be behaving as advertised.
+The EWDrunk ends up on the x-axis, the ColdDrunk seem to have made progress
+southwards, and the UsualDrunk seem to have wandered aimlessly.
+But why do there appear to be far fewer circle markers than triangle or +
+markers? Because many of the EWDrunk’s walks ended up at the same place. This is
+not surprising, given the small number of possible endpoints (200) for the EW-
+Drunk. Also the circle markers seem to be fairly uniformly spaced across the x-
+axis.
+It is still not immediately obvious, at least to us, why the ColdDrunk manages,
+on average, to get so much farther from the origin than the other kinds of
+drunks. Perhaps it’s time to look not at the endpoints of many walks, but at the
+path followed by a single walk. The code[FORMULA]Figure 14.12 produces the plot[FORMULA]Figure 14.13.
+230 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+def traceWalk(drunkKinds, numSteps):
+styleChoice = styleIterator(('k+', 'r^', 'mo'))
+f = Field()
+for dClass[FORMULA]drunkKinds:
+d = dClass()
+f.addDrunk(d, Location(0, 0))
+locs = []
+for s[FORMULA]range(numSteps):
+f.moveDrunk(d)
+locs.append(f.getLoc(d))
+xVals, yVals = [], []
+for loc[FORMULA]locs:
+xVals.append(loc.getX())
+yVals.append(loc.getY())
+curStyle = styleChoice.nextStyle()
+pylab.plot(xVals, yVals, curStyle,
+label = dClass.__name__)
+pylab.title('Spots Visited on Walk ('
++ str(numSteps) + ' steps)')
+pylab.xlabel('Steps East/West of Origin')
+pylab.ylabel('Steps North/South of Origin')
+pylab.legend(loc = 'best')
+traceWalk((UsualDrunk, ColdDrunk, EWDrunk), 200)
+Figure 14.12 Tracing walks
+Figure 14.13 Trajectory of walks
+CHAPTER 14. RANDOM WALKS AND MORE ABOUT DATA VISUALIZATION 231
+Since the walk is 200 steps long and the EWDrunk’s walk visits fewer than 30
+different locations, it’s clear that he is spending a lot of time retracing his steps.
+The same kind of observation holds for the UsualDrunk. In contrast, while the
+ColdDrunk is not exactly making a beeline for Florida, he is managing to spend
+relatively less time visiting places he has already been.
+None of these simulations is interesting[FORMULA]its own right. (In Chapter 16, we
+will look at more intrinsically interesting simulations.) But there are some points
+worth taking away:
+• Initially we divided our simulation code into four separate chunks. Three of
+them were classes (Location, Field, and Drunk) corresponding to abstract data
+types that appeared[FORMULA]the informal description of the problem. The fourth
+chunk was a group of functions that used these classes to perform a simple
+simulation.
+• We then elaborated Drunk into a hierarchy of classes so that we could observe
+different kinds of biased random walks. The code for Location and Field re-
+mained untouched, but the simulation code was changed to iterate through
+the different subclasses of Drunk. In doing this, we took advantage of the fact
+that a class is itself an object, and therefore can be passed as an argument.
+• Finally, we made a series of incremental changes to the simulation that did not
+involve any changes to the classes representing the abstract types. These
+changes mostly involved introducing plots designed to provide insight into the
+different walks. This is very typical of the way[FORMULA]which simulations are devel-
+oped. One gets the basic simulation working first, and then starts adding fea-
+tures.
+
+## 14.4 Treacherous Fields
+
+Did you ever play the board game known as Chutes and Ladders[FORMULA]the U.S. and
+Snakes and Ladders[FORMULA]the UK? This children’s game originated[FORMULA]India (perhaps[FORMULA]the 2nd century BCE), where it was called Moksha-patamu. Landing on a
+square representing virtue (e.g., generosity) sent a player up a ladder to a higher
+tier of life. Landing on a square representing evil (e.g., lust), sent a player back to
+a lower tier of life.
+232 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+We can easily add this kind of feature to our random walks by creating a
+Field with wormholes,94 as shown[FORMULA]Figure 14.14, and replacing the second line
+of code[FORMULA]the function traceWalk by the line of code
+f = oddField(1000, 100, 200)
+In an oddField, a drunk who steps into a wormhole location is transported to the
+location at the other end of the wormhole.
+class oddField(Field):
+def __init__(self, numHoles, xRange, yRange):
+Field.__init__(self)
+self.wormholes = {}
+for w[FORMULA]range(numHoles):
+x = random.randint(-xRange, xRange)
+y = random.randint(-yRange, yRange)
+newX = random.randint(-xRange, xRange)
+newY = random.randint(-yRange, yRange)
+newLoc = Location(newX, newY)
+self.wormholes[(x, y)] = newLoc
+def moveDrunk(self, drunk):
+Field.moveDrunk(self, drunk)
+x = self.drunks[drunk].getX()
+y = self.drunks[drunk].getY()
+if (x, y)[FORMULA]self.wormholes:
+self.drunks[drunk] = self.wormholes[(x, y)]
+Figure 14.14 Fields with strange properties
+When we ran traceWalk((UsualDrunk, ColdDrunk, EWDrunk), 500), we got the
+rather odd-looking plot[FORMULA]Figure 14.15.
+
+## 94 This kind of wormhole is a hypothetical concept invented by theoretical physicists (or maybe
+
+science fiction writers). It provides shortcuts through the time/space continuum.
+CHAPTER 14. RANDOM WALKS AND MORE ABOUT DATA VISUALIZATION 233
+Figure 14.15 A strange walk
+Clearly changing the properties of the field has had a dramatic effect. How-
+ever, that is not the point of this example. The main points are:
+• Because of the way we structured our code, it was easy to accommodate a sig-
+nificant change to the situation being modeled. Just as we could add different
+kinds of drunks without touching Field, we can add a new kind of Field with-
+out touching Drunk or any of its subclasses. (Had we been sufficiently prescient
+to make the field a parameter of traceWalk, we wouldn’t have had to change
+traceWalk either.)
+• While it would have been feasible to analytically derive different kinds of[FORMULA]-
+formation about the expected behavior of the simple random walk and even
+the biased random walks, it would have been challenging to do so once the
+wormholes were introduced. Yet it was exceedingly simple to change the
+simulation to model the new situation. Simulation models often enjoy this ad-
+vantage relative to analytic models.
+
+## 15 STOCHASTIC PROGRAMS, PROBABILITY, AND
+
+DISTRIBUTIONS
+There is something very comforting about Newtonian mechanics. You push
+down on one end of a lever, and the other end goes up. You throw a ball up[FORMULA]the
+air; it travels a parabolic path, and eventually comes down. 𝐹 =𝑚𝑎. In short, eve-
+rything happens for a reason. The physical world is a completely predictable
+place—all future states of a physical system can be derived from knowledge about
+its current state.
+For centuries, this was the prevailing scientific wisdom; then along came
+quantum mechanics and the Copenhagen Doctrine. The doctrine’s proponents,
+led by Bohr and Heisenberg, argued that at its most fundamental level the behav-
+ior of the physical world cannot be predicted. One can make probabilistic state-
+ments of the form “x is highly likely to occur,” but not statements of the form
+“x is certain to occur.” Other distinguished physicists, most notably Einstein and
+Schrödinger, vehemently disagreed.
+This debate roiled the worlds of physics, philosophy, and even religion. The
+heart of the debate was the validity of causal nondeterminism, i.e., the belief that
+not every event is caused by previous events. Einstein and Schrödinger found this
+view philosophically unacceptable, as exemplified by Einstein’s often-repeated
+comment, “God does not play dice.” What they could accept was predictive non-
+determinism, i.e., the concept that our inability to make accurate measurements
+about the physical world makes it impossible to make precise predictions about
+future states. This distinction was nicely summed up by Einstein, who said, “The
+essentially statistical character of contemporary theory is solely to be ascribed to
+the fact that this theory operates with an incomplete description of physical sys-
+tems.”
+The question of causal nondeterminism is still unsettled. However, whether
+the reason we cannot predict events is because they are truly unpredictable or is
+because we simply don't have enough information to predict them is of no prac-
+tical importance.
+While the Bohr/Einstein debate was about how to understand the lowest lev-
+els of the physical world, the same issues arise at the macroscopic level. Perhaps
+the outcomes of horse races, spins of roulette wheels, and stock market invest-
+236 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+ments are causally deterministic. However, there is ample evidence that it is peri-
+lous to treat them as predictably deterministic.95
+
+## 15.1 Stochastic Programs
+
+A program is deterministic if whenever it is run on the same input, it produces
+the same output. Notice that this is not the same as saying that the output is
+completely defined by the specification of the problem. Consider, for example,
+the specification of squareRoot:
+def squareRoot(x, epsilon):
+"""Assumes x and epsilon are of type float; x >= 0 and epsilon > 0
+Returns float y such that x-epsilon <= y*y <= x+epsilon"""
+This specification admits many possible return values for the function call
+squareRoot(2, 0.001). However, the successive approximation algorithm that we
+looked at[FORMULA]Chapter 3 will always return the same value. The specification
+doesn’t require that the implementation be deterministic, but it does allow de-
+terministic implementations.
+Not all interesting specifications can be met by deterministic implementa-
+tions. Consider, for example, implementing a program to play a dice game, say
+backgammon or craps. Somewhere[FORMULA]the program there may be a function that
+simulates a fair roll of a single six-sided die.96 Suppose it had a specification
+something like
+def rollDie():
+"""Returns an[FORMULA]between 1 and 6"""
+This would be problematic, since it allows the implementation to return the
+same number each time it is called, which would make for a pretty boring game.
+It would be better to specify that rollDie “returns a randomly chosen[FORMULA]between
+
+## 1 and 6,” thus requiring a stochastic implementation.
+
+Most programming languages, including Python, include simple ways to
+write stochastic programs, i.e., programs that exploit randomness. The tiny pro-
+
+## 95 Of course this doesn’t stop people from believing that they are, and losing a lot of money based
+
+on that belief.
+
+## 96 A roll is fair if each of the six possible outcomes is equally likely. This is not always to be taken
+
+for granted. Excavations of Pompeii discovered “loaded” dice[FORMULA]which small lead weights had been
+inserted to bias the outcome of a roll. More recently, an online vendor’s site said, “Are you
+unusually unlucky when it comes to rolling dice? Investing[FORMULA]a pair of dice that's more, uh, reliable
+might be just what you need.”
+CHAPTER 15. STOCHASTIC PROGRAMS, PROBABILITY, AND DISTRIBUTIONS 237
+gram[FORMULA]Figure 15.1 is a simulation model. Rather than asking some person to
+roll a die multiple times, we wrote a program to simulate that activity. The code
+uses one of several useful functions found[FORMULA]the imported Python standard li-
+brary module random. As we saw earlier, the function random.choice takes a non-
+empty sequence as its argument and returns a randomly chosen member of that
+sequence. Almost all of the functions[FORMULA]random are built using the function ran-
+dom.random, which, as we saw earlier[FORMULA]the book, generates a random floating
+point number between 0.0 and 1.0.97
+import random
+def rollDie():
+"""Returns a random[FORMULA]between 1 and 6"""
+return random.choice([1,2,3,4,5,6])
+def rollN(n):
+result = ''
+for i[FORMULA]range(n):
+result = result + str(rollDie())
+print(result)
+Figure 15.1 Roll die
+Now, imagine running rollN(10). Would you be more surprised to see it
+print 1111111111 or 5442462412? Or, to put it another way, which of these two se-
+quences is more random? It’s a trick question. Each of these sequences is equally
+likely, because the value of each roll is independent of the values of earlier rolls.
+In a stochastic process, two events are independent if the outcome of one event
+has no influence on the outcome of the other.
+This is a bit easier to see if we simplify the situation by thinking about a two-
+sided die (also known as a coin) with the values 0 and 1. This allows us to think
+of the output of a call of rollN as a binary number. When we use a binary die,
+there are 2n possible sequences that testN might return. Each of these sequences
+is equally likely; therefore each has a probability of occurring of (1/2)n.
+Let’s go back to our six-sided die. How many different sequences are there of
+length 10? 610. So, the probability of rolling ten consecutive 1’s is 1/610. Less than
+
+## 97 In point of fact, the values returned by random.random are not truly random. They are what
+
+mathematicians call pseudorandom. For almost all practical purposes, this distinction is not
+relevant and we shall ignore it.
+238 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+one out of sixty million. Pretty low, but no lower than the probability of any oth-
+er sequence, e.g., 5442462412.
+
+## 15.2 Calculating Simple Probabilities
+
+In general, when we talk about the probability of a result having some property
+(e.g., all 1’s) we are asking what fraction of all possible results has that property.
+This is why probabilities range from 0 to 1. Suppose we want to know the proba-
+bility of getting any sequence other than all 1’s when rolling the die. It is simply
+
+## 1 – (1/610), because the probability of something happening and the probability
+
+of the same thing not happening must add up to 1.
+Suppose we want to know the probability of rolling the die ten times without
+getting a single 1. One way to answer this question is to transform it into the
+question of how many of the 610 possible sequences don’t contain a 1. This can be
+computed as follows:
+1. The probability of not rolling a 1 on any single roll is 5/6.
+2. The probability of not rolling a 1 on either the first or the second roll is
+(5/6)*(5/6), or (5/6)2.
+3. So, the probability of not rolling a 1 ten times[FORMULA]a row is (5/6)10, slightly
+more than 0.16.
+Step 2 is an application of the multiplicative law for independent probabili-
+ties. Consider, for example, two independent events A and B. If A occurs one 1/3
+of the time and B occurs 1/4 of the time, the probability that both A and B occur
+is 1/4 of 1/3, i.e., (1/3)/4 or (1/3)*(1/4).
+What about the probability of rolling at least one 1? It is simply 1 minus the
+probability of not rolling at least one 1, i.e., 1 - (5/6)10. Notice that this cannot be
+correctly computed by saying that the probability of rolling a 1 on any roll is 1/6,
+so the probability of rolling at least one 1 is 10*(1/6), i.e., 10/6. This is obviously
+incorrect, since a probability cannot be greater than 1.
+How about the probability of rolling exactly two 1’s[FORMULA]ten rolls? This is
+equivalent to asking what fraction of the first 610 integers has exactly two 1’s[FORMULA]its base 6 representation. We could easily write a program to generate all of these
+sequences and count the number that contained exactly one 1. Deriving the
+probability analytically is a bit tricky, and we defer it to Section 15.4.4.
+CHAPTER 15. STOCHASTIC PROGRAMS, PROBABILITY, AND DISTRIBUTIONS 239
+
+## 15.3 Inferential Statistics
+
+As we just saw, one can use a systematic process to derive the precise probability
+of some complex event based upon knowing the probability of one or more sim-
+pler events. For example, one can easily compute the probability of flipping a
+coin and getting ten consecutive heads based on the assumption that flips are[FORMULA]-
+dependent and we know the probability of each flip coming up heads. Suppose,
+however, that we don’t actually know the probability of the relevant simpler
+event. Suppose, for example, that we don’t know whether the coin is fair (i.e., a
+coin where heads and tails are equally likely).
+All is not lost. If we have some data about the behavior of the coin, we can
+combine that data with our knowledge of probability to derive an estimate of the
+true probability. We can use inferential statistics to estimate the probability of a
+single flip coming up heads, and then conventional probability to compute the
+probability of a coin with that behavior coming up heads ten times[FORMULA]a row.
+In brief (since this is not a book about statistics), the guiding principle of[FORMULA]-
+ferential statistics is that a random sample tends to exhibit the same properties as
+the population from which it is drawn.
+Suppose Harvey Dent (also known as Two-Face) flipped a coin, and it came
+up heads. You would not infer from this that the next flip would also come up
+heads. Suppose he flipped it twice, and it came up heads both time. You might
+reason that the probability of this happening for a fair coin was 0.25, so there was
+still no reason to assume the next flip would be heads. Suppose, however, 100 out
+of 100 flips came up heads. (1/2)100 (the probability of this event, assuming a fair
+coin) is a pretty small number, so you might feel safe[FORMULA]inferring that the coin
+has a head on both sides.
+Your belief[FORMULA]whether the coin is fair is based on the intuition that the be-
+havior of a single sample of 100 flips is similar to the behavior of the population
+of all samples of 100 flips. This belief seems pretty sound when all 100 flips are
+heads. Suppose that 52 flips came up heads and 48 tails. Would you feel comfort-
+able[FORMULA]predicting that the next 100 flips would have the same ratio of heads to
+tails? For that matter, how comfortable would you feel about even predicting that
+there would be more heads than tails[FORMULA]the next 100 flips? Take a few minutes to
+think about this, and then try the experiment. Or, if you don’t happen to have a
+coin handy, simulate the flips using the code[FORMULA]Figure 15.2.
+The function flip[FORMULA]Figure 15.2 simulates flipping a fair coin numFlips times,
+and returns the fraction of those flips that came up heads. For each flip, the call
+random.choice(('H', 'T')) randomly returns either 'H' or 'T'.
+240 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+def flip(numFlips):
+"""Assumes numFlips a positive[FORMULA]"""
+heads = 0
+for i[FORMULA]range(numFlips):
+if random.choice(('H', 'T')) == 'H':
+heads += 1
+return heads/numFlips
+def flipSim(numFlipsPerTrial, numTrials):
+"""Assumes numFlipsPerTrial and numTrials positive ints"""
+fracHeads = []
+for i[FORMULA]range(numTrials):
+fracHeads.append(flip(numFlipsPerTrial))
+mean =[FORMULA](fracHeads)/len(fracHeads)
+return mean
+Figure 15.2 Flipping a coin
+Try executing the function flipSim(10, 1) a couple of times. Here’s what we
+saw the first two times we tried print('Mean =', flipSim(10, 1)):
+Mean = 0.2
+Mean = 0.6
+It seems that it would be inappropriate to assume much (other than that the
+coin has both heads and tails) from any one trial of 10 flips. That’s why we typi-
+cally structure our simulations to include multiple trials and compare the results.
+Let’s try flipSim(10, 100) a couple of times:
+Mean = 0.5029999999999999
+Mean = 0.496
+Do you feel better about these results? When we tried flipSim(100, 100000),
+we got
+Mean = 0.5005000000000038
+Mean = 0.5003139999999954
+This looks really good (especially since we know that the answer should be 0.5—
+but that’s cheating). Now it seems we can safely conclude something about the
+next flip, i.e., that heads and tails are about equally likely. But why do we think
+that we can conclude that?
+CHAPTER 15. STOCHASTIC PROGRAMS, PROBABILITY, AND DISTRIBUTIONS 241
+What we are depending upon is the law of large numbers (also known as
+Bernoulli’s theorem98). This law states that[FORMULA]repeated independent tests (flips[FORMULA]this case) with the same actual probability p of a particular outcome[FORMULA]each test
+(e.g., an actual probability of 0.5 of getting a head for each flip), the chance that
+the fraction of times that outcome occurs differs from p converges to zero as the
+number of trials goes to infinity.
+It is worth noting that the law of large numbers does not imply, as too many
+seem to think, that if deviations from expected behavior occur, these deviations
+are likely to be “evened out” by opposite deviations[FORMULA]the future. This misappli-
+cation of the law of large numbers is known as the gambler’s fallacy.99
+People often confuse the gambler’s fallacy with regression to the mean. Re-
+gression to the mean100 states that following an extreme random event, the next
+random event is likely to be less extreme. If you were to flip a fair coin six times
+and get six heads, regression to the mean implies that the next sequence of six
+flips is likely to have closer to the expected value of three heads. It does not im-
+ply, as the gambler’s fallacy suggests, that the next sequence of flips is likely to
+have fewer heads than tails.
+Success[FORMULA]most endeavors requires a combination of skill and luck. The skill
+component determines the mean and the luck component accounts for the varia-
+bility. The randomness of luck leads to regression to the mean.
+The code[FORMULA]Figure 15.3 produces a plot, Figure 15.4, illustrating regression
+to the mean. The function regressToMean first generates numTrials trials of
+numFlips coin flips each. It then identifies all trials where the fraction of heads
+was either less than 1/3 or more than 2/3 and plots these extremal values as cir-
+cles. Then, for each of these points, it plots the value of the subsequent trial as a
+triangle[FORMULA]the same column as the circle.
+
+## 98 Though the law of large numbers had been discussed[FORMULA]the 16th century by Cardano, the first
+
+proof was published by Jacob Bernoulli[FORMULA]the early 18th century. It is unrelated to the theorem
+about fluid dynamics called Bernoulli’s theorem, which was proved by Jacob’s nephew Daniel.
+
+## 99 “On August 18, 1913, at the casino[FORMULA]Monte Carlo, black came up a record twenty-six times[FORMULA]succession [[FORMULA]roulette]. … [There] was a near-panicky rush to bet on red, beginning about the
+
+time black had come up a phenomenal fifteen times. In application of the maturity [of the chances]
+doctrine, players doubled and tripled their stakes, this doctrine leading them to believe after black
+came up the twentieth time that there was not a chance[FORMULA]a million of another repeat. In the end
+the unusual run enriched the Casino by some millions of francs.” Huff and Geis, How to Take a
+Chance, pp. 28-29.
+100 The term “regression to the mean” was first used by Francis Galton[FORMULA]1885[FORMULA]a paper titled
+“Regression Toward Mediocrity[FORMULA]Hereditary Stature.” In that study he observed that children of
+unusually tall parents were likely to be shorter than their parents.
+242 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+The horizontal line at 0.5, the expected mean, is created using the axhline
+function. The function pylab.xlim controls the extent of the x-axis. The function
+call pylab.xlim(xmin, xmax) sets the minimum and maximum values of the x-axis
+of the current figure. The function call pylab.xlim() returns a tuple composed of
+the minimum and maximum values of the x-axis of the current figure. The
+function pylab.ylim works the same way.
+def regressToMean(numFlips, numTrials):
+#Get fraction of heads for each trial of numFlips
+fracHeads = []
+for t[FORMULA]range(numTrials):
+fracHeads.append(flip(numFlips))
+#Find trials with extreme results and for each the next trial
+extremes, nextTrials = [], []
+for i[FORMULA]range(len(fracHeads) - 1):
+if fracHeads[i] < 0.33 or fracHeads[i] > 0.66:
+extremes.append(fracHeads[i])
+nextTrials.append(fracHeads[i+1])
+#Plot results
+pylab.plot(range(len(extremes)), extremes, 'ko',
+label = 'Extreme')
+pylab.plot(range(len(nextTrials)), nextTrials, 'k^',
+label = 'Next Trial')
+pylab.axhline(0.5)
+pylab.ylim(0, 1)
+pylab.xlim(-1, len(extremes) + 1)
+pylab.xlabel('Extreme Example and Next Trial')
+pylab.ylabel('Fraction Heads')
+pylab.title('Regression to the Mean')
+pylab.legend(loc = 'best')
+regressToMean(15, 40)
+Figure 15.3: Regression to the mean
+Notice that while the trial following an extreme result is typically followed by
+a trial closer to the mean than the extreme result, that doesn’t always occur—as
+shown by the boxed pair.
+CHAPTER 15. STOCHASTIC PROGRAMS, PROBABILITY, AND DISTRIBUTIONS 243
+Figure 15.4: Illustration of regression to mean
+Finger exercise: Sally averages 5 strokes a hole when she plays golf. One day, she
+took 40 strokes to complete the first nine holes. Her partner conjectured that she
+would probably regress to the mean and take 50 strokes to complete the next
+nine holes. Do you agree with her partner?
+Figure 15.5 contains a function, flipPlot, that produces two plots, Figure
+15.6, intended to show the law of large numbers at work. The first plot shows
+how the absolute value of the difference between the number of heads and num-
+ber of tails changes with the number of flips. The second plot compares the ratio
+of heads to tails versus the number of flips. The line random.seed(0) near the bot-
+tom ensures that the pseudorandom number generator used by random.random will
+generate the same sequence of pseudorandom numbers each time this code is ex-
+ecuted.101 This is convenient for debugging. The function random.seed can be
+called with any number. If it is called with no argument, the seed is chosen at
+random.
+101 You should be aware of the fact that the random number generators[FORMULA]Python 2 and Python 3
+are not identical. This means that even if you set the seed, you cannot assume that a program will
+behave the same way across versions of the language.
+244 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+def flipPlot(minExp, maxExp):
+"""Assumes minExp and maxExp positive integers; minExp < maxExp
+Plots results of 2**minExp to 2**maxExp coin flips"""
+ratios, diffs, xAxis = [], [], []
+for exp[FORMULA]range(minExp, maxExp + 1):
+xAxis.append(2**exp)
+for numFlips[FORMULA]xAxis:
+numHeads = 0
+for n[FORMULA]range(numFlips):
+if random.choice(('H', 'T')) == 'H':
+numHeads += 1
+numTails = numFlips - numHeads
+try:
+ratios.append(numHeads/numTails)
+diffs.append(abs(numHeads - numTails))
+except ZeroDivisionError:
+continue
+pylab.title('Difference Between Heads and Tails')
+pylab.xlabel('Number of Flips')
+pylab.ylabel('Abs(#Heads - #Tails)')
+pylab.plot(xAxis, diffs, 'k')
+pylab.figure()
+pylab.title('Heads/Tails Ratios')
+pylab.xlabel('Number of Flips')
+pylab.ylabel('#Heads/#Tails')
+pylab.plot(xAxis, ratios, 'k')
+random.seed(0)
+flipPlot(4, 20)
+Figure 15.5 Plotting the results of coin flips
+The plot on the left seems to suggest that the absolute difference between the
+number of heads and the number of tails fluctuates[FORMULA]the beginning, crashes
+downwards, and then moves rapidly upwards. However, we need to keep[FORMULA]mind
+that we have only two data points to the right of x = 300,000. The fact that py-
+lab.plot connected these points with lines may mislead us into seeing trends
+when all we have are isolated points. This is not an uncommon phenomenon, so
+you should always ask how many points a plot actually contains before jumping
+to any conclusion about what it means.
+CHAPTER 15. STOCHASTIC PROGRAMS, PROBABILITY, AND DISTRIBUTIONS 245
+It’s hard to see much of anything[FORMULA]the plot on the right, which is mostly a
+flat line. This too is deceptive. Even though there are sixteen data points, most of
+them are crowded into a small amount of real estate on the left side of the plot, so
+that the detail is impossible to see. This occurs because the plotted points have x
+values of 24, 25, 26, …, 220, so the values on the x-axis range from 16 to over a mil-
+lion, and unless instructed otherwise PyLab will place these points based on their
+relative distance from the origin. This is called linear scaling. Because most of the
+points have x values that are small relative to 220, they will appear relatively close
+to the origin.
+Figure 15.6 The law of large numbers at work
+Fortunately, these visualization problems are easy to address[FORMULA]PyLab. As we
+saw[FORMULA]Chapter 11 and earlier[FORMULA]this chapter, we can easily instruct our program
+to plot unconnected points, e.g., by writing pylab.plot(xAxis, diffs, 'ko').
+Both plots[FORMULA]Figure 15.7 use a logarithmic scale on the x-axis. Since the x
+values generated by flipPlot are 2minExp, 2minExp+1, .., 2maxExp, using a logarithmic
+x-axis causes the points to be evenly spaced along the x-axis—providing maxi-
+mum separation between points. The left-hand plot[FORMULA]Figure 15.7 uses a loga-
+rithmic scale on the y-axis as well as on the x-axis. The y values on this plot range
+from nearly 0 to around 550. If the y-axis were linearly scaled, it would be diffi-
+cult to see the relatively small differences[FORMULA]y values on the left side of the plot.
+On the other hand, on the plot on the right the y values are fairly tightly grouped,
+so we use a linear y-axis.
+246 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Figure 15.7 Impact of number of flips
+Finger exercise: Modify the code[FORMULA]Figure 15.5 so that it produces plots like
+those shown[FORMULA]Figure 15.7.
+These plots are easier to interpret than the earlier plots. The plot on the right
+suggests pretty strongly that the ratio of heads to tails converges to 1.0 as the
+number of flips gets large. The meaning of the plot on the left is a bit less clear. It
+appears that the absolute difference grows with the number of flips, but it is not
+completely convincing.
+It is never possible to achieve perfect accuracy through sampling without
+sampling the entire population. No matter how many samples we examine, we
+can never be sure that the sample set is typical until we examine every element of
+the population (and since we are often dealing with infinite populations, e.g., all
+possible sequences of coin flips, this is often impossible). Of course, this is not to
+say that an estimate cannot be precisely correct. We might flip a coin twice, get
+one heads and one tails, and conclude that the true probability of each is 0.5. We
+would have reached the right conclusion, but our reasoning would have been
+faulty.
+How many samples do we need to look at before we can have justified confi-
+dence[FORMULA]our answer? This depends on the variance[FORMULA]the underlying distribu-
+tion. Roughly speaking, variance is a measure of how much spread there is[FORMULA]the
+possible different outcomes. More formally, the variance of a collection of values,
+𝑋, is defined as
+(𝑥−𝜇)v
+(cid:131)(cid:132)(cid:133)
+𝑣𝑎𝑟𝑖𝑎𝑛𝑐𝑒(𝑋)=
+𝑋
+CHAPTER 15. STOCHASTIC PROGRAMS, PROBABILITY, AND DISTRIBUTIONS 247
+where |𝑋| is the size of the collection and 𝜇 (mu) its mean. Informally, the vari-
+ance describes what fraction of the values are close to the mean. If many values
+are relatively close to the mean, the variance is relatively small. If many values are
+relatively far from the mean, the variance is relatively large. If all values are the
+same, the variance is zero.
+The standard deviation of a collection of values is the square root of the vari-
+ance. While it contains exactly the same information as the variance, the stand-
+ard deviation is easier to interpret because it is[FORMULA]the same units as the original
+data. For example, is easier to understand the statement “the mean height of a
+population is 70 inches with a standard deviation of 4 inches,” than the sentence
+“the mean of height of a population is 70 inches with a variance of 16 inches2.”
+Figure 15.8 contains implementations of variance and standard deviation.102
+def variance(X):
+"""Assumes that X is a list of numbers.
+Returns the standard deviation of X"""
+mean =[FORMULA](X)/len(X)
+tot = 0.0
+for x[FORMULA]X:
+tot += (x - mean)**2
+return tot/len(X)
+def stdDev(X):
+"""Assumes that X is a list of numbers.
+Returns the standard deviation of X"""
+return variance(X)**0.5
+Figure 15.8 Variance and standard deviation
+We can use the notion of standard deviation to think about the relationship
+between the number of samples we have looked at and how much confidence we
+should have[FORMULA]the answer we have computed. Figure 15.9 contains a modified
+version of flipPlot. It uses the helper functions defined at the top of the figure to
+run multiple trials of each number of coin flips, and then plots the means for
+abs(heads - tails) and the heads/tails ratio. It also plots the standard deviation
+of each. The helper function makePlot contains the code used to produce the
+plots. The function runTrial simulates one trial of numFlips coins.
+102 You’ll probably never need to implement these yourself. Statistical libraries implement these
+and many other standard statistical functions. However, we present the code here on the off chance
+that some readers prefer looking at code to looking at equations.
+248 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+def makePlot(xVals, yVals, title, xLabel, yLabel, style,
+logX = False, logY = False):
+pylab.figure()
+pylab.title(title)
+pylab.xlabel(xLabel)
+pylab.ylabel(yLabel)
+pylab.plot(xVals, yVals, style)
+if logX:
+pylab.semilogx()
+if logY:
+pylab.semilogy()
+def runTrial(numFlips):
+numHeads = 0
+for n[FORMULA]range(numFlips):
+if random.choice(('H', 'T')) == 'H':
+numHeads += 1
+numTails = numFlips - numHeads
+return (numHeads, numTails)
+def flipPlot1(minExp, maxExp, numTrials):
+"""Assumes minExp, maxExp, numTrials ints >0; minExp < maxExp
+Plots summaries of results of numTrials trials of
+2**minExp to 2**maxExp coin flips"""
+ratiosMeans, diffsMeans, ratiosSDs, diffsSDs = [], [], [], []
+xAxis = []
+for exp[FORMULA]range(minExp, maxExp + 1):
+xAxis.append(2**exp)
+for numFlips[FORMULA]xAxis:
+ratios, diffs = [], []
+for t[FORMULA]range(numTrials):
+numHeads, numTails = runTrial(numFlips)
+ratios.append(numHeads/numTails)
+diffs.append(abs(numHeads - numTails))
+ratiosMeans.append([FORMULA](ratios)/numTrials)
+diffsMeans.append([FORMULA](diffs)/numTrials)
+ratiosSDs.append(stdDev(ratios))
+diffsSDs.append(stdDev(diffs))
+numTrialsString = ' (' + str(numTrials) + ' Trials)'
+title = 'Mean Heads/Tails Ratios' + numTrialsString
+makePlot(xAxis, ratiosMeans, title, 'Number of flips',
+'Mean Heads/Tails', 'ko', logX = True)
+title = 'SD Heads/Tails Ratios' + numTrialsString
+makePlot(xAxis, ratiosSDs, title, 'Number of Flips',
+'Standard Deviation', 'ko', logX = True, logY = True)
+Figure 15.9 Coin-flipping simulation
+CHAPTER 15. STOCHASTIC PROGRAMS, PROBABILITY, AND DISTRIBUTIONS 249
+Let’s try flipPlot1(4, 20, 20). It generates the plots[FORMULA]Figure 15.10.
+Figure 15.10 Convergence of heads/tails ratios
+This is encouraging. The mean heads/tails ratio is converging towards 1 and
+the[FORMULA]of the standard deviation is falling linearly with the[FORMULA]of the number of
+flips per trial. By the time we get to about 106 coin flips per trial, the standard
+deviation (about 10-3) is roughly three decimal orders of magnitude smaller than
+the mean (about 1), indicating that the variance across the trials was small. We
+can, therefore, have considerable confidence that the expected heads/tails ratio is
+quite close to 1.0. As we flip more coins, not only do we have a more precise an-
+swer, but more important, we also have reason to be more confident that it is
+close to the right answer.
+What about the absolute difference between the number of heads and the
+number of tails? We can take a look at that by adding to the end of flipPlot1 the
+code[FORMULA]Figure 15.11. This produces the plots[FORMULA]Figure 15.12.
+title = 'Mean abs(#Heads - #Tails)' + numTrialsString
+makePlot(xAxis, diffsMeans, title,
+'Number of Flips', 'Mean abs(#Heads - #Tails)', 'ko',
+logX = True, logY = True)
+title = 'SD abs(#Heads - #Tails)' + numTrialsString
+makePlot(xAxis, diffsSDs, title,
+'Number of Flips', 'Standard Deviation', 'ko',
+logX = True, logY = True)
+Figure 15.11 Absolute differences
+250 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Figure 15.12 Mean and standard deviation of heads - tails
+As expected, the absolute difference between the numbers of heads and tails
+grows with the number of flips. Furthermore, since we are averaging the results
+over twenty trials, the plot is considerably smoother than when we plotted the
+results of a single trial[FORMULA]Figure 15.7. But what’s up with the plot on the right of
+Figure 15.12? The standard deviation is growing with the number of flips. Does
+this mean that as the number of flips increases we should have less rather than
+more confidence[FORMULA]the estimate of the expected value of the difference between
+heads and tails?
+No, it does not. The standard deviation should always be viewed[FORMULA]the con-
+text of the mean. If the mean were a billion and the standard deviation 100, we
+would view the dispersion of the data as small. But if the mean were 100 and the
+standard deviation 100, we would view the dispersion as large.
+The coefficient of variation is the standard deviation divided by the mean.
+When comparing data sets with different means (as here), the coefficient of vari-
+ation is often more informative than the standard deviation. As you can see from
+its implementation[FORMULA]Figure 15.13, the coefficient of variation is not defined
+when the mean is 0.
+def CV(X):
+mean =[FORMULA](X)/len(X)
+try:
+return stdDev(X)/mean
+except ZeroDivisionError:
+return float('nan')
+Figure 15.13 Coefficient of variation
+CHAPTER 15. STOCHASTIC PROGRAMS, PROBABILITY, AND DISTRIBUTIONS 251
+Figure 15.14 contains a function that plots coefficients of variation. In addi-
+tion to the plots produced by flipPlot1, it produces the plots[FORMULA]Figure 15.15.
+def flipPlot2(minExp, maxExp, numTrials):
+"""Assumes minExp and maxExp positive ints; minExp < maxExp
+numTrials a positive integer
+Plots summaries of results of numTrials trials of
+2**minExp to 2**maxExp coin flips"""
+ratiosMeans, diffsMeans, ratiosSDs, diffsSDs = [], [], [], []
+ratiosCVs, diffsCVs, xAxis = [], [], []
+for exp[FORMULA]range(minExp, maxExp + 1):
+xAxis.append(2**exp)
+for numFlips[FORMULA]xAxis:
+ratios, diffs = [], []
+for t[FORMULA]range(numTrials):
+numHeads, numTails = runTrial(numFlips)
+ratios.append(numHeads/float(numTails))
+diffs.append(abs(numHeads - numTails))
+ratiosMeans.append([FORMULA](ratios)/numTrials)
+diffsMeans.append([FORMULA](diffs)/numTrials)
+ratiosSDs.append(stdDev(ratios))
+diffsSDs.append(stdDev(diffs))
+ratiosCVs.append(CV(ratios))
+diffsCVs.append(CV(diffs))
+numTrialsString = ' (' + str(numTrials) + ' Trials)'
+title = 'Mean Heads/Tails Ratios' + numTrialsString
+makePlot(xAxis, ratiosMeans, title, 'Number of flips',
+'Mean Heads/Tails', 'ko', logX = True)
+title = 'SD Heads/Tails Ratios' + numTrialsString
+makePlot(xAxis, ratiosSDs, title, 'Number of flips',
+'Standard Deviation', 'ko', logX = True, logY = True)
+title = 'Mean abs(#Heads - #Tails)' + numTrialsString
+makePlot(xAxis, diffsMeans, title,'Number of Flips',
+'Mean abs(#Heads - #Tails)', 'ko',
+logX = True, logY = True)
+title = 'SD abs(#Heads - #Tails)' + numTrialsString
+makePlot(xAxis, diffsSDs, title, 'Number of Flips',
+'Standard Deviation', 'ko', logX = True, logY = True)
+title = 'Coeff. of Var. abs(#Heads - #Tails)' + numTrialsString
+makePlot(xAxis, diffsCVs, title, 'Number of Flips',
+'Coeff. of Var.', 'ko', logX = True)
+title = 'Coeff. of Var. Heads/Tails Ratio' + numTrialsString
+makePlot(xAxis, ratiosCVs, title, 'Number of Flips',
+'Coeff. of Var.', 'ko', logX = True, logY = True)
+Figure 15.14 Final version of flipPlot1
+252 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Figure 15.15 Coefficient of variation of heads/tails and abs(heads – tails)
+In this case we see that the plot of coefficient of variation for the heads/tails
+ratio is not much different from the plot of the standard deviation[FORMULA]Figure
+15.10. This is not surprising, since the only difference between the two is the di-
+vision by the mean, and since the mean is close to 1 that makes little difference.
+On the other hand, the plot of the coefficient of variation for the absolute dif-
+ference between heads and tails is a different story. While the standard deviation
+exhibited a clear trend[FORMULA]Figure 15.12, it would take a brave person to argue that
+the coefficient of variation is trending[FORMULA]any direction. It seems to be fluctuating
+wildly. This suggests that dispersion[FORMULA]the values of abs(heads – tails) is inde-
+pendent of the number of flips. It’s not growing, as the standard deviation might
+have misled us to believe, but it’s not shrinking either. Perhaps a trend would ap-
+pear if we tried 1000 trials instead of 20. Let’s see.
+Figure 15.16 A large number of trials
+CHAPTER 15. STOCHASTIC PROGRAMS, PROBABILITY, AND DISTRIBUTIONS 253
+In Figure 15.16, it looks as if the coefficient of variation settles[FORMULA]somewhere[FORMULA]the neighborhood of 0.74-0.78. In general, distributions with a coefficient of
+variation of less than 1 are considered low-variance.
+The main advantage of the coefficient of variation over the standard devia-
+tion is that it allows us to compare the dispersion of sets with different means.
+Consider, for example, the distribution of weekly income[FORMULA]different regions of
+Australia, as depicted[FORMULA]Figure 15.17.
+Figure 15.17 Income distribution[FORMULA]Australia
+If we use standard deviation as a measure of income inequality, it appears
+that there is considerably less income inequality[FORMULA]Tasmania than[FORMULA]the ACT
+(Australian Capital Territory). However, if we look at the coefficients of variation
+(about 0.32 for ACT and 0.42 for Tasmania), we reach a rather different conclu-
+sion.
+That isn’t to say that the coefficient of variation is always more useful than
+the standard deviation. If the mean is near 0, small changes[FORMULA]the mean lead to
+large (but not necessarily meaningful) changes[FORMULA]the coefficient of variation, and
+when the mean is 0, the coefficient of variation is undefined. Also, as we shall see[FORMULA]Section 15.4.2, the standard deviation can be used to construct a confidence
+interval, but the coefficient of variation cannot.
+254 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+## 15.4 Distributions
+
+A histogram is a plot designed to show the distribution of values[FORMULA]a set of data.
+The values are first sorted, and then divided into a fixed number of equal-width
+bins. A plot is then drawn that shows the number of elements[FORMULA]each bin. The
+code on the left of Figure 15.18 produces the plot on the right of that figure.
+Figure 15.18 Code and the histogram it generates
+The function call pylab.hist(vals, bins = 10) produces a histogram with ten
+bins. PyLab has automatically chosen the width of each bin based on the number
+of bins and the range of values. Looking at the code, we know that the smallest
+number that might appears[FORMULA]vals is 0 and the largest number 200. Therefore,
+the possible values on the x-axis range from 0 to 200. Each bin represents an
+equal fraction of the values on the x-axis, so the first bin will contain the ele-
+ments 0-19, the next bin the elements 20-39, etc.
+Finger exercise: In Figure 15.18, why are the bins near the middle of the histo-
+gram taller than the the bins near the sides? Hint: think about why 7 is the most
+common outcome of rolling a pair of dice.
+By now you must be getting awfully bored with flipping coins. Nevertheless,
+we are going to ask you to look at yet one more coin-flipping simulation. The
+simulation[FORMULA]Figure 15.19 illustrates more of PyLab’s plotting capabilities, and
+gives us an opportunity to get a visual notion of what standard deviation means.
+It produces two histograms. The first shows the result of a simulation of 100,000
+trials of 100 flips of a fair coin. The second shows the result of a simulation of
+100,000 trials of 1,000 flips of a fair coin.
+The method pylab.annotate is used to place some statistics on the figure
+showing the histogram. The first argument is the string to be displayed on the
+CHAPTER 15. STOCHASTIC PROGRAMS, PROBABILITY, AND DISTRIBUTIONS 255
+figure. The next two arguments control where the string is placed. The argument
+xycoords = 'axes fraction' indicates the placement of the text will be expressed as
+a fraction of the width and height of the figure. The argument xy = (0.67, 0.5)
+indicates that the text should begin two thirds of the way from the left edge of the
+figure and half way from the bottom edge of the figure.
+def flip(numFlips):
+"""Assumes numFlips a positive[FORMULA]"""
+heads = 0
+for i[FORMULA]range(numFlips):
+if random.choice(('H', 'T')) == 'H':
+heads += 1
+return heads/float(numFlips)
+def flipSim(numFlipsPerTrial, numTrials):
+fracHeads = []
+for i[FORMULA]range(numTrials):
+fracHeads.append(flip(numFlipsPerTrial))
+mean =[FORMULA](fracHeads)/len(fracHeads)
+sd = stdDev(fracHeads)
+return (fracHeads, mean, sd)
+def labelPlot(numFlips, numTrials, mean, sd):
+pylab.title(str(numTrials) + ' trials of '
++ str(numFlips) + ' flips each')
+pylab.xlabel('Fraction of Heads')
+pylab.ylabel('Number of Trials')
+pylab.annotate('Mean = ' + str(round(mean, 4))\
++ '\nSD = ' + str(round(sd, 4)), size='x-large',
+xycoords = 'axes fraction', xy = (0.67, 0.5))
+def makePlots(numFlips1, numFlips2, numTrials):
+val1, mean1, sd1 = flipSim(numFlips1, numTrials)
+pylab.hist(val1, bins = 20)
+xmin,xmax = pylab.xlim()
+labelPlot(numFlips1, numTrials, mean1, sd1)
+pylab.figure()
+val2, mean2, sd2 = flipSim(numFlips2, numTrials)
+pylab.hist(val2, bins = 20)
+pylab.xlim(xmin, xmax)
+labelPlot(numFlips2, numTrials, mean2, sd2)
+makePlots(100, 1000, 100000)
+Figure 15.19 Plot histograms of coin flips
+256 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+To facilitate comparing the two figures, we have used pylab.xlim to force the
+bounds of the x-axis[FORMULA]the second plot to match those[FORMULA]the first plot, rather
+than letting PyLab choose the bounds.
+When the code[FORMULA]Figure 15.19 is run, it produces the plots[FORMULA]Figure 15.20.
+Notice that while the means[FORMULA]both plots are about the same, the standard devia-
+tions are quite different. The spread of outcomes is much tighter when we flip the
+coin 1000 times per trial than when we flip the coin 100 times per trial.
+Figure 15.20 Histograms of coin flips
+15.4.1 Probability Distributions
+A histogram is a depiction of a frequency distribution. It tells us how often a ran-
+dom variable has taken on a value[FORMULA]some range, e.g., how often the fraction of
+times a coin came up heads was between 0.4 and 0.5. It also provides information
+about the relative frequency of various ranges. For example, we can easily see that
+the fraction of heads falls between 0.4 and 0.5 far more frequently than it falls be-
+tween 0.3 and 0.4. A probability distribution captures the notion of relative fre-
+quency by giving the probability of a random value taking on a value within a
+range.
+Probability distributions fall into two groups: discrete probability distribu-
+tions and continuous probability distributions, depending upon whether they de-
+fine the probability distribution for a discrete or a continuous random variable.
+A discrete random variable can take on one of a finite set of values, e.g., the val-
+ues associated with a roll of a die. A continuous random variable can take on any
+of the infinite real values between two real numbers, e.g., the speed of a car trav-
+eling between 0 miles per hour and the car’s maximum speed.
+CHAPTER 15. STOCHASTIC PROGRAMS, PROBABILITY, AND DISTRIBUTIONS 257
+Discrete probability distributions are easier to describe. Since there are a fi-
+nite number of values that the variable can take on, the distribution can be de-
+scribed by simply listing the probability of each value.
+Continuous probability distributions are trickier. Since there are an infinite
+number of possible values, the probability that a continuous random variable will
+take on a specific value is usually 0. For example, the probability that a car is
+travelling at exactly 81.3457283 miles per hour is probably 0. Mathematicians
+like to describe continuous probability distributions using a probability density
+function, often abbreviated as PDF. A PDF describes the probability of a random
+variable lying between two values. Think of the PDF as defining a curve where
+the values on the x-axis lie between the minimum and maximum value of the
+random variable. (In some cases the x-axis is infinitely long.) Under the assump-
+tion that x1 and x2 lie[FORMULA]the domain of the random variable, the probability of the
+variable having a value between x1 and x2 is the area under the curve between x1
+and x2. Figure 15.21 shows the probability density functions for the expressions
+random.random() and random.random() + random.random().
+Figure 15.21: PDF for random.random
+For random.random() the area under the curve from 0 to 1 is 1. This makes
+sense because we know that the probability of random.random() returning a value
+between 0 and 1 is 1. On the other hand, if we consider the area under the part of
+the curve for random.random() between 0.2 and 0.4, it is 0.2—indicating that the
+probability of random.random() returning a value between 0.2 and 0.4 is 0.2. Simi-
+larly, the area under the curve for random.random() + random.random() from 0 to 2
+is 1, and the area under the curve from 0 to 1 is 0.5. Notice, by the way that the
+PDF for random.random() indicates that every possible interval of the same length
+has the same probability, whereas the PDF for random.random() + random.random()
+indicates that some intervals are more probable than others.
+258 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+15.4.2 Normal Distributions
+A normal (or Gaussian) distribution is defined by the probability density func-
+tion
+
+## 1 ((cid:131)(cid:138)(cid:139))(cid:140)
+
+(cid:138)
+𝑃 𝑥 = ∗𝑒 v(cid:141)(cid:140)
+𝜎 2𝜋
+where μis the mean, σthe standard deviation, and e is Euler’s number (roughly
+2.718).103
+If you don’t feel like studying this equation, that’s fine. Just remember that
+normal distributions peak at the mean, fall off symmetrically above and below
+the mean, and asymptotically approach 0. They have the nice mathematical
+property of being completely specified by two parameters: the mean and the
+standard deviation (the only two parameters[FORMULA]the equation). Knowing these is
+equivalent to knowing the entire distribution. The shape of the normal distribu-
+tion resembles ([FORMULA]the eyes of some) that of a bell, so it sometimes is referred to as
+a bell curve.
+Figure 15.22 shows part of the PDF for a normal distribution with a mean of
+
+## 0 and and standard deviation of 1. We can only show a portion of the PDF, be-
+
+cause the tails of a normal distribution converge towards 0, but don’t reach it. In
+principle, no value has a zero probability of occurring.
+Figure 15.22: A normal distribution
+103 e is one of those magic irrational constants, like π, that show up all over the place[FORMULA]mathematics. The most common use is as the base of what are called “natural logarithms.” There
+are many equivalent ways of defining e, including as the value of (1+n )(cid:131) as x approaches infinity.
+(cid:131)
+CHAPTER 15. STOCHASTIC PROGRAMS, PROBABILITY, AND DISTRIBUTIONS 259
+Normal distributions can be easily generated[FORMULA]Python programs by calling
+random.gauss(mu, sigma), which returns a randomly chosen floating point number
+from a normal distribution with mean and standard deviation sigma.
+Normal distributions are frequently used[FORMULA]constructing probabilistic mod-
+els because they have nice mathematical properties. Of course, finding a mathe-
+matically nice model is of no use if it provides a bad model of the actual data.
+Fortunately, many random variables have an approximately normal distribution.
+For example, physical properties of plants and animals (e.g., height, weight, body
+temperature) typically have approximately normal distributions. Importantly,
+many experiments have normally distributed measurement errors. This assump-
+tion was used[FORMULA]the early 1800s by the German mathematician and physicist Karl
+Gauss, who assumed a normal distribution of measurement errors[FORMULA]his analysis
+of astronomical data (which led to the normal distribution becoming known as
+the Gaussian distribution[FORMULA]much of the scientific community).
+One of the nice properties of normal distributions is that independent of the
+mean and standard deviation, the number of standard deviations from the mean
+needed to encompass a fixed fraction of the data is a constant. For example,
+~68.27% of the data will always lie with one standard deviation of the mean,
+~95.45% within two standard deviations of the mean, and ~99.73% within three
+standard deviations of the mean. This is sometimes called the 68-95-99.7 rule,
+but is more often called the empirical rule.
+The rule can be derived by integrating the formula defining a normal distri-
+bution to get the area under the curve. Looking at Figure 15.22, it is easy to be-
+lieve that roughly two thirds of the total area under the curve lies between –1
+and 1, roughly 95% between -2 and 2, and almost all of it between -3 and 3. But
+that’s only one example, and it is always dangerous to generalize from a single ex-
+ample. We could accept the empirical rule on the unimpeachable authority of
+Wikipedia. However, just to be sure, and as an excuse to introduce a Python li-
+brary worth knowing about, let’s check it ourselves.
+The SciPy library contains many mathematical functions commonly used by
+scientists and engineers. SciPy is organized into modules covering different sci-
+entific computing domains, such as signal processing and image processing. We
+will use a number of functions from SciPy later[FORMULA]this book. Here we use the
+function scipy.integrate.quad, which finds an approximation to the value of[FORMULA]-
+tegrating a function between two points.
+260 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+The function scipy.integrate.quad has three required parameters and one
+optional parameter:
+• a function or method to be integrated (if the function takes more than one ar-
+gument, it is integrated along the axis corresponding to the first argument).
+• a number representing the lower limit of the integration,
+• a number representing the upper limit of the integration, and
+• an optional tuple supplying values for all arguments, except the first, of the
+function to be integrated.
+The quad function returns a tuple of two floating point numbers. The first is
+an approximation to the value of the integral, and the second an estimate of the
+absolute error[FORMULA]the result.
+Consider, for example, evaluating the integral of the unary function abs[FORMULA]the interval 0 to 5. We don’t need any fancy math to compute the area under this
+curve: it’s simply the area of a right triangle with base and altitude of length 5,
+i.e., 12.5. So, it shouldn’t be a surprise that
+print scipy.integrate.quad(abs, 0, 5)[0]
+prints 12.5. (The second value[FORMULA]the tuple returned by quad is roughly 10-13, indi-
+cating that the approximation is quite good.)
+The code[FORMULA]Figure 15.23 computes the area under portions of normal distri-
+butions for some randomly chosen means and standard deviations. Notice that
+gaussian is a ternary function, and therefore the code
+print scipy.integrate.quad(gaussian, -2, 2, (0, 1))[0]
+prints the integral from -2 to 2 of a normal distribution with mean 0 and stand-
+ard deviation 1.
+When we ran the code[FORMULA]Figure 15.23, it printed what the empirical rule
+predicts:
+For mu = -1 and sigma = 6
+Fraction within 1 std = 0.6827
+Fraction within 2 std = 0.9545
+Fraction within 3 std = 0.9973
+For mu = 9 and sigma = 9
+Fraction within 1 std = 0.6827
+Fraction within 2 std = 0.9545
+Fraction within 3 std = 0.9973
+For mu = 1 and sigma = 5
+Fraction within 1 std = 0.6827
+Fraction within 2 std = 0.9545
+Fraction within 3 std = 0.9973
+CHAPTER 15. STOCHASTIC PROGRAMS, PROBABILITY, AND DISTRIBUTIONS 261
+import scipy.integrate
+def gaussian(x, mu, sigma):
+factor1 = (1.0/(sigma*((2*pylab.pi)**0.5)))
+factor2 = pylab.e**-(((x-mu)**2)/(2*sigma**2))
+return factor1*factor2
+def checkEmpirical(numTrials):
+for t[FORMULA]range(numTrials):
+mu = random.randint(-10, 10)
+sigma = random.randint(1, 10)
+print('For mu =', mu, 'and sigma =', sigma)
+for numStd[FORMULA](1, 2, 3):
+area = scipy.integrate.quad(gaussian, mu-numStd*sigma,
+mu+numStd*sigma,
+(mu, sigma))[0]
+print(' Fraction within', numStd, 'std =',
+round(area, 4))
+checkEmpirical(3)
+Figure 15.23: Checking the empirical rule
+People frequently use the empirical rule to derive confidence intervals. In-
+stead of estimating an unknown value (e.g., the expected number of heads) by a
+single value, a confidence interval provides a range that is likely to contain the
+unknown value and a degree of confidence that the unknown value lies within
+that range. For example, a political poll might indicate that a candidate is likely to
+get 52% of the vote ±4% (i.e., the confidence interval is of size 8) with a confi-
+dence level of 95%. What this means is that the pollster believes that 95% of the
+time the candidate will receive between 48% and 56% of the vote.104 Together the
+confidence interval and the confidence level are intended to indicate the reliabil-
+ity of the estimate. Almost always, increasing the confidence level will require
+widening the confidence interval.
+Suppose that we run 100 trials of 100 coin flips each. Suppose further that
+the mean fraction of heads is 0.4999 and the standard deviation 0.0497. For rea-
+sons we will discuss[FORMULA]Section 17.2, we can assume that the distribution of the
+means of the trials was normal. Therefore, we can conclude that if we conducted
+more trials of 100 flips each,
+104 For polls, confidence intervals are not typically estimated by looking at the standard deviation
+of multiple polls. Instead, they use something called standard error, see Section 17.3.
+262 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+• ~95% of the time the fraction of heads will be 0.4999 ±0.0994 and
+• >99% of the time the fraction of heads will be 0.4999 ±0.1491.
+It is often useful to visualize confidence intervals using error bars. The func-
+tion showErrorBars[FORMULA]Figure 15.24 calls the version of flipSim[FORMULA]Figure 15.19 and
+then uses
+pylab.errorbar(xVals, means, yerr = 1.96*pylab.array(sds))
+to produce a plot. The first two arguments give the x and y values to be plotted.
+The third argument says that the values[FORMULA]sds should be multiplied by 1.96 and
+used to create vertical error bars. We multiply by 1.96 because 95% of the data[FORMULA]a normal distribution falls within 1.96 standard deviations of the mean.
+def showErrorBars(minExp, maxExp, numTrials):
+"""Assumes minExp and maxExp positive ints; minExp < maxExp
+numTrials a positive integer
+Plots mean fraction of heads with error bars"""
+means, sds, xVals = [], [], []
+for exp[FORMULA]range(minExp, maxExp + 1):
+xVals.append(2**exp)
+fracHeads, mean, sd = flipSim(2**exp, numTrials)
+means.append(mean)
+sds.append(sd)
+pylab.errorbar(xVals, means, yerr=1.96*pylab.array(sds))
+pylab.semilogx()
+pylab.title('Mean Fraction of Heads ('
++ str(numTrials) + ' trials)')
+pylab.xlabel('Number of flips per trial')
+pylab.ylabel('Fraction of heads & 95% confidence')
+Figure 15.24 Produce plot with error bars
+The call showErrorBars(3, 10, 100) produces the plot[FORMULA]Figure 15.25. Unsur-
+prisingly, the error bars shrink (the standard deviation gets smaller) as the num-
+ber of flips per trial grows.
+CHAPTER 15. STOCHASTIC PROGRAMS, PROBABILITY, AND DISTRIBUTIONS 263
+Figure 15.25 Estimates with error bars
+15.4.3 Continuous and Discrete Uniform Distributions
+Imagine that you take a bus that arrives at your stop every 15 minutes. If you
+make no effort to time your arrival at the stop to correspond to the bus schedule,
+your expected waiting time is uniformly distributed between 0 and 15 minutes.
+A uniform distribution can be either discrete or continuous. A continuous
+uniform distribution also called a rectangular distribution, has the property that
+all intervals of the same length have the same probability. Consider the function
+random.random. As we saw[FORMULA]Section 15.4.1, the area under the PDF for any inter-
+val of a given length is the same. For example, the area under the curve between
+
+## 0.23 and 0.33 is the same as the area under the curve between 0.53 and 0.63.
+
+One can fully characterize a continuous uniform distribution with a single
+parameter, its range (i.e., minimum and maximum values). If the range of possi-
+ble values is from 𝑚𝑖𝑛 to 𝑚𝑎𝑥, the probability of a value falling[FORMULA]the range 𝑥 to
+𝑦 is given by
+𝑦−𝑥
+𝑖𝑓 𝑥 ≥𝑚𝑖𝑛 𝑎𝑛𝑑 𝑦 ≤𝑚𝑎𝑥
+𝑃 𝑥,𝑦 = 𝑚𝑎𝑥−𝑚𝑖𝑛
+
+## 0 𝑜𝑡ℎ𝑒𝑟𝑤𝑖𝑠𝑒
+
+264 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Elements drawn from a continuous uniform distributions can be generated
+by calling random.uniform(min, max), which returns a randomly chosen floating
+point number between min and max.
+Discrete uniform distributions occur when each possible value occurs equal-
+ly often, but the space of possible values is not continuous. For example, when a
+fair die is rolled, each of the six possible values is equally probable, but the out-
+comes are not uniformly distributed over the real numbers between 1 and 6—
+most values, e.g., 2.5, have a probability of 0 and a few values, e.g. 3, have a prob-
+n
+ability of . One can fully characterize a discrete uniform distribution by
+(cid:152)
+1
+𝑖𝑓 𝑥 ∈𝑆
+𝑃 𝑥 = 𝑆
+
+## 0 𝑜𝑡ℎ𝑒𝑟𝑤𝑖𝑠𝑒
+
+where 𝑆 is the set of possible values and |𝑆| the number of elements[FORMULA]𝑆.
+15.4.4 Binomial and Multinomial Distributions
+Random variables that can take on only a discrete set of values are called categor-
+ical (also nominal or discrete) variables.
+When a categorical variable has only two possible values (e.g., success or fail-
+ure), the probability distribution is called a binomial distribution. One way to
+think about a binomial distribution is as the probability of a test succeeding ex-
+actly k times times[FORMULA]n independent trials. If the probability of a success[FORMULA]a[FORMULA]-
+gle trial is p, the probability of exactly k successes[FORMULA]n independent trials is given
+by the formula
+𝑛
+∗𝑝(cid:157)∗(1−𝑝)h(cid:138)(cid:157)
+𝑘
+where
+𝑛 𝑛!
+=
+𝑘 𝑘!∗ 𝑛−𝑘 !
+𝑛
+The formula is known as the binomial coefficient. One way to read it is
+𝑘
+as “n choose k,” since it is equivalent to the number of subsets of size k that can
+be constructed from a set of size n. For example, there are
+
+## 4 4!
+
+= = =6
+
+## 2 2!∗2!
+
+subsets of size two that can be constructed from the set {1,2,3,4].
+CHAPTER 15. STOCHASTIC PROGRAMS, PROBABILITY, AND DISTRIBUTIONS 265
+In Section 15.2, we asked about the probability of rolling exactly two 1’s[FORMULA]ten rolls of a die. We now have the tools[FORMULA]hand to calculate this probability.
+Think of the ten rolls as ten independent trials, where the trial is a success if a 1 is
+rolled and a failure otherwise. The binomial distribution tells us that the proba-
+bility of having exactly two successful trials out of ten is
+
+## 10 1 v 5 w 1
+
+∗ ∗ =45∗ ∗ ≈0.291
+
+## 2 6 6 36
+
+Finger exercise: Implement a function that calculates the probability of rolling
+exactly two 3’s[FORMULA]k rolls of a fair die. Use this function to plot the probability as k
+varies from 2 to 100.
+The multinomial distribution is a generalization of the binomial distribution
+to categorical data with more than two possible values. It applies when there are
+n independent trials each of which has m mutually exclusive outcomes, with each
+outcome having a fixed probability of occurring. The multinomial distribution
+gives the probability of any given combination of numbers of occurrences of the
+various categories.
+15.4.5 Exponential and Geometric Distributions
+Exponential distributions occur quite commonly. They are often used to model
+inter-arrival times, e.g., of cars entering a highway or requests for a Web page.
+Consider, for example, the concentration of a drug[FORMULA]the human body. As-
+sume that at each time step each molecule has a constant probability p of being
+cleared (i.e., of no longer being[FORMULA]the body). The system is memoryless[FORMULA]the
+sense that at each time step the probability of a molecule being cleared is inde-
+pendent of what happened at previous times. At time t = 0, the probability of an
+individual molecule still being[FORMULA]the body is 1. At time t = 1, the probability of
+that molecule still being[FORMULA]the body is 1 - p. At time t = 2, the probability of that
+molecule still being[FORMULA]the body is (1 – p)2. More generally, at time t the probabil-
+ity of an individual molecule having survived is (1 – p)t, i.e., it is exponential[FORMULA]t.
+Suppose that at time t there are M molecules of the drug. In general, at time
+
+## 0
+
+t, the number of molecules will be M multiplied by the probability that an indi-
+0
+vidual module has survived to time t. The function clear implemented[FORMULA]Figure
+
+## 15.26 plots the expected number of remaining molecules versus time.
+
+266 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+def clear(n, p, steps):
+"""Assumes n & steps positive ints, p a float
+n: the initial number of molecules
+p: the probability of a molecule being cleared
+steps: the length of the simulation"""
+numRemaining = [n]
+for t[FORMULA]range(steps):
+numRemaining.append(n*((1-p)**t))
+pylab.plot(numRemaining)
+pylab.xlabel('Time')
+pylab.ylabel('Molecules Remaining')
+pylab.title('Clearance of Drug')
+Figure 15.26 Exponential clearance of molecules
+The call clear(1000, 0.01, 1000) produces the plot[FORMULA]Figure 15.27.
+Figure 15.27: Exponential decay
+This is an example of exponential decay. In practice, exponential decay is of-
+ten talked about[FORMULA]terms of half-life, i.e., the expected time required for the ini-
+tial value to decay by 50%. One can also talk about the half-life of a single item.
+For example, the half-life of a single molecule is the time at which the probability
+of that molecule having been cleared is 0.5. Notice that as time increases, the
+number of remaining molecules approaches 0. But it will never quite get there.
+This should not be interpreted as suggesting that a fraction of a molecule re-
+mains. Rather it should be interpreted as saying that since the system is probabil-
+istic, one can never guarantee that all of the molecules have been cleared.
+CHAPTER 15. STOCHASTIC PROGRAMS, PROBABILITY, AND DISTRIBUTIONS 267
+What happens if we make the y-axis logarithmic (by using pylab.semilogy)? We
+get the plot[FORMULA]Figure 15.28. In the plot[FORMULA]Figure 15.27, the values on the y-axis
+are changing exponentially quickly relative to the values on the x-axis. If we make
+the y-axis itself change exponentially quickly, we get a straight line. The slope of
+that line is the rate of decay.
+Figure 15.28: Plotting exponential decay with a logarithmic axis
+Exponential growth is the inverse of exponential decay. It too is quite com-
+monly seen[FORMULA]nature. Compound interest, the growth of algae[FORMULA]a swimming
+pool, and the chain reaction[FORMULA]an atomic bomb are all examples of exponential
+growth.
+Exponential distributions can easily be generated[FORMULA]Python by calling the
+function random.expovariate(lambd),105 where lambd is 1.0 divided by the desired
+mean. The function returns a value between 0 and positive infinity if lambd is
+positive, and between negative infinity and 0 if lambd is negative.
+The geometric distribution is the discrete analog of the exponential distribu-
+tion.106 It is usually thought of as describing the number of independent attempts
+required to achieve a first success (or a first failure). Imagine, for example, that
+you have a balky car that starts only half of the time you turn the key (or push the
+starter button). A geometric distribution could be used to characterize the ex-
+105 The parameter would have been called lambda, but as we saw[FORMULA]Section 5.4, lambda is a
+reserved word[FORMULA]Python.
+106 The name “geometric distribution” arises from its similarity to a “geometric progression.” A
+geometric progression is any sequence of numbers[FORMULA]which each number other than the first is
+derived by multiplying the previous number by a constant nonzero number. Euclid’s Elements
+proves a number of interesting theorems about geometric progressions.
+268 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+pected number of times you would have to attempt to start the car before being
+successful. This is illustrated by the histogram[FORMULA]Figure 15.30, which was pro-
+duced by the code[FORMULA]Figure 15.29.
+def successfulStarts(successProb, numTrials):
+"""Assumes successProb is a float representing probability of a
+single attempt being successful. numTrials a positive[FORMULA]Returns a list of the number of attempts needed before a
+success for each trial."""
+triesBeforeSuccess = []
+for t[FORMULA]range(numTrials):
+consecFailures = 0
+while random.random() > successProb:
+consecFailures += 1
+triesBeforeSuccess.append(consecFailures)
+return triesBeforeSuccess
+probOfSuccess = 0.5
+numTrials = 5000
+distribution = successfulStarts(probOfSuccess, numTrials)
+pylab.hist(distribution, bins = 14)
+pylab.xlabel('Tries Before Success')
+pylab.ylabel('Number of Occurrences Out of ' + str(numTrials))
+pylab.title('Probability of Starting Each Try = '\
++ str(probOfSuccess))
+Figure 15.29 Producing a Geometric Distribution
+Figure 15.30 A geometric distribution
+CHAPTER 15. STOCHASTIC PROGRAMS, PROBABILITY, AND DISTRIBUTIONS 269
+The histogram implies that most of the time you’ll get the car going within a
+few attempts. On the other hand, the long tail suggests that on occasion you may
+run the risk of draining your battery before the car gets going.
+15.4.6 Benford’s Distribution
+Benford’s law defines a really strange distribution. Let S be a large set of decimal
+integers. How frequently would you expect each nonzero digit to appear as the
+first digit? Most of us would probably guess one ninth of the time. And when
+people are making up sets of numbers (e.g., faking experimental data or perpe-
+trating financial fraud) this is typically true. It is not, however, typically true of
+many naturally occurring data sets. Instead, they follow a distribution predicted
+by Benford’s law.
+A set of decimal numbers is said to satisfy Benford’s law107 if the probability
+of the first digit being d is consistent with P(d) =[FORMULA](1 + 1/d).
+10
+For example, this law predicts that the probability of the first digit being 1 is
+about 30%! Shockingly, many actual data sets seem to observe this law. It is pos-
+sible to show that the Fibonacci sequence, for example, satisfies it perfectly.
+That’s kind of plausible, since the sequence is generated by a formula. It’s less
+easy to understand why such diverse data sets as iPhone pass codes, the number
+of Twitter followers per user, the population of countries, or the distances of stars
+from the earth closely approximate Benford’s law.108
+
+## 15.5 Hashing and Collisions
+
+In Section 10.3 we pointed out that by using a larger hash table one could reduce
+the incidence of collisions, and thus reduce the expected time to retrieve a value.
+We now have the intellectual tools we need to examine that tradeoff more pre-
+cisely.
+First, let’s get a precise formulation of the problem.
+• Assume:
+o The range of the hash function is 1 to n,
+o The number of insertions is K, and
+107 The law is named after the physicist Frank Benford, who published a paper[FORMULA]1938 showing
+that the law held on over 20,000 observations drawn from twenty different domains. However, it
+was first postulated[FORMULA]1881 by the astronomer Simon Newcomb.
+108 http://testingbenfordslaw.com/
+270 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+o The hash function produces a perfectly uniform distribution of the
+keys used[FORMULA]insertions, i.e., for all keys, key, and for all integers, i,[FORMULA]the range 1 to n, the probability that hash(key) = i is 1/n.
+• What is the probability that at least one collision occurs?
+The question is exactly equivalent to asking “given K randomly generated[FORMULA]-
+tegers[FORMULA]the range 1 to n, what is the probability that at least two of them are
+equal.” If K ≥ n, the probability is clearly 1. But what about when K < n?
+As is often the case, it is easiest to start by answering the inverse question,
+“given K randomly generated integers[FORMULA]the range 1 to n, what is the probability
+that none of them are equal?”
+When we insert the first element, the probability of not having a collision is
+clearly 1. How about the second insertion? Since there are n-1 hash results left
+that are not equal to the result of the first hash, n-1 out of n choices will not yield
+a collision. So, the probability of not getting a collision on the second insertion is
+h(cid:138)n
+, and the probability of not getting a collision on either of the first two inser-
+h
+h(cid:138)n
+tions is 1∗ . We can multiply these probabilities because for each insertion
+h
+the value produced by the hash function is independent of anything that has pre-
+ceded it.
+h(cid:138)n
+The probability of not having a collision after three insertions is 1∗ ∗
+h
+h(cid:138)v h(cid:138)n h(cid:138)v h(cid:138)¡(cid:138)n
+. And after K insertions it is 1∗ ∗ ∗…∗ .
+h h h h
+To get the probability of having at least one collision, we subtract this value
+from 1, i.e., the probability is
+𝑛−1 𝑛−2 𝑛− 𝐾−1
+1− ∗ ∗…∗
+𝑛 𝑛 𝑛
+Given the size of the hash table and the number of expected insertions, we
+can use this formula to calculate the probability of at least one collision. If K were
+reasonably large, say 10,000, it would be a bit tedious to compute the probability
+with pencil and paper. That leaves two choices, mathematics and programming.
+Mathematicians have used some fairly advanced techniques to find a way to ap-
+proximate the value of this series. But unless K is very large, it is easier to run
+some code to compute the exact value of the series:
+CHAPTER 15. STOCHASTIC PROGRAMS, PROBABILITY, AND DISTRIBUTIONS 271
+def collisionProb(n, k):
+prob = 1.0
+for i[FORMULA]range(1, k):
+prob = prob * ((n - i)/n)
+return 1 - prob
+If we try collisionProb(1000, 50) we get a probability of about 0.71 of there
+being at least one collision. If we consider 200 insertions, the probability of a col-
+lision is nearly 1. Does that seem a bit high to you? Let’s write a simulation, Fig-
+ure 15.31, to estimate the probability of at least one collision, and see if we get
+similar results.
+def simInsertions(numIndices, numInsertions):
+"""Assumes numIndices and numInsertions are positive ints.
+Returns 1 if there is a collision; 0 otherwise"""
+choices = range(numIndices) #list of possible indices
+used = []
+for i[FORMULA]range(numInsertions):
+hashVal = random.choice(choices)
+if hashVal[FORMULA]used: #there is a collision
+return 1
+else:
+used.append(hashVal)
+return 0
+def findProb(numIndices, numInsertions, numTrials):
+collisions = 0
+for t[FORMULA]range(numTrials):
+collisions += simInsertions(numIndices, numInsertions)
+return collisions/numTrials
+Figure 15.31 Simulating a hash table
+If we run the code
+print('Actual probability of a collision =', collisionProb(1000, 50))
+print('Est. probability of a collision =', findProb(1000, 50, 10000))
+print('Actual probability of a collision =', collisionProb(1000, 200))
+print('Est. probability of a collision =', findProb(1000, 200, 10000))
+272 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+it prints
+Actual probability of a collision = 0.7122686568799875
+Est. probability of a collision = 0.7097
+Actual probability of a collision = 0.9999999994781328
+Est. probability of a collision = 1.0
+The simulation results are comfortingly similar to what we derived analytically.
+Should the high probability of a collision make us think that hash tables have
+to be enormous to be useful? No. The probability of there being at least one colli-
+sion tells us little about the expected lookup time. The expected time to look up a
+value depends upon the average length of the lists implementing the buckets that
+hold the values that collided. Assuming a uniform distribution of hash values,
+this is simply the number of insertions divided by the number of buckets.
+
+## 15.6 How Often Does the Better Team Win?
+
+Almost every October two teams from American Major League Baseball meet[FORMULA]something called the World Series. They play each other repeatedly until one of
+the teams has won four games, and that team is called (not entirely appropriate-
+ly) the “world champion.”
+Setting aside the question of whether there is reason to believe that one of the
+participants[FORMULA]the World Series is indeed the best team[FORMULA]the world, how likely
+is it that a contest that can be at most seven games long will determine which of
+the two participants is better?
+Clearly, each year one team will emerge victorious. So the question is wheth-
+er we should attribute that victory to skill or to luck.
+Figure 15.32 contains code that can provide us with some insight into that
+question. The function simSeries has one argument, numSeries, a positive integer
+describing the number of seven-game series to be simulated. It plots the proba-
+bility of the better team winning the series against the probability of that team
+winning a single game. It varies the probability of the better team winning a[FORMULA]-
+gle game from 0.5 to 1.0, and produces the plot[FORMULA]Figure 15.33.
+Notice that for the better team to win 95% of the time (0.95 on the y-axis), it
+needs to be so much better that it would win more than three out of every four
+games between the two teams. For comparison,[FORMULA]2015, the two teams[FORMULA]the
+World Series had regular season winning percentages of 58.6% (Kansas City
+Royals) and 55.5% (New York Mets).
+CHAPTER 15. STOCHASTIC PROGRAMS, PROBABILITY, AND DISTRIBUTIONS 273
+def playSeries(numGames, teamProb):
+numWon = 0
+for game[FORMULA]range(numGames):
+if random.random() <= teamProb:
+numWon += 1
+return (numWon > numGames//2)
+def fractionWon(teamProb, numSeries, seriesLen):
+won = 0
+for series[FORMULA]range(numSeries):
+if playSeries(seriesLen, teamProb):
+won += 1
+return won/float(numSeries)
+def simSeries(numSeries):
+prob = 0.5
+fracsWon, probs = [], []
+while prob <= 1.0:
+fracsWon.append(fractionWon(prob, numSeries, 7))
+probs.append(prob)
+prob += 0.01
+pylab.axhline(0.95) #Draw line at 95%
+pylab.plot(probs, fracsWon, 'k', linewidth = 5)
+pylab.xlabel('Probability of Winning a Game')
+pylab.ylabel('Probability of Winning a Series')
+pylab.title(str(numSeries) + ' Seven-Game Series')
+simSeries(400)
+Figure 15.32 World Series simulation
+Figure 15.33 Probability of winning a 7-game series
+
+## 16 MONTE CARLO SIMULATION
+
+In Chapters 14 and 15, we looked at different ways of using randomness[FORMULA]com-
+putations. Many of the examples we presented fall into the class of computation
+known as Monte Carlo simulation. Monte Carlo simulation is a technique used
+to approximate the probability of an event by running the same simulation mul-
+tiple times and averaging the results.
+Stanislaw Ulam and Nicholas Metropolis coined the term Monte Carlo simu-
+lation[FORMULA]1949[FORMULA]homage to the games of chance played[FORMULA]the casino[FORMULA]the Prin-
+cipality of Monaco. Ulam, who is best known for designing the hydrogen bomb
+with Edward Teller, described the invention of the model as follows:
+The first thoughts and attempts I made to practice [the Monte Carlo
+Method] were suggested by a question which occurred to me[FORMULA]1946 as
+I was convalescing from an illness and playing solitaires. The question
+was what are the chances that a Canfield solitaire laid out with 52 cards
+will come out successfully? After spending a lot of time trying to esti-
+mate them by pure combinatorial calculations, I wondered whether a
+more practical method than “abstract thinking” might not be to lay it
+out say one hundred times and simply observe and count the number of
+successful plays. This was already possible to envisage with the begin-
+ning of the new era of fast computers,109 and I immediately thought of
+problems of neutron diffusion and other questions of mathematical
+physics, and more generally how to change processes described by cer-
+tain differential equations into an equivalent form interpretable as a
+succession of random operations. Later … [[FORMULA]1946, I] described the
+idea to John von Neumann, and we began to plan actual calculations.110
+The technique was used during the Manhattan Project to predict what would
+happen during a nuclear fission reaction, but did not really take off until the
+1950s, when computers became both more common and more powerful.
+109 Ulam was probably referring to the ENIAC, which performed about 103 additions a second
+(and weighed 25 tons). Today’s computers perform about 109 additions a second.
+110 Eckhardt, Roger (1987). “Stan Ulam, John von Neumann, and the Monte Carlo method,” Los
+Alamos Science, Special Issue (15), 131-137.
+276 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Ulam was not the first mathematician to think about using the tools of prob-
+ability to understand a game of chance. The history of probability is intimately
+connected to the history of gambling. It is the existence of uncertainty that makes
+gambling possible. And the existence of gambling provoked the development of
+much of the mathematics needed to reason about uncertainty. Contributions to
+the foundations of probability theory by Cardano, Pascal, Fermat, Bernoulli, de
+Moivre, and Laplace were all motivated by a desire to better understand (and
+perhaps profit from) games of chance.
+
+## 16.1 Pascal’s Problem
+
+Most of the early work on probability theory revolved around games using
+dice.111 Reputedly, Pascal’s interest[FORMULA]the field that came to be known as proba-
+bility theory began when a friend asked him whether or not it would be profita-
+ble to bet that within twenty-four rolls of a pair of dice he would roll a double 6.
+This was considered a hard problem[FORMULA]the mid-17th century. Pascal and Fermat,
+two pretty smart guys, exchanged a number of letters about how to resolve the
+issue, but it now seems like an easy question to answer:
+• On the first roll the probability of rolling a 6 on each die is 1/6, so the proba-
+bility of rolling a 6 with both dice is 1/36.
+• Therefore, the probability of not rolling a double 6 on the first roll is 1 - 1/36
+= 35/36.
+• Therefore the probability of not rolling a double 6 twenty-four consecutive
+times is (35/36)24, nearly 0.51, and therefore the probability of rolling a dou-
+ble 6 is 1 - (35/36)24, about 0.49. In the long run it would not be profitable to
+bet on rolling a double 6 within twenty-four rolls.
+Just to be safe, let’s write a little program, Figure 16.1, to simulate Pascal’s
+friend’s game and confirm that we get the same answer as Pascal. When run the
+first time, the call checkPascal(1000000) printed
+Probability of winning = 0.490761
+This is indeed quite close to 1 - (35/36)24; typing 1-(35.0/36.0)**24 into the Py-
+thon shell produces 0.49140387613090342.
+111 Archeological excavations suggest that dice are the human race’s oldest gambling implement.
+The oldest known “modern” six-sided die dates to about 600 BCE, but Egyptian tombs dating to
+about 2000 BCE contain artifacts resembling dice. Typically, these early dice were made from
+animal bones;[FORMULA]gambling circles people still use the phrase “rolling the bones.”
+CHAPTER 16. MONTE CARLO SIMULATION 277
+def rollDie():
+return random.choice([1,2,3,4,5,6])
+def checkPascal(numTrials):
+"""Assumes numTrials an[FORMULA]> 0
+Prints an estimate of the probability of winning"""
+numWins = 0
+for i[FORMULA]range(numTrials):
+for j[FORMULA]range(24):
+d1 = rollDie()
+d2 = rollDie()
+if d1 == 6 and d2 == 6:
+numWins += 1
+break
+print('Probability of winning =', numWins/numTrials)
+Figure 16.1 Checking Pascal's analysis
+
+## 16.2 Pass or Don’t Pass?
+
+Not all questions about games of chance are so easily answered. In the game
+craps, the shooter (the person who rolls the dice) chooses between making a
+“pass line” or a “don’t pass line” bet.
+• Pass Line: Shooter wins if the first roll is a “natural” (7 or 11) and loses if it is
+“craps” (2, 3, or 12). If some other number is rolled, that number becomes the
+“point” and the shooter keeps rolling. If the shooter rolls the point before roll-
+ing a 7, the shooter wins. Otherwise the shooter loses.
+• Don’t Pass Line: Shooter loses if the first roll is 7 or 11, wins if it is 2 or 3, and
+ties (a “push”[FORMULA]gambling jargon) if it is 12. If some other number is rolled,
+that number becomes the point and shooter keeps rolling. If the shooter rolls a
+
+## 7 before rolling the point, the shooter wins. Otherwise the shooter loses.
+
+Is one of these a better bet than the other? Is either a good bet? It is possible
+to analytically derive the answer to these questions, but it seems easier (at least to
+us) to write a program that simulates a craps game, and see what happens. Figure
+
+## 16.2 contains the heart of such a simulation.
+
+278 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+class CrapsGame(object):
+def __init__(self):
+self.passWins, self.passLosses = 0, 0
+self.dpWins, self.dpLosses, self.dpPushes = 0, 0, 0
+def playHand(self):
+throw = rollDie() + rollDie()
+if throw == 7 or throw == 11:
+self.passWins += 1
+self.dpLosses += 1
+elif throw == 2 or throw == 3 or throw == 12:
+self.passLosses += 1
+if throw == 12:
+self.dpPushes += 1
+else:
+self.dpWins += 1
+else:
+point = throw
+while True:
+throw = rollDie() + rollDie()
+if throw == point:
+self.passWins += 1
+self.dpLosses += 1
+break
+elif throw == 7:
+self.passLosses += 1
+self.dpWins += 1
+break
+def passResults(self):
+return (self.passWins, self.passLosses)
+def dpResults(self):
+return (self.dpWins, self.dpLosses, self.dpPushes)
+Figure 16.2 CrapsGame class
+The values of the instance variables of an instance of class CrapsGame record
+the performance of the pass and don’t pass lines since the start of the game. The
+observer methods passResults and dpResults return these values. The method
+playHand simulates one hand of a game. A “hand” starts when the shooter is
+“coming out,” the term used[FORMULA]craps for a roll before a point is established. A
+hand ends when the shooter has won or lost his or her initial bet. The bulk of the
+code[FORMULA]playHand is merely an algorithmic description of the rules stated above.
+Notice that there is a loop[FORMULA]the else clause corresponding to what happens after
+CHAPTER 16. MONTE CARLO SIMULATION 279
+a point is established. It is exited using a break statement when either a seven or
+the point is rolled.
+Figure 16.3 contains a function that uses class CrapsGame to simulate a series
+of craps games.
+def crapsSim(handsPerGame, numGames):
+"""Assumes handsPerGame and numGames are ints > 0
+Play numGames games of handsPerGame hands; print results"""
+games = []
+#Play numGames games
+for t[FORMULA]range(numGames):
+c = CrapsGame()
+for i[FORMULA]range(handsPerGame):
+c.playHand()
+games.append(c)
+#Produce statistics for each game
+pROIPerGame, dpROIPerGame = [], []
+for g[FORMULA]games:
+wins, losses = g.passResults()
+pROIPerGame.append((wins - losses)/float(handsPerGame))
+wins, losses, pushes = g.dpResults()
+dpROIPerGame.append((wins - losses)/float(handsPerGame))
+#Produce and print summary statistics
+meanROI = str(round((100*[FORMULA](pROIPerGame)/numGames), 4)) + '%'
+sigma = str(round(100*stdDev(pROIPerGame), 4)) + '%'
+print('Pass:', 'Mean ROI =', meanROI, 'Std. Dev. =', sigma)
+meanROI = str(round((100*[FORMULA](dpROIPerGame)/numGames), 4)) +'%'
+sigma = str(round(100*stdDev(dpROIPerGame), 4)) + '%'
+print('Don\'t pass:','Mean ROI =', meanROI, 'Std Dev =', sigma)
+Figure 16.3 Simulating a craps game
+The structure of crapsSim is typical of many simulation programs:
+1. It runs multiple games (think of each game as analogous to a trial[FORMULA]our earli-
+er simulations) and accumulates the results. Each game includes multiple
+hands, so there is a nested loop.
+2. It then produces and stores statistics for each game.
+3. Finally, it produces and outputs summary statistics. In this case, it prints the
+expected return on investment (ROI) or each kind of betting line and the
+standard deviation of that ROI.
+280 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Return on investment is defined by the equation112
+𝑔𝑎𝑖𝑛 𝑓𝑟𝑜𝑚 𝑖𝑛𝑣𝑒𝑠𝑡𝑚𝑒𝑛𝑡−𝑐𝑜𝑠𝑡 𝑜𝑓 𝑖𝑛𝑣𝑒𝑠𝑡𝑚𝑒𝑛𝑡
+𝑅𝑂𝐼 =
+𝑐𝑜𝑠𝑡 𝑜𝑓 𝑖𝑛𝑣𝑒𝑠𝑡𝑚𝑒𝑛𝑡
+Since the pass and don’t pass lines pay even money (if you bet $1 and win,
+you gain is $1), the ROI is
+𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑤𝑖𝑛𝑠−𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑙𝑜𝑠𝑠𝑒𝑠
+𝑅𝑂𝐼 =
+𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑏𝑒𝑡𝑠
+For example, if you made 100 pass line bets and won half, your ROI would be
+50−50
+=0
+100
+If you bet the don’t pass line 100 times and had 25 wins and 5 pushes the ROI
+would be
+25−70 −45
+= =−4.5
+100 100
+Let’s run our craps game simulation and see what happens when we try
+crapsSim(20, 10):113
+Pass: Mean ROI = -7.0% Std. Dev. = 23.6854%
+Don't pass: Mean ROI = 4.0% Std Dev = 23.5372%
+It looks as if it would be a good idea to avoid the pass line—where the expected
+return on investment is a 7% loss. But the don’t pass line looks like a pretty good
+bet. Or does it?
+Looking at the standard deviations, it seems that perhaps the don’t pass line
+is not such a good bet after all. Recall that under the assumption that the distri-
+bution is normal, the 95% confidence interval is encompassed by 1.96 standard
+deviations on either side of the mean. For the don’t pass line, the 95% confidence
+112 More precisely, this equation defines what is often called “simple ROI.” It does not account for
+the possiblity that there might be a gap[FORMULA]time between when the investment is made and when the
+gain attributable to that investment occurs. This gap should be accounted for when the time
+between making an investment and seeing the financial return is large (e.g., investing[FORMULA]a college
+education). This is probably not an issue at the craps table.
+113 Since these programs incorporate randomness, you should not expect to get identical results if
+you run the code yourself. More important, do not place any bets until you have read the entire
+section!
+CHAPTER 16. MONTE CARLO SIMULATION 281
+interval is [4.0–1.96*23.5372, 4.0+1.96*23.5372]—roughly [-43%, +51%]. That
+certainly doesn’t suggest that betting the don’t pass line is a sure thing.
+Time to put the law of large numbers to work; crapsSim(1000000, 10) prints
+Pass: Mean ROI = -1.4204% Std. Dev. = 0.0614%
+Don't pass: Mean ROI = -1.3571% Std Dev = 0.0593%
+We can now be pretty safe[FORMULA]assuming that neither of these is a good bet.114
+It looks as if the don’t pass line might be slightly less bad, but we probably
+shouldn’t count on that. If the 95% confidence intervals for the pass and don’t
+pass lines did not overlap, it would be safe to assume that the difference[FORMULA]the
+two means was statistically significant.115 However, they do overlap, so no con-
+clusion can be safely drawn.
+Suppose that instead of increasing the number of hands per game, we[FORMULA]-
+creased the number of games, e.g., by making the call crapsSim(20, 1000000):
+Pass: Mean ROI = -1.4133% Std. Dev. = 22.3571%
+Don't pass: Mean ROI = -1.3649% Std Dev = 22.0446%
+The standard deviations are high—indicating that the outcome of a single game
+of 20 hands is highly uncertain.
+One of the nice things about simulations is that they make it easy to perform
+“what if” experiments. For example, what if a player could sneak[FORMULA]a pair of
+cheater’s dice that favored 5 over 2 (5 and 2 are on the opposite sides of a die)? To
+test this out, all we have to do is replace the implementation of rollDie by some-
+thing like
+def rollDie():
+return random.choice([1,1,2,3,3,4,4,5,5,5,6,6])
+This relatively small change[FORMULA]the die makes a dramatic difference[FORMULA]the odds.
+Running crapsSim(1000000, 10) yields
+Pass: Mean ROI = 6.7385% Std. Dev. = 0.13%
+Don't pass: Mean ROI = -9.5186% Std Dev = 0.1226%
+No wonder casinos go to a lot of trouble to make sure that players don’t intro-
+duce their own dice into the game!
+114 In fact, the means of the estimated ROIs are close to the actual ROIs. Grinding through the
+probabilities yields an ROI of -1.414% for the pass line and -1.364% for the don’t pass line.
+115 We discuss statistical significance[FORMULA]more detail[FORMULA]Chapter 19.
+282 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+## 16.3 Using Table Lookup to Improve Performance
+
+You might not want to try running crapsSim(100000000, 10) at home. It takes a
+long time to complete on most computers. That raises the question of whether
+there is a simple way to speed up the simulation.
+The complexity of crapsSim is O(playHand)*handsPerGame*numGames. The
+running time of playHand depends upon the number of times the loop[FORMULA]it is exe-
+cuted. In principle, the loop could be executed an unbounded number of times
+since there is no bound on how long it could take to roll either a 7 or the point.
+In practice, of course, we have every reason to believe it will always terminate.
+Notice, however, that the result of a call to playHand does not depend on how
+many times the loop is executed, but only on which exit condition is reached. For
+each possible point, one can easily calculate the probability of rolling that point
+before rolling a 7. For example, using a pair of dice one can roll a 4[FORMULA]three dif-
+ferent ways: <1, 3>, <3, 1>, and <2, 2>; and one can roll a 7[FORMULA]six different ways:
+<1, 6>, <6, 1>, <2, 5>, <5, 2>, <3, 4>, and <4, 3>. Therefore, exiting the loop
+by rolling a 7 is twice as likely as exiting the loop by rolling a 4.
+Figure 16.4 contains an implementation of playHand that exploits this think-
+ing. We first compute the probability of making the point before rolling a 7 for
+each possible value of the point, and store those values[FORMULA]a dictionary. Suppose,
+for example, that the point is 8. The shooter continues to roll until he either rolls
+the point or rolls craps. There are five ways of rolling an 8 (<6,2>, <2,6>, <5,3>,
+<3,5>, and <4,4>) and six ways of rolling a 7. So, the value for the dictionary key
+
+## 8 is the value of the expression 5/11. Having this table allows us to replace the[FORMULA]-
+
+ner loop, which contained an unbounded number of rolls, with a test against one
+call to random.random. The asymptotic complexity of this version of playHand is
+O(1).
+The idea of replacing computation by table lookup has broad applicability
+and is frequently used when speed is an issue. Table lookup is an example of the
+general idea of trading time for space. As we saw[FORMULA]Chapter 13, it is is the key
+idea behind dynamic programming. We saw another example of this technique[FORMULA]our analysis of hashing: the larger the table, the fewer the collisions, and the
+faster the average lookup. In this case, the table is small, so the space cost is neg-
+ligible.
+CHAPTER 16. MONTE CARLO SIMULATION 283
+def playHand(self):
+#An alternative, faster, implementation of playHand
+pointsDict = {4:1/3, 5:2/5, 6:5/11, 8:5/11, 9:2/5, 10:1/3}
+throw = rollDie() + rollDie()
+if throw == 7 or throw == 11:
+self.passWins += 1
+self.dpLosses += 1
+elif throw == 2 or throw == 3 or throw == 12:
+self.passLosses += 1
+if throw == 12:
+self.dpPushes += 1
+else:
+self.dpWins += 1
+else:
+if random.random() <= pointsDict[throw]: # point before 7
+self.passWins += 1
+self.dpLosses += 1
+else: # 7 before point
+self.passLosses += 1
+self.dpWins += 1
+Figure 16.4 Using table lookup to improve performance
+
+## 16.4 Finding π
+
+It is easy to see how Monte Carlo simulation is useful for tackling problems[FORMULA]which nondeterminism plays a role. Interestingly, however, Monte Carlo simula-
+tion (and randomized algorithms[FORMULA]general) can be used to solve problems that
+are not inherently stochastic, i.e., for which there is no uncertainty about out-
+comes.
+Consider 𝜋. For thousands of years, people have known that there is a con-
+stant (called 𝜋 since the 18th century) such that the circumference of a circle is
+equal to π*diameter and the area of the circle equal to 𝜋 * radius2. What they did
+not know was the value of this constant.
+One of the earliest estimates, 4*(8/9)2 = 3.16, can found[FORMULA]the Egyptian
+Rhind Papyrus, circa 1650 BC. More than a thousand years later, the Old Testa-
+ment implied a different value for 𝜋 when giving the specifications of one of King
+Solomon’s construction projects,
+284 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+And he made a molten sea, ten cubits from the one brim to the other:
+it was round all about, and his height was five cubits: and a line of thirty
+cubits did compass it round about.116
+Solving for 𝜋, 10π = 30, so 𝜋 = 3. Perhaps the Bible is simply wrong, or per-
+haps the molten sea wasn’t perfectly circular, or perhaps the circumference was
+measured from the outside of the wall and the diameter from the inside, or per-
+haps it’s just poetic license. We leave it to the reader to decide.
+Archimedes of Syracuse (287-212 BCE) derived upper and lower bounds on
+the value of 𝜋 by using a high-degree polygon to approximate a circular shape.
+Using a polygon with 96 sides, he concluded that 223/71 < 𝜋 < 22/7. Giving up-
+per and lower bounds was a rather sophisticated approach for the time. Also, if
+we take his best estimate as the average of his two bounds we obtain 3.1418, an
+error of about 0.0002. Not bad!
+Long before computers were invented, the French mathematicians Buffon
+(1707-1788) and Laplace (1749-1827) proposed using a stochastic simulation to
+estimate the value of 𝜋.117 Think about inscribing a circle[FORMULA]a square with sides
+of length 2, so that the radius, r, of the circle is of length 1.
+Figure 16.5 Unit circle inscribed[FORMULA]a square
+By the definition of 𝜋, 𝑎𝑟𝑒𝑎 = 𝜋𝑟v. Since r is 1, 𝜋 = area. But what’s the area
+of the circle? Buffon suggested that he could estimate the area of a circle by a
+dropping a large number of needles (which he argued would follow a random
+path as they fell)[FORMULA]the vicinity of the square. The ratio of the number of needles
+with tips lying within the square to the number of needles with tips lying within
+the circle could then be used to estimate the area of the circle.
+116King James Bible, 1 Kings 7.23.
+117 Buffon proposed the idea first, but there was an error[FORMULA]his formulation that was later
+corrected by Laplace.
+CHAPTER 16. MONTE CARLO SIMULATION 285
+If the locations of the needles are truly random, we know that
+needles[FORMULA]circle area of circle
+=
+needles[FORMULA]square area of square
+and solving for the area of the circle,
+area of square∗needles[FORMULA]circle
+area of circle=
+needles[FORMULA]square
+Recall that the area of a 2 by 2 square is 4, so,
+4∗needles[FORMULA]circle
+area of circle=
+needles[FORMULA]square
+In general, to estimate the area of some region R
+1. Pick an enclosing region, E, such that the area of E is easy to calculate and R
+lies completely within E.
+2. Pick a set of random points that lie within E.
+3. Let F be the fraction of the points that fall within R.
+4. Multiply the area of E by F.
+If you try Buffon’s experiment, you’ll soon realize that the places where the
+needles land are not truly random. Moreover, even if you could drop them ran-
+domly, it would take a very large number of needles to get an approximation of π
+as good as even the Bible’s. Fortunately, computers can randomly drop simulated
+needles at a ferocious rate.
+Figure 16.6 contains a program that estimates π using the Buffon-Laplace
+method. For simplicity, it considers only those needles that fall[FORMULA]the upper
+right-hand quadrant of the square.
+The function throwNeedles simulates dropping a needle by first using ran-
+dom.random to get a pair of positive Cartesian coordinates (x and y values) repre-
+senting the position of the needle with respect to the center of the square. It then
+uses the Pythagorean theorem to compute the hypotenuse of the right triangle
+with base x and height y. This is the distance of the tip of the needle from the
+origin (the center of the square). Since the radius of the circle is 1, we know that
+the needle lies within the circle if and only if the distance from the origin is no
+greater than 1. We use this fact to count the number of needles[FORMULA]the circle.
+286 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+The function getEst uses throwNeedles to find an estimate of 𝜋 by first drop-
+ping numNeedles needles, and then averaging the result over numTrials trials. It
+then returns the mean and standard deviation of the trials.
+The function estPi calls getEst with an ever-growing number of needles until
+the standard deviation returned by getEst is no larger than precision/1.96. Un-
+der the assumption that the errors are normally distributed, this implies that 95%
+of the values lie within precision of the mean.
+def throwNeedles(numNeedles):
+inCircle = 0
+for Needles[FORMULA]range(1, numNeedles + 1):
+x = random.random()
+y = random.random()
+if (x*x + y*y)**0.5 <= 1:
+inCircle += 1
+#Counting needles[FORMULA]one quadrant only, so multiply by 4
+return 3*(inCircle/numNeedles)
+def getEst(numNeedles, numTrials):
+estimates = []
+for t[FORMULA]range(numTrials):
+piGuess = throwNeedles(numNeedles)
+estimates.append(piGuess)
+sDev = stdDev(estimates)
+curEst =[FORMULA](estimates)/len(estimates)
+print('Est. =', str(round(curEst, 5)) + ',',
+'Std. dev. =', str(round(sDev, 5)) + ',',
+'Needles =', numNeedles)
+return (curEst, sDev)
+def estPi(precision, numTrials):
+numNeedles = 1000
+sDev = precision
+while sDev > precision/1.96:
+curEst, sDev = getEst(numNeedles, numTrials)
+numNeedles *= 2
+return curEst
+π
+Figure 16.6 Estimating
+CHAPTER 16. MONTE CARLO SIMULATION 287
+When we ran estPi(0.01, 100) it printed
+Est. = 3.14844, Std. dev. = 0.04789, Needles = 1000
+Est. = 3.13918, Std. dev. = 0.0355, Needles = 2000
+Est. = 3.14108, Std. dev. = 0.02713, Needles = 4000
+Est. = 3.14143, Std. dev. = 0.0168, Needles = 8000
+Est. = 3.14135, Std. dev. = 0.0137, Needles = 16000
+Est. = 3.14131, Std. dev. = 0.00848, Needles = 32000
+Est. = 3.14117, Std. dev. = 0.00703, Needles = 64000
+Est. = 3.14159, Std. dev. = 0.00403, Needles = 128000
+As one would expect, the standard deviations decreased monotonically as we
+increased the number of samples. In the beginning the estimates of the value of π
+also improved steadily. Some were above the true value and some below, but each
+increase[FORMULA]numNeedles led to an improved estimate. With 1000 samples per trial,
+the simulation’s estimate was already better than those of the Bible and the Rhind
+Papyrus.
+Curiously, the estimate got worse when the number of needles went from
+8,000 to 16,000, since 3.14135 is farther from the true value of π than is 3.14143.
+However, if we look at the ranges defined by one standard deviation around each
+of the means, both ranges contain the true value of 𝜋, and the range associated
+with the larger sample size is smaller. Even though the estimate generated with
+16,000 samples happens to be farther from the actual value of 𝜋, we should have
+more confidence[FORMULA]its accuracy. This is an extremely important notion. It is not
+sufficient to produce a good answer. We have to have a valid reason to be confi-
+dent that it is[FORMULA]fact a good answer. And when we drop a large enough number
+of needles, the small standard deviation gives us reason to be confident that we
+have a correct answer. Right?
+Not exactly. Having a small standard deviation is a necessary condition for
+having confidence[FORMULA]the validity of the result. It is not a sufficient condition. The
+notion of a statistically valid conclusion should never be confused with the no-
+tion of a correct conclusion.
+Each statistical analysis starts with a set of assumptions. The key assumption
+here is that our simulation is an accurate model of reality. Recall that the design
+of our Buffon-Laplace simulation started with a little algebra demonstrating how
+we could use the ratio of two areas to find the value of 𝜋. We then translated this
+idea into code that depended upon a little geometry and on the randomness of
+random.random.
+288 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Let’s see what happens if we get any of this wrong. Suppose, for example, we
+replace the 4[FORMULA]the last line of the function throwNeedles by a 2, and again run
+estPi(0.01, 100). This time it prints
+Est. = 1.57422, Std. dev. = 0.02394, Needles = 1000
+Est. = 1.56959, Std. dev. = 0.01775, Needles = 2000
+Est. = 1.57054, Std. dev. = 0.01356, Needles = 4000
+Est. = 1.57072, Std. dev. = 0.0084, Needles = 8000
+Est. = 1.57068, Std. dev. = 0.00685, Needles = 16000
+Est. = 1.57066, Std. dev. = 0.00424, Needles = 32000
+The standard deviation for a mere 32,000 needles suggests that we should
+have a fair amount of confidence[FORMULA]the estimate. But what does that really mean?
+It means that we can be reasonably confident that if we were to draw more sam-
+ples from the same distribution, we would get a similar value. It says nothing
+about whether or not this value is close to the actual value of 𝜋. If you are going
+to remember only one thing about statistics, remember this: a statistically valid
+conclusion should not be confused with a correct conclusion!
+Before believing the results of a simulation, we need to have confidence both
+that our conceptual model is correct and that we have correctly implemented
+that model. Whenever possible, one should attempt to validate results against re-
+ality. In this case, one could use some other means to compute an approximation
+to the area of a circle (e.g., physical measurement) and check that the computed
+value of 𝜋 is at least[FORMULA]the right neighborhood.
+
+## 16.5 Some Closing Remarks About Simulation Models
+
+For most of the history of science, theorists used mathematical techniques to
+construct purely analytical models that could be used to predict the behavior of a
+system from a set of parameters and initial conditions. This led to the develop-
+ment of important mathematical tools ranging from calculus to probability theo-
+ry. These tools helped scientists develop a reasonably accurate understanding of
+the macroscopic physical world.
+As the 20th century progressed, the limitations of this approach became[FORMULA]-
+creasingly clear. Reasons for this include:
+• An increased interest[FORMULA]the social sciences, e.g., economics, led to a desire to
+construct good models of systems that were not mathematically tractable.
+CHAPTER 16. MONTE CARLO SIMULATION 289
+• As the systems to be modeled grew increasingly complex, it seemed easier to
+successively refine a series of simulation models than to construct accurate an-
+alytic models.
+• It is often easier to extract useful intermediate results from a simulation than
+from an analytical model, e.g., to play “what if” games.
+• The availability of computers made it feasible to run large-scale simulations.
+Until the advent of the modern computer[FORMULA]the middle of the 20th century the
+utility of simulation was limited by the time required to perform calculations
+by hand.
+Simulation models are descriptive, not prescriptive. They tell how a system
+works under given conditions; not how to arrange the conditions to make the
+system work best. A simulation does not optimize, it merely describes. That is
+not to say that simulation cannot be used as part of an optimization process. For
+example, simulation is often used as part of a search process[FORMULA]finding an opti-
+mal set of parameter settings.
+Simulation models can be classified along three dimensions:
+• Deterministic versus stochastic,
+• Static versus dynamic, and
+• Discrete versus continuous.
+The behavior of a deterministic simulation is completely defined by the
+model. Rerunning a simulation will not change the outcome. Deterministic
+simulations are typically used when the system being modeled is too complex to
+analyze analytically, e.g., the performance of a processor chip. Stochastic simula-
+tions incorporate randomness[FORMULA]the model. Multiple runs of the same model
+may generate different values. This random element forces us to generate many
+outcomes to see the range of possibilities. The question of whether to generate 10
+or 1000 or 100,000 outcomes is a statistical question, as discussed earlier.
+In a static model, time plays no essential role. The needle-dropping simula-
+tion used to estimate π[FORMULA]this chapter is an example of a static simulation. In a
+dynamic model, time, or some analog, plays an essential role. In the series of
+random walks simulated[FORMULA]Chapter 14, the number of steps taken was used as a
+surrogate for time.
+In a discrete model, the values of pertinent variables are enumerable, e.g.,
+they are integers. In a continuous model, the values of pertinent variables range
+over non-enumerable sets, e.g., the real numbers. Imagine analyzing the flow of
+traffic along a highway. We might choose to model each individual car,[FORMULA]which
+case we have a discrete model. Alternatively, we might choose to treat traffic as a
+290 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+flow, where changes[FORMULA]the flow can be described by differential equations. This
+leads to a continuous model. In this example, the discrete model more closely re-
+sembles the physical situation (nobody drives half a car, though some cars are
+half the size of others), but is more computationally complex than a continuous
+one. In practice, models often have both discrete and continuous components.
+For example, one might choose to model the flow of blood through the human
+body using a discrete model for blood (i.e., modeling individual corpuscles) and
+a continuous model for blood pressure.
+
+## 17 SAMPLING AND CONFIDENCE INTERVALS
+
+Recall that inferential statistics involves making inferences about a population of
+examples by analyzing a randomly chosen subset of that population. This subset
+is called a sample.
+Sampling is important because it is often not possible to observe the entire
+population of interest. A physician cannot count the number of a species of bac-
+terium[FORMULA]a patient’s blood stream, but it is possible to measure the population[FORMULA]a small sample of the patient’s blood, and from that to infer characteristics of the
+total population. If you wanted to know the average weight of eighteen-year-old
+Americans, you could try and round them all up, put them on a very large scale,
+and then divide by the number of people. Alternatively, you could round up fifty
+randomly chose eighteen-year-olds, compute their mean weight, and assume that
+their mean weight was a reasonable estimate of the mean weight of the entire
+population of eighteen-year-olds.
+The correspondence between the sample and the population of interest is of
+overriding importance. If the sample is not representative of the population, no
+amount of fancy mathematics will lead to valid inferences. A sample of fifty
+women or fifty Asian-Americans or fifty football players cannot be used to make
+valid inferences about the average weight of the population of all eighteen-year-
+olds[FORMULA]America.
+In this book, we focus on probability sampling. With probability sampling,
+each member of the population of interest has some nonzero probability of being
+included[FORMULA]the sample. In a simple random sample, each member of the popula-
+tion has an equal chance of being chosen for the sample. In stratified sampling,
+the population is first partitioned into subgroups, and then the sample is built by
+randomly sampling from each subgroup. Stratified sampling can be used to[FORMULA]-
+crease the probability that a sample is representative of the population as a whole.
+For example, ensuring that the fraction of men and women[FORMULA]a sample matches
+the fraction of men and women[FORMULA]the population increases the probability that
+that the mean weight of the sample, the sample mean, will be a good estimate of
+the mean weight of the whole population, the population mean.
+292 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+## 17.1 Sampling the Boston Marathon
+
+Each year since 1897, athletes (mostly runners, but since 1975 there has been a
+wheelchair division) have gathered[FORMULA]Massachusetts to participate[FORMULA]the Boston
+Marathon. In recent years, around twenty thousand hardy souls per year have
+successfully taken on the 42.195 km (26 mile, 385 yard) course.
+A file containing data from the 2012 race is available on the Web site associ-
+ated with this book. The file (bm_results2012.txt) is[FORMULA]a comma-separated for-
+mat, and contain the name, gender, age, division, country, and time for each
+participant. Figure 17.1 contains the first few lines of the contents of the file.
+"Gebremariam Gebregziabher",M,27,14,ETH,142.93
+"Matebo Levy",M,22,2,KEN,133.10
+"Cherop Sharon",F,28,1,KEN,151.83
+"Chebet Wilson",M,26,5,KEN,134.93
+"Dado Firehiwot",F,28,4,ETH,154.93
+"Korir Laban",M,26,6,KEN,135.48
+"Jeptoo Rita",F,31,6,KEN,155.88
+"Korir Wesley",M,29,1,KEN,132.67
+"Kipyego Bernard",M,25,3,KEN,133.22
+Figure 17.1 The first few lines[FORMULA]bm_results2012.txt
+Since complete data about the results of each race is easily available, there is
+no pragmatic need to using sampling to derive statistics about a race. However, it
+is pedagogically useful to compare statistical estimates derived from samples to
+the actual value being estimated.
+The code[FORMULA]Figure 17.2 produces the plot shown[FORMULA]Figure 17.3. The func-
+tion getBMData reads data from a file containing information about each of the
+competitors[FORMULA]the race. It returns the data[FORMULA]a dictionary with six elements. Each
+key describes the type of data (e.g., 'name' or 'gender') contained[FORMULA]the elements
+of a list associated with that key. For example, data['time'] is a list of floats con-
+taining the finishing time of each competitor, data['name'][i] is the name of the
+ith competitor, and data['time'][i] is the finishing time of the ith competitor. The
+function makeHist produces a visual representation of the finishing times.
+CHAPTER 17. SAMPLING AND CONFIDENCE INTERVALS 293
+def getBMData(filename):
+"""Read the contents of the given file. Assumes the file[FORMULA]a comma-separated format, with 6 elements[FORMULA]each entry:
+0. Name (string), 1. Gender (string), 2. Age ([FORMULA])
+3. Division ([FORMULA]), 4. Country (string), 5. Overall time (float)
+Returns: dict containing a list for each of the 6 variables."""
+data = {}
+f = open(filename)
+line = f.readline()
+data['name'], data['gender'], data['age'] = [], [], []
+data['division'], data['country'], data['time'] = [], [], []
+while line != '':
+split = line.split(',')
+data['name'].append(split[0])
+data['gender'].append(split[1])
+data['age'].append([FORMULA](split[2]))
+data['division'].append([FORMULA](split[3]))
+data['country'].append(split[4])
+data['time'].append(float(split[5][:-1])) #remove \n
+line = f.readline()
+f.close()
+return data
+def makeHist(data, bins, title, xLabel, yLabel):
+pylab.hist(data, bins)
+pylab.title(title)
+pylab.xlabel(xLabel)
+pylab.ylabel(yLabel)
+mean =[FORMULA](data)/len(data)
+std = stdDev(data)
+pylab.annotate('Mean = ' + str(round(mean, 2)) +\
+'\nSD = ' + str(round(std, 2)), fontsize = 20,
+xy = (0.65, 0.75), xycoords = 'axes fraction')
+times = getBMData('bm_results2012.txt')['time']
+makeHist(times, 20, '2012 Boston Marathon',
+'Minutes to Complete Race', 'Number of Runners')
+Figure 17.2: Read data and produce plot of Boston Marathon
+294 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Figure 17.3: Boston Marathon finishing times
+The distribution of finishing times resembles a normal distribution, but is
+clearly not normal because of the fat tail on the right.
+Now, let’s pretend that we don’t have access to the data about all competitors,
+and instead want to estimate some statistics about the finishing times of the en-
+tire field by sampling a small number of randomly chosen competitors.
+The code[FORMULA]Figure 17.4 creates a simple random sample of the elements of
+times, and then uses that sample to estimate the mean and standard deviation of
+times. The function sampleTimes uses random.sample(times, numExamples) to extract
+the sample. The invocation of random.sample returns a list of size numExamples of
+randomly chosen distinct elements from the list times. After extracting the sam-
+ple, sampleTimes produces a histogram showing the distribution of values[FORMULA]the
+sample.
+def sampleTimes(times, numExamples):
+"""Assumes times a list of floats representing finishing
+times of all runners. numExamples an[FORMULA]Generates a random sample of size numExamples, and produces
+a histogram showing the distribution along with its mean and
+standard deviation"""
+sample = random.sample(times, numExamples)
+makeHist(sample, 10, 'Sample of Size ' + str(numExamples),
+'Minutes to Complete Race', 'Number of Runners')
+sampleSize = 40
+sampleTimes(times, sampleSize)
+Figure 17.4: Sampling finishing times
+CHAPTER 17. SAMPLING AND CONFIDENCE INTERVALS 295
+As Figure 17.5 shows, the distribution of the sample is much farther from
+normal than the distribution from which it was drawn. This is not surprising,
+given the small sample size. What’s more surprising is that despite the small
+sample size (40 out of about 21,000) the estimated mean differs from the popula-
+tion mean by less than 2%. Did we get lucky, or is there reason to expect that the
+estimate of the mean will be pretty good? To put it another way, can we express[FORMULA]a quantitative way how much confidence we should have[FORMULA]our estimate?
+Figure 17.5: Analyzing a small sample
+As we discussed[FORMULA]Chapters 15 and 16, it is often useful to provide a confi-
+dence interval and confidence level to indicate the reliability of the estimate. Giv-
+en a single sample (of any size) drawn from a larger population, the best estimate
+of the mean of the population is the mean of the sample. Estimating the width of
+the confidence interval required to achieve a desired confidence level is trickier.
+It depends,[FORMULA]part, upon the size of the sample.
+It’s easy to understand why the size of the sample is important. The law of
+large numbers tells us that as the sample size grows, the distribution of the values
+of the sample is more likely to resemble the distribution of the population from
+which the sample is drawn. Consequently, as the sample size grows, the sample
+mean and the sample standard deviation are likely to be closer to the population
+mean and population standard deviation.
+So, bigger is better, but how big is big enough? That depends upon the vari-
+ance of the population. The higher the variance, the more samples are needed.
+Consider two normal distributions, one with a mean of 0 and standard deviation
+of 1, and the other with a mean of 0 and a standard deviation of 100. If we were
+to select one randomly chosen element from one of these distributions and use it
+to estimate the mean of the distribution, the probability of that estimate being
+within any desired accuracy, ∈, of the true mean (0), would be equal to the area
+296 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+under the probability density function between −∈ and ∈ (see Section 15.4.1).
+The code[FORMULA]Figure 17.6 computes and prints these probabilities for ∈ =3
+minutes.
+import scipy.integrate
+def gaussian(x, mu, sigma):
+factor1 = (1/(sigma*((2*pylab.pi)**0.5)))
+factor2 = pylab.e**-(((x-mu)**2)/(2*sigma**2))
+return factor1*factor2
+area = round(scipy.integrate.quad(gaussian, -3, 3, (0, 1))[0], 4)
+print('Probability of being within 3',
+'of true mean of tight dist. =', area)
+area = round(scipy.integrate.quad(gaussian, -3, 3, (0, 100))[0], 4)
+print('Probability of being within 3',
+'of true mean of wide dist. =', area)
+Figure 17.6: Effect of variance on estimate of mean
+When the code[FORMULA]Figure 17.6 is run it prints
+Probability of being within 3 of true mean of tight dist. = 0.9973
+Probability of being within 3 of true mean of wide dist. = 0.0239
+The code[FORMULA]Figure 17.7 plots the mean of each of 1000 samples of size 40
+from two normal distributions. Again, each distribution has a mean of 0, but one
+has a standard deviation of 1 and the other a standard deviation of 100.
+The left side of Figure 17.8 shows the mean of each sample. As expected,
+when the population standard deviation is 1, the sample means are all near the
+population mean of 0, which is why no distinct circles are visible—they are so
+dense that they merge into what appears to be a bar. In contrast, when the stand-
+ard deviation of the population is 100, the sample means are scattered[FORMULA]a hard-
+to-discern pattern.
+However, when we look at a histogram of the means when the standard devi-
+ation is 100, the right side of Figure 17.8, something important emerges: the
+means form a distribution that is close to a normal distribution centered around
+0. That the right side of Figure 17.8 looks the way it does is not an accident. It is a
+consequence of the Central Limit Theorem, the most famous theorem[FORMULA]all of
+probability and statistics.
+CHAPTER 17. SAMPLING AND CONFIDENCE INTERVALS 297
+def testSamples(numTrials, sampleSize):
+tightMeans, wideMeans = [], []
+for t[FORMULA]range(numTrials):
+sampleTight, sampleWide = [], []
+for i[FORMULA]range(sampleSize):
+sampleTight.append(random.gauss(0, 1))
+sampleWide.append(random.gauss(0, 100))
+tightMeans.append([FORMULA](sampleTight)/len(sampleTight))
+wideMeans.append([FORMULA](sampleWide)/len(sampleWide))
+return tightMeans, wideMeans
+tightMeans, wideMeans = testSamples(1000, 40)
+pylab.plot(wideMeans, 'y*', label = ' SD = 100')
+pylab.plot(tightMeans, 'bo', label = 'SD = 1')
+pylab.xlabel('Sample Number')
+pylab.ylabel('Sample Mean')
+pylab.title('Means of Samples of Size ' + str(40))
+pylab.legend()
+pylab.figure()
+pylab.hist(wideMeans, bins = 20, label = 'SD = 100')
+pylab.title('Distribution of Sample Means')
+pylab.xlabel('Sample Mean')
+pylab.ylabel('Frequency of Occurrence')
+pylab.legend()
+Figure 17.7: Compute and plot sample means
+Figure 17.8: Sample means
+298 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+## 17.2 The Central Limit Theorem
+
+The central limit theorem explains why it is possible to use a single sample drawn
+from a population to estimate the variability of the means of a set of hypothetical
+samples drawn from the same population.
+A version of the Central Limit Theorem (CLT to its friends) was first pub-
+lished by Laplace[FORMULA]1810, and then refined by Poisson[FORMULA]the 1820s. But the CLT
+as we know it today is a product of work done by a sequence of prominent math-
+ematicians[FORMULA]the first half of the 20th century.
+Despite (or maybe because of) the impressive list of mathematicians who
+have worked on it, the CLT is really quite simple. It says that
+• Given a set of sufficiently large samples drawn from the same population, the
+means of the samples (the sample means) will be approximately normally dis-
+tributed,
+• This normal distribution will have a mean close to the mean of the population,
+and
+• The variance (as defined[FORMULA]Section 15.3) of the sample means will be close to
+the variance of the population divided by the sample size.
+Let’s look at an example of the CLT[FORMULA]action. Imagine that you had a die
+with the property that that each roll would yield a random real number between
+
+## 0 and 5. The code[FORMULA]Figure 17.9 simulates rolling such a die many times, prints
+
+the mean and variance (the function variance is defined[FORMULA]Figure 15.8), and then
+plots a histogram showing the probability of ranges of numbers getting rolled. It
+also simulates rolling 100 dice many times and plots (on the same figure) a histo-
+gram of the mean value of those 100 dice. The hatch keyword argument is used to
+visually distinguish one histogram from the other.
+The weights keyword is bound to an array of the same length as the first ar-
+gument to hist, and is used to assign a weight to each element[FORMULA]the first argu-
+ment. In the resulting histogram, each value[FORMULA]a bin contributes its associated
+weight towards the bin count (instead of the usual 1). In this example, we use
+weights to scale the y values to the relative rather than absolute size of each bin.
+Therefore, for each bin, the value on the y-axis is the probability of the mean fall-
+ing within that bin.
+CHAPTER 17. SAMPLING AND CONFIDENCE INTERVALS 299
+def plotMeans(numDicePerTrial, numDiceThrown, numBins, legend,
+color, style):
+means = []
+numTrials = numDiceThrown//numDicePerTrial
+for i[FORMULA]range(numTrials):
+vals = 0
+for j[FORMULA]range(numDicePerTrial):
+vals += 5*random.random()
+means.append(vals/numDicePerTrial)
+pylab.hist(means, numBins, color = color, label = legend,
+weights = pylab.array(len(means)*[1])/len(means),
+hatch = style)
+return[FORMULA](means)/len(means), variance(means)
+mean, var = plotMeans(1, 100000, 11, '1 die', 'w', '*')
+print('Mean of rolling 1 die =', round(mean,4),
+'Variance =', round(var,4))
+mean, var = plotMeans(100, 100000, 11,
+'Mean of 100 dice', 'w', '//')
+print('Mean of rolling 100 dice =', round(mean, 4),
+'Variance =', round(var, 4))
+pylab.title('Rolling Continuous Dice')
+pylab.xlabel('Value')
+pylab.ylabel('Probability')
+pylab.legend()
+Figure 17.9: Estimating the mean of a continuous die
+When run, the code produced the plot[FORMULA]Figure 17.10, and printed,
+Mean of rolling 1 die = 2.4974 Variance = 2.0904
+Mean of rolling 100 dice = 2.4981 Variance = 0.02
+In each case the mean was quite close to the expected mean of 2.5. Since our
+die is fair, the probability distribution for one die is almost perfectly uniform,118
+i.e., very far from normal. However, when we look at the average value of 100
+dice, the distribution is almost perfectly normal, with the peak including the ex-
+pected mean. Furthermore, the variance of the mean of the 100 rolls is close to
+the variance of the value of a single roll divided by 100. All is as predicted by the
+CLT.
+118 “Almost” because we rolled the die a finite number of times.
+300 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Figure 17.10: An illustration of the CLT
+It’s nice that the CLT seems to work, but what good is it? Perhaps it could
+prove useful[FORMULA]winning bar bets for those who drink[FORMULA]particularly nerdy bars.
+However, the primary value of the CLT is that it allows us to compute confidence
+levels and intervals even when the underlying population distribution is not
+normal. When we looked at confidence intervals[FORMULA]Section 15.4.2, we pointed
+out that the empirical rule is based on assumptions about the nature of the space
+being sampled. We assumed that
+• The mean estimation error is 0, and
+• The distribution of the errors[FORMULA]the estimates is normal.
+When these assumptions hold, the empirical rule for normal distributions
+provides a handy way to estimate confidence intervals and levels given the mean
+and standard deviation.
+Let’s return to the Boston Marathon example. The code[FORMULA]Figure 17.11,
+which produced the plot[FORMULA]Figure 17.12, draws twenty simple random samples
+for each of a variety of sample sizes. For each sample size, it computes the mean
+of each of the twenty samples; it then computes the mean and standard deviation
+of those means. Since the CLT tells us that the sample means will be normally
+distributed, we can use the standard deviation and the empirical rule to compute
+a 95% confidence interval for each sample size.
+As the plot[FORMULA]Figure 17.12 shows, all of the estimates are reasonably close to
+the actual population mean. Notice, however, that the error[FORMULA]the estimated
+mean does not decrease monotonically with the size of the samples—the estimate
+using 250 examples happens to be worse than the estimate using 50 examples.
+What does change monotonically with the sample size is our confidence[FORMULA]our
+CHAPTER 17. SAMPLING AND CONFIDENCE INTERVALS 301
+estimate of the mean. As the sample size grows from 50 to 1,850, the confidence
+interval decreases from about ±15 to about ±2. This is important. It’s not good
+enough to get lucky and happen to get a good estimate. We need to know how
+much confidence to have[FORMULA]our estimate.
+times = getBMData('bm_results2012.txt')['time']
+meanOfMeans, stdOfMeans = [], []
+sampleSizes = range(50, 2000, 200)
+for sampleSize[FORMULA]sampleSizes:
+sampleMeans = []
+for t[FORMULA]range(20):
+sample = random.sample(times, sampleSize)
+sampleMeans.append([FORMULA](sample)/sampleSize)
+meanOfMeans.append([FORMULA](sampleMeans)/len(sampleMeans))
+stdOfMeans.append(stdDev(sampleMeans))
+pylab.errorbar(sampleSizes, meanOfMeans,
+yerr = 1.96*pylab.array(stdOfMeans),
+label = 'Estimated mean and 95% confidence interval')
+pylab.xlim(0, max(sampleSizes) + 50)
+pylab.axhline([FORMULA](times)/len(times), linestyle = '--',
+label = 'Population mean')
+pylab.title('Estimates of Mean Finishing Time')
+pylab.xlabel('Sample Size')
+pylab.ylabel('Finshing Time (minutes)')
+pylab.legend(loc = 'best')
+Figure 17.11 Produce plot with error bars
+Figure 17.12: Estimates of finishing times with error bars
+302 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+## 17.3 Standard Error of the Mean
+
+We just saw that if we chose twenty random samples of 1,850 competitors, we
+could, with 95% confidence, estimate the mean finishing time within a range of
+about four minutes. We did this using the standard deviation of the sample
+means. Unfortunately, since this involves using more total examples (20*1,850 =
+37,000) than there were competitors, it doesn’t seem like a very useful result. We
+would have been better off computing the actual mean directly using the entire
+population. What we need is a way to estimate a confidence interval using a[FORMULA]-
+gle example. Enter the concept of the standard error of the mean (SE or SEM).
+The SE for a sample of size n is the standard deviation of the means of an[FORMULA]-
+finite number of samples of size n drawn from the same population. Unsurpris-
+ingly, it depends upon both n and σ, the standard deviation of the population:
+𝜎
+𝑆𝐸 =
+𝑛
+Figure 17.13 compares the SE for the sample sizes used[FORMULA]Figure 17.12 to the
+standard deviation of the means of the twenty samples we generated for each
+sample size.
+Figure 17.13: Standard error of the mean
+The actual standard deviations of the means of our twenty samples closely
+tracks the SE. In both cases, the standard deviation drops rapidly at the start and
+then more slowly as the sample size gets large. The is because the reduction[FORMULA]standard deviation depends upon the square root of the sample size. E.g., to cut
+the standard deviation[FORMULA]half, one needs to quadruple the sample size.
+CHAPTER 17. SAMPLING AND CONFIDENCE INTERVALS 303
+Alas, if all we have is a single sample, we don’t know the standard deviation
+of the population. Typically, we assume that the standard deviation of the sample,
+the sample standard deviation, is a reasonable proxy for the standard deviation of
+the population. This will be the case when the population distribution is not ter-
+ribly skewed.
+The code[FORMULA]Figure 17.14 creates 100 samples of various sizes from the Bos-
+ton Marathon data, and compares the mean standard deviation of the samples of
+each size to the standard deviation of the population. It produces the plot[FORMULA]Fig-
+ure 17.15.
+times = getBMData('bm_results2012.txt')['time']
+popStd = stdDev(times)
+sampleSizes = range(2, 200, 2)
+diffsMeans = []
+for sampleSize[FORMULA]sampleSizes:
+diffs = []
+for t[FORMULA]range(100):
+diffs.append(abs(popStd - stdDev(random.sample(times,
+sampleSize))))
+diffsMeans.append([FORMULA](diffs)/len(diffs))
+pylab.plot(sampleSizes, diffsMeans)
+pylab.xlabel('Sample Size')
+pylab.ylabel('Abs(Pop. Std - Sample Std)')
+pylab.title('Sample SD vs Population SD')
+Figure 17.14: Sample standard deviation vs. population standard deviation
+Figure 17.15: Sample standard deviations
+By the time the sample size reaches 100, the difference between the sample
+standard deviation and the population standard deviation is relatively small.
+304 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+In practice, people usually use the sample standard deviation[FORMULA]place of the
+(usually unknown) population standard deviation to estimate the SE. If the sam-
+ple size is large enough,119 and the population distribution is not too far from
+normal, it is safe to use this estimate to compute confidence intervals using the
+empirical rule.
+What does this imply? If we take a single sample of say 200 runners, we can
+• Compute the mean and standard deviation of that sample,
+• Use the standard deviation of that sample to estimate the SE, and
+• Use the estimated SE to generate confidence intervals around the sample
+mean.
+The code[FORMULA]Figure 17.16 does this 10,000 times and then prints the fraction
+of times the sample mean is more than 1.96 estimated SE’s from the population
+mean. (Recall that for a normal distribution 95% of the data falls within 1.96
+standard deviations of the mean.)
+times = getBMData('bm_results2012.txt')['time']
+popMean =[FORMULA](times)/len(times)
+sampleSize = 200
+numBad = 0
+for t[FORMULA]range(10000):
+sample = random.sample(times, sampleSize)
+sampleMean =[FORMULA](sample)/sampleSize
+se = stdDev(sample)/sampleSize**0.5
+if abs(popMean - sampleMean) > 1.96*se:
+numBad += 1
+print('Fraction outside 95% confidence interval =', numBad/10000)
+Figure 17.16 Estimating the population mean 10,000 times
+When the code is run it prints,
+Fraction outside 95% confidence interval = 0.0533
+I.e., pretty much what the theory predicts. Score one for the CLT!
+119 Don’t you just love following instructions with phrases like, “choose a large enough sample.”
+Unfortunately, there is no simple recipe for choosing a sufficient sample size when you know little
+about the underlying population. Many statisticians say that a sample size of 30-40 is large enough
+when the population distribution is roughly normal. For smaller sample sizes, it is better to use
+something called the t-distribution to compute the size of the interval. The t-distribution is similar
+to a normal distribution, but it has fatter tails, so the confidence intervals will be a bit wider.
+
+## 18 UNDERSTANDING EXPERIMENTAL DATA
+
+This chapter is about understanding experimental data. We will make extensive
+use of plotting to visualize the data, and show how to use linear regression to
+build a model of experimental data. We will also talk about the interplay between
+physical and computational experiments. We defer our discussion of how to
+draw a valid statistical conclusion to Chapter 19.
+
+## 18.1 The Behavior of Springs
+
+Springs are wonderful things. When they are compressed or stretched by some
+force, they store energy. When that force is no longer applied they release the
+stored energy. This property allows them to smooth the ride[FORMULA]cars, help mat-
+tresses conform to our bodies, retract seat belts, and launch projectiles.
+In 1676 the British physicist Robert Hooke formulated Hooke’s law of elastic-
+ity: Ut tensio, sic vis,[FORMULA]English, F = -kx. In other words, the force F stored[FORMULA]a
+spring is linearly related to the distance the spring has been compressed (or
+stretched). (The minus sign indicates that the force exerted by the spring is[FORMULA]the
+opposite direction of the displacement.) Hooke’s law holds for a wide variety of
+materials and systems, including many biological systems. Of course, it does not
+hold for an arbitrarily large force. All springs have an elastic limit, beyond which
+the law fails. Those of you who have stretched a Slinky too far know this all too
+well.
+The constant of proportionality, k, is called the spring constant. If the spring
+is stiff (like the ones[FORMULA]the suspension of a car or the limbs of an archer’s bow), k
+is large. If the spring is weak, like the spring[FORMULA]a ballpoint pen, k is small.
+Knowing the spring constant of a particular spring can be a matter of some
+import. The calibrations of both simple scales and atomic force microscopes de-
+pend upon knowing the spring constants of components. The mechanical behav-
+ior of a strand of DNA is related to the force required to compress it. The force
+with which a bow launches an arrow is related to the spring constant of its limbs.
+And so on.
+Generations of physics students have learned to estimate spring constants us-
+ing an experimental apparatus similar to that pictured here.
+306 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Figure 18.1 A classic experiment
+We start with a spring with no weight on it, and measure the distance to the
+bottom of the spring from the top of the stand. We then hang a known mass on
+the spring, and wait for it to stop moving. At this point, the force stored[FORMULA]the
+spring is the force exerted on the spring by the weight hanging from it. This is the
+value of F[FORMULA]Hooke’s law. We again measure the distance from the bottom of the
+spring to the top of the stand. The difference between this distance and the dis-
+tance before we hung the weight then becomes the value of x[FORMULA]Hooke’s law.
+We know that the force, F, being exerted on the spring is equal to the mass,
+m, multiplied by the acceleration due to gravity, g (9.81 m/s2 is a pretty good ap-
+proximation of g on this planet), so we substitute m*g for F. By simple algebra we
+know that k = -(m*g)/x.
+Suppose, for example, that m = 1kg and x = 0.1m, then
+1𝑘𝑔∗9.81𝑚/𝑠v 9.81𝑁
+𝑘 =− =− =−98.1𝑁/𝑚
+0.1𝑚 0.1𝑚
+According to this calculation, it will take 98.1 Newtons120 of force to stretch the
+spring one meter.
+This would all be well and good if
+120 The Newton, written N, is the standard international unit for measuring force. It is the amount
+of force needed to accelerate a mass of one kilogram at a rate of one meter per second per second.
+A Slinky, by the way, has a spring constant of approximately 1N/m.
+CHAPTER 18. UNDERSTANDING EXPERIMENTAL DATA 307
+• We had complete confidence that we would conduct this experiment perfectly.
+In that case, we could take one measurement, perform the calculation, and
+know that we had found k. Unfortunately, experimental science hardly ever
+works this way.
+• We could be sure that we were operating below the elastic limit of the spring.
+A more robust experiment would be to hang a series of increasingly heavier
+weights on the spring, measure the stretch of the spring each time, and plot the
+results. We ran such an experiment, and typed the results into a file named
+springData.txt:
+Distance (m) Mass (kg)
+
+## 0.0865 0.1
+
+
+
+## 0.1015 0.15
+
+…
+
+## 0.4416 0.9
+
+
+
+## 0.4304 0.95
+
+
+
+## 0.437 1.0
+
+The function[FORMULA]Figure 18.2 reads data from a file such as the one we saved,
+and returns lists containing the distances and masses.
+def getData(fileName):
+dataFile = open(fileName, 'r')
+distances = []
+masses = []
+dataFile.readline() #ignore header
+for line[FORMULA]dataFile:
+d, m = line.split(' ')
+distances.append(float(d))
+masses.append(float(m))
+dataFile.close()
+return (masses, distances)
+Figure 18.2 Extracting the data from a file
+The function[FORMULA]Figure 18.3 uses getData to extract the experimental data
+from the file and then produces the plot[FORMULA]Figure 18.4.
+308 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+def plotData(inputFile):
+masses, distances = getData(inputFile)
+distances = pylab.array(distances)
+masses = pylab.array(masses)
+forces = masses*9.81
+pylab.plot(forces, distances, 'bo',
+label = 'Measured displacements')
+pylab.title('Measured Displacement of Spring')
+pylab.xlabel('|Force| (Newtons)')
+pylab.ylabel('Distance (meters)')
+plotData('springData.txt')
+Figure 18.3 Plotting the data
+Figure 18.4 Displacement of spring
+This is not what Hooke’s law predicts. Hooke’s law tells us that the distance
+should increase linearly with the mass, i.e., the points should lie on a straight line
+the slope of which is determined by the spring constant. Of course, we know that
+when we take real measurements the experimental data are rarely a perfect match
+for the theory. Measurement error is to be expected, so we should expect the
+points to lie around a line rather than on it.
+Still, it would be nice to see a line that represents our best guess of where the
+points would have been if we had no measurement error. The usual way to do
+this is to fit a line to the data.
+CHAPTER 18. UNDERSTANDING EXPERIMENTAL DATA 309
+18.1.1 Using Linear Regression to Find a Fit
+Whenever we fit any curve (including a line) to data we need some way to decide
+which curve is the best fit for the data. This means that we need to define an ob-
+jective function that provides a quantitative assessment of how well the curve fits
+the data. Once we have such a function, finding the best fit can be formulated as
+finding a curve that minimizes (or maximizes) the value of that function, i.e., as
+an optimization problem (see Chapters 12 and 13).
+The most commonly used objective function is called least squares. Let ob-
+served and predicted be vectors of equal length, where observed contains the
+measured points and predicted the corresponding data points on the proposed fit.
+The objective function is then defined as:
+–†h ‡·(cid:181)†¶•†‚ (cid:138)n
+(𝑜𝑏𝑠𝑒𝑟𝑣𝑒𝑑 𝑖 −𝑝𝑟𝑒𝑑𝑖𝑐𝑡𝑒𝑑 𝑖 )v
+l„”
+Squaring the difference between observed and predicted points makes large dif-
+ferences between observed and predicted points relatively more important than
+small differences. Squaring the difference also discards information about
+whether the difference is positive or negative.
+How might we go about finding the best least-squares fit? One way to do this
+would be to use a successive approximation algorithm similar to the Newton-
+Raphson algorithm[FORMULA]Chapter 3. Alternatively, there is are analytic solutions that
+is often applicable. But we don’t have to implement either, because PyLab pro-
+vides a built-[FORMULA]function, polyfit, that finds an approximation to the best least-
+squares fit. The call
+pylab.polyfit (observedXVals, observedYVals, n)
+finds the coefficients of a polynomial of degree n that provides a best least-
+squares fit for the set of points defined by the two arrays observedXVals and ob-
+servedYVals. For example, the call
+pylab.polyfit(observedXVals, observedYVals, 1)
+will find a line described by the polynomial y = ax + b, where a is the slope of the
+line and b the y-intercept. In this case, the call returns an array with two floating
+point values. Similarly, a parabola is described by the quadratic equation y = ax2
++ bx + c. Therefore, the call
+pylab.polyfit(observedXVals, observedYVals, 2)
+returns an array with three floating point values.
+310 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+The algorithm used by polyfit is called linear regression. This may seem a bit
+confusing, since we can use it to fit curves other than lines. Some authors do
+make a distinction between linear regression (when the model is a line) and pol-
+ynomial regression (when the model is a polynomial with degree greater than 1),
+but most do not.121
+The function fitData[FORMULA]Figure 18.5 extends the plotData function[FORMULA]Figure
+
+## 18.3 by adding a line that represents the best fit for the data. It uses polyfit to
+
+find the coefficients a and b, and then uses those coefficients to generate the pre-
+dicted spring displacement for each force. Notice that there is an asymmetry[FORMULA]the way forces and distance are treated. The values[FORMULA]forces (which are derived
+from the mass suspended from the spring) are treated as independent, and used
+to produce the values[FORMULA]the dependent variable predictedDistances (a prediction
+of the displacements produced by suspending the mass).
+The function also computes the spring constant, k. The slope of the line, a, is
+∆distance/∆force. The spring constant, on the other hand, is ∆force/∆distance.
+Consequently, k is the inverse of a.
+The call fitData('springData.txt') produces the plot[FORMULA]Figure 18.6.
+def fitData(inputFile):
+masses, distances = getData(inputFile)
+distances = pylab.array(distances)
+forces = pylab.array(masses)*9.81
+pylab.plot(forces, distances, 'ko',
+label = 'Measured displacements')
+pylab.title('Measured Displacement of Spring')
+pylab.xlabel('|Force| (Newtons)')
+pylab.ylabel('Distance (meters)')
+#find linear fit
+a,b = pylab.polyfit(forces, distances, 1)
+predictedDistances = a*pylab.array(forces) + b
+k = 1.0/a #see explanation[FORMULA]text
+pylab.plot(forces, predictedDistances,
+label = 'Displacements predicted by\nlinear fit, k = '
++ str(round(k, 5)))
+pylab.legend(loc = 'best')
+Figure 18.5 Fitting a curve to data
+121 The reason they do not is that although polynomial regression fits a nonlinear model to the
+data, the model is linear[FORMULA]the unknown parameters that it estimates.
+CHAPTER 18. UNDERSTANDING EXPERIMENTAL DATA 311
+Figure 18.6 Measured points and linear model
+It is interesting to observe that very few points actually lie on the least-
+squares fit. This is plausible because we are trying to minimize the[FORMULA]of the
+squared errors, rather than maximize the number of points that lie on the line.
+Still, it doesn’t look like a great fit. Let’s try a cubic fit by adding to fitData the
+code
+#find cubic fit
+fit = pylab.polyfit(forces, distances, 3)
+predictedDistances = pylab.polyval(fit, forces)
+pylab.plot(forces, predictedDistances, 'k:', label = 'cubic fit')
+In this code, we have used the function polyval to generate the points associ-
+ated with the cubic fit. This function takes two arguments: a sequence of poly-
+nomial coefficients and a sequence of values at which the polynomial is to be
+evaluated. The code fragments
+fit = pylab.polyfit(forces, distances, 3)
+predictedDistances = pylab.polyval(fit, forces)
+and
+a,b,c,d = pylab.polyfit(forces, distances, 3)
+predictedDistances = a*(forces**3) + b*forces**2 + c*forces + d
+are equivalent.
+This produces the plot[FORMULA]Figure 18.7. The cubic fit looks like a much better
+model of the data than the linear fit, but is it? Probably not.
+312 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Figure 18.7 Linear and cubic fits
+In the technical literature, one frequently sees plots like this that include both
+raw data and a curve fit to the data. All too often, however, the authors then go
+on to assume that the fitted curve is the description of the real situation, and the
+raw data merely an indication of experimental error. This can be dangerous.
+Recall that we started with a theory that there should be a linear relationship
+between the x and y values, not a cubic one. Let’s see what happens if we use our
+cubic fit to predict where the point corresponding to hanging a 1.5kg weight
+would lie, Figure 18.8.
+Figure 18.8 Using the model to make a prediction
+CHAPTER 18. UNDERSTANDING EXPERIMENTAL DATA 313
+Now the cubic fit doesn’t look so good. In particular, it seems highly unlikely
+that by hanging a large weight on the spring we can cause the spring to rise above
+(the y value is negative) the bar from which it is suspended. What we have is an
+example of overfitting. Overfitting typically occurs when a model is excessively
+complex, e.g., it has too many parameters relative to the amount of data. When
+this happens, the fit can capture noise[FORMULA]the data rather than meaningful rela-
+tionships. A model that has been overfit usually has poor predictive power, as
+seen[FORMULA]this example.
+Finger exercise: Modify the code[FORMULA]Figure 18.5 so that it produces the plot[FORMULA]Figure 18.8.
+Let’s go back to the linear fit. For the moment, forget the line and study the
+raw data. Does anything about it seem odd? If we were to fit a line to the right-
+most six points it would be nearly parallel to the x-axis. This seems to contradict
+Hooke’s law—until we recall that Hooke’s law holds only up to some elastic limit.
+Perhaps that limit is reached for this spring somewhere around 7N (approximate-
+ly 0.7kg).
+Let’s see what happens if we eliminate the last six points by replacing the se-
+cond and third lines of fitData by
+distances = pylab.array(distances[:-6])
+masses = pylab.array(masses[:-6])
+Figure 18.9 A model up to the elastic limit
+314 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+As Figure 18.9 shows, eliminating those points certainly makes a difference:
+k has dropped dramatically and the linear and cubic fits are almost indistin-
+guishable. But how do we know which of the two linear fits is a better representa-
+tion of how our spring performs up to its elastic limit? We could use some
+statistical test to determine which line is a better fit for the data, but that would
+be beside the point. This is not a question that can be answered by statistics. Af-
+ter all we could throw out all the data except any two points and know that
+polyfit would find a line that would be a perfect fit for those two points. One
+should never throw out experimental results merely to get a better fit.122 Here we
+justified throwing out the rightmost points by appealing to the theory underlying
+Hooke’s law, i.e., that springs have an elastic limit. That justification could not
+have been appropriately used to eliminate points elsewhere[FORMULA]the data.
+
+## 18.2 The Behavior of Projectiles
+
+Growing bored with merely stretching springs, we decided to use one of our
+springs to build a device capable of launching a projectile.123 We used the device
+four times to fire a projectile at a target 30 yards (1080 inches) from the launch-
+ing point. Each time, we measured the height of the projectile at various distanc-
+es from the launching point. The launching point and the target were at the same
+height, which we treated as 0.0[FORMULA]our measurements.
+The data was stored[FORMULA]a file with the contents shown[FORMULA]Figure 18.10. The
+first column contains distances of the projectile from the target. The other col-
+umns contain the height of the projectile at that distance for each of the four tri-
+als. All of the measurements are[FORMULA]inches.
+122 Which isn’t to say that people never do.
+123 A projectile is an object that is propelled through space by the exertion of a force that stops
+after the projectile is launched. In the interest of public safety, we will not describe the launching
+device used[FORMULA]this experiment. Suffice it to say that it was awesome.
+CHAPTER 18. UNDERSTANDING EXPERIMENTAL DATA 315
+Distance trial1 trial2 trial3 trial4
+1080 0.0 0.0 0.0 0.0
+1044 2.25 3.25 4.5 6.5
+1008 5.25 6.5 6.5 8.75
+972 7.5 7.75 8.25 9.25
+936 8.75 9.25 9.5 10.5
+900 12.0 12.25 12.5 14.75
+864 13.75 16.0 16.0 16.5
+828 14.75 15.25 15.5 17.5
+792 15.5 16.0 16.6 16.75
+756 17.0 17.0 17.5 19.25
+720 17.5 18.5 18.5 19.0
+540 19.5 20.0 20.25 20.5
+360 18.5 18.5 19.0 19.0
+180 13.0 13.0 13.0 13.0
+
+## 0 0.0 0.0 0.0 0.0
+
+Figure 18.10 Data from projectile experiment
+The code[FORMULA]Figure 18.11 was used to plot the mean altitude of the projectile[FORMULA]the four trials against the distance from the point of launch. It also plots the
+best linear and quadratic fits to those points. (In case you have forgotten the
+meaning of multiplying a list by an integer, the expression [0]*len(distances)
+produces a list of len(distances) 0’s.)
+316 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+def getTrajectoryData(fileName):
+dataFile = open(fileName, 'r')
+distances = []
+heights1, heights2, heights3, heights4 = [],[],[],[]
+dataFile.readline()
+for line[FORMULA]dataFile:
+d, h1, h2, h3, h4 = line.split()
+distances.append(float(d))
+heights1.append(float(h1))
+heights2.append(float(h2))
+heights3.append(float(h3))
+heights4.append(float(h4))
+dataFile.close()
+return (distances, [heights1, heights2, heights3, heights4])
+def processTrajectories(fileName):
+distances, heights = getTrajectoryData(fileName)
+numTrials = len(heights)
+distances = pylab.array(distances)
+#Get array containing mean height at each distance
+totHeights = pylab.array([0]*len(distances))
+for h[FORMULA]heights:
+totHeights = totHeights + pylab.array(h)
+meanHeights = totHeights/len(heights)
+pylab.title('Trajectory of Projectile (Mean of '\
++ str(numTrials) + ' Trials)')
+pylab.xlabel('Inches from Launch Point')
+pylab.ylabel('Inches Above Launch Point')
+pylab.plot(distances, meanHeights, 'ko')
+fit = pylab.polyfit(distances, meanHeights, 1)
+altitudes = pylab.polyval(fit, distances)
+pylab.plot(distances, altitudes, 'b', label = 'Linear Fit')
+fit = pylab.polyfit(distances, meanHeights, 2)
+altitudes = pylab.polyval(fit, distances)
+pylab.plot(distances, altitudes, 'k:', label = 'Quadratic Fit')
+pylab.legend()
+processTrajectories('launcherData.txt')
+Figure 18.11 Plotting the trajectory of a projectile
+A quick look at the plot[FORMULA]Figure 18.12 makes it quite clear that a quadratic
+fit is far better than a linear one.124 (The reason that the quadratic fit is so
+124 Don’t be misled by this plot into thinking that the projectile had a steep angle of ascent. It only
+looks that way because of the difference[FORMULA]scale between the vertical and horizontal axes on the
+plot.
+CHAPTER 18. UNDERSTANDING EXPERIMENTAL DATA 317
+bumpy-looking on the left side is that we are plotting only the predicted heights
+that correspond to the measured heights, and we have very few points to the left
+of 600.) But just how bad a fit is the line and how good is the quadratic fit?
+Figure 18.12 Plot of trajectory
+18.2.1 Coefficient of Determination
+When we fit a curve to a set of data, we are finding a function that relates an[FORMULA]-
+dependent variable (inches horizontally from the launch point[FORMULA]this example)
+to a predicted value of a dependent variable (inches above the launch point[FORMULA]this example). Asking about the goodness of a fit is equivalent to asking about the
+accuracy of these predictions. Recall that the fits were found by minimizing the
+mean square error. This suggests that one could evaluate the goodness of a fit by
+looking at the mean square error. The problem with that approach is that while
+there is a lower bound for the mean square error (0), there is no upper bound.
+This means that while the mean square error is useful for comparing the relative
+goodness of two fits to the same data, it is not particularly useful for getting a
+sense of the absolute goodness of a fit.
+We can calculate the absolute goodness of a fit using the coefficient of de-
+termination, often written as R2.125 Let 𝑦
+l
+be the 𝑖…‰ observed value, 𝑝
+l
+be the
+corresponding value predicted by the model, and 𝜇 be the mean of the observed
+values.
+(𝑦 −𝑝)v
+𝑅v =1− l l l
+(𝑦 −𝜇)v
+l l
+125 There are several different definitions of the coefficient of determination. The definition
+supplied here is used to evaluate the quality of a fit produced by a linear regression.
+318 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+By comparing the estimation errors (the numerator) with the variability of
+the original values (the denominator), R2 is intended to capture the proportion of
+variability (relative to the mean)[FORMULA]a data set that is accounted for by the statisti-
+cal model provided by the fit. When the model being evaluated is produced by a
+linear regression, the value of R2 always lies between 0 and 1. If R2 = 1, the model
+is a perfect fit to the data. If R2 = 0, there is no relationship between the values
+predicted by the model and the way the data is distributed around the mean.
+The code[FORMULA]Figure 18.13 provides a straightforward implementation of this
+statistical measure. Its compactness stems from the expressiveness of the opera-
+tions on arrays. The expression (predicted - measured)**2 subtracts the elements
+of one array from the elements of another, and then squares each element[FORMULA]the
+result. The expression (measured - meanOfMeasured)**2 subtracts the scalar value
+meanOfMeasured from each element of the array measured, and then squares each
+element of the results.
+def rSquared(measured, predicted):
+"""Assumes measured a one-dimensional array of measured values
+predicted a one-dimensional array of predicted values
+Returns coefficient of determination"""
+estimateError = ((predicted - measured)**2).[FORMULA]()
+meanOfMeasured = measured.[FORMULA]()/len(measured)
+variability = ((measured - meanOfMeasured)**2).[FORMULA]()
+return 1 - estimateError/variability
+Figure 18.13 Computing R2
+When the lines of code
+print('RSquare of linear fit =', rSquared(meanHeights, altitudes))
+and
+print('RSquare of quadratic fit =', rSquared(meanHeights, altitudes))
+are inserted after the appropriate calls to pylab.plot[FORMULA]processTrajectories (see
+Figure 18.11), they print
+RSquared of linear fit = 0.0177433205441
+RSquared of quadratic fit = 0.985765369287
+CHAPTER 18. UNDERSTANDING EXPERIMENTAL DATA 319
+Roughly speaking, this tells us that less than 2% of the variation[FORMULA]the measured
+data can be explained by the linear model, but more than 98% of the variation
+can be explained by the quadratic model.
+18.2.2 Using a Computational Model
+Now that we have what seems to be a good model of our data, we can use this
+model to help answer questions about our original data. One interesting question
+is the horizontal speed at which the projectile is traveling when it hits the target.
+We might use the following train of thought to design a computation that an-
+swers this question:
+1. We know that the trajectory of the projectile is given by a formula of the
+form y = ax2 + bx + c, i.e., it is a parabola. Since every parabola is symmet-
+rical around its vertex, we know that its peak occurs halfway between the
+launch point and the target; call this distance xMid. The peak height, yPeak, is
+therefore given by yPeak=a∗xMidv+b∗xMid+c.
+2. If we ignore air resistance (remember that no model is perfect), we can com-
+pute the amount of time it takes for the projectile to fall from yPeak to the
+height of the target, because that is purely a function of gravity. It is given by
+the equation t= (2∗yPeak)/g.126 This is also the amount of time it takes
+for the projectile to travel the horizontal distance from xMid to the target, be-
+cause once it reaches the target it stops moving.
+3. Given the time to go from xMid to the target, we can easily compute the aver-
+age horizontal speed of the projectile over that interval. If we assume that the
+projectile was neither accelerating nor decelerating[FORMULA]the horizontal direc-
+tion during that interval, we can use the average horizontal speed as an esti-
+mate of the horizontal speed when the projectile hits the target.
+Figure 18.14 implements this technique for estimating the horizontal velocity
+of the projectile.127
+126 This equation can be derived from first principles, but it is easier to just look it up. We found it
+at http://en.wikipedia.org/wiki/Equations_for_a_falling_body.
+127 The vertical component of the velocity is also easily estimated, since it is merely the product of
+the g and t[FORMULA]Figure 18.14.
+320 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+def getHorizontalSpeed(quadFit, minX, maxX):
+"""Assumes quadFit has coefficients of a quadratic polynomial
+minX and maxX are distances[FORMULA]inches
+Returns horizontal speed[FORMULA]feet per second"""
+inchesPerFoot = 12
+xMid = (maxX - minX)/2
+a,b,c = quadFit[0], quadFit[1], quadFit[2]
+yPeak = a*xMid**2 + b*xMid + c
+g = 32.16*inchesPerFoot #accel. of gravity[FORMULA]inches/sec/sec
+t = (2*yPeak/g)**0.5 #time[FORMULA]seconds from peak to target
+print('Horizontal speed =',[FORMULA](xMid/(t*inchesPerFoot)), 'feet/sec')
+Figure 18.14 Computing the horizontal speed of a projectile
+When the line getHorizontalSpeed(fit, distances[-1], distances[0]) is[FORMULA]-
+serted at the end of processTrajectories (Figure 18.11), it prints
+Horizontal speed = 136 feet/sec
+The sequence of steps we have just worked through follows a common pat-
+tern.
+1. We started by performing an experiment to get some data about the behavior
+of a physical system.
+2. We then used computation to find and evaluate the quality of a model of the
+behavior of the system.
+3. Finally, we used some theory and analysis to design a simple computation to
+derive an interesting consequence of the model.
+
+## 18.3 Fitting Exponentially Distributed Data
+
+Polyfit uses linear regression to find a polynomial of a given degree that is the
+best least-squares fit for some data. It works well if the data can be directly ap-
+proximated by a polynomial. But this is not always possible. Consider, for exam-
+ple, the simple exponential growth function y = 3x. The code[FORMULA]Figure 18.15 fits
+a 5th-degree polynomial to the first ten points and plots the results as shown[FORMULA]Figure 18.16. It uses the function call pylab.arange(10), which returns an array
+containing the integers 0-9. The parameter setting markeredgewidth = 2 sets the
+width of the lines used[FORMULA]the marker.
+CHAPTER 18. UNDERSTANDING EXPERIMENTAL DATA 321
+vals = []
+for i[FORMULA]range(10):
+vals.append(3**i)
+pylab.plot(vals,'ko', label = 'Actual points')
+xVals = pylab.arange(10)
+fit = pylab.polyfit(xVals, vals, 5)
+yVals = pylab.polyval(fit, xVals)
+pylab.plot(yVals, 'kx', label = 'Predicted points',
+markeredgewidth = 2, markersize = 25)
+pylab.title('Fitting y = 3**x')
+pylab.legend(loc = 'upper left')
+Figure 18.15 Fitting a polynomial curve to an exponential distribution
+Figure 18.16 Fitting an exponential
+The fit is clearly a good one, for these data points. However, let’s look at what
+the model predicts for 320. When we add the code
+print('Model predicts that 3**20 is roughly',
+pylab.polyval(fit, [3**20])[0])
+print('Actual value of 3**20 is', 3**20)
+to the end of Figure 18.15, it prints,
+Model predicts that 3**20 is roughly 2.45478276372e+48
+Actual value of 3**20 is 3486784401
+Oh dear! Despite fitting the data, the model produced by polyfit is apparent-
+ly not a good one. Is it because 5 was not the right degree? No. It is because no
+polynomial is a good fit for an exponential distribution. Does this mean that we
+cannot use polyfit to build a model of an exponential distribution? Fortunately,
+322 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+it does not, because we can use polyfit to find a curve that fits the original inde-
+pendent values and the[FORMULA]of the dependent values.
+Consider the sequence [1, 2, 4, 8, 16, 32, 64, 128, 256, 512]. If we take the[FORMULA]base 2 of each value. we get the sequence [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], i.e., a sequence
+that grows linearly. In fact, if a function y = f(x), exhibits exponential growth, the[FORMULA](to any base) of f(x) grows linearly. This can be visualized by plotting an ex-
+ponential function with a logarithmic y-axis. The code
+xVals, yVals = [], []
+for i[FORMULA]range(10):
+xVals.append(i)
+yVals.append(3**i)
+pylab.plot(xVals, yVals, 'k')
+pylab.semilogy()
+produces the plot[FORMULA]Figure 18.17.
+Figure 18.17 An exponential on a semilog plot
+That taking the[FORMULA]of an exponential function produces a linear function can
+be used to construct a model for an exponentially distributed set of data points,
+as illustrated by the code[FORMULA]Figure 18.18. We use polyfit to find a curve that fits
+the x values and[FORMULA]of the y values. Notice that we use yet another Python stand-
+ard library module, math, which supplies a[FORMULA]function. We also use a lambda
+expression, see Section 5.4.
+When run, this code produces the plot[FORMULA]Figure 18.19,[FORMULA]which the actual
+values and the predicted values coincide. Moreover, when the model is tested on
+a value (20) that was not used to produce the fit, it prints
+f(20) = 3486784401
+Predicted value = 3486784401
+CHAPTER 18. UNDERSTANDING EXPERIMENTAL DATA 323
+import math
+def createData(f, xVals):
+"""Asssumes f is afunction of one argument
+xVals is an array of suitable arguments for f
+Returns array containing results of applying f to the
+elements of xVals"""
+yVals = []
+for i[FORMULA]xVals:
+yVals.append(f(xVals[i]))
+return pylab.array(yVals)
+def fitExpData(xVals, yVals):
+"""Assumes xVals and yVals arrays of numbers such that
+yVals[i] == f(xVals[i]), where f is an exponential function
+Returns a, b, base such that[FORMULA](f(x), base) == ax + b"""
+logVals = []
+for y[FORMULA]yVals:
+logVals.append(math.[FORMULA](y, 2.0)) #get[FORMULA]base 2
+fit = pylab.polyfit(xVals, logVals, 1)
+return fit, 2.0
+xVals = range(10)
+f = lambda x: 3**x
+yVals = createData(f, xVals)
+pylab.plot(xVals, yVals, 'ko', label = 'Actual values')
+fit, base = fitExpData(xVals, yVals)
+predictedYVals = []
+for x[FORMULA]xVals:
+predictedYVals.append(base**pylab.polyval(fit, x))
+pylab.plot(xVals, predictedYVals, label = 'Predicted values')
+pylab.title('Fitting an Exponential Function')
+pylab.legend(loc = 'upper left')
+#Look at a value for x not[FORMULA]original data
+print('f(20) =', f(20))
+print('Predicted value =',[FORMULA](base**(pylab.polyval(fit, [20]))))
+Figure 18.18 Using polyfit to fit an exponential
+This method of using polyfit to find a model for data works when the rela-
+tionship can be described by an equation of the form y = baseax+b. If used on data
+that cannot be described this way, it will yield erroneous results.
+324 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+To see this, let’s create yVals using
+f = lambda x: 3**x + x
+The model now makes a poor prediction, printing
+f(20) = 3486784421
+Predicted value = 2734037145
+Figure 18.19 A fit for an exponential function
+
+## 18.4 When Theory Is Missing
+
+In this chapter, we have emphasized the interplay between theoretical, experi-
+mental, and computational science. Sometimes, however, we find ourselves with
+lots of interesting data, but little or no theory. In such cases, we often resort to
+using computational techniques to develop a theory by building a model that
+seems to fit the data.
+In an ideal world, we would run a controlled experiment (e.g., hang weights
+from a spring), study the results, and retrospectively formulate a model con-
+sistent with those results. We would then run a new experiment (e.g., hang dif-
+ferent weights from the same spring), and compare the results of that experiment
+to what the model predicted.
+Unfortunately,[FORMULA]many cases it is impossible to run even one controlled ex-
+periment. Imagine, for example, building a model designed to shed light on how
+interest rates affect stock prices. Very few of us are[FORMULA]a position to set interest
+rates and see what happens. On the other hand, there is no shortage of relevant
+historical data.
+CHAPTER 18. UNDERSTANDING EXPERIMENTAL DATA 325
+In such situations, one can simulate a set of experiments by dividing the ex-
+isting data into a training set and a holdout set to use as a test set. Without look-
+ing at the holdout set, we build a model that seems to explain the training set. For
+example, we find a curve that has a reasonable R2 for the training set. We then
+test that model on the holdout set. Most of the time the model will fit the training
+set more closely than it fits the holdout set. But if the model is a good one, it
+should fit the holdout set reasonably well. If it doesn’t, the model should proba-
+bly be discarded.
+How does one choose the training set? We want it to be representative of the
+data set as a whole. One way to do this is to randomly choose the samples for the
+training set. If the data set is sufficiently large this often works pretty well.
+A related but slightly different way to check a model is to train on many ran-
+domly selected subsets of the original data, and see how similar the models are to
+one another. If they are quite similar, then we can feel pretty good. This approach
+is known as cross validation.
+Cross validation is discussed[FORMULA]more detail[FORMULA]Chapters 19 and 22.
+
+## 19 RANDOMIZED TRIALS AND HYPOTHESIS CHECKING
+
+Dr. X invented a drug, PED-X, designed to help professional bicycle racers ride
+faster. When he tried to market it, the racers insisted that Dr. X demonstrate that
+his drug was superior to PED-Y, the banned drug that they had been using for
+years. Dr. X raised money from some investors, and launched a randomized trial.
+He persuaded 200 professional cyclists to participate[FORMULA]his trial. He then di-
+vided them randomly into two groups: treatment and control. Each member of
+the treatment group received a dose of PED-X. Members of the control group
+were told that they were being given a dose of PED-X, but were instead given a
+dose of PED-Y.
+Each cyclist was asked to bike 50 miles as fast as possible. The finishing times
+for each group were normally distributed. The mean finishing time of the treat-
+ment group was 118.79 minutes, and that of the control group was 120.17
+minutes. Figure 19.1 shows the time for each cyclist.
+Figure 19.1: Finishing times for cyclists
+Dr. X was elated until he ran into a statistician who pointed out that it was
+almost inevitable that one of the two groups would have a lower mean than the
+other, and perhaps the difference[FORMULA]means was merely a random occurrence.
+When she saw the crestfallen look on the scientist’s face, the statistician offered to
+show him how to check the statistical significance of his study.
+328 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+## 19.1 Checking Significance
+
+In any experiment that involves drawing samples at random from a population,
+there is always the possibility that an observed effect occurred purely by chance.
+Figure 19.2 is a visualization of how temperatures[FORMULA]January of 2014 varied from
+the average temperatures[FORMULA]January from 1951 to 1980. Now, imagine that you
+constructed a sample by choosing twenty random spots on the planet, and then
+discovered that the mean change[FORMULA]temperature for the sample was +1 degree
+Celsius. What is the probability that the observed change[FORMULA]mean temperature
+was an artifact of the sites you happened to sample rather than an indication that
+the planet as a whole is warming? Answering this kind of question is what statis-
+tical significance is all about.
+Figure 19.2 January temperature difference[FORMULA]degrees Celsius from the 1951-1980 average128
+In the early part of the 20th century, Ronald Fisher developed an approach to
+statistical hypothesis testing that has become the most commonly used approach
+for evaluating the probability of an observed effect having occurred purely by
+chance. Fisher claims to have invented the method[FORMULA]response to a claim by Dr.
+Muriel Bristol-Roach that when she drank tea with milk[FORMULA]it she could detect
+whether the tea or the milk was poured into the teacup first. Fisher challenged
+her to a “tea test”[FORMULA]which she was given eight cups of tea (four for each order of
+adding tea and milk), and asked to identify those cups into which the tea had
+been poured before the milk. She did this perfectly. Fisher then calculated the
+probability of her having done this purely by chance. As we saw[FORMULA]Section 15.4.4,
+128 This is a gray-scale version of a color image provided by the U.S. National Aeronautics and
+Space Administration.
+CHAPTER 19. RANDOMIZED TRIALS AND HYPOTHESIS CHECKING 329
+8
+=70, i.e., there are 70 different ways to choose 4 cups out of 8. Since only one
+4
+of these 70 combinations includes all 4 cups[FORMULA]which the tea was poured first,
+Fisher calculated that the probability of Dr. Bristol-Roach having chosen correct-
+ly by pure luck was n ≈0.014. From this he concluded that it was highly unlikely
+(cid:190)”
+that her success could be attributed to luck.
+Fisher’s approach to significance testing can be summarized as
+1. State a null hypothesis and an alternative hypothesis. The null hypothesis is
+that the “treatment” has no interesting effect. For the “tea test,” the null hy-
+pothesis was that Dr. Bristol-Roach had no ability to taste the difference. The
+alternative hypothesis is a hypothesis that can be true only if the null hypoth-
+esis is false, e.g., that Dr. Bristol-Roach could taste the difference.129
+2. Understand statistical assumptions about the sample being evaluated. For the
+“tea test” Fisher assumed that Dr. Bristol-Roach was making independent
+decisions for each cup.
+3. Compute a relevant test statistic. In this case, the test statistic was the frac-
+tion of correct answers given by Dr. Bristol-Roach.
+4. Derive the probability of that test statistic under the null hypothesis. In this
+case, the probability of getting all of the cups right by accident, i.e., 0.014.
+5. Decide whether that probability is sufficiently small that you are willing to
+assume that the null hypothesis is false, i.e., to reject the null hypothesis.
+Common values for the rejection level, which should be chosen[FORMULA]advance,
+are 0.05 and 0.01.
+Returning to our cyclists, imagine that the times for the treatment and con-
+trol groups were samples drawn from infinite populations of finishing times for
+PED-X users and PED-Y users. The null hypothesis for this experiment is that
+the means of those two larger populations are the same, i.e., the difference be-
+tween the population mean of the treatment group and the population mean of
+the control group is 0. The alternative hypothesis is that they are not the same,
+i.e., the difference[FORMULA]means is not equal to 0.
+Next, we go about trying to reject the null hypothesis. We choose a threshold,
+α, for statistical significance, and try to show that the probability of the data hav-
+ing been drawn from distributions consistent with the null hypothesis is less than
+α. We then say that we can reject the null hypothesis with confidence α, and ac-
+cept the negation of the null hypothesis with probability 1 – α.
+129 In his formulation, Fisher had only a null hypothesis. The idea of an alternative hypothesis was
+introduced later by Jerzy Neyman and Egon Pearson.
+330 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+The choice of α affects the kind of errors we make. The larger α, the more of-
+ten we will reject a null hypothesis that is actually true. These are known as type I
+errors. When α is smaller, we will more often accept a null hypothesis that is ac-
+tually false. These are known as type II errors.
+Most commonly, people choose α = 0.05. However, depending upon the con-
+sequences of being wrong, it might be preferable to choose a smaller or larger α.
+Imagine, for example, that the null hypothesis is that there is no difference[FORMULA]the
+rate of premature death between those taking PED-X and those taking PED-Y.
+One might well want to choose a small α, say 0.01, as the basis for rejecting that
+hypothesis before deciding whether or not one drug was safer than the other. On
+the other hand, if the null hypothesis were that there is no difference[FORMULA]the taste
+of PED-X and PED-Y, one might comfortably choose a pretty large α.130
+The next step is to compute the test statistic. The most common test statistic
+is the t-statistic. The t-statistic tells us how different, measured[FORMULA]units of stand-
+ard error, the estimate derived from the data is from the null hypothesis. The
+larger the t-statistic, the more likely the null hypothesis can be rejected. For our
+example, the t-statistic tells us how many standard errors the difference[FORMULA]the
+two means (118.79 – 120.17 = -1.38) is from 0. The t-statistic for our PED-X ex-
+ample is -2.13165598142. What does this mean? How do we use it?
+We use the t-statistic[FORMULA]much the same way we use the number of standard
+deviations from the mean to compute confidence intervals (see Section 15.4.2).
+Recall that for all normal distributions the probability of an example lying within
+a fixed number of standard deviations of the mean is fixed. Here we do some-
+thing slightly more complex that takes into account the number of samples used
+to compute the standard error. Instead of assuming a normal distribution, we as-
+sume a t-distribution.
+T-distributions were first described,[FORMULA]1908, by William Gosset, a statistician
+working for the Arthur Guinness and Son brewery.131 The t-distribution is actu-
+ally a family of distributions, since the shape of the distribution depends upon
+the degrees of freedom[FORMULA]the sample.
+130 Many researchers, including the author of this book, believe strongly that the “rejectionist”
+approach to reporting statistics is unfortunate. It is almost always preferable to report the actual
+significance level rather than merely stating that “the null hypothesis has been rejected at the 5%
+level.”
+131 Guiness forbade Gosset from publishing under his own name. He used the pseudonym
+“Student” when he published his seminal 1908 paper, “Probable Error of a Mean,” about t-
+distributions. As a result, the distribution is frequently called “Student’s t-distribution.”
+CHAPTER 19. RANDOMIZED TRIALS AND HYPOTHESIS CHECKING 331
+The degrees of freedom describes the amount of independent information
+used to derive the t-statistic. In general, we can think of degrees of freedom as the
+number of independent observations[FORMULA]a sample that are available to estimate
+some statistic about the population from which that sample is drawn.
+A t-distribution looks a lot like a normal distribution, and the larger the de-
+grees of freedom the closer it is to a normal distribution. For small degrees of
+freedom, the t-distributions have notably fatter tails than normal distributions.
+For degrees of freedom of 30 or more, t-distributions are very close to normal.
+Now, let’s use the sample variance to to estimate the population variance. Re-
+call that
+𝑥−𝜇 v
+(cid:131)(cid:132)(cid:133)
+𝑣𝑎𝑟𝑖𝑎𝑛𝑐𝑒 𝑋 =
+𝑋
+so the variance of our sample is
+(100−200)v+(200−200)v+(300−200)v
+3
+It might appear that we are using three independent pieces of information,
+but we are not. The three terms[FORMULA]the numerator are not independent of each
+other, because all three observations were used to compute the mean of the sam-
+ple of 200 riders. The degrees of freedom is 2, since once we know the mean and
+any two of the three observations, the value of the third observation is fixed.
+The larger the degrees of freedom, the higher the probability that the sample
+statistic is representative of the population. The degrees of freedom[FORMULA]a t-statistic
+computed from a single sample is one less than the sample size, because the mean
+of the sample is used[FORMULA]calculating the t-statistic. If two samples are used, the de-
+grees of freedom is two less than the[FORMULA]of the sample sizes, because the mean
+of each sample is used[FORMULA]calculating the t-statistic. For example, for the PED-
+X/PED-Y experiment, the degrees of freedom is 198.
+Given the degrees of freedom, we can draw a plot showing the appropriate t-
+distribution, and then see where the t-statistic we have computed for our PED-X
+example lies on the distribution. The code[FORMULA]Figure 19.3 does that, and produces
+the plot[FORMULA]Figure 19.4. The code first uses the function scipy.random.standard_t
+to generate a large number of examples drawn from a t-distribution with 198 de-
+grees of freedom. It then draws white lines at the t-statistic and the negative of
+the t-statistic for the PED-X sample.
+332 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+tStat = -2.13165598142 #t-statistic for PED-X example
+tDist = []
+numBins = 1000
+for i[FORMULA]range(10000000):
+tDist.append(scipy.random.standard_t(198))
+pylab.hist(tDist, bins = numBins,
+weights = pylab.array(len(tDist)*[1.0])/len(tDist))
+pylab.axvline(tStat, color = 'w')
+pylab.axvline(-tStat, color = 'w')
+pylab.title('T-distribution with 198 Degrees of Freedom')
+pylab.xlabel('T-statistic')
+pylab.ylabel('Probability')
+Figure 19.3: Plotting a t-distribution
+Figure 19.4: Visualizing the t-statistic
+The[FORMULA]of the fractions of the area of the histogram to the left and right of
+the white lines equals the probability of getting a value at least as extreme as the
+observed value if
+• the sample is representative of the population, and
+• the null hypothesis is true.
+We need to look at both tails because our null hypothesis is that the popula-
+tion means are equal. So, the test should fail if the mean of the treatment group is
+either significantly larger or significantly smaller than the mean of the control
+group.
+CHAPTER 19. RANDOMIZED TRIALS AND HYPOTHESIS CHECKING 333
+Under the assumption that the null hypothesis holds, the probability of get-
+ting a value at least as extreme as the observed value is called a p-value. For our
+PED-X example, the p-value is the probability of seeing a difference[FORMULA]the means
+at least as large as the observed difference, under the assumption that the actual
+population means of the treatment and controls are identical.
+It may seem a bit odd that p-values tell us something about the probability of
+an event occurring if the null hypothesis holds, when what we are usually hoping
+is that the null hypothesis doesn’t hold. However, it is not so different[FORMULA]charac-
+ter from the classic “scientific method,” which is based upon designing experi-
+ments that have the potential to refute a hypothesis. The code[FORMULA]Figure 19.5
+computes and prints the t-statistic and p-value for our two samples. The library
+function stats.ttest_ind performs a two-tailed two-sample t-test and returns
+both the t-statistic and the p-value. Setting the parameter equal_var to False indi-
+cates that we don’t know whether the two populations have the same variance.
+controlMean =[FORMULA](controlTimes)/len(controlTimes)
+treatmentMean =[FORMULA](treatmentTimes)/len(treatmentTimes)
+print('Treatment mean - control mean =',
+treatmentMean - controlMean, 'minutes')
+twoSampleTest = stats.ttest_ind(treatmentTimes, controlTimes,
+equal_var = False)
+print('The t-statistic from two-sample test is', twoSampleTest[0])
+print('The p-value from two-sample test is', twoSampleTest[1])
+Figure 19.5 Compute and print t-statistic and p-value
+When we run the code, it reports
+Treatment mean - control mean = -1.3766016405102306 minutes
+The t-statistic from two-sample test is -2.13165598142
+The p-value from two-sample test is 0.0343720799815
+“Yes,” Dr. X crowed, “it seems that the probability of PED-X being no better
+than PED-Y is less than 3.5%, and therefore the probability that PED-X has an
+effect is more than 96.5%. Let the cash registers start ringing.” Alas, his elation
+lasted only until he read the next section of this chapter.
+334 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+## 19.2 Beware of P-values
+
+It is way too easy to read something into a p-value that it doesn’t really imply. It
+is tempting to think of a p-value as the probability of the null hypothesis being
+true. But this is not what it actually means.
+The null hypothesis is analogous to a defendant[FORMULA]the Anglo-American
+criminal justice system. That system is based on a principle called “presumption
+of innocence,” i.e., innocent until proven guilty. Analogously, we assume that the
+null hypothesis is true unless we see enough evidence to the contrary. In a trial, a
+jury can rule that a defendant is “guilty” or “not guilty.” A “not guilty” verdict
+implies that the evidence was insufficient to convince the jury that the defendant
+was guilty “beyond a reasonable doubt.”132 Think of it as equivalent to “guilt was
+not proven.” A verdict of “not guilty” does not imply that the evidence was suffi-
+cient to convince the jury that the defendant was innocent. And it says nothing
+about what the jury would have concluded had it seen different evidence. Think
+of a p-value as a jury verdict where the standard “beyond a reasonable doubt”
+corresponds to choosing a very small α, and the evidence is the data from which
+the t-statistic was constructed.
+A small p-value indicates that a particular sample is unlikely if the null hy-
+pothesis is true. It is analogous to a jury concluding that it was unlikely that it
+would have been presented with this set of evidence if the defendant were inno-
+cent, and therefore reaching a guilty verdict. Of course, that doesn’t mean that
+the defendant is actually guilty. Perhaps the jury was presented with misleading
+evidence. Analogously, a low p-value might be attributable to the null hypothesis
+actually being false, or it could simply be that the sample is unrepresentative of
+the population from which it is drawn, i.e., the evidence is misleading.
+As you might expect, Dr. X staunchly claimed that his experiment showed
+that the null hypothesis was probably false. Dr. Y insisted that the low p-value
+was probably attributable to an unrepresentative sample, and funded another ex-
+periment of the same size as Dr. X’s. When the statistics were computed using the
+samples from her experiment, the code printed
+132 The “beyond a reasonable doubt” standard implies that society believes that[FORMULA]the case of a
+criminal trial, type I errors (convicting an innocent person) are much less desirable than type II
+errors (acquitting a guilty person). In civil cases, the standard is “the preponderance of the
+evidence,” suggesting that society believes that the two kinds of errors are equally undesirable.
+CHAPTER 19. RANDOMIZED TRIALS AND HYPOTHESIS CHECKING 335
+Treatment mean - control mean = 0.1760912816 minutes
+The t-statistic from two-sample test is -0.274609731618
+The p-value from two-sample test is 0.783908632676
+This p-value is almost 24 times larger than that obtained from Dr. X’s exper-
+iment, and since it is considerably larger than 0.5, provides no reason to doubt
+the null hypothesis. Confusion reigned. But we can clear it up!
+You may not be surprised to discover that this is not a true story—after all,
+the idea of a cyclist taking a performance-enhancing drug strains credulity. In
+fact, the samples for the experiments were generated by the code[FORMULA]Figure 19.6.
+treatmentDist = (119.5, 5.0)
+controlDist = (120, 4.0)
+sampleSize = 100
+treatmentTimes, controlTimes = [], []
+for s[FORMULA]range(sampleSize):
+treatmentTimes.append(random.gauss(treatmentDist[0],
+treatmentDist[1]))
+controlTimes.append(random.gauss(controlDist[0],
+controlDist[1]))
+Figure 19.6 Code for generating racing examples
+Since the experiment is purely computational, we can run it many times to
+get many different samples. When we generated 10,000 pairs of samples (one
+from each distribution) and plotted the probability of the p-values, we got the
+plot[FORMULA]Figure 19.7.
+Figure 19.7: Probability of p-values
+336 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Since more than 11.6% of the p-values lie below 0.05, it is not terribly sur-
+prising that the first experiment we ran happened to show significance at the 5%
+level. On the other hand, that the second experiment yielded a completely differ-
+ent result is also not surprising. What does seem surprising is that given that we
+know that the means of the two distributions are actually different, we get a re-
+sult that is significant at the 5% level only about 11.6% of the time. More than
+88% of the time we would fail to reject a fallacious null hypothesis at the 5% lev-
+el. (If we increase the sample size[FORMULA]our example to 2000, we fail to reject the fal-
+lacious null hypothesis only about 6% of the time.)
+That p-values can be unreliable indicators of whether it is truly appropriate
+to reject a null hypothesis is one of the reasons that so many of the results ap-
+pearing[FORMULA]the scientific literature cannot be reproduced by other scientists. One
+problem is that there is a strong relationship between the study power (the size of
+the samples) and the credibility of the statistical finding.133
+Why are so many studies under-powered? If we were truly running an exper-
+iment with people (rather than a simulation) it would be twenty times more ex-
+pensive to draw samples of size 2000 than samples of size 100.
+The problem of sample size is an intrinsic attribute of what is called the fre-
+quentist approach to statistics. In Chapter 20, we discuss an alternative approach
+that attempts to mitigate this problem.
+
+## 19.3 One-tail and One-sample Tests
+
+Thus far[FORMULA]this chapter, we have looked only at two-tailed two-sample tests.
+There are times when it is more appropriate to use a one-tailed and/or a one-
+sample t-test.
+Let’s first consider a one-tailed two-sample test. In our two-tailed test of the
+relative effectiveness of PED-X and PED-Y, we considered three cases: 1) they
+were equally effective, 2) PED-X was more effective than PED-Y, and 3) PED-Y
+was more effective than PED-X. The goal was to reject the null hypothesis
+(case 1) by arguing that if it were true, it would be unlikely to see as large a differ-
+ence as observed[FORMULA]the means of the PED-X and PED-Y samples.
+Suppose, however, that PED-X were substantially less expensive than PED-Y.
+To find a market for his compound, Dr. X would only need to show that PED-X
+is at least as effective as PED-Y. One way to think about this is that we want to
+133 Katherine S. Button, John P. A. Ioannidis, Claire Mokrysz, Brian A. Nosek, Jonathan Flint,
+Emma S. J. Robinson, and Marcus R. Munafò (2013) "Power failure: why small sample size
+undermines the reliability of neuroscience," Nature Reviews Neuroscience, 14: 365-376.
+CHAPTER 19. RANDOMIZED TRIALS AND HYPOTHESIS CHECKING 337
+reject the hypothesis that the means are equal or that the PED-X mean is larger.
+Note that this is strictly weaker than the hypothesis that the means are equal.
+(Hypothesis A is strictly weaker than hypothesis B, if whenever B is true A is true,
+but not vice versa.)
+To do this, we start with the a two-sample test with the original null hypothe-
+sis computed by the code[FORMULA]Figure 19.5. It printed
+Treatment mean - control mean = -1.37660164051 minutes
+The t-statistic from two-sample test is -2.13165598142
+The p-value from two-sample test is 0.0343720799815
+allowing us to reject the null hypothesis at about the 3.5% level.
+How about our weaker hypothesis? Recall Figure 19.4. We observed that un-
+der the assumption that the null hypothesis holds, the[FORMULA]of the fractions of the
+areas of the histogram to the left and right of the white lines equals the probabil-
+ity of getting a value at least as extreme as the observed value. However, to reject
+our weaker hypothesis we don’t need to take into account the area under the left
+tail, because that corresponds to PED-X being more effective than PED-Y (a neg-
+ative time difference), and we’re interested only[FORMULA]rejecting the hypothesis that
+PED-X is less effective. I.e., we can do a one-tailed test.
+Since the t-distribution is symmetric, to get the value for a one-tailed test we
+divide the p-value from the two-tailed test[FORMULA]half. So the p-value for the one-
+tailed test is 0.01718603999075. This allows us to reject our weaker hypothesis at
+about the 1.7% level, something that we could not do using the two-tailed test.
+Because a one-tailed test provides more power to detect an effect, it is tempt-
+ing to use a one-tailed test whenever one has a hypothesis about the direction of
+an effect. This is usually not a good idea. A one-tailed test is appropriate only if
+the consequences of missing an effect[FORMULA]the untested direction are negligible.
+Now let’s look at a one-sample test. Suppose that, after years of experience of
+people using PED-Y, it was well established that the mean time for a racer on
+PED-Y to complete a fifty-mile course is 120 minutes. To discover whether or
+not PED-X had a different effect than PED-Y, we would test the null hypothesis
+that the mean time for a single PED-X sample is equal to 120. We can do this us-
+ing the function scipy.stats.ttest_1samp, which takes as arguments a single sam-
+ple and the population mean against which it is to be compared. It returns a tuple
+containing the t-statistic and p-value. For example, if we append to the end of the
+code[FORMULA]Figure 19.5 the code
+oneSampleTest = stats.ttest_1samp(treatmentTimes, 120)
+print('The t-statistic from one-sample test is', oneSampleTest[0])
+print('The p-value from one-sample test is', oneSampleTest[1])
+338 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+it prints
+The t-statistic from one-sample test is -2.32665745939
+The p-value from one-sample test is 0.0220215196873
+It is not surprising that the p-value is smaller than the one we got using the
+two-sample two-tail test. By assuming that we know one of the two means, we
+have removed a source of uncertainty.
+So, after all this, what have we learned from our statistical analysis of PED-X
+and PED-Y? Even though there is a difference[FORMULA]the expected performance of
+PED-X and and PED-Y users, no finite sample of PED-X and PED-Y users is
+guaranteed to reveal that difference. Moreover, because the difference[FORMULA]the ex-
+pected means is small (less than half a percent), it is unlikely that an experiment
+of the size Dr. X ran (100 riders[FORMULA]each group) will yield evidence that would al-
+low us to conclude at the 95% confidence level that there is a difference[FORMULA]means.
+We could increase the likelihood of getting a result that is statistically significant
+at the 95% level by using a one-tailed test, but that would be misleading, because
+we have no reason to assume that PED-X is not less effective than PED-Y.
+
+## 19.4 Significant or Not?
+
+Lyndsay and John have wasted an inordinate amount of time over the last several
+years playing a game called Words with Friends. They have played each other
+1,273 times, and Lyndsay has won 666 of those games, prompting her to boast,
+“I’m way better at this game than you are.” John asserted that Lyndsay’s claim was
+nonsense, and that the difference[FORMULA]wins could be (and probably should be) at-
+tributed entirely to luck.
+John, who had recently read a book about statistics, proposed the following
+way to find out whether it was reasonable to attribute Lyndsay’s relative success
+to skill:
+• Treat each of the 1,273 games as an experiment returning 1 if Lyndsay was the
+victor and 0 if she was not.
+• Choose the null hypothesis that the mean value of those experiments is 0.5.
+• Perform a two-tailed one-sample test for that null hypothesis.
+When he ran the code
+CHAPTER 19. RANDOMIZED TRIALS AND HYPOTHESIS CHECKING 339
+numGames = 1273
+lyndsayWins = 666
+outcomes = [1.0]*lyndsayWins + [0.0]*(numGames-lyndsayWins)
+print('The p-value from a one-sample test is',
+stats.ttest_1samp(outcomes, 0.5)[1])
+it printed
+The p-value from a one-sample test is 0.0982205871244
+prompting John to claim that the difference wasn’t even close to being significant
+at the 5% level.
+Lyndsay, who had not studied statistics, but had read Chapter 16 of this
+book, was not satisfied. “Let’s run a Monte Carlo simulation,” she suggested, and
+supplied the code[FORMULA]Figure 19.8.
+numGames = 1273
+lyndsayWins = 666
+numTrials = 10000
+atLeast = 0
+for t[FORMULA]range(numTrials):
+LWins = 0
+for g[FORMULA]range(numGames):
+if random.random() < 0.5:
+LWins += 1
+if LWins >= lyndsayWins:
+atLeast += 1
+print('Probability of result at least this',
+'extreme by accident =', atLeast/numTrials)
+Figure 19.8: Lyndsay’s simulation of games
+When Lyndsay’s code was run it printed,
+Probability of result at least this extreme by accident = 0.0491
+prompting her to claim that John’s statistical test was completely bogus and that
+the difference[FORMULA]wins was statistically significant at the 5% level.
+“No,” John explained patiently, “It’s your simulation that’s bogus. It assumed
+that you were the better player, and performed the equivalent of a one-tailed test.
+The inner loop of your simulation is wrong. You should have performed the
+equivalent of a two-tailed test by testing whether,[FORMULA]the simulation, either player
+won more than the 666 games that you won[FORMULA]actual competition.” John then
+ran the simulation[FORMULA]Figure 19.9.
+340 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+numGames = 1273
+lyndsayWins = 666
+numTrials = 10000
+atLeast = 0
+for t[FORMULA]range(numTrials):
+LWins, JWins = 0, 0
+for g[FORMULA]range(numGames):
+if random.random() < 0.5:
+LWins += 1
+else:
+JWins += 1
+if LWins >= lyndsayWins or JWins >= lyndsayWins:
+atLeast += 1
+print('Probability of result at least this',
+'extreme by accident =', atLeast/numTrials)
+Figure 19.9 Correct simulation of games
+John’s simulation printed
+Probability of result at least this extreme by accident = 0.0986
+“That’s pretty darned close to what my two-tailed test predicted,” crowed
+John. Lyndsay’s unladylike response was not appropriate for inclusion[FORMULA]a fami-
+ly-oriented book.
+
+## 19.5 Which N?
+
+A professor wondered whether attending lectures was correlated with grades[FORMULA]his department. He recruited 40 freshmen and gave them all ankle bracelets so
+that he could track their whereabouts. Half of the students were not allowed to
+attend any of the lectures[FORMULA]any of their classes,134 and half were required to at-
+tend all of the lectures.135 Over the next four years, each student took 40 differ-
+ent classes, yielding 800 grades for each group of students.
+When the professor performed a two-tailed t-test on the means of these two
+samples of size 800, the p-value was about 0.01. This disappointed the professor,
+who was hoping that there would be no statistically significant effect—so that he
+would feel less guilty about canceling lectures and going to the beach. In despera-
+tion, he took a look at the mean GPAs of the two groups, and discovered that
+134 They should have been given a tuition rebate, but weren’t.
+135 They should have been given combat pay, but weren’t.
+CHAPTER 19. RANDOMIZED TRIALS AND HYPOTHESIS CHECKING 341
+there was very little difference. How, he wondered, could such a small difference[FORMULA]means be significant at that level?
+When the sample size is large enough, even a small effect can be highly sta-
+tistically significant. I.e., N matters, a lot. Figure 19.10 plots the mean p-value of
+1000 trials against the size of the samples used[FORMULA]those trials. For each sample
+size and each trial we generated two samples. Each was was drawn from a Gauss-
+ian with a standard deviation of 5. One had a mean of 100 and the other a mean
+of 100.5. The mean p-value drops linearly with the sample size. The 0.5% differ-
+ence[FORMULA]means becomes consistently statistically significant at the 5% level when
+the sample size reaches about 1500, and at the 1% level when the sample size ex-
+ceeds about 2600.
+Figure 19.10 Impact of sample size on p-value
+Returning to our example, was the professor justified[FORMULA]using an N of 800 for
+each arm of his study? To put it another way, were there really 800 independent
+examples for each cohort of 20 students? Probably not. There were 800 grades
+per sample, but only 20 students, and the 40 grades associated with each student
+should probably not be viewed as independent examples. After all, some students
+consistently get good grades, and some students consistently get grades that dis-
+appoint.
+The professor decided to look at the data a different way. He computed the
+GPA for each student. When he performed a two-tailed t-test on these two sam-
+ples, each of size 20, the p-value was about 0.3. He felt much better.
+342 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+## 19.6 Multiple Hypotheses
+
+In Chapter 17, we looked at sampling using data from the Boston Marathon. The
+code[FORMULA]Figure 19.11 reads[FORMULA]data from the 2012 race and looks for statistically
+significant differences[FORMULA]the mean finishing times of the women from a small set
+of countries. It uses the getBMData function defined[FORMULA]Figure 17.2.
+data = getBMData('bm_results2012.txt')
+countriesToCompare = ['BEL', 'BRA', 'FRA', 'JPN', 'ITA']
+#Build mapping from country to list of female finishing times
+countryTimes = {}
+for i[FORMULA]range(len(data['name'])): #for each racer
+if data['country'][i][FORMULA]countriesToCompare and\
+data['gender'][i] == 'F':
+try:
+countryTimes[data['country'][i]].append(data['time'][i])
+except KeyError:
+countryTimes[data['country'][i]] = [data['time'][i]]
+#Compare finishing times of countries
+for c1[FORMULA]countriesToCompare:
+for c2[FORMULA]countriesToCompare:
+if c1 < c2: # < rather than != so each pair examined once
+pVal = stats.ttest_ind(countryTimes[c1],
+countryTimes[c2],
+equal_var = False)[1]
+if pVal < 0.05:
+print(c1, 'and', c2,
+'have significantly different means,',
+'p-value =', round(pVal, 4))
+Figure 19.11: Comparing mean finishing times for selected countries
+When the code is run, it prints
+ITA and JPN have significantly different means, p-value = 0.025
+It looks as if either Italy or Japan can claim to have faster women runners
+than the other.136 However, such a conclusion would be pretty tenuous. While
+one set of runners did have a faster mean time than the other, the sample sizes
+136 We could easily find out which by looking at the sign of the t-statistic, but[FORMULA]the interest of not
+offending potential purchasers of this book, we won’t.
+CHAPTER 19. RANDOMIZED TRIALS AND HYPOTHESIS CHECKING 343
+(20 and 32) were small and perhaps not representative of the capabilities of
+women marathoners[FORMULA]each country.
+More important, there is a flaw[FORMULA]the way we constructed our experiment.
+We checked 10 null hypotheses (one for each distinct pair of countries), and dis-
+covered that one of them could be rejected at the 5% level. One way to think
+about it is that we were actually checking the null hypothesis: “for all pairs of
+countries, the mean finishing times of their female marathon runners are the
+same.” It might be fine to reject that null hypothesis, but that is not the same as
+rejecting the null hypothesis that women marathon runners from Italy and Japan
+are equally fast.
+The point is made starkly by the example[FORMULA]Figure 19.12. In that example, we
+draw twenty pairs of samples of size 200 from the same population, and for each
+we test whether the means of the samples are statistically different.
+numHyps = 20
+sampleSize = 30
+population = []
+for i[FORMULA]range(5000): #Create large population
+population.append(random.gauss(0, 1))
+sample1s, sample2s = [], []
+for i[FORMULA]range(numHyps): #Generate many pairs of small sanples
+sample1s.append(random.sample(population, sampleSize))
+sample2s.append(random.sample(population, sampleSize))
+#Check pairs for statistically significant difference
+numSig = 0
+for i[FORMULA]range(numHyps):
+if scipy.stats.ttest_ind(sample1s[i], sample2s[i])[1] < 0.05:
+numSig += 1
+print('Number of statistically significant (p < 0.05) results =',
+numSig)
+Figure 19.12: Checking multiple hypotheses
+Since the samples are all drawn from the same population, we know that the null
+hypothesis is true. Yet, when we run the code it prints
+Number of statistically significant (p < 0.05) results = 1
+indicating that the null hypothesis can be rejected for one pair.
+This is not particularly surprising. Recall that a p-value of 0.05 indicates that
+if the null hypothesis holds, the probability of seeing a difference[FORMULA]means at
+least as large as the difference for the two samples is 0.05. Therefore, it is not ter-
+ribly surprising that if we examine twenty pairs of samples, at least one of them
+344 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+has means that are statistically significantly different from each other. Running
+large sets of related experiments, and then cherry-picking the result you like, can
+be kindly described as sloppy. An unkind person might call it something else.
+Returning to our Boston Marathon experiment, we checked whether or not
+we could reject the null hypothesis (no difference[FORMULA]means) for 10 pairs of sam-
+ples. When running an experiment involving multiple hypotheses, the simplest
+and most conservative approach is to use something called the Bonferroni cor-
+rection. The intuition behind it is simple: when checking a family of m hypothe-
+ses, one way of maintaining an appropriate family-wise error rate is to test each
+n
+individual hypothesis at a level of ∗α. Using the Bonferroni correction to see if
+¿
+the difference between Italy and Japan is significant at the 𝛼 = 0.05 level, we
+should check if the p-value is less that 0.05/10 i.e., 0.005—which it is not.
+The Bonferroni correction is conservative (i.e., it fails to reject the null hy-
+pothesis more often than necessary) if there are a large number of tests or the test
+statistics for the tests are positively correlated. An additional issue is the absence
+of a generally accepted definition of “family of hypotheses.” It is obvious that the
+hypotheses generated by the code[FORMULA]Figure 19.12 are related, and therefore a cor-
+rection needs to be applied. But the situation is not always so clear cut.
+
+## 20 CONDITIONAL PROBABILITY AND BAYESIAN STATISTICS
+
+Up to this point we have taken what is called a frequentist approach to statistics.
+We have drawn conclusions from samples based entirely on the frequency or
+proportion of the data. This is the most commonly used inference framework,
+and leads to the well-established methodologies of statistical hypothesis testing
+and confidence intervals covered earlier[FORMULA]this book. In principle, it has the ad-
+vantage of being unbiased. Conclusions are reached solely on the basis of the ob-
+served data.
+In some situations, however, an alternative approach to statistics, Bayesian
+statistics, is more appropriate. Consider the cartoon[FORMULA]Figure 20.1.137
+Figure 20.1 Has the sun exploded?
+137 http://imgs.xkcd.com/comics/frequentists_vs_bayesians.png
+346 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+What’s going on here? The frequentist knows that there are only two possi-
+bilities: the machine rolls a pair of sixes and is lying, or it doesn't roll a pair of
+sixes and is telling the truth. Since the probability of not rolling a pair of sixes is
+35/36 (97.22%) the frequentist concludes that the machine is probably telling the
+truth, and therefore the sun has probably exploded.138
+The Bayesian utilizes additional information[FORMULA]building his probability
+model. He agrees that it is unlikely that the machine rolls a pair of sixes, however
+he argues that the probability of that happening needs to be compared to the a
+priori probability that the sun has not exploded. He concludes that the likelihood
+of the sun having not exploded is even higher than 97.22%, and decides to bet
+that “the sun will come out tomorrow.”
+
+## 20.1 Conditional Probabilities
+
+The key idea underlying Bayesian reasoning is conditional probability.
+In our earlier discussion of probability, we relied on the assumption that
+events were independent. For example, we assumed that whether a coin flip came
+up heads or tails was unrelated to whether the previous flip came up heads or
+tails. This is convenient mathematically, but life doesn’t always work that way. In
+many practical situations, independence is a bad assumption.
+Consider the probability that a randomly chosen adult American is male and
+weighs over 180 pounds. The probability of being male is about 0.5 and the
+probability of weighing more than 180 pounds (the average weight[FORMULA]the U.S.139)
+is also about 0.5.140 So, if these were independent events the probability of the se-
+lected person being both male and weighing more than 180 pounds would be
+0.25. However, these events are not independent, since the average American
+male weighs about 30 pounds more than the average female. So, a better question
+to ask is 1) what is the probability of the selected person being a male, and 2) giv-
+en that the selected person is a male, what is the probability of that person weigh-
+138 If you are of the frequentist persuasion, keep[FORMULA]mind that this cartoon is a parody—not a
+serious critique of your religious beliefs.
+139 This number may strike you as high. It is. The average American adult weighs about 40 pounds
+more than the average adult[FORMULA]Japan. The only three countries on earth with higher average adult
+weights than the U.S. are Nauru, Tonga, and Micronesia.
+140 The probability of weighing more than the median weight is 0.5, but that doesn’t imply that the
+probability of weighing more than the mean is 0.5. However, for the purposes of this discussion,
+let’s pretend that it does.
+CHAPTER 20. CONDITIONAL PROBABILITY AND BAYESIAN STATISTICS 347
+ing more than 180 pounds. The notation of conditional probability makes it easy
+to say just that.
+The notation P(A|B) stands for the probability of A being true under the as-
+sumption that B is true. It is often read as “the probability of A, given B.” There-
+fore, the formula
+𝑃 𝑚𝑎𝑙𝑒 ∗𝑃 𝑤𝑒𝑖𝑔ℎ𝑡 >180 𝑚𝑎𝑙𝑒)
+expresses exactly the probability we are looking for. If P(A) and P(B) are inde-
+pendent, P(A|B) = P(A). For the above example, B is male and A is weight > 180.
+In general, if 𝑃(𝐵) ≠ 0,
+𝑃(𝐴 𝑎𝑛𝑑 𝐵)
+𝑃 𝐴 𝐵 =
+𝑃(𝐵)
+Like conventional probabilities, conditional probabilities always lie between
+
+## 0 and 1. Furthermore, if 𝐴 stands for 𝑛𝑜𝑡 𝐴, 𝑃(𝐴|𝐵) + P(𝐴 𝐵 = 1. People often
+
+incorrectly assume that 𝑃(𝐴|𝐵) is equal to 𝑃(𝐵|𝐴). There is no reason to expect
+this to be true. For example, the value of 𝑃(𝑚𝑎𝑙𝑒|𝑀𝑎𝑙𝑡𝑒𝑠𝑒) is roughly 0.5, but
+𝑃(𝑀𝑎𝑙𝑡𝑒𝑠𝑒|𝑚𝑎𝑙𝑒) is about 0.000064.141
+Finger exercise: Estimate the probability that a randomly chosen American is
+both male and weighs more than 180 pounds. Assume that 50% of the popula-
+tion is male, and that the weights of the male population are normally distributed
+with a mean of 210 pounds and a standard deviation of 30 pounds. (Hint: think
+about using the empirical rule.)
+The formula 𝑃(𝐴|𝐵,𝐶) stands for the probability of 𝐴, given that both 𝐵 and
+𝐶 hold. Assuming that 𝐵 and 𝐶 are independent of each other, the definition of a
+conditional probability and the multiplication rule for independent probabilities
+imply that
+𝑃(𝐴,𝐵,𝐶)
+𝑃 𝐴| 𝐵,𝐶 =
+𝑃(𝐵,𝐶)
+where the formula 𝑃(𝐴,𝐵,𝐶) stands for the probability of all of 𝐴, 𝐵, and 𝐶 be-
+ing true.
+141 By “Maltese” we mean somebody from the country of Malta. We have no idea what fraction of
+the world’s males are cute little dogs.
+348 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Similarly, 𝑃(𝐴,𝐵|𝐶) stands for the probability of 𝐴 𝑎𝑛𝑑 𝐵, given 𝐶. Assum-
+ing that 𝐴 and 𝐵 are independent of each other
+𝑃 𝐴,𝐵 𝐶 =𝑃 𝐴 𝐶 ∗𝑃(𝐵|𝐶)
+
+## 20.2 Bayes’ Theorem
+
+Suppose that an asymptomatic woman[FORMULA]her forties goes for a mammogram and
+receives bad news: the mammogram is “positive.”142
+The probability that a woman who has breast cancer will get a true positive
+result on a mammogram is 0.9. The probability that a woman who does not have
+breast cancer will get a false positive on a mammogram is 0.07.
+We can use conditional probabilities to express these facts. Let
+Canc = has breast cancer
+TP = true positive
+FP = false positive
+Using these variables, we write the conditional probabilities
+P(TP | Canc) = 0.9
+P(FP | not Canc) = 0.07
+Given these conditional probabilities, how worried should a woman[FORMULA]her
+forties with a positive mammogram be? What is the probability that she actually
+has breast cancer? Is it 0.93, since the false positive rate is 7%? More? less?
+It’s a trick question: We haven’t supplied enough information to allow you to
+answer the question[FORMULA]a sensible way. To do that, you need to know the prior
+probabilities for breast cancer for a woman[FORMULA]her forties. The fraction of women[FORMULA]their forties who have breast cancer is 0.008 (8 out of 1000). The fraction who
+do not have breast cancer is therefore 1 – 0.008 = 0.992. I.e.,
+P(Canc | woman[FORMULA]her 40s) = 0.008
+P(not Canc | woman[FORMULA]her 40s) = 0.992
+We now have all the information we need to address the question of how
+worried that woman[FORMULA]her forties should be. To compute the probability that she
+142 In medical jargon, a “positive” test is usually bad news. It implies that a marker of disease has
+been found.
+CHAPTER 20. CONDITIONAL PROBABILITY AND BAYESIAN STATISTICS 349
+has breast cancer we use something called Bayes’ Theorem143 (often called Bayes’
+Law or Bayes’ Rule) :
+𝑃 𝐴 ∗𝑃(𝐵|𝐴)
+𝑃 𝐴 𝐵 =
+𝑃(𝐵)
+In the Bayesian world, probability measures a degree of belief. Bayes' theo-
+rem links the degree of belief[FORMULA]a proposition before and after accounting for ev-
+idence. The formula to the left of the equal sign, P(A|B), is the posterior
+probability, the degree of belief[FORMULA]A, having accounted for B. The posterior is de-
+fined[FORMULA]terms of the prior, P(A), and the support that the evidence, B, provides
+for A. The support is the ratio of the probability of B holding if A holds and the
+¯(˘|˙)
+probability of B holding independently of A, i.e., .
+¯(˘)
+If we use Bayes’ Theorem to estimate the probability of the woman actually
+having breast cancer we get (where Canc plays the role of A, and Pos the role of B[FORMULA]our statement of Bayes’ Theorem)
+𝑃 𝐶𝑎𝑛𝑐 ∗𝑃 𝑃𝑜𝑠 𝐶𝑎𝑛𝑐
+𝑃 𝐶𝑎𝑛𝑐 𝑃𝑜𝑠 =
+𝑃(𝑃𝑜𝑠)
+The probability of having a positive test is
+𝑃 𝑃𝑜𝑠 = 𝑃(𝑃𝑜𝑠|𝐶𝑎𝑛𝑐)∗𝑃(𝐶𝑎𝑛𝑐) + 𝑃(𝑃𝑜𝑠| 𝑛𝑜𝑡 𝐶𝑎𝑛𝑐)∗(1−𝑃(𝐶𝑎𝑛𝑐))
+so
+0.008∗0.9 0.0072
+𝑃(𝐶𝑎𝑛𝑐|𝑃𝑜𝑠)= = ≈0.094
+0.9∗0.008+0.07∗0.992 0.07664
+I.e., approximately 90% of the positive mammograms are false positives!144
+Bayes’ Theorem helped us here because we had an accurate estimate of the prior
+probability of a woman[FORMULA]her forties having breast cancer.
+It is important to keep[FORMULA]mind that if we had started with an incorrect prior,
+incorporating that prior into our probability estimate would make the estimate
+worse rather than better. For example, if we had started with the prior
+P(Canc | women[FORMULA]her 40’s) = 0.6
+143 Bayes’ theorem is named after Rev. Thomas Bayes (1701–1761), and was first published two
+years after his death. It was popularized by Laplace, who published the modern formulation of the
+theorem[FORMULA]1812[FORMULA]his Théorie analytique des probabilités.
+144 This is one of the reasons that there is considerable controversary[FORMULA]the medical community
+about the value of mammography as a routine screening tool for some cohorts.
+350 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+we would have concluded that the false positive rate was about 5%, i.e., that the
+probability of a woman[FORMULA]her forties with a positive mammogram having breast
+cancer is roughly 0.95.
+Finger exercise: You are wandering through a forest and see a field of delicious-
+looking mushrooms. You fill your basket with them, and head home prepared to
+cook them up and serve them to your husband. Before you cook them, however,
+he demands that you consult a book about local mushroom species to check
+whether they are poisonous. The book says that 80% of the mushrooms[FORMULA]the lo-
+cal forest are poisonous. However, you compare your mushrooms to the ones
+pictured[FORMULA]the book, and decide that you are 95% certain that your mushrooms
+are safe. How comfortable you should you be about serving them to your hus-
+band (assuming that you would rather not become a widow)?
+
+## 20.3 Bayesian Updating
+
+Bayesian inference provides a principled way of combining new evidence with
+prior beliefs, through the application of Bayes’ theorem. Bayes’ theorem can be
+applied iteratively: After observing some evidence, the resulting posterior proba-
+bility can then be treated as a prior probability, and a new posterior probability
+computed from new evidence. This allows for Bayesian principles to be applied
+to various kinds of evidence, whether viewed all at once or over time. This pro-
+cedure is termed Bayesian updating.
+Let’s look at an example. Assume that you have a bag containing equal num-
+bers of three different kinds of dice—each with a different probability of coming
+up 6 when rolled. Type A dice come up 6 with a probability of one fifth, type B
+dice with a probability of one sixth, and type C dice with a probability of one sev-
+enth. Reach into the bag, grab one die, and estimate the probability of it being of
+type A. You don’t need to know much probability to know that the best estimate
+is 1/3. Now roll the die twice and revise the estimate based on the outcome of the
+rolls. If it comes up 6 both times, it seems clear that it is somewhat more likely
+that the die is of type A. How much more likely? We can use Bayesian updating to
+answer that question.
+By Bayes’ theorem, after rolling the first 6, the probability that the die is of
+type A is
+𝑃 𝐴 ∗𝑃(6|𝐴)
+𝑃 𝐴 6 =
+𝑃(6)
+CHAPTER 20. CONDITIONAL PROBABILITY AND BAYESIAN STATISTICS 351
+where
+(cid:201) (cid:201) (cid:201)
+n n m m
+𝑃 𝐴 = , 𝑃 6 𝐴 = , 𝑃(6) = ˚ ¸ (cid:204)
+t ¨ t
+The code[FORMULA]Figure 20.2 implements Bayes’ theorem and uses it to calculate
+the probability that the die is of type A. Notice that the second call of calcBayes
+uses the result of the first call as the prior value for A.
+def calcBayes(priorA, probBifA, probB):
+"""priorA: initial estimate of probability of A independent of B
+priorBifA: est. of probability of B assuming A is true
+priorBifNotA: est. of probability of B
+returns probability of A given B"""
+return priorA*probBifA/probB
+priorA = 1/3
+prob6ifA = 1/5
+prob6 = (1/5 + 1/6 + 1/7)/3
+postA = calcBayes(priorA, prob6ifA, prob6)
+print('Probability of type A =', round(postA, 4))
+postA = calcBayes(postA, prob6ifA, prob6)
+print('Probability of type A =', round(postA, 4))
+Figure 20.2: Bayesian updating
+When the code is run, it prints,
+Probability of type A = 0.3925
+Probability of type A = 0.4622
+indicating that we should revise our estimate of the probability upwards.
+What if we had thrown something other than 6 on both rolls of the die? Re-
+placing the last four lines of the code[FORMULA]Figure 20.2 with
+postA = calcBayes(priorA, 1 - prob6ifA, 1 - prob6)
+print('Probability of type A =', round(postA, 4))
+postA = calcBayes(postA, 1 - prob6ifA, 1 - prob6)
+print('Probability of type A =', round(postA, 4))
+causes the program to print
+Probability of type A = 0.3212
+Probability of type A = 0.3096
+indicating that we should revise our estimate of the probability downwards.
+352 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Let’s suppose that we have reason to believe that 90% of the dice[FORMULA]the bag
+are of type A. All we need to do is change our original prior, priorA[FORMULA]the code, to
+0.9. Now, if we simulate getting something other than 6 on both rolls, it prints
+Probability of type A = 0.8673
+Probability of type A = 0.8358
+The prior makes a big difference!
+Let’s try one more experiment. We’ll stick with priorA = 0.9, and see what
+happens if the die is actually of type C. The code[FORMULA]Figure 20.3 simulates 200
+rolls of a die of type C (which has a probability of 1/7 of coming up 6), and prints
+a revised estimate of the probability of the die being of type A after every 20 rolls.
+numRolls = 200
+postA = priorA
+for i[FORMULA]range(numRolls+1):
+if i%(numRolls//10) == 0:
+print('After', i, 'rolls. Probability of type A =',
+round(postA, 4))
+isSix = random.random() <= 1/7 #because die of type C
+if isSix:
+postA = calcBayes(postA, prob6ifA, prob6)
+else:
+postA = calcBayes(postA, 1 - prob6ifA, 1 - prob6)
+Figure 20.3: Bayesian updating with a bad prior
+When we ran the code it printed
+After 0 rolls. Probability of type A = 0.9
+After 20 rolls. Probability of type A = 0.4294
+After 40 rolls. Probability of type A = 0.3059
+After 60 rolls. Probability of type A = 0.2662
+After 80 rolls. Probability of type A = 0.1552
+After 100 rolls. Probability of type A = 0.0905
+After 120 rolls. Probability of type A = 0.0962
+After 140 rolls. Probability of type A = 0.1251
+After 160 rolls. Probability of type A = 0.1089
+After 180 rolls. Probability of type A = 0.0776
+After 200 rolls. Probability of type A = 0.0553
+CHAPTER 20. CONDITIONAL PROBABILITY AND BAYESIAN STATISTICS 353
+The good news is that even given a misleading prior, the probability converges
+towards the truth as the number of examples grows. Notice, by the way, that it
+didn’t converge monotonically. The probability after 120 rolls was higher than
+after 100—indicating that those 20 rolls were more consistent with a die of type
+A than with a die of type B or C.
+Had we started with a better prior, it would have converged faster. If we go
+back to 1/3 as the initial prior, the probability is 0.0335 after 100 rolls, and
+
+## 0.0205 after 200 rolls.
+
+
+
+## 21 LIES, DAMNED LIES, AND STATISTICS
+
+“If you can't prove what you want to prove, demonstrate something else and
+pretend they are the same thing. In the daze that follows the collision of sta-
+tistics with the human mind, hardly anyone will notice the difference.”145
+Statistical thinking is a relatively new invention. For most of recorded history
+things were assessed qualitatively rather than quantitatively. People must have
+had an intuitive sense of some statistical facts (e.g., that women are usually short-
+er than men), but they had no mathematical tools that would allow them to pro-
+ceed from anecdotal evidence to statistical conclusions. This started to change[FORMULA]the middle of the 17th century, most notably with the publication of John
+Graunt’s Natural and Political Observations Made Upon the Bills of Mortality.
+This pioneering work used statistical analysis to estimate the population of Lon-
+don from death rolls, and attempted to provide a model that could be used to
+predict the spread of plague.
+Alas, since that time people have used statistics as much to mislead as to[FORMULA]-
+form. Some have willfully used statistics to mislead; others have merely been[FORMULA]-
+competent. In this chapter we discuss a few ways[FORMULA]which people can be fooled
+into drawing inappropriate inferences from statistical data. We trust that you will
+use this information only for good—to become a better consumer and a more
+honest purveyor of statistical information.
+
+## 21.1 Garbage In Garbage Out (GIGO)
+
+“On two occasions I have been asked [by members of Parliament], ‘Pray, Mr.
+Babbage, if you put into the machine wrong figures, will the right answers
+come out?’ I am not able rightly to apprehend the kind of confusion of ideas
+that could provoke such a question.” — Charles Babbage146
+145 Darrell Huff, How to Lie with Statistics, 1954.
+146 Charles Babbage, 1791-1871, was an English mathematician and mechanical engineer who is
+credited with having designed the first programmable computer. He never succeeded[FORMULA]building a
+working machine, but[FORMULA]1991 a working mechanical device for evaluating polynomials was built
+from his original plans.
+356 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+The message here is a simple one. If the input data is seriously flawed, no
+amount of statistical massaging will produce a meaningful result.
+The 1840 United States census showed that insanity among free blacks and
+mulattoes was roughly ten times more common than among enslaved blacks and
+mulattoes. The conclusion was obvious. As U.S. Senator (and former Vice Presi-
+dent and future Secretary of State) John C. Calhoun put it, “The data on insanity
+revealed[FORMULA]this census is unimpeachable. From it our nation must conclude that
+the abolition of slavery would be to the African a curse.” Never mind that it was
+soon clear that the census was riddled with errors. As Calhoun reportedly ex-
+plained to John Quincy Adams, “there were so many errors they balanced one
+another, and led to the same conclusion as if they were all correct.”
+Calhoun’s (perhaps willfully) spurious response to Adams was based on a
+classical error, the assumption of independence. Were he more sophisticated
+mathematically, he might have said something like, “I believe that the measure-
+ment errors are unbiased and independent of each of other, and therefore evenly
+distributed on either side of the mean.” In fact, later analysis showed that the er-
+rors were so heavily biased that no statistically valid conclusions could be
+drawn.147
+
+## 21.2 Tests Are Imperfect
+
+Every experiment should be viewed as a potentially flawed test. We can perform
+a test for a chemical, a phenomenon, a disease, etc. However, the event for which
+we are testing is not necessarily the same as the result of the test. Professors de-
+sign exams with the goal of understanding how well a student has mastered some
+subject matter, but the result of the exam should not be confused with how much
+a student actually understands. Every test has some inherent error rate. Imagine
+that a student learning a second language has been asked to learn the meaning of
+100 words, but has learned the meaning of only 80 of them. His rate of under-
+standing is 80%, but the probability that he will score 80% on a test with 20
+words is certainly not 1.
+Tests can have both false negatives and false positives. As we saw[FORMULA]Chapter
+20, a negative mammogram does not guarantee absence of breast cancer, and a
+positive mammogram doesn’t guarantee its presence. Furthermore, the test prob-
+ability and the event probability are not the same thing. This is especially relevant
+when testing for a rare event, e.g., the presence of a rare disease. If the cost of a
+147 We should note that Calhoun was[FORMULA]office over 150 years ago. It goes without saying that no
+contemporary politician would find ways to abuse statistics to support a wrong-headed position.
+CHAPTER 21. LIES, DAMNED LIES, AND STATISTICS 357
+false negative is high (e.g., missing the presence of a serious but curable disease),
+the test should be designed to be highly sensitive, even at the cost of there being a
+large number of false positives.
+
+## 21.3 Pictures Can Be Deceiving
+
+There can be no doubt about the utility of graphics for quickly conveying infor-
+mation. However, when used carelessly (or maliciously) a plot can be highly mis-
+leading. Consider, for example, the charts[FORMULA]Figure 21.1 depicting housing prices[FORMULA]the U.S. Midwestern states.
+Figure 21.1 Housing prices[FORMULA]the U.S. Midwest
+Looking at the chart on the left of Figure 21.1, it seems as if housing prices
+were pretty stable during the period 2006-2009. But wait a minute! Wasn’t there a
+collapse of U.S. residential real estate followed by a global financial crisis[FORMULA]late
+2008? There was indeed, as shown[FORMULA]the chart on the right.
+These two charts show exactly the same data, but convey very different im-
+pressions. The chart on the left was designed to give the impression that housing
+prices had been stable. On the y-axis, the designer used a scale ranging from the
+absurdly low average price for a house of $1,000 to the improbably high average
+price of $500,000. This minimized the amount of space devoted to the area where
+prices are changing, giving the impression that the changes were relatively small.
+The chart on the right was designed to give the impression that housing prices
+moved erratically, and then crashed. The designer used a narrow range of prices,
+so the sizes of the changes were exaggerated.
+The code[FORMULA]Figure 21.2 produces the two plots we looked at above and a plot
+intended to give an accurate impression of the movement of housing prices. It
+358 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+uses two plotting facilities that we have not yet seen. The call pylab.bar(quarters,
+prices, width) produces a bar chart with bars of the given width. The left edges
+of the bars are the values of the elements of the list quarters and the heights of the
+bars are the values of the corresponding elements of the list prices. The function
+call pylab.xticks(quarters+width/2, labels) describes the labels to be associated
+with the bars. The first argument specifies where each label is to be placed and
+the second argument the text of the labels. The function yticks behaves analo-
+gously. The call plotHousing('fair') produces the plot[FORMULA]Figure 21.3.
+def plotHousing(impression):
+"""Assumes impression a str. Must be one of 'flat',
+'volatile,' and 'fair'
+Produce bar chart of housing prices over time"""
+f = open('midWestHousingPrices.txt', 'r')
+#Each line of file contains year quarter price
+#for Midwest region of U.S.
+labels, prices = ([], [])
+for line[FORMULA]f:
+year, quarter, price = line.split()
+label = year[2:4] + '\n Q' + quarter[1]
+labels.append(label)
+prices.append([FORMULA](price)/1000)
+quarters = pylab.arange(len(labels)) #x coords of bars
+width = 0.8 #Width of bars
+pylab.bar(quarters, prices, width)
+pylab.xticks(quarters+width/2, labels)
+pylab.title('Housing Prices[FORMULA]U.S. Midwest')
+pylab.xlabel('Quarter')
+pylab.ylabel('Average Price ($1,000\'s)')
+if impression == 'flat':
+pylab.ylim(1, 500)
+elif impression == 'volatile':
+pylab.ylim(180, 220)
+elif impression == 'fair':
+pylab.ylim(150, 250)
+else:
+raise ValueError
+plotHousing('flat')
+pylab.figure()
+plotHousing('volatile')
+pylab.figure()
+Figure 21.2 Plotting housing prices
+CHAPTER 21. LIES, DAMNED LIES, AND STATISTICS 359
+Figure 21.3 A different view of housing prices
+
+## 21.4 Cum Hoc Ergo Propter Hoc148
+
+It has been shown that college students who regularly attend class have higher
+average grades than students who attend class only sporadically. Those of us who
+teach these classes would like to believe that this is because the students learn
+something from the classes we teach. Of course, it is at least equally likely that
+those students get better grades because students who are more likely to attend
+classes are also more likely to study hard.
+Correlation is a measure of the degree to which two variables move[FORMULA]the
+same direction. If x moves[FORMULA]the same direction as y, the variables are positively
+correlated. If they move[FORMULA]opposite directions they are negatively correlated. If
+there is no relationship, the correlation is 0. People’s heights are positively corre-
+lated with the heights of their parents. The correlation between hours spent play-
+ing video games and grade point average is negative.
+When two things are correlated, there is a temptation to assume that one has
+caused the other. Consider the incidence of flu[FORMULA]North America. The number of
+cases rises and falls[FORMULA]a predictable pattern. There are almost no cases[FORMULA]the
+summer; the number of cases starts to rise[FORMULA]the early fall and then starts drop-
+ping as summer approaches. Now consider the number of children attending
+school. There are very few children[FORMULA]school[FORMULA]the summer, enrollment starts to
+rise[FORMULA]the early fall, and then drops as summer approaches.
+148Statisticians, like attorneys and physicians, sometimes use Latin for no obvious reason other
+than to seem erudite. This phrase means, “with this, therefore because of this.”
+360 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+The correlation between the opening of schools and the rise[FORMULA]the incidence
+of flu is inarguable. This has led many to conclude that that going to school is an
+important causative factor[FORMULA]the spread of flu. That might be true, but one can-
+not conclude it based simply on the correlation. Correlation does not imply cau-
+sation! After all, the correlation could be used just as easily to justify the belief
+that flu outbreaks cause schools to be[FORMULA]session. Or perhaps there is no causal
+relationship[FORMULA]either direction, and there is some lurking variable that we have
+not considered that causes each. In fact, as it happens, the flu virus survives con-
+siderably longer[FORMULA]cool dry air than it does[FORMULA]warm wet air, and[FORMULA]North Amer-
+ica both the flu season and school sessions are correlated with cooler and dryer
+weather.
+Given enough retrospective data, it is always possible to find two variables
+that are correlated, as illustrated by the chart[FORMULA]Figure 21.4.149
+Figure 21.4 Do Mexican lemons save lives?
+When such correlations are found, the first thing to do is to ask whether there is
+a plausible theory explaining the correlation.
+Falling prey to the cum hoc ergo propter hoc fallacy can be quite dangerous.
+At the start of 2002, roughly six million American women were being prescribed
+hormone replacement therapy (HRT)[FORMULA]the belief that it would substantially
+lower their risk of cardiovascular disease. That belief was supported by several
+highly reputable published studies that demonstrated a reduced incidence of car-
+diovascular death among women using HRT.
+149 Stephen R. Johnson, “The Trouble with QSAR (or How I Learned to Stop Worrying and
+Embrace Fallacy),” J. Chem. Inf. Model., 2008.
+CHAPTER 21. LIES, DAMNED LIES, AND STATISTICS 361
+Many women, and their physicians, were taken by surprise when the Journal
+of the American Medical Society published an article asserting that HRT[FORMULA]fact
+increased the risk of cardiovascular disease.150 How could this have happened?
+Reanalysis of some of the earlier studies showed that women undertaking
+HRT were likely to be from groups with better than average diet and exercise re-
+gimes. Perhaps the women undertaking HRT were on average more health con-
+scious than the other women[FORMULA]the study, so that taking HRT and improved
+cardiac health were coincident effects of a common cause.
+
+## 21.5 Statistical Measures Don’t Tell the Whole Story
+
+There are an enormous number of different statistics that can be extracted from a
+data set. By carefully choosing among these, it is possible to convey a variety of
+different impressions about the same data. A good antidote is to look at the data
+set itself.
+In 1973, the statistician F.J. Anscombe published a paper with the table[FORMULA]Figure 21.5. It contains the <x, y> coordinates of points from each of four data
+sets. Each of the four data sets has the same mean value for x (9.0), the same
+mean value for y (7.5), the same variance for x (10.0), the same variance for y
+(3.75), and the same correlation between x and y (0.816). And if we use linear re-
+gression to fit a line to each, we get the same result for each, y = 0.5x + 3.
+x y x y x y x y
+
+## 10.0 8.04 10.0 9.14 10.0 7.46 8.0 6.58
+
+
+
+## 8.0 6.95 8.0 8.14 8.0 6.77 8.0 5.76
+
+
+
+## 13.0 7.58 13.0 8.74 13.0 12.74 8.0 7.71
+
+
+
+## 9.0 8.81 9.0 8.77 9.0 7.11 8.0 8.84
+
+
+
+## 11.0 8.33 11.0 9.26 11.0 7.81 8.0 8.47
+
+
+
+## 14.0 9.96 14.0 8.10 14.0 8.84 8.0 7.04
+
+
+
+## 6.0 7.24 6.0 6.13 6.0 6.08 8.0 5.25
+
+
+
+## 4.0 4.26 4.0 3.10 4.0 5.39 19.0 12.50
+
+
+
+## 12.0 10.84 12.0 9.13 12.0 8.15 8.0 5.56
+
+
+
+## 7.0 4.82 7.0 7.26 7.0 6.42 8.0 7.91
+
+
+
+## 5.0 5.68 5.0 4.74 5.0 5.73 8.0 6.89
+
+Figure 21.5 Statistics for Anscombe's Quartet
+150 Nelson HD, Humphrey LL, Nygren P, Teutsch SM, Allan JD. Postmenopausal hormone
+replacement therapy: scientific review. JAMA. 2002;288:872-881.
+362 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Does this mean that there is no obvious way to distinguish these data sets
+from each other? No. One simply needs to plot the data to see that the data sets
+are not at all alike (Figure 21.6).
+Figure 21.6 Data for Ancsombe's Quartet
+The moral is simple: if possible, always take a look at some representation of
+the raw data.
+
+## 21.6 Sampling Bias
+
+During World War II, whenever an Allied plane would return from a mission
+over Europe the plane would be inspected to see where the flak from antiaircraft
+artillery had impacted. Based upon this data, mechanics reinforced those areas of
+the planes that seemed most likely to be hit by flak.
+What’s wrong with this? They did not inspect the planes that failed to return
+from missions because they had been downed by flak. Perhaps these unexamined
+planes failed to return precisely because they were hit[FORMULA]the places where the flak
+would do the most damage. This particular error is called non-response bias. It is
+quite common[FORMULA]surveys. At many universities, for example, students are asked
+CHAPTER 21. LIES, DAMNED LIES, AND STATISTICS 363
+during one of the lectures late[FORMULA]the term to fill out a form rating the quality of
+the professor’s lectures. Though the results of such surveys are often unflattering,
+they could be worse. Those students who think that the lectures are so bad that
+they aren’t worth attending are not included[FORMULA]the survey.151
+As discussed[FORMULA]Chapter 17, all statistical techniques are based upon the as-
+sumption that by sampling a subset of a population we can infer things about the
+population as a whole. If random sampling is used, we can make precise mathe-
+matical statements about the expected relationship of the sample to the entire
+population. Unfortunately, many studies, particularly[FORMULA]the social sciences, are
+based on what is called convenience (or accidental) sampling. This involves
+choosing samples based on how easy they are to procure. Why do so many psy-
+chological studies use populations of undergraduates? Because they are easy to
+find on college campuses. A convenience sample might be representative, but
+there is no way of knowing whether it actually is representative.
+
+## 21.7 Context Matters
+
+It is easy to read more into the data than it actually implies, especially when view-
+ing the data out of context. On April 29, 2009, CNN reported that, “Mexican
+health officials suspect that the swine flu outbreak has caused more than 159
+deaths and roughly 2,500 illnesses.” Pretty scary stuff—until one compares it to
+the 36,000 deaths attributable annually to the seasonal flu[FORMULA]the U.S.
+An often quoted, and accurate, statistic is that most auto accidents happen
+within 10 miles of home. So what? Most driving is done within 10 miles of home!
+And besides, what does “home” mean[FORMULA]this context? The statistic is computed
+using the address at which the automobile is registered as “home.” Might one re-
+duce the probability of getting into an accident by merely registering one’s car[FORMULA]some distant place?
+Opponents of government initiatives to reduce the prevalence of guns[FORMULA]the
+United States are fond of quoting the statistic that roughly 99.8% of the firearms[FORMULA]the U.S. will not be used to commit a violent crime[FORMULA]any given year. But
+without some context, it’s hard to know what that implies. Does it imply that
+there is not much gun violence[FORMULA]the U.S.? The National Rifle Association re-
+ports that there are roughly 300 million privately owned firearms[FORMULA]the U.S.—
+0.2% of 300 million is 600,000!
+151 The move to online surveys, which allows students who do not attend class to participate[FORMULA]the
+survey, does not augur well for the egos of professors.
+364 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+## 21.8 Beware of Extrapolation
+
+It is all too easy to extrapolate from data. We did that[FORMULA]Section 18.1.1 when we
+extended fits derived from linear regression beyond the data used[FORMULA]the regres-
+sion. Extrapolation should be done only when one has a sound theoretical justifi-
+cation for doing so. Be especially wary of straight-line extrapolations.
+Consider the plot on the left[FORMULA]Figure 21.7. It shows the growth of Internet
+usage[FORMULA]the United States from 1994 to 2000. As you can see, a straight line pro-
+vides a pretty good fit.
+The plot on the right of Figure 21.7 uses this fit to project the percentage of
+the U.S. population using the Internet[FORMULA]following years. The projection is a bit
+hard to believe. It seems unlikely that by 2009 everybody[FORMULA]the U.S. was using
+the Internet, and even less likely that by 2015 more than 140% of the U.S. popu-
+lation was using the Internet.
+Figure 21.7 Growth of Internet usage[FORMULA]U.S.
+
+## 21.9 The Texas Sharpshooter Fallacy
+
+Imagine that you are driving down a country road[FORMULA]Texas. You see a barn that
+has six targets painted on it, and a bullet hole at the very center of each target.
+“Yes sir,” says the owner of the barn, “I never miss.” “That’s right,” says his
+spouse, “there ain’t a man[FORMULA]the state of Texas who’s more accurate with a paint
+brush.” Got it? He fired the six shots, and then painted the targets around them.
+CHAPTER 21. LIES, DAMNED LIES, AND STATISTICS 365
+Figure 21.8 Professor puzzles over students' chalk-throwing accuracy
+A classic of the genre appeared[FORMULA]2001.152 It reported that a research team at
+the Royal Cornhill Hospital[FORMULA]Aberdeen had discovered that “anorexic women
+are most likely to have been born[FORMULA]the spring or early summer… Between
+March and June there were 13% more anorexics born than average, and 30%
+more[FORMULA]June itself.”
+Let’s look at that worrisome statistic for those women born[FORMULA]June. The team
+studied 446 women who had been diagnosed as anorexic, so the mean number of
+births per month was slightly more than 37. This suggests that the number born[FORMULA]June was 48 (37*1.3). Let’s write a short program (Figure 21.9) to estimate the
+probability that this occurred purely by chance.
+def juneProb(numTrials):
+june48 = 0
+for trial[FORMULA]range(numTrials):
+june = 0
+for i[FORMULA]range(446):
+if random.randint(1,12) == 6:
+june += 1
+if june >= 48:
+june48 += 1
+jProb = round(june48/numTrials, 4)
+print('Probability of at least 48 births[FORMULA]June =', jProb)
+Figure 21.9 Probability of 48 anorexics being born[FORMULA]June
+152 Eagles, John, et al., “Season of birth[FORMULA]females with anorexia nervosa[FORMULA]Northeast Scotland,”
+International Journal of Eating Disorders, 30, 2, September 2001.
+366 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+When we ran juneProb(10000) it printed
+Probability of at least 48 births[FORMULA]June = 0.0427
+It looks as if the probability of at least 48 babies being born[FORMULA]June purely by
+chance is around 4.5%. So perhaps those researchers[FORMULA]Aberdeen are on to
+something. Well, they might have been on to something had they started with the
+hypothesis that more babies who will become anorexic are born[FORMULA]June, and then
+run a study designed to check that hypothesis.
+But that is not what they did. Instead, they looked at the data and then, imi-
+tating the Texas sharpshooter, drew a circle around June. The right statistical
+question to have asked is what is the probability that there was at least one month
+(out of 12)[FORMULA]which at least 48 babies were born. The program[FORMULA]Figure 21.10
+answers that question.
+def anyProb(numTrials):
+anyMonth48 = 0
+for trial[FORMULA]range(numTrials):
+months = [0]*12
+for i[FORMULA]range(446):
+months[random.randint(0,11)] += 1
+if max(months) >= 48:
+anyMonth48 += 1
+aProb = round(anyMonth48/numTrials, 4)
+print('Probability of at least 48 births[FORMULA]some month =',aProb)
+Figure 21.10 Probability of 48 anorexics being born[FORMULA]some month
+The call anyProb(10000) printed
+Probability of at least 48 births[FORMULA]some month = 0.4357
+It appears that it is not so unlikely after all that the results reported[FORMULA]the study
+reflect a chance occurrence rather a real association between birth month and
+anorexia. One doesn’t have to come from Texas to fall victim to the Texas Sharp-
+shooter Fallacy.
+What we see here is that the statistical significance of a result depends upon
+the way the experiment was conducted. If the Aberdeen group had started out
+with the hypothesis that more anorexics are born[FORMULA]June, their result would be
+worth considering. But if they started off with the hypothesis that there[FORMULA]a
+month[FORMULA]which an unusually large proportion of anorexics are born, their result
+is not very compelling. In effect, they were testing multiple hypothesis and prob-
+ably should have applied a Bonferroni correction (see Section 19.6).
+CHAPTER 21. LIES, DAMNED LIES, AND STATISTICS 367
+What next steps might the Aberdeen group have taken to test their newfound
+hypothesis? One possibility is to conduct a prospective study. In a prospective
+study, one starts with a set of hypotheses, recruits subjects before they have de-
+veloped the outcome of interest (anorexia[FORMULA]this case), and then follows the sub-
+jects for a period of time. If the group had conducted a prospective study with a
+specific hypothesis and gotten similar results, one might be convinced.
+Prospective studies can be expensive and time-consuming to perform. In a
+retrospective study, one has to examine existing data[FORMULA]ways that reduce the like-
+lihood of getting misleading results. One common technique, as discussed[FORMULA]Section 18.4, is to split the data into a training set and a held out test set. For ex-
+ample, they could have chosen 446/2 women at random from their data (the
+training set), and tallied the number of births for each month. They could have
+then compared that to the number of births each month for the remaining wom-
+en (the holdout set).
+
+## 21.10 Percentages Can Confuse
+
+An investment advisor called a client to report that the value of his stock portfo-
+lio had risen 16% over the last month. He admitted that there had been some ups
+and downs over the year, but was pleased to report that the average monthly
+change was +0.5%. Image the client’s surprise when he got his statement for the
+year, and observed that the value of his portfolio had declined over the year.
+He called his advisor, and accused him of being a liar. “It looks to me,” he
+said, “like my portfolio declined by about 8%, and you told me that it went up by
+0.5% a month.” “I did not,” the financial advisor replied, “I told you that the av-
+erage monthly change was +0.5%.” When he examined his monthly statements,
+the investor realized that he had not been lied to, just misled. His portfolio went
+down by 15%[FORMULA]each month during the first half of the year, and then went up
+by 16%[FORMULA]each month during the second half of the year.
+When thinking about percentages, we always need to pay attention to the ba-
+sis on which the percentage is computed. In this case, the 15% declines were on a
+higher average basis than the 16% increases.
+Percentages can be particularly misleading when applied to a small basis.
+You might read about a drug that has a side effect of increasing the incidence of
+some illness by 200%. But if the base incidence of the disease is very low, say one[FORMULA]1,000,000, you might well decide that the risk of taking the drug was more
+than counterbalanced by the drug’s positive effects.
+368 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+## 21.11 Statistically Significant Differences Can Be Insignificant
+
+An admissions officer at the Maui Institute of Technology (MIT), wishing to
+convince the world that MIT’s admissions process is “gender-blind,” trumpeted,
+“At MIT, there is no significant difference between the grade point averages of
+men and women.” The same day, an ardent female chauvinist proclaimed that
+“At MIT, the women have a significantly higher grade point average than the
+men.” A puzzled reporter at the student newspaper decided to examine the data
+and expose the liar. But when she finally managed to pry the data out of the uni-
+versity, she concluded that both were telling the truth.
+What does the sentence, “At MIT, the women have a significantly higher
+grade point average than the men,” actually mean? People who have not studied
+statistics (most of the population) would probably conclude that there is a
+“meaningful” difference between the GPAs of women and men attending MIT.
+In contrast, those who have recently studied statistics might conclude only that
+1) the average GPA of women is higher than that of men, and 2) the null hypoth-
+esis that the difference[FORMULA]GPA can be attributed to randomness can be rejected at
+the 5% level.
+Suppose, for example, that there were 2500 women and 2500 men studying
+at MIT. Suppose further that the mean GPA of men was 3.5, the mean GPA of
+women was 3.51, and the standard deviation of the GPA for both men and wom-
+en was 0.25. Most sensible people would consider the difference[FORMULA]GPAs “insig-
+nificant.” However, from a statistical point of view the difference is “significant”
+at close to the 2% level. What is the root of this strange dichotomy? As we
+showed[FORMULA]Section 19.5, when a study has enough power—i.e, enough exam-
+ples—even insignificant differences can be statistically significant.
+A related problem arises when a study is very small. Suppose you flipped a
+coin twice and it came up heads both times. Now, let’s use the two-tailed one-
+sample t-test we saw[FORMULA]Section 19.3 to test the null hypothesis that the coin is
+fair. If we assume that the value of heads is 1 and the value of tails is 0, we can get
+the p-value using the code
+stats.ttest_1samp([1, 1], 0.5)[1]
+It returns a p-value of 0, indicating that if the coin is fair the probability of get-
+ting two consecutive heads is nil.
+CHAPTER 21. LIES, DAMNED LIES, AND STATISTICS 369
+
+## 21.12 The Regressive Fallacy
+
+The regressive fallacy occurs when people fail to take into account the natural
+fluctuations of events.
+All athletes have good days and bad days. When they have good days, they
+try not to change anything. When they have a series of unusually bad days, how-
+ever, they often try to make changes. Whether or not the changes are actually
+constructive, regression to the mean (Section 15.3) makes it likely that over the
+next few days the athlete’s performance will be better than the unusually poor
+performances preceding the changes. But that may not stop the athlete from as-
+suming that there is a treatment effect, i.e., attributing the improved performance
+to the changes he or she made.
+The Nobel prize-winning psychologist Daniel Kahneman tells a story about
+an Israeli Air Force flight instructor who rejected Kahneman’s assertion that “re-
+wards for improved performance work better than punishment for mistakes.”
+The instructor’s argument was “On many occasions I have praised flights cadets
+for clean execution of some aerobatic maneuver. The next time they try the same
+maneuver they usually do worse. On the other hand, I have often screamed into a
+cadet’s earphone for bad execution, and[FORMULA]general he does better on the next
+try.”153 It is natural for humans to imagine a treatment effect, because we like to
+think causally. But sometimes it is simply a matter of luck.
+Imagining a treatment effect when there is none can be dangerous. It can
+lead to the belief that vaccinations are harmful, that snake oil cures all aches and
+pains, or that investing exclusively[FORMULA]mutual funds that “beat the market” last
+year is a good strategy.
+153 Thinking, Fast and Slow, Daniel Kahneman, Farrar, Straus and Giroux, 2011, p.175.
+370 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+## 21.13 Just Beware
+
+It would be easy, and fun, to fill a few hundred pages with a history of statistical
+abuses. But by now you probably got the message: It’s just as easy to lie with
+numbers as it is to lie with words. Make sure that you understand what is actually
+being measured and how those “statistically significant” results were computed
+before you jump to conclusions. As Darrell Huff said, “If you torture the data
+long enough, it will confess to anything.”154
+154 Darrell Huff, How to Lie with Statistics, 1954. A similar remark is attributed to the Nobel prize
+winning economist Ronald Coase.
+
+## 22 A QUICK LOOK AT MACHINE LEARNING
+
+The amount of digital data[FORMULA]the world has been growing at a rate that defies
+human comprehension. The world’s data storage capacity has doubled about eve-
+ry three years since the 1980s. During the time it will take you to read this chap-
+ter, approximately 1018 bits of data will be added to the world’s store. It’s not easy
+to relate to a number that large. One way to think about it is that 1018 Canadian
+pennies would have a surface area roughly twice that of the earth.
+Of course, more data does not always lead to more useful information. Evo-
+lution is a slow process, and the ability of the human mind to assimilate data
+does not, alas, double every three years. One approach that the world is using to
+attempt to wring more useful information from “big data” is statistical machine
+learning.
+Machine learning is hard to define. In some sense, every useful program
+learns something. For example, an implementation of Newton’s method learns
+the roots of a polynomial. One of the earliest definitions was proposed by the
+American electrical engineer and computer scientist Arthur Samuel,155 who de-
+fined it as a “field of study that gives computers the ability to learn without being
+explicitly programmed.”
+Humans learn things[FORMULA]two ways—memorization and generalization. We
+use memorization to accumulate individual facts. In England, for example, pri-
+mary school students might learn a list of English monarchs. Humans use gener-
+alization to deduce new facts from old facts. A student of political science, for
+example, might observe the behavior of a large number of politicians, and gener-
+alize from those observations to conclude that all politicians lie on the campaign
+trail.
+When computer scientists speak about machine learning, they most often
+mean the discipline of writing programs that automatically learn to make useful
+inferences from implicit patterns[FORMULA]data. For example, linear regression (see
+155 Samuel is probably best known as the author of a program that played checkers. The program,
+which he started working on[FORMULA]the 1950s and continued to work on into the 1970s, was impressive
+for its time, though not particularly good by modern standards. However, while working on it
+Samuel invented several techniques that are still used today. Among other things, Samuel’s
+checker-playing program was quite possibly the first program ever written that improved based
+upon “experience.”
+372 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Chapter 18) learns a curve that is a model of a collection of examples. That mod-
+el can then be used to make predictions about previously unseen examples. The
+basic paradigm is
+1. Observe a set of examples, frequently called the training data, that represent
+incomplete information about some statistical phenomenon
+2. Use inference techniques to create a model of a process that could have gener-
+ated the observed examples, and
+3. Use that model to make predictions about previously unseen examples.
+Suppose, for example, you were given the two sets of names[FORMULA]Figure 22.1
+and the feature vectors[FORMULA]Figure 22.2.
+A: {Abraham Lincoln, George Washington, Charles de Gaulle}
+B: {Benjamin Harrison, James Madison, Louis Napoleon}
+Figure 22.1: Two sets of names
+Abraham Lincoln: [American, President, 193 cm tall]
+George Washington: [American, President, 189 cm tall]
+Charles de Gaulle: [French, President, 196 cm tall]
+Benjamin Harrison: [American, President, 168 cm tall]
+James Madison: [American, President, 163 cm tall]
+Louis Napoleon: [French, President, 169 cm tall]
+Figure 22.2: Associating a feature vector with each name
+Each element of a vector corresponds to some aspect (i.e., feature) of the person.
+Based on this limited information about these historical figures, you might infer
+that the process that assigned either the label A or the label B to each of these ex-
+amples was intended to separate tall presidents from shorter ones.
+There are a large number of different approaches to machine learning, but all
+try to learn a model that is a generalization of the provided examples. All have
+three components:
+• A representation of the model,
+• An objective function for assessing the goodness of the model, and
+• An optimization method for learning a model that minimizes or maximizes
+the value of the objective function.
+Broadly speaking, machine learning algorithms can be thought of as either
+supervised or unsupervised.
+CHAPTER 22. A QUICK LOOK AT MACHINE LEARNING 373
+In supervised learning, we start with a set of feature vector/value pairs. The
+goal is to derive from these pairs a rule that predicts the value associated with a
+previously unseen feature vector. Regression models associate a real number with
+each feature vector. Classification models associate one of a finite number of la-
+bels with each feature vector.156
+In Chapter 18, we looked at one kind of regression model, linear regression.
+Each feature vector was an x-coordinate, and the value associate with it was the
+corresponding y-coordinate. From the set of feature vector/value pairs we
+learned a model that could be used to predict the y-coordinate associated with
+any x-coordinate.
+Now, let’s look at a simple classification model. Given the sets of presidents
+we labeled A and B[FORMULA]Figure 22.1 and the feature vectors[FORMULA]Figure 22.2, we can
+generate the feature vector/label pairs[FORMULA]Figure 22.3.
+[American, President, 193 cm tall], A
+[American, President, 189 cm tall], A
+[French, President, 196 cm tall], A
+[American, President, 168 cm tall], B
+[American, President, 163 cm tall], B
+[French, President, 169 cm tall], B
+Figure 22.3 Feature vector/label pairs for presidents
+From these labeled examples, a learning algorithm might infer that all tall
+presidents should be labeled A and all short presidents labeled B. When asked to
+assign a label to
+[American, President, 189 cm.]157
+it would use the rule it had learned to choose label A.
+Supervised machine learning is broadly used[FORMULA]practice for such tasks as de-
+tecting fraudulent use of credit cards and recommending movies to people.
+In unsupervised learning, we are given a set of feature vectors but no labels.
+The goal of unsupervised learning is to uncover latent structure[FORMULA]the set of fea-
+ture vectors. For example, given the set of presidential feature vectors, an unsu-
+pervised learning algorithm might separate the presidents into tall and short, or
+156 Much of the machine learning literature uses the word “class” rather than “label.” Since we
+have used the word “class” for something else[FORMULA]this book, we will stick to using “label” for this
+concept.
+157 In case you are curious, Thomas Jefferson was 189 cm. tall.
+374 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+perhaps into American and French. Broadly speaking, approaches to unsuper-
+vised machine learning can be categorized as either methods for clustering or
+methods for learning latent variable models.
+A latent variable is a variable whose value is not directly observed, but can be
+inferred from the values of variables that are observed. Admissions officers at
+universities, for example, try to infer the probability of an applicant being a suc-
+cessful student (the latent variable), based on a set of observable values such as
+secondary school grades and performance on standardized tests. There is a rich
+set of methods for learning latent variable models, but we do not cover them[FORMULA]this book.
+Clustering partitions a set of examples into groups (called clusters) such that
+examples[FORMULA]the same group are more similar to each other than they are to ex-
+amples[FORMULA]other groups. Geneticists, for example, use clustering to find groups of
+related genes. Many popular clustering methods are surprisingly simple.
+We present a widely used clustering algorithm[FORMULA]Chapter 23, and several ap-
+proaches to supervised learning[FORMULA]Chapter 24. In the remainder of this chapter,
+we discuss the process of building feature vectors and different ways of calculat-
+ing the similarity between two feature vectors.
+
+## 22.1 Feature Vectors
+
+The concept of signal-to-noise ratio (SNR) is used[FORMULA]many branches of engineer-
+ing and science. The precise definition varies across applications, but the basic
+idea is simple. Think of it as the ratio of useful input to irrelevant input. In a res-
+taurant, the signal might be the voice of your dinner date, and the noise the voic-
+es of the other diners.158 If we were trying to predict which students would do
+well[FORMULA]a programming course, previous programming experience and mathe-
+matical aptitude would be part of the signal, but hair color merely noise. Separat-
+ing the signal from the noise is not always easy. And when it is done poorly, the
+noise can be a distraction that obscures the truth[FORMULA]the signal.
+158 Unless your dinner date is exceedingly boring. In that case, your dinner date’s conversation
+becomes the noise, and the conversation at the next table the signal.
+CHAPTER 22. A QUICK LOOK AT MACHINE LEARNING 375
+The purpose of feature engineering is to separate those features[FORMULA]the availa-
+ble data that contribute to the signal from those that are merely noise. Failure to
+do an adequate job of this can lead to a bad model. The danger is particularly
+high when the dimensionality of the data (i.e., the number of different features)
+is large relative to the number of samples.
+Successful feature engineering is an abstraction process that reduces the vast
+amount of information that might be available to information from which it will
+be productive to generalize. Imagine, for example, that your goal is to learn a
+model that will predict whether a person is likely to suffer a heart attack. Some
+features, such as their age, are likely to highly relevant. Other features, such as
+whether they are left-handed, are less likely to be relevant.
+There are feature elimination techniques that can be used to automatically
+identify which features[FORMULA]a given set of features are most likely to helpful. For ex-
+ample,[FORMULA]the context of supervised learning, one can select those features that are
+most strongly correlated with the labels of the examples.159 However, these fea-
+ture elimination techniques are of little help if relevant features are not there to
+start with. Suppose that our original feature set for the heart attack example[FORMULA]-
+cludes height and weight. It might be the case that while neither height or weight
+is highly predictive of a heart attack, body mass index (BMI) is. While BMI can
+be computed from height and weight, the relationship (weight[FORMULA]kilograms di-
+vided by the square of height[FORMULA]meters) is too complicated to be automatically
+found by current machine learning techniques. Successful machine learning of-
+ten involves the design of features by those with domain expertise.
+In unsupervised learning, the problem is even harder. Typically, we choose
+features based upon our intuition about which features might be relevant to the
+kinds of structure we would like to find. However, relying on intuition about the
+potential relevance of features is problematical. How good is your intuition about
+whether one’s dental history is a good predictor of a future heart attack?
+Consider Figure 22.4, which contains a table of feature vectors and the label
+(reptile or not) with which each vector is associated.
+159 Since features are often strongly correlated with each other, this can lead to a large number of
+redundant features. There are more sophisticated feature elimination techniques, but we do not
+cover them[FORMULA]this book.
+376 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Name Egg- Scales Poisonous Cold- # Legs Reptile
+laying blooded
+Cobra True True True True 0 Yes
+Rattlesnake True True True True 0 Yes
+Boa constrictor False True False True 0 Yes
+Alligator True True False True 4 Yes
+Dart frog True False True False 4 No
+Salmon True True False True 0 No
+Python True True False True 0 Yes
+Figure 22.4 Name, features and labels for assorted animals
+A supervised machine learning algorithm (or a human) given only the[FORMULA]-
+formation about cobras—i.e., only the first row of the table—cannot do much
+more than to remember the fact that a cobra is a reptile. Now, let’s add the[FORMULA]-
+formation about rattlesnakes. We can begin to generalize, and might infer the
+rule that an animal is a reptile if it lays eggs, has scales, is poisonous, is cold-
+blooded, and has no legs.
+Now, suppose we are asked to decide if a boa constrictor is a reptile. We
+might answer “no,” because a boa constrictor is neither poisonous nor egg-laying.
+But this would be the wrong answer. Of course, it is hardly surprising that at-
+tempting to generalize from two examples might lead us astray. Once we include
+the boa constrictor[FORMULA]our training data, we might formulate the new rule that an
+animal is a reptile if it has scales, is cold-blooded, and is legless. In doing so, we
+are discarding the features egg-laying and poisonous as irrelevant to the classifica-
+tion problem.
+If we use the new rule to classify the alligator, we conclude incorrectly that
+since it has legs it is not a reptile. Once we include the alligator[FORMULA]the training da-
+ta we reformulate the rule to allow reptiles to have either none or four legs. When
+we look at the dart frog, we correctly conclude that it is not a reptile, since it is
+not cold-blooded. However, when we use our current rule to classify the salmon,
+we incorrectly conclude that a salmon is a reptile. We can add yet more complex-
+ity to our rule, to separate salmon from alligators, but it’s a losing battle. There is
+no way to modify our rule so that it will correctly classify both salmon and py-
+thons, since the feature vectors of these two species are identical.
+This kind of problem is more common than not[FORMULA]machine learning. It is
+quite rare to have feature vectors that contain enough information to classify
+things perfectly. In this case, the problem is that we don’t have enough features.
+CHAPTER 22. A QUICK LOOK AT MACHINE LEARNING 377
+If we had included the fact that reptile eggs have amnios,160 we could devise a
+rule that separates reptiles from fish. Unfortunately,[FORMULA]most practical applica-
+tions of machine learning it is not possible to construct feature vectors that allow
+for perfect discrimination.
+Does this mean that we should give up because all of the available features
+are mere noise? No. In this case, the features scales and cold-blooded are neces-
+sary conditions for being a reptile, but not sufficient conditions. The rule that an
+animal is a reptile if it has scales and is cold-blooded will not yield any false nega-
+tives, i.e., any animal classified as a non-reptile will indeed not be a reptile. How-
+ever, it will yield some false positives, i.e., some of the animals classified as
+reptiles will not be reptiles.
+
+## 22.2 Distance Metrics
+
+In Figure 22.4 we described animals using four binary features and one integer
+feature. Suppose we want to use these features to evaluate the similarity of two
+animals, for example, to ask whether a rattlesnake is more similar to a boa con-
+strictor or to a dart frog.161
+The first step[FORMULA]doing this kind of comparison is converting the features for
+each animal into a sequence of numbers. If we say True = 1 and False = 0, we get
+the following feature vectors:
+Rattlesnake: [1,1,1,1,0]
+Boa constrictor: [0,1,0,1,0]
+Dart frog: [1,0,1,0,4]
+There are many different ways to compare the similarity of vectors of num-
+bers. The most commonly used metrics for comparing equal-length vectors are
+based on the Minkowski distance:162
+–†h
+𝑑𝑖𝑠𝑡𝑎𝑛𝑐𝑒 𝑉,𝑊,𝑝 =( 𝑎𝑏𝑠 𝑉 −𝑊
+ˇ)n
+ˇ
+l l
+l„n
+where 𝑙𝑒𝑛 is the length of the vectors.
+160 Amnios are protective outer layers that allow eggs to be laid on land rather than[FORMULA]the water.
+161 This question is not quite as silly as it sounds. A naturalist and a toxicologist (or someone
+looking to enhance the effectiveness of a blow dart) might give different answers to this question.
+162 Another popular distance metric is cosine similarity. This captures the difference[FORMULA]the angle
+of the two vectors rather than the difference[FORMULA]magnitude. It is is often useful for high-dimensional
+vectors.
+378 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+The parameter p, which must be at least 1, defines the kinds of paths that can
+be followed[FORMULA]traversing the distance between the vectors 𝑉 and 𝑊.163 This can
+be mostly easily visualized if the vectors are of length two, and can therefore be
+represented using Cartesian coordinates. Consider the picture[FORMULA]Figure 22.5.
+Figure 22.5 Visualizing distance metrics
+Is the circle[FORMULA]the bottom left corner closer to the cross or closer to the star?
+It depends. If we can travel[FORMULA]a straight line, the cross is closer. The Pythagorean
+Theorem tells us that the cross is the square root of 8 units from the circle, about
+
+## 2.8 units, whereas we can easily see that the star is 3 units from the circle. These
+
+distances are called Euclidean distances, and correspond to using the Minkowski
+distance with p = 2. But imagine that the lines[FORMULA]the picture correspond to
+streets, and that we have to stay on the streets to get from one place to another.
+The star remains 3 units from the circle, but the cross is now 4 units away. These
+distances are called Manhattan distances,164 and they correspond to using the
+Minkowski distance with p = 1. Figure 22.6 contains a function implementing
+the Minkowski distance.
+Figure 22.7 contains class Animal. It defines the distance between two animals
+as the Euclidean distance between the feature vectors associated with the ani-
+mals.
+163 When p < 1, peculiar things happen. Consider, for example p = 0.5 and the points A = (0,0),
+B = (1,1), and C = (0,1). If you compute the pairwise distances beween these points, you will
+discover that the distance from A to B is 4, the distance from A to C is 1, and the distance from C
+to B is 1. Common sense dictates that the distance from A to B via C cannot be less than the
+distance from A to B. (Mathematicians refer to this as the triangle inequality, which states that for
+any triangle the[FORMULA]of the lengths of any two sides must not be less than the length of the third
+side.)
+164 Manhattan Island is the most densely populated borough of New York City. On most of the
+island, the streets are laid out[FORMULA]a rectangular grid, so using the Minkowski distance with p = 1
+provides a good approximation of the distance one has to travel to walk from one place to another.
+Driving[FORMULA]Manhattan is a totally different story.
+CHAPTER 22. A QUICK LOOK AT MACHINE LEARNING 379
+def minkowskiDist(v1, v2, p):
+"""Assumes v1 and v2 are equal-length arrays of numbers
+Returns Minkowski distance of order p between v1 and v2"""
+dist = 0.0
+for i[FORMULA]range(len(v1)):
+dist += abs(v1[i] - v2[i])**p
+return dist**(1/p)
+Figure 22.6 Minkowski distance
+class Animal(object):
+def __init__(self, name, features):
+"""Assumes name a string; features a list of numbers"""
+self.name = name
+self.features = pylab.array(features)
+def getName(self):
+return self.name
+def getFeatures(self):
+return self.features
+def distance(self, other):
+"""Assumes other an Animal
+Returns the Euclidean distance between feature vectors
+of self and other"""
+return minkowskiDist(self.getFeatures(),
+other.getFeatures(), 2)
+Figure 22.7 Class Animal
+Figure 22.8 contains a function that compares a list of animals to each other
+and produces a table showing the pairwise distances. The code uses a PyLab plot-
+ting facility that we have not previously used: table.
+The table function produces a plot that (surprise!) looks like a table. The
+keyword arguments rowLabels and colLabels are used to supply the labels ([FORMULA]this
+example the names of the animals) for the rows and columns. The keyword ar-
+gument cellText is used to supply the values appearing[FORMULA]the cells of the table. In
+the example, cellText is bound to tableVals, which is a list of lists of strings. Each
+element[FORMULA]tableVals is a list of the values for the cells[FORMULA]one row of the table. The
+keyword argument cellLoc is used to specify where[FORMULA]each cell the text should
+380 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+appear, and the keyword argument loc is used to specify where[FORMULA]the figure the
+table itself should appear. The last keyword parameter used[FORMULA]the example is col-
+Widths. It is bound to a list of floats giving the width ([FORMULA]inches) of each column[FORMULA]the table. The code table.scale(1, 2.5) instructs PyLab to leave the horizontal
+width of the cells unchanged, but to increase the height of the cells by a factor of
+
+## 2.5 (so the tables look prettier).
+
+def compareAnimals(animals, precision):
+"""Assumes animals is a list of animals, precision an[FORMULA]>= 0
+Builds a table of Euclidean distance between each animal"""
+#Get labels for columns and rows
+columnLabels = []
+for a[FORMULA]animals:
+columnLabels.append(a.getName())
+rowLabels = columnLabels[:]
+tableVals = []
+#Get distances between pairs of animals
+#For each row
+for a1[FORMULA]animals:
+row = []
+#For each column
+for a2[FORMULA]animals:
+if a1 == a2:
+row.append('--')
+else:
+distance = a1.distance(a2)
+row.append(str(round(distance, precision)))
+tableVals.append(row)
+#Produce table
+table = pylab.table(rowLabels = rowLabels,
+colLabels = columnLabels,
+cellText = tableVals,
+cellLoc = 'center',
+loc = 'center',
+colWidths = [0.2]*len(animals))
+table.scale(1, 2.5)
+pylab.savefig('distances')
+Figure 22.8 Build table of distances between pairs of animals
+CHAPTER 22. A QUICK LOOK AT MACHINE LEARNING 381
+If we run the code
+rattlesnake = Animal('rattlesnake', [1,1,1,1,0])
+boa = Animal('boa\nconstrictor', [0,1,0,1,0])
+dartFrog = Animal('dart frog', [1,0,1,0,4])
+animals = [rattlesnake, boa, dartFrog]
+compareAnimals(animals, 3)
+it produces the table[FORMULA]Figure 22.9 and saves it[FORMULA]a file named distances.
+As you probably expected, the distance between the rattlesnake and the boa
+constrictor is less than that between either of the snakes and the dart frog. No-
+tice, by the way, that the dart frog is a bit closer to the rattlesnake than to the boa
+constrictor.
+Figure 22.9 Distances between three animals
+Now, let’s insert before the last line of the above code the lines
+alligator = Animal('alligator', [1,1,0,1,4])
+animals.append(alligator)
+It produces the table[FORMULA]Figure 22.10.
+Figure 22.10 Distances between four animals
+Perhaps you’re surprised that the alligator is considerably closer to the dart frog
+than to either the rattlesnake or the boa constrictor. Take a minute to think about
+why.
+382 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+The feature vector for the alligator differs from that of the rattlesnake[FORMULA]two
+places: whether it is poisonous and the number of legs. The feature vector for the
+alligator differs from that of the dart frog[FORMULA]three places: whether it is poisonous,
+whether it has scales, and whether it is cold-blooded. Yet according to our dis-
+tance metric the alligator is more like the dart frog than like the rattlesnake.
+What’s going on?
+The root of the problem is that the different features have different ranges of
+values. All but one of the features range between 0 and 1, but the number of legs
+ranges from 0 to 4. This means that when we calculate the Euclidean distance the
+number of legs gets disproportionate weight. Let’s see what happens if we turn
+the feature into a binary feature, with a value of 0 if the animal is legless and 1
+otherwise.
+Figure 22.11 Distances using a different feature representation
+This looks a lot more plausible.
+Of course, it is not always convenient to use only binary features. In Section
+23.4, we will present a more general approach to dealing with differences[FORMULA]scale
+among features.
+
+## 23 CLUSTERING
+
+Unsupervised learning involves finding hidden structure[FORMULA]unlabeled data. The
+most commonly used unsupervised machine learning technique is clustering.
+Clustering can be defined as the process of organizing objects into groups
+whose members are similar[FORMULA]some way. A key issue is defining the meaning of
+“similar.” Consider the plot[FORMULA]Figure 23.1, which shows the height, weight, and
+shirt color for 13 people.
+Figure 23.1 Height, weight, and kind of shirt
+If we cluster people by height, there are two obvious clusters—delimited by
+the dotted horizontal line. If we cluster people by weight, there are two different
+obvious clusters—delimited by the solid vertical line. If we cluster people based
+on their shirts, there is yet a third clustering—delimited by the angled dashed
+lines. Notice, by the way, that this last division is not linear, i.e., we cannot sepa-
+rate the people by shirt color using a single straight line.
+Clustering is an optimization problem. The goal is to find a set of clusters
+that optimizes an objective function, subject to some set of constraints. Given a
+distance metric that can be used to decide how close two examples are to each
+other, we need to define an objective function that minimizes the distance be-
+tween examples[FORMULA]the same cluster, i.e., minimizes the dissimilarity of the exam-
+ples within a cluster.
+384 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+One measure, which we call variability, of how different the examples within
+a single cluster, c, are from each other is
+𝑣𝑎𝑟𝑖𝑎𝑏𝑖𝑙𝑖𝑡𝑦 𝑐 = 𝑑𝑖𝑠𝑡𝑎𝑛𝑐𝑒(𝑚𝑒𝑎𝑛 𝑐 ,𝑒)v
+†∈—
+where 𝑚𝑒𝑎𝑛 𝑐 is the mean of the feature vectors of all the examples[FORMULA]the clus-
+ter. The mean of a set of vectors is computed component-wise. The correspond-
+ing elements are added, and the result divided by the number of vectors. If v1 and
+v2 are arrays of numbers, the value of the expression (v1+v2)/2 is their Euclidean
+mean.
+What we are calling variability is quite similar to the notion of variance pre-
+sented[FORMULA]Chapter 15. The difference is that variability is not normalized by the
+size of the cluster, so clusters with more points are likely to look less cohesive ac-
+cording to this measure. If one wants to compare the coherence of two clusters of
+different sizes, one needs to divide the variability of each cluster by the size of the
+cluster.
+The definition of variability within a single cluster, c, can be extended to de-
+fine a dissimilarity metric for a set of clusters, C:
+𝑑𝑖𝑠𝑠𝑖𝑚𝑖𝑙𝑎𝑟𝑖𝑡𝑦 𝐶 = 𝑣𝑎𝑟𝑖𝑎𝑏𝑖𝑙𝑖𝑡𝑦(𝑐)
+—∈(cid:209)
+Notice that since we don’t divide the variability by the size of the cluster, a large
+incoherent cluster increases the value of dissimilarity(C) more than a small inco-
+herent cluster does. This is by design.
+So, is the optimization problem to find a set of clusters, C, such that dissimi-
+larity(C) is minimized? Not exactly. It can easily be minimized by putting each
+example[FORMULA]its own cluster. We need to add some constraint. For example, we
+could put a constraint on the minimum distance between clusters or require that
+the maximum number of clusters is some k.
+In general, solving this optimization problem is computationally prohibitive
+for most interesting problems. Consequently, people rely on greedy algorithms
+that provide approximate solutions. In Section 23.2, we present one such algo-
+rithm, k-means clustering. But first we will introduce some abstractions that are
+useful for implementing that algorithm (and other clustering algorithms as well).
+CHAPTER 23. CLUSTERING 385
+
+## 23.1 Class Cluster
+
+Class Example will be used to build the samples to be clustered. Associated with
+each example is a name, a feature vector, and an optional label. The distance
+method returns the Euclidean distance between two examples.
+class Example(object):
+def __init__(self, name, features, label = None):
+#Assumes features is an array of floats
+self.name = name
+self.features = features
+self.label = label
+def dimensionality(self):
+return len(self.features)
+def getFeatures(self):
+return self.features[:]
+def getLabel(self):
+return self.label
+def getName(self):
+return self.name
+def distance(self, other):
+return minkowskiDist(self.features, other.getFeatures(), 2)
+def __str__(self):
+return self.name +':'+ str(self.features) + ':'\
++ str(self.label)
+Figure 23.2 Class Example
+Class Cluster, Figure 23.3, is slightly more complex. A cluster is a set of ex-
+amples. The two interesting methods[FORMULA]Cluster are computeCentroid and variabil-
+ity. Think of the centroid of a cluster as its center of mass. The method
+computeCentroid returns an example with a feature vector equal to the Euclidean
+mean of the feature vectors of the examples[FORMULA]the cluster. The method variabil-
+ity provides a measure of the coherence of the cluster.
+386 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+class Cluster(object):
+def __init__(self, examples):
+"""Assumes examples a non-empty list of Examples"""
+self.examples = examples
+self.centroid = self.computeCentroid()
+def update(self, examples):
+"""Assume examples is a non-empty list of Examples
+Replace examples; return amount centroid has changed"""
+oldCentroid = self.centroid
+self.examples = examples
+self.centroid = self.computeCentroid()
+return oldCentroid.distance(self.centroid)
+def computeCentroid(self):
+vals = pylab.array([0.0]*self.examples[0].dimensionality())
+for e[FORMULA]self.examples: #compute mean
+vals += e.getFeatures()
+centroid = Example('centroid', vals/len(self.examples))
+return centroid
+def getCentroid(self):
+return self.centroid
+def variability(self):
+totDist = 0.0
+for e[FORMULA]self.examples:
+totDist += (e.distance(self.centroid))**2
+return totDist
+def members(self):
+for e[FORMULA]self.examples:
+yield e
+def __str__(self):
+names = []
+for e[FORMULA]self.examples:
+names.append(e.getName())
+names.sort()
+result = 'Cluster with centroid '\
++ str(self.centroid.getFeatures()) + ' contains:\n '
+for e[FORMULA]names:
+result = result + e + ', '
+return result[:-2] #remove trailing comma and space
+Figure 23.3 Class Cluster
+CHAPTER 23. CLUSTERING 387
+
+## 23.2 K-means Clustering
+
+K-means clustering is probably the most widely used clustering method.165 Its
+goal is to partition a set of examples into k clusters such that
+• Each example is[FORMULA]the cluster whose centroid is the closest centroid to that ex-
+ample, and
+• The dissimilarity of the set of clusters is minimized.
+Unfortunately, finding an optimal solution to this problem on a large data set
+is computationally intractable. Fortunately, there is an efficient greedy algo-
+rithm166 that can be used to find a useful approximation. It is described by the
+pseudocode
+randomly choose k examples as initial centroids of clusters
+while true:
+1. Create k clusters by assigning each example to closest centroid
+2. Compute k new centroids by averaging the examples[FORMULA]each
+cluster
+3. If none of the centroids differ from the previous iteration:
+return the current set of clusters
+The complexity of step 1 is O(k*n*d), where k is the number of clusters, n is
+the number of examples, and d the time required to compute the distance be-
+tween a pair of examples. The complexity of step 2 is O(n), and the complexity of
+step 3 is O(k). Hence, the complexity of a single iteration is O(k*n*d). If the ex-
+amples are compared using the Minkowski distance, d is linear[FORMULA]the length of
+the feature vector.167 Of course, the complexity of the entire algorithm depends
+upon the number of iterations. That is not easy to characterize, but suffice it to
+say that it is usually small.
+One problem with the k-means algorithm is that the value returned depends
+upon the initial set of randomly chosen centroids. If a particularly unfortunate
+set of initial centroids is chosen, the algorithm might settle into a local optimum
+that is far from the global optimum. In practice, this problem is typically ad-
+165 Though k-means clustering is probably the most commonly used clustering method, it is not
+the most appropriate method[FORMULA]all situations. Two other widely used methods, not covered[FORMULA]this
+book, are hierarchical clustering and EM-clustering.
+166 The most widely used k-means algorithm is attributed to James McQueen, and was first
+published[FORMULA]1967. However, other approaches to k-means clustering were used as early as the
+1950s.
+167 Unfortunately,[FORMULA]many applications we need to use a distance metric, e.g., earth-movers
+distance or dynamic-time-warping distance, that has a higher computational complexity.
+388 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+dressed by running k-means multiple times with randomly chosen initial cen-
+troids. We then choose the solution with the minimum dissimilarity of clusters.
+Figure 23.4 contains a function, trykmeans, that calls kmeans (see Figure 23.5)
+multiple times and selects the result with the lowest dissimilarity. If a trial fails
+because kmeans generated an empty cluster and therefore raised an exception,
+trykmeans merely tries again—assuming that eventually kmeans will choose an ini-
+tial set of centroids that successfully converges.
+def dissimilarity(clusters):
+totDist = 0.0
+for c[FORMULA]clusters:
+totDist += c.variability()
+return totDist
+def trykmeans(examples, numClusters, numTrials, verbose = False):
+"""Calls kmeans numTrials times and returns the result with the
+lowest dissimilarity"""
+best = kmeans(examples, numClusters, verbose)
+minDissimilarity = dissimilarity(best)
+trial = 1
+while trial < numTrials:
+try:
+clusters = kmeans(examples, numClusters, verbose)
+except ValueError:
+continue #If failed, try again
+currDissimilarity = dissimilarity(clusters)
+if currDissimilarity < minDissimilarity:
+best = clusters
+minDissimilarity = currDissimilarity
+trial += 1
+return best
+Figure 23.4 Finding the best k-means clustering
+Figure 23.5 contains a translation into Python of the pseudocode describing
+k-means. The only wrinkle is that it raises an exception if any iteration creates a
+cluster with no members. Generating an empty cluster is rare. It can’t occur on
+the first iteration, but it can occur on subsequent iterations. It usually results
+from choosing too large a k or an unlucky choice of initial centroids. Treating an
+empty cluster as an error is one of the options used by Matlab. Another is creat-
+ing a new cluster containing a single point—the point furthest from the centroid[FORMULA]the other clusters. We chose to treat it an error to keep the implementation
+relatively simple.
+CHAPTER 23. CLUSTERING 389
+def kmeans(examples, k, verbose = False):
+#Get k randomly chosen initial centroids, create cluster for each
+initialCentroids = random.sample(examples, k)
+clusters = []
+for e[FORMULA]initialCentroids:
+clusters.append(Cluster([e]))
+#Iterate until centroids do not change
+converged = False
+numIterations = 0
+while not converged:
+numIterations += 1
+#Create a list containing k distinct empty lists
+newClusters = []
+for i[FORMULA]range(k):
+newClusters.append([])
+#Associate each example with closest centroid
+for e[FORMULA]examples:
+#Find the centroid closest to e
+smallestDistance = e.distance(clusters[0].getCentroid())
+index = 0
+for i[FORMULA]range(1, k):
+distance = e.distance(clusters[i].getCentroid())
+if distance < smallestDistance:
+smallestDistance = distance
+index = i
+#Add e to the list of examples for appropriate cluster
+newClusters[index].append(e)
+for c[FORMULA]newClusters: #Avoid having empty clusters
+if len(c) == 0:
+raise ValueError('Empty Cluster')
+#Update each cluster; check if a centroid has changed
+converged = True
+for i[FORMULA]range(k):
+if clusters[i].update(newClusters[i]) > 0.0:
+converged = False
+if verbose:
+print('Iteration #' + str(numIterations))
+for c[FORMULA]clusters:
+print(c)
+print('') #add blank line
+return clusters
+Figure 23.5 K-means clustering
+390 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+## 23.3 A Contrived Example
+
+Figure 23.7 contains code that generates, plots, and clusters examples drawn
+from two distributions.
+The function genDistributions generates a list of n examples with two-
+dimensional feature vectors. The values of the elements of these feature vectors
+are drawn from normal distributions.
+The function plotSamples plots the feature vectors of a set of examples. It uses
+pylab.annotate to place text next to points on the plot. The first argument is the
+text, the second argument the point with which the text is associated, and the
+third argument the location of the text relative to the point with which it is asso-
+ciated.
+The function contrivedTest uses genDistributions to create two distributions
+of ten examples (each with the same standard deviation but different means),
+plots the examples using plotSamples, and then clusters them using trykmeans.
+The call contrivedTest(1, 2, True) produced the plot[FORMULA]Figure 23.6 and
+printed the lines[FORMULA]Figure 23.8.
+Figure 23.6 Examples from two distributions
+CHAPTER 23. CLUSTERING 391
+def genDistribution(xMean, xSD, yMean, ySD, n, namePrefix):
+samples = []
+for s[FORMULA]range(n):
+x = random.gauss(xMean, xSD)
+y = random.gauss(yMean, ySD)
+samples.append(Example(namePrefix+str(s), [x, y]))
+return samples
+def plotSamples(samples, marker):
+xVals, yVals = [], []
+for s[FORMULA]samples:
+x = s.getFeatures()[0]
+y = s.getFeatures()[1]
+pylab.annotate(s.getName(), xy = (x, y),
+xytext = (x+0.13, y-0.07),
+fontsize = 'x-large')
+xVals.append(x)
+yVals.append(y)
+pylab.plot(xVals, yVals, marker)
+def contrivedTest(numTrials, k, verbose = False):
+xMean = 3
+xSD = 1
+yMean = 5
+ySD = 1
+n = 10
+d1Samples = genDistribution(xMean, xSD, yMean, ySD, n, 'A')
+plotSamples(d1Samples, 'k^')
+d2Samples = genDistribution(xMean+3, xSD, yMean+1, ySD, n, 'B')
+plotSamples(d2Samples, 'ko')
+clusters = trykmeans(d1Samples+d2Samples, k, numTrials, verbose)
+print('Final result')
+for c[FORMULA]clusters:
+print('', c)
+Figure 23.7 A test of k-means
+392 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Iteration #1
+Cluster with centroid [ 4.71113345 5.76359152] contains:
+A0, A1, A2, A4, A5, A6, A7, A8, A9, B0, B1, B2, B3, B4, B5, B6,
+B7, B8, B9
+Cluster with centroid [ 1.97789683 3.56317055] contains:
+A3
+Iteration #2
+Cluster with centroid [ 5.46369488 6.12015454] contains:
+A0, A4, A8, A9, B0, B1, B2, B3, B4, B5, B6, B7, B8, B9
+Cluster with centroid [ 2.49961733 4.56487432] contains:
+A1, A2, A3, A5, A6, A7
+Iteration #3
+Cluster with centroid [ 5.84078727 6.30779094] contains:
+A0, A8, B0, B1, B2, B3, B4, B5, B6, B7, B8, B9
+Cluster with centroid [ 2.67499815 4.67223977] contains:
+A1, A2, A3, A4, A5, A6, A7, A9
+Iteration #4
+Cluster with centroid [ 5.84078727 6.30779094] contains:
+A0, A8, B0, B1, B2, B3, B4, B5, B6, B7, B8, B9
+Cluster with centroid [ 2.67499815 4.67223977] contains:
+A1, A2, A3, A4, A5, A6, A7, A9
+Final result
+Cluster with centroid [ 5.84078727 6.30779094] contains:
+A0, A8, B0, B1, B2, B3, B4, B5, B6, B7, B8, B9
+Cluster with centroid [ 2.67499815 4.67223977] contains:
+A1, A2, A3, A4, A5, A6, A7, A9
+Figure 23.8 Lines printed by call contrivedTest(1, 2, True)
+Notice that the initial (randomly chosen) centroids led to a highly skewed
+clustering[FORMULA]which a single cluster contained all but one of the points. By the
+fourth iteration, however, the centroids had moved to places such that the points
+from the two distributions were reasonably well separated into two clusters. The
+only “mistakes” were made on A0 and A8.
+When we tried 50 trials rather than 1, by calling contrivedTest(50, 2, False),
+it printed
+CHAPTER 23. CLUSTERING 393
+Final result
+Cluster with centroid [ 2.74674403 4.97411447] contains:
+A1, A2, A3, A4, A5, A6, A7, A8, A9
+Cluster with centroid [ 6.0698851 6.20948902] contains:
+A0, B0, B1, B2, B3, B4, B5, B6, B7, B8, B9
+A0 is still mixed[FORMULA]with the B’s, but A8 is not. If we try 1000 trials, we get the same
+result. That might surprise you, since a glance at Figure 23.6 reveals that if A0 and
+B0 are chosen as the initial centroids (which would probably happen with 1000
+trials), the first iteration will yield clusters that perfectly separate the A’s and B’s.
+However,[FORMULA]the second iteration new centroids will be computed, and A0 will be
+assigned to a cluster with the B’s. Is this bad? Recall that clustering is a form of
+unsupervised learning that looks for structure[FORMULA]unlabeled data. Grouping A0
+with the B’s is not unreasonable.
+One of the key issues[FORMULA]using k-means clustering is choosing k. The function
+contrivedTest2[FORMULA]Figure 23.9 generates, plots, and clusters points from three
+overlapping Gaussian distributions. We will use it to look at the results of cluster-
+ing this data for various values of k. The data points are shows[FORMULA]Figure 23.10.
+def contrivedTest2(numTrials, k, verbose = False):
+xMean = 3
+xSD = 1
+yMean = 5
+ySD = 1
+n = 8
+d1Samples = genDistribution(xMean,xSD, yMean, ySD, n, 'A')
+plotSamples(d1Samples, 'k^')
+d2Samples = genDistribution(xMean+3,xSD,yMean, ySD, n, 'B')
+plotSamples(d2Samples, 'ko')
+d3Samples = genDistribution(xMean, xSD, yMean+3, ySD, n, 'C')
+plotSamples(d3Samples, 'kx')
+clusters = trykmeans(d1Samples + d2Samples + d3Samples,
+k, numTrials, verbose)
+pylab.ylim(0,11)
+print('Final result has dissimilarity',
+round(dissimilarity(clusters), 3))
+for c[FORMULA]clusters:
+print('', c)
+Figure 23.9 Generating points from three distributions
+394 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Figure 23.10 Points from three overlapping Gaussians
+The invocation contrivedTest2(40, 2) prints
+Final result has dissimilarity 90.128
+Cluster with centroid [ 5.5884966 4.43260236] contains:
+A.0, A.3, A.5, B.0, B.1, B.2, B.3, B.4, B.5, B.6, B.7
+Cluster with centroid [ 2.80949911 7.11735738] contains:
+A.1, A.2, A.4, A.6, A.7, C.0, C.1, C.2, C.3, C.4, C.5, C.6, C.7
+The invocation contrivedTest2(40, 3) prints
+Final result has dissimilarity 42.757
+Cluster with centroid [ 7.66239972 3.55222681] contains:
+B.0, B.1, B.3, B.6
+Cluster with centroid [ 3.56907939 4.95707576] contains:
+A.0, A.1, A.2, A.3, A.4, A.5, A.7, B.2, B.4, B.5, B.7
+Cluster with centroid [ 3.12083099 8.06083681] contains:
+A.6, C.0, C.1, C.2, C.3, C.4, C.5, C.6, C.7
+And the invocation contrivedTest2(40, 6) prints
+Final result has dissimilarity 11.441
+Cluster with centroid [ 2.10900238 4.99452866] contains:
+A.1, A.2, A.4, A.7
+Cluster with centroid [ 4.92742554 5.60609442] contains:
+B.2, B.4, B.5, B.7
+Cluster with centroid [ 2.80974427 9.60386549] contains:
+C.0, C.6, C.7
+Cluster with centroid [ 3.27637435 7.28932247] contains:
+A.6, C.1, C.2, C.3, C.4, C.5
+Cluster with centroid [ 3.70472053 4.04178035] contains:
+A.0, A.3, A.5
+Cluster with centroid [ 7.66239972 3.55222681] contains:
+B.0, B.1, B.3, B.6
+CHAPTER 23. CLUSTERING 395
+The last clustering is the tightest fit, i.e., the clustering has the lowest dissimi-
+larity (11.441). Does this mean that it is the “best” clustering? Not necessarily.
+Recall that when we looked at linear regression[FORMULA]Section 18.1.1, we observed
+that by increasing the degree of the polynomial we got a more complex model
+that provided a tighter fit to the data. We also observed that when we increased
+the degree of the polynomial we ran the risk of finding a model with poor predic-
+tive value—because it overfit the data.
+Choosing the right value for k is exactly analogous to choosing the right de-
+gree polynomial for a linear regression. By increasing k, we can decrease dissimi-
+larity, at the risk of overfitting. (When k is equal to the number of examples to be
+clustered, the dissimilarity is 0!) If we have information about how the examples
+to be clustered were generated, e.g., chosen from m distributions, we can use that
+information to choose k. Absent such information, there are a variety of heuristic
+procedures for choosing k. Going into them is beyond the scope of this book.
+
+## 23.4 A Less Contrived Example
+
+Different species of mammals have different eating habits. Some species (e.g., el-
+ephants and beavers) eat only plants, others (e.g., lions and tigers) eat only meat,
+and some (e.g., pigs and humans) eat anything they can get into their mouths.
+The vegetarian species are called herbivores, the meat eaters are called carni-
+vores, and those species that eat both plants and animals are called omnivores.
+Over the millennia, evolution (or some other mysterious process) has
+equipped species with teeth suitable for consumption of their preferred foods.168
+That raises the question of whether clustering mammals based on their dentition
+produces clusters that have some relation to their diets.
+Figure 23.11 shows the contents of a file listing some species of mammals,
+their dental formulas (the first 8 numbers), their average adult weight[FORMULA]pounds,169 and a code indicating their preferred diet. The comments at the top
+describe the items associated with each mammal, e.g., the first item following the
+name is the number of top incisors.
+168 Or, perhaps, species have chosen food based on their dentition. As we pointed out[FORMULA]Section
+21.4, correlation does not imply causation.
+169 We included the information about weight because the author has been told, on more than one
+occasion, that there is a relationship between weight and eating habits.
+396 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+#Name
+#top incisors
+#top canines
+#top premolars
+#top molars
+#bottom incisors
+#bottom canines
+#bottom premolars
+#bottom molars
+#weight
+#Label: 0=herbivore, 1=carnivore, 2=omnivore
+Badger,3,1,3,1,3,1,3,2,10,1
+Bear,3,1,4,2,3,1,4,3,278,2
+Beaver,1,0,2,3,1,0,1,3,20,0
+Brown bat,2,1,1,3,3,1,2,3,0.5,1
+Cat,3,1,3,1,3,1,2,1,4,1
+Cougar,3,1,3,1,3,1,2,1,63,1
+Cow,0,0,3,3,3,1,2,1,400,0
+Deer,0,0,3,3,4,0,3,3,200,0
+Dog,3,1,4,2,3,1,4,3,20,1
+Elk,0,1,3,3,3,1,3,3,500,0
+Fox,3,1,4,2,3,1,4,3,5,1
+Fur seal,3,1,4,1,2,1,4,1,200,1
+Grey seal,3,1,3,2,2,1,3,2,268,1
+Guinea pig,1,0,1,3,1,0,1,3,1,0
+Human,2,1,2,3,2,1,2,3,150,2
+Jaguar,3,1,3,1,3,1,2,1,81,1
+Kangaroo,3,1,2,4,1,0,2,4,55,0
+Lion,3,1,3,1,3,1,2,1,175,1
+Mink,3,1,3,1,3,1,3,2,1,1
+Mole,3,1,4,3,3,1,4,3,0.75,1
+Moose,0,0,3,3,4,0,3,3,900,0
+Mouse,1,0,0,3,1,0,0,3,0.3,2
+Pig,3,1,4,3,3,1,4,3,50,2
+Porcupine,1,0,1,3,1,0,1,3,3,0
+Rabbit,2,0,3,3,1,0,2,3,1,0
+Raccoon,3,1,4,2,3,1,4,2,40,2
+Rat,1,0,0,3,1,0,0,3,.75,2
+Red bat,1,1,2,3,3,1,2,3,1,1
+Sea lion,3,1,4,1,2,1,4,1,415,1
+Skunk,3,1,3,1,3,1,3,2,2,2
+Squirrel,1,0,2,3,1,0,1,3,2,2
+Wolf,3,1,4,2,3,1,4,3,27,1
+Woodchuck,1,0,2,3,1,0,1,3,4,2
+Figure 23.11 Mammal dentition
+CHAPTER 23. CLUSTERING 397
+Figure 23.12 contains a function, readMammalData, for reading a file formatted[FORMULA]this way and processing the contents of the file to produce a set of examples
+representing the information[FORMULA]the file. It first processes the header information
+at the start of the file to get a count of the number of features to be associated
+with each example. It then uses the lines corresponding to each species to build
+three lists:
+• speciesNames is a list of the names of the mammals.
+• labelList is a list of the labels associated with the mammals.
+• featureVals is a list of lists. Each element of featureVals contains the list of val-
+ues, one for each mammal, for a single feature—for example, a list of weights.
+The value of the expression featureVals[i][j] is the ith feature of the jth mam-
+mal.
+The last part of readMammalData uses the values[FORMULA]featureVals to create a list of
+feature vectors, one for each mammal. (The code could be simplified by not con-
+structing featureVals and instead directly constructing the feature vectors for
+each mammal. However, we chose not to do that[FORMULA]anticipation of an enhance-
+ment to readMammalData that we make later[FORMULA]this section.)
+The function buildMammalExamples[FORMULA]Figure 23.12 builds a list of examples
+from the data[FORMULA]the lists created by readMammalData.
+The function testTeeth, Figure 23.13, uses trykmeans to cluster the examples
+built by buildMammalExamples. It then reports the number of herbivores, carni-
+vores, and omnivores[FORMULA]each cluster.
+398 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+def readMammalData(fName):
+dataFile = open(fName, 'r')
+numFeatures = 0
+#Process lines at top of file
+for line[FORMULA]dataFile: #Find number of features
+if line[0:6] == '#Label': #indicates end of features
+break
+if line[0:5] != '#Name':
+numFeatures += 1
+featureVals = []
+#Produce featureVals, speciesNames, and labelList
+featureVals, speciesNames, labelList = [], [], []
+for i[FORMULA]range(numFeatures):
+featureVals.append([])
+#Continue processing lines[FORMULA]file, starting after comments
+for line[FORMULA]dataFile:
+#remove newline, then split
+dataLine = line[:-1].split(',')
+speciesNames.append(dataLine[0])
+classLabel = dataLine[-1]
+labelList.append(classLabel)
+for i[FORMULA]range(numFeatures):
+featureVals[i].append(float(dataLine[i+1]))
+#Use featureVals to build list containing the feature vectors
+#for each mammal
+featureVectorList = []
+for mammal[FORMULA]range(len(speciesNames)):
+featureVector = []
+for feature[FORMULA]range(numFeatures):
+featureVector.append(featureVals[feature][mammal])
+featureVectorList.append(featureVector)
+return featureVectorList, labelList, speciesNames
+def buildMammalExamples(featureList, labelList, speciesNames):
+examples = []
+for i[FORMULA]range(len(speciesNames)):
+features = pylab.array(featureList[i])
+example = Example(speciesNames[i], features, labelList[i])
+examples.append(example)
+return examples
+Figure 23.12 Read and process file
+CHAPTER 23. CLUSTERING 399
+def testTeeth(numClusters, numTrials):
+features, labels, species = readMammalData('dentalFormulas.txt')
+examples = buildMammalExamples(features, labels, species)
+bestClustering = trykmeans(examples, numClusters, numTrials)
+for c[FORMULA]bestClustering:
+names = ''
+for p[FORMULA]c.members():
+names += p.getName() + ', '
+print('\n' + names[:-2]) #remove trailing comma and space
+herbivores, carnivores, omnivores = 0, 0, 0
+for p[FORMULA]c.members():
+if p.getLabel() == '0':
+herbivores += 1
+elif p.getLabel() == '1':
+carnivores += 1
+else:
+omnivores += 1
+print(herbivores, 'herbivores,', carnivores, 'carnivores,',
+omnivores, 'omnivores')
+Figure 23.13 Clustering animals
+When we executed the code testTeeth(3, 40) it printed
+Bear, Cow, Deer, Elk, Fur seal, Grey seal, Lion, Sea lion
+
+## 3 herbivores, 4 carnivores, 1 omnivores
+
+Badger, Cougar, Dog, Fox, Guinea pig, Human, Jaguar, Kangaroo, Mink,
+Mole, Mouse, Pig, Porcupine, Rabbit, Raccoon, Rat, Red bat, Skunk,
+Squirrel, Wolf, Woodchuck
+
+## 4 herbivores, 9 carnivores, 8 omnivores
+
+Moose
+
+## 1 herbivores, 0 carnivores, 0 omnivores
+
+So much for our conjecture that the clustering would be related to the eating
+habits of the various species. A cursory inspection suggests that we have a clus-
+tering totally dominated by the weights of the animals. The problem is that the
+range of weights is much larger than the range of any of the other features.
+Therefore, when the Euclidean distance between examples is computed, the only
+feature that truly matters is weight.
+We encountered a similar problem[FORMULA]Section 22.2 when we found that the
+distance between animals was dominated by the number of legs. We solved the
+problem there by turning the number of legs into a binary feature (legged or leg-
+less). That was fine for that data set, because all of the animals happened to have
+400 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+either zero or four legs. Here, however, there is no obvious way to turn weight
+into a single binary feature without losing a great deal of information.
+This is a common problem, which is often addressed by scaling the features
+so that each feature has a mean of 0 and a standard deviation of 1,170 as done by
+the function zScaleFeatures[FORMULA]Figure 23.14. It’s easy to see why the statement re-
+sult = result - mean ensures that the mean of the returned array will always be
+close to 0.171 That the standard deviation will always be 1 is not obvious. It can be
+shown by a long and tedious chain of algebraic manipulations, which we will not
+bore you with. This kind of scaling is often called z-scaling because the normal
+distribution is sometimes referred to as the Z-distribution.
+Another common approach to scaling is to map the minimum feature value
+to 0, map the maximum feature value to 1, and use linear interpolation[FORMULA]be-
+tween, as done by the function iScaleFeatures[FORMULA]Figure 23.14.
+def zScaleFeatures(vals):
+"""Assumes vals is a sequence of floats"""
+result = pylab.array(vals)
+mean =[FORMULA](result)/len(result)
+result = result - mean
+return result/stdDev(result)
+def iScaleFeatures(vals):
+"""Assumes vals is a sequence of floats"""
+minVal, maxVal = min(vals), max(vals)
+fit = pylab.polyfit([minVal, maxVal], [0, 1], 1)
+return pylab.polyval(fit, vals)
+Figure 23.14 Scaling attributes
+Figure 23.15 contains a version of readMammalData that allows scaling of fea-
+tures using the function bound to the parameter scale. Notice that it depends
+upon that fact that we collect all of the values for a single feature into a single
+vector. The version of the function testTeeth[FORMULA]Figure 23.15 supplies the scaling
+function used by readMammalData. When testTeeth is called with only two argu-
+ments, it calls readMammalData with the identity function, which is equivalent to
+doing no scaling.
+170 A normal distribution with a mean of 0 and a standard deviation of 1 is called a standard
+normal distribution.
+171 We say “close,” because floating point numbers are only an approximation to the reals.
+CHAPTER 23. CLUSTERING 401
+def readMammalData(fName, scale):
+Same code as[FORMULA]Figure 23.11
+#Produce featureVals, speciesNames, and labelList
+Same code as[FORMULA]Figure 23.11
+#Continue processing lines[FORMULA]file, starting after comments
+Same code as[FORMULA]Figure 23.11
+#Use featureVals to build list containing the feature vectors
+#for each mammal, scaling features as indicated
+for i[FORMULA]range(numFeatures):
+featureVals[i] = scale(featureVals[i])
+featureVectorList = []
+for mammal[FORMULA]range(len(speciesNames)):
+featureVector = []
+for feature[FORMULA]range(numFeatures):
+featureVector.append(featureVals[feature][mammal])
+featureVectorList.append(featureVector)
+return featureVectorList, labelList, speciesNames
+def testTeeth(numClusters, numTrials, scale = lambda x: x):
+features, labels, species =\
+readMammalData('dentalFormulas.txt', scale)
+examples = buildMammalExamples(features, labels, species)
+###Remainder of testTeeth is the same as[FORMULA]Figure 23.13###
+Figure 23.15 Code that allows scaling of features
+When we executed the code
+random.seed(0) #so two clusterings starts with same seed
+print('Clustering without scaling')
+testTeeth(3, 40)
+random.seed(0) #so two clusterings starts with same seed
+print('\nClustering with z-scaling')
+testTeeth(3, 40, zScaleFeatures)
+print('\nClustering with i-scaling')
+testTeeth(3, 40, iScaleFeatures)
+402 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+it printed
+Clustering without scaling
+Bear, Cow, Deer, Elk, Fur seal, Grey seal, Lion, Sea lion
+
+## 3 herbivores, 4 carnivores, 1 omnivores
+
+Badger, Cougar, Dog, Fox, Guinea pig, Human, Jaguar, Kangaroo, Mink,
+Mole, Mouse, Pig, Porcupine, Rabbit, Raccoon, Rat, Red bat, Skunk,
+Squirrel, Wolf, Woodchuck
+
+## 4 herbivores, 9 carnivores, 8 omnivores
+
+Moose
+
+## 1 herbivores, 0 carnivores, 0 omnivores
+
+Clustering with z-scaling
+Badger, Bear, Cougar, Dog, Fox, Fur seal, Grey seal, Human, Jaguar,
+Lion, Mink, Mole, Pig, Raccoon, Red bat, Sea lion, Skunk, Wolf
+
+## 0 herbivores, 13 carnivores, 5 omnivores
+
+Guinea pig, Kangaroo, Mouse, Porcupine, Rabbit, Rat, Squirrel,
+Woodchuck
+
+## 4 herbivores, 0 carnivores, 4 omnivores
+
+Cow, Deer, Elk, Moose
+
+## 4 herbivores, 0 carnivores, 0 omnivores
+
+Clustering with i-scaling
+Cow, Deer, Elk, Moose
+
+## 4 herbivores, 0 carnivores, 0 omnivores
+
+Badger, Bear, Cougar, Dog, Fox, Fur seal, Grey seal, Human, Jaguar,
+Lion, Mink, Mole, Pig, Raccoon, Red bat, Sea lion, Skunk, Wolf
+
+## 0 herbivores, 13 carnivores, 5 omnivores
+
+Guinea pig, Kangaroo, Mouse, Porcupine, Rabbit, Rat, Squirrel,
+Woodchuck
+
+## 4 herbivores, 0 carnivores, 4 omnivores
+
+The clustering with scaling (the two methods of scaling yield the same clus-
+ters) does not perfectly partition the animals based upon their eating habits, but
+it is certainly correlated with what they eat. It does a good job of separating the
+carnivores from the herbivores, but there is no obvious pattern[FORMULA]where the om-
+nivores appear. This suggests that perhaps features other than dentition and
+weight might be needed to separate omnivores from herbivores and carnivores.
+
+## 24 CLASSIFICATION METHODS
+
+The most common application of supervised machine learning is building classi-
+fication models. A classification model, or classifier, is used to label an example
+as belonging to one of a finite set of categories. Deciding whether an email mes-
+sage is spam, for example, is a classification problem. In the literature, these cate-
+gories are typically called classes (hence the name classification). Equivalently,
+one can describe an example as belonging to a class or a having label.
+In one-class learning, the training set contains examples drawn from only
+one class. The goal is to learn a model that predicts whether an example belongs
+to that class. One-class learning is useful when it is difficult to find training ex-
+amples that lie outside the class. One-class learning is frequently used for build-
+ing anomaly detectors, e.g., detecting previously unseen kinds of attacks on a
+computer network.
+In two-class learning (often called binary classification), the training set con-
+tains examples drawn from exactly two classes (typically called positive and nega-
+tive), and the objective is to find a boundary that separates the two classes. Multi-
+class learning involves finding boundaries that separate more than two classes
+from each other.
+In this chapter, we look at two widely used supervised learning methods for
+solving classification problems: k-nearest neighbors and regression. Before we
+do, we address the question of how to evaluate the classifiers produced by these
+methods.
+
+## 24.1 Evaluating Classifiers
+
+Those of you who read Chapter 18 might recall that part of that chapter ad-
+dressed the question of choosing a degree for a linear regression that would 1)
+provide a reasonably good fit for the available data, and 2) have a reasonable
+chance of making good predictions about as yet unseen data. The same issues
+arise when using supervised machine learning to train a classifier.
+We start by dividing our data into two sets, a training set and a test set. The
+training set is used to learn a model, and the test set is used to evaluate that mod-
+el. When we train the classifier, we attempt to minimize training error, i.e., errors
+404 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON[FORMULA]classifying the examples[FORMULA]the training set, subject to certain constraints. The
+constraints are designed to increase the probability that the model will perform
+reasonably well on as yet unseen data. Let’s look at this pictorially.
+The chart on the left of Figure 24.1 shows a representation of voting patterns
+for sixty (simulated) American citizens. The x-axis is the distance of the voter’s
+home from Boston, Massachusetts. The y-axis is the age of the voter. The stars
+indicate voters who usually vote Democratic, and the triangles voters who usual-
+ly vote Republican. The chart on the right[FORMULA]Figure 24.1 shows a training set
+containing a randomly chosen sample of thirty of those voters. The solid and
+dashed lines show two possible boundaries between the two populations. For the
+model based on the solid line, points below the line are classified as Democratic
+voters. For the model based on the dotted line, points to the left of the line are
+classified as Democratic voters.
+Figure 24.1 Plots of voter preferences
+Neither boundary separates the training data perfectly. The training errors
+for the two models are shown[FORMULA]the confusion matrices[FORMULA]Figure 24.2. The top
+left corner of each shows the number of examples classified as Democratic that
+are actually Democratic, i.e., the true positives. The bottom left corner shows the
+number of examples classified as Democratic that are actually Republican, i.e.,
+the false positives. The right-hand column shows the number of false negatives
+on the top and the number of true negatives on the bottom.
+CHAPTER 24. CLASSIFICATION METHODS 405
+Figure 24.2 Confusion matrices
+The accuracy of each classifier on the training data can be calculated as
+𝑡𝑟𝑢𝑒 𝑝𝑜𝑠𝑖𝑡𝑖𝑣𝑒+𝑡𝑟𝑢𝑒 𝑛𝑒𝑔𝑎𝑡𝑖𝑣𝑒
+𝑎𝑐𝑐𝑢𝑟𝑎𝑐𝑦 =
+𝑡𝑟𝑢𝑒 𝑝𝑜𝑠𝑖𝑡𝑖𝑣𝑒+𝑡𝑟𝑢𝑒 𝑛𝑒𝑔𝑎𝑡𝑖𝑣𝑒+𝑓𝑎𝑙𝑠𝑒 𝑝𝑜𝑠𝑖𝑡𝑖𝑣𝑒+𝑓𝑎𝑙𝑠𝑒 𝑛𝑒𝑔𝑎𝑡𝑖𝑣𝑒
+In this case, each classifier has an accuracy of 0.7. Which does a better job of
+fitting the training data? It depends upon whether one is more concerned about
+misclassifying Republicans as Democrats, or vice versa.
+If we are willing to draw a more complex boundary, we can get a classifier
+that does a more accurate job of classifying the training data. The classifier pic-
+tured[FORMULA]Figure 24.3, for example, has an accuracy of about 0.83 on the training
+data, as depicted[FORMULA]the left plot of the figure. However, as we saw[FORMULA]our discus-
+sion of linear regression[FORMULA]Chapter 18, the more complicated the model, the
+higher the probability that it has been overfit to the training data. The right-hand
+plot[FORMULA]Figure 24.3 depicts what happens if we apply the complex model to the
+holdout set—the accuracy drops to 0.6.
+Figure 24.3 A more complex model
+406 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Accuracy is a reasonable way to evaluate a classifier when the two classes are
+of roughly equal size. It is a terrible way to evaluate a classifier when there is a
+large class imbalance. Imagine that you are charged with evaluating a classifier
+that predicts whether a person has a potentially fatal disease that occurs[FORMULA]about
+0.1% of the population to be tested. Accuracy is not a particularly useful statistic,
+since 99.9% accuracy can be attained by merely declaring all patients disease-
+free. That classifier might seem great to those charged with paying for the treat-
+ment (nobody would get treated!), but it might not seem so great to those wor-
+ried that they might have the disease.
+Fortunately, there are statistics about classifiers that shed light when classes
+are imbalanced:
+𝑡𝑟𝑢𝑒 𝑝𝑜𝑠𝑖𝑡𝑖𝑣𝑒
+𝑠𝑒𝑛𝑠𝑖𝑡𝑖𝑣𝑖𝑡𝑦 =
+𝑡𝑟𝑢𝑒 𝑝𝑜𝑠𝑖𝑡𝑖𝑣𝑒+𝑓𝑎𝑙𝑠𝑒 𝑛𝑒𝑔𝑎𝑡𝑖𝑣𝑒
+𝑡𝑟𝑢𝑒 𝑛𝑒𝑔𝑎𝑡𝑖𝑣𝑒
+𝑠𝑝𝑒𝑐𝑖𝑓𝑖𝑐𝑖𝑡𝑦 =
+𝑡𝑟𝑢𝑒 𝑛𝑒𝑔𝑎𝑡𝑖𝑣𝑒+𝑓𝑎𝑙𝑠𝑒 𝑝𝑜𝑠𝑖𝑡𝑖𝑣𝑒
+𝑡𝑟𝑢𝑒 𝑝𝑜𝑠𝑖𝑡𝑖𝑣𝑒
+𝑝𝑜𝑠𝑖𝑡𝑖𝑣𝑒 𝑝𝑟𝑒𝑑𝑖𝑐𝑡𝑖𝑣𝑒 𝑣𝑎𝑙𝑢𝑒 =
+𝑡𝑟𝑢𝑒 𝑝𝑜𝑠𝑖𝑡𝑖𝑣𝑒+𝑓𝑎𝑙𝑠𝑒 𝑝𝑜𝑠𝑖𝑡𝑖𝑣𝑒
+𝑡𝑟𝑢𝑒 𝑛𝑒𝑔𝑎𝑡𝑖𝑣𝑒
+𝑛𝑒𝑔𝑎𝑡𝑖𝑣𝑒 𝑝𝑟𝑒𝑑𝑖𝑐𝑡𝑖𝑣𝑒 𝑣𝑎𝑙𝑢𝑒 =
+𝑡𝑟𝑢𝑒 𝑛𝑒𝑔𝑎𝑡𝑖𝑣𝑒+𝑓𝑎𝑙𝑠𝑒 𝑛𝑒𝑔𝑎𝑡𝑖𝑣𝑒
+Sensitivity (called recall[FORMULA]some fields) is the true positive rate, i.e., the pro-
+portion of positives that are correctly identified as such. Specificity (called preci-
+sion[FORMULA]some fields) is the true negative rate, i.e., the proportion of negatives that
+are correctly identified as such. Positive predictive value is the probability that an
+example classified as positive is truly positive. Negative predictive value is the
+probability that an example classified as negative is truly negative.
+Implementations of these statistical measures and a function that uses them
+to generate some statistics are[FORMULA]Figure 24.4. We will use these functions later[FORMULA]this chapter.
+CHAPTER 24. CLASSIFICATION METHODS 407
+def accuracy(truePos, falsePos, trueNeg, falseNeg):
+numerator = truePos + trueNeg
+denominator = truePos + trueNeg + falsePos + falseNeg
+return numerator/denominator
+def sensitivity(truePos, falseNeg):
+try:
+return truePos/(truePos + falseNeg)
+except ZeroDivisionError:
+return float('nan')
+def specificity(trueNeg, falsePos):
+try:
+return trueNeg/(trueNeg + falsePos)
+except ZeroDivisionError:
+return float('nan')
+def posPredVal(truePos, falsePos):
+try:
+return truePos/(truePos + falsePos)
+except ZeroDivisionError:
+return float('nan')
+def negPredVal(trueNeg, falseNeg):
+try:
+return trueNeg/(trueNeg + falseNeg)
+except ZeroDivisionError:
+return float('nan')
+def getStats(truePos, falsePos, trueNeg, falseNeg, toPrint = True):
+accur = accuracy(truePos, falsePos, trueNeg, falseNeg)
+sens = sensitivity(truePos, falseNeg)
+spec = specificity(trueNeg, falsePos)
+ppv = posPredVal(truePos, falsePos)
+if toPrint:
+print(' Accuracy =', round(accur, 3))
+print(' Sensitivity =', round(sens, 3))
+print(' Specificity =', round(spec, 3))
+print(' Pos. Pred. Val. =', round(ppv, 3))
+return (accur, sens, spec, ppv)
+Figure 24.4 Functions for evaluating classifiers
+408 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+
+## 24.2 Predicting the Gender of Runners
+
+Earlier[FORMULA]this book, we used data from the Boston Marathon to illustrate a num-
+ber of statistical concepts. We will now use the same data to illustrate the applica-
+tion of various classification methods. The task is to predict the gender of a
+runner given the runner’s age and finishing time.
+The code[FORMULA]Figure 24.5 reads[FORMULA]the data from a file by calling the function
+getBMData defined[FORMULA]Figure 17.2, and then builds a set of examples. Each example
+is an instance of class Runner. Each runner has a label (gender) and a feature vec-
+tor (age and finishing time). The only interesting method[FORMULA]Runner is featureDist.
+It returns the Euclidean distance between the feature vectors of two runners.
+The next step is to split the examples into a training set and a held-out test
+set. As is frequently done, we use 80% of the data for training, and test on the
+remaining 20%. This is done using the function divide80_20 at the bottom of Fig-
+ure 24.5. Notice that we select the training data at random. It would have taken
+less code to simply select the first 80% of the data, but that runs the risk of not
+being representative of the set as a whole. If the file had been sorted by finishing
+time, for example, we would get a training set biased towards the better runners.
+We are now ready to look at different ways of using the training set to build a
+classifier that predicts the gender of a runner. Inspection reveals that 58% of the
+runners[FORMULA]the training set are male. So, if we guess male all the time, we should
+expect an accuracy of 58%. Keep this baseline[FORMULA]mind when looking at the per-
+formance of more sophisticated classification algorithms.
+
+## 24.3 K-nearest Neighbors
+
+K-nearest neighbors (KNN) is probably the simplest of all classification algo-
+rithms. The “learned” model is simply the training examples themselves. New
+examples are assigned a label based on how similar they are to examples[FORMULA]the
+training data.
+CHAPTER 24. CLASSIFICATION METHODS 409
+class Runner(object):
+def __init__(self, gender, age, time):
+self.featureVec = (age, time)
+self.label = gender
+def featureDist(self, other):
+dist = 0.0
+for i[FORMULA]range(len(self.featureVec)):
+dist += abs(self.featureVec[i] - other.featureVec[i])**2
+return dist**0.5
+def getTime(self):
+return self.featureVec[1]
+def getAge(self):
+return self.featureVec[0]
+def getLabel(self):
+return self.label
+def getFeatures(self):
+return self.featureVec
+def __str__(self):
+return str(self.getAge()) + ', ' + str(self.getTime())\
++ ', ' + self.label
+def buildMarathonExamples(fileName):
+data = getBMData(fileName)
+examples = []
+for i[FORMULA]range(len(data['age'])):
+a = Runner(data['gender'][i], data['age'][i],
+data['time'][i])
+examples.append(a)
+return examples
+def divide80_20(examples):
+sampleIndices = random.sample(range(len(examples)),
+len(examples)//5)
+trainingSet, testSet = [], []
+for i[FORMULA]range(len(examples)):
+if i[FORMULA]sampleIndices:
+testSet.append(examples[i])
+else:
+trainingSet.append(examples[i])
+return trainingSet, testSet
+Figure 24.5 Build examples and divide data into training and test sets
+410 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Imagine that you and a friend are strolling through the park and spot a bird.
+You believe that it is a yellow-throated woodpecker, but your friend is pretty sure
+that it is a golden-green woodpecker. You rush home and dig out your cache of
+bird books (or, if you are under 35, go to your favorite search engine) and start
+looking at labeled pictures of birds. Think of these labeled pictures as the training
+set. None of the pictures is an exact match for the bird you saw, so you settle for
+selecting the five that look the most like the bird you saw (the five “nearest
+neighbors”). The majority of them are photos of a yellow-throated woodpecker—
+you declare victory.
+A weakness of KNN classifiers is that they often give poor results when there
+is a large class imbalance. If the frequency of pictures of bird species[FORMULA]the book
+is the same as the frequency of that species[FORMULA]your neighborhood, KNN will
+probably work well. Suppose, however, that despite the species being equally
+common, your books contain 30 pictures of yellow-throated woodpeckers and
+only one of a golden-green woodpecker. If a simple majority vote is used to de-
+termine the classification, the yellow-throated woodpecker will be chosen even if
+the photos don’t look much like the bird you saw. This problem can be mitigated
+by using a more complicated voting scheme[FORMULA]which the k-nearest neighbors are
+weighted based on their similarity to the example being classified.
+The functions[FORMULA]Figure 24.6 implement a k-nearest neighbors classifier that
+predicts the gender of a runner based on the runner’s age and finishing time. The
+implementation is brute force. The function findKNearest is linear[FORMULA]the number
+of examples[FORMULA]exampleSet, since it computes the feature distance between example
+and each element[FORMULA]exampleSet. The function kNearestClassify uses a simple ma-
+jority-voting scheme to do the classification. The complexity of kNearestClassify
+is O(len(training)*len(testSet)), since it calls the function findNearest a total of
+len(testSet) times.
+When the code
+examples = buildMarathonExamples('bm_results2012.txt')
+training, testSet = divide80_20(examples)
+truePos, falsePos, trueNeg, falseNeg =\
+KNearestClassify(training, testSet, 'M', 9)
+getStats(truePos, falsePos, trueNeg, falseNeg)
+was run, it printed
+Accuracy = 0.65
+Sensitivity = 0.715
+Specificity = 0.563
+Pos. Pred. Val. = 0.684
+CHAPTER 24. CLASSIFICATION METHODS 411
+def findKNearest(example, exampleSet, k):
+kNearest, distances = [], []
+#Build lists containing first k examples and their distances
+for i[FORMULA]range(k):
+kNearest.append(exampleSet[i])
+distances.append(example.featureDist(exampleSet[i]))
+maxDist = max(distances) #Get maximum distance
+#Look at examples not yet considered
+for e[FORMULA]exampleSet[k:]:
+dist = example.featureDist(e)
+if dist < maxDist:
+#replace farther neighbor by this one
+maxIndex = distances.index(maxDist)
+kNearest[maxIndex] = e
+distances[maxIndex] = dist
+maxDist = max(distances)
+return kNearest, distances
+def KNearestClassify(training, testSet, label, k):
+"""Assumes training and testSet lists of examples, k an[FORMULA]Uses a k-nearest neighbor classifier to predict
+whether each example[FORMULA]testSet has the given label
+Returns number of true positives, false positives,
+true negatives, and false negatives"""
+truePos, falsePos, trueNeg, falseNeg = 0, 0, 0, 0
+for e[FORMULA]testSet:
+nearest, distances = findKNearest(e, training, k)
+#conduct vote
+numMatch = 0
+for i[FORMULA]range(len(nearest)):
+if nearest[i].getLabel() == label:
+numMatch += 1
+if numMatch > k//2: #guess label
+if e.getLabel() == label:
+truePos += 1
+else:
+falsePos += 1
+else: #guess not label
+if e.getLabel() != label:
+trueNeg += 1
+else:
+falseNeg += 1
+return truePos, falsePos, trueNeg, falseNeg
+Figure 24.6 Finding the k-nearest neighbors
+412 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Should we be pleased that we can predict gender with 65% accuracy given
+age and finishing time? One way to evaluate a classifier is to compare it to a clas-
+sifier that doesn’t even look at age and finishing time. The classifier[FORMULA]Figure
+
+## 24.7 first uses the examples[FORMULA]training to estimate the probability of a randomly
+
+chosen example[FORMULA]testSet being from class label. Using this prior probability, it
+then randomly assigns a label to each example[FORMULA]testSet.
+When we test prevalenceClassify on the same Boston Marathon data on
+which we tested KNN, it prints
+Accuracy = 0.514
+Sensitivity = 0.593
+Specificity = 0.41
+Pos. Pred. Val. = 0.57
+indicating that we are reaping a considerable advantage from considering age
+and finishing time.
+That advantage has a cost. If you run the code[FORMULA]Figure 24.6, you will notice
+that it takes a rather long time to finish. There are 17,233 training examples and
+4,308 test examples, so there are nearly 75 million distances calculated. This rais-
+es the question of whether we really need to use all of the training examples. Let’s
+see what happens if we simply down sample the training data by a factor of 10.
+If we run
+reducedTraining = random.sample(training, len(training)//10)
+truePos, falsePos, trueNeg, falseNeg =\
+KNearestClassify(reducedTraining, testSet, 'M', 9)
+getStats(truePos, falsePos, trueNeg, falseNeg)
+it completes[FORMULA]one-tenth the time, with little change[FORMULA]classification perfor-
+mance:
+Accuracy = 0.643
+Sensitivity = 0.726
+Specificity = 0.534
+Pos. Pred. Val. = 0.673
+In practice, when people apply KNN to large data sets they do down sample the
+training data.172
+172 They often use more sophisticated methods than random choice[FORMULA]constructing the sample.
+CHAPTER 24. CLASSIFICATION METHODS 413
+def prevalenceClassify(training, testSet, label):
+"""Assumes training and testSet lists of examples
+Uses a prevalence-based classifier to predict
+whether each example[FORMULA]testSet is of class label
+Returns number of true positives, false positives,
+true negatives, and false negatives"""
+numWithLabel = 0
+for e[FORMULA]training:
+if e.getLabel()== label:
+numWithLabel += 1
+probLabel = numWithLabel/len(training)
+truePos, falsePos, trueNeg, falseNeg = 0, 0, 0, 0
+for e[FORMULA]testSet:
+if random.random() < probLabel: #guess label
+if e.getLabel() == label:
+truePos += 1
+else:
+falsePos += 1
+else: #guess not label
+if e.getLabel() != label:
+trueNeg += 1
+else:
+falseNeg += 1
+return truePos, falsePos, trueNeg, falseNeg
+Figure 24.7 Prevalence-based classifier
+In the above experiments, we set k to 9. We did not choose this number for
+its role[FORMULA]science (the number of planets[FORMULA]our solar system),173 its religious sig-
+nificance (the number of forms of the Hindu goddess Durga), or its sociological
+importance (the number of hitters[FORMULA]a baseball lineup). Instead, we learned k
+from the training data by using the code[FORMULA]Figure 24.8 to search for a good k.
+The outer loop tests a sequence of values for k. We test only odd values to en-
+sure that when the vote is taken[FORMULA]kNearestClassify there will always be a majori-
+ty for one gender or the other.
+The inner loop tests each value of k using n-fold cross validation. In each of
+the numFolds iterations of the loop, the original training set is split into a new
+training set/test set pair. We then compute the accuracy of classifying the new
+test set using k-nearest neighbors and the new training set. When we exit the[FORMULA]-
+ner loop, we calculate the average accuracy of the numFolds folds.
+173 Some of us still believe[FORMULA]planet Pluto.
+414 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+def findK(training, minK, maxK, numFolds, label):
+#Find average accuracy for range of odd values of k
+accuracies = []
+for k[FORMULA]range(minK, maxK + 1, 2):
+score = 0.0
+for i[FORMULA]range(numFolds):
+#downsample to reduce computation time
+fold = random.sample(training, min(5000, len(training)))
+examples, testSet = divide80_20(fold)
+truePos, falsePos, trueNeg, falseNeg =\
+KNearestClassify(examples, testSet, label, k)
+score += accuracy(truePos, falsePos, trueNeg, falseNeg)
+accuracies.append(score/numFolds)
+pylab.plot(range(minK, maxK + 1, 2), accuracies)
+pylab.title('Average Accuracy vs k (' + str(numFolds)\
++ ' folds)')
+pylab.xlabel('k')
+pylab.ylabel('Accuracy')
+findK(training, 1, 21, 1, 'M')
+Figure 24.8 Searching for a good k
+When we ran the code, it produced the plot[FORMULA]Figure 24.9. As we can see, 17
+was the value of k that led to the best accuracy across 5 folds. Of course, there is
+no guarantee that some value larger than 21 might not have been even better.
+However, once k reached 9, the accuracy fluctuated over a reasonably narrow
+range, so we chose to use 9.
+Figure 24.9 Choosing a value for k
+CHAPTER 24. CLASSIFICATION METHODS 415
+
+## 24.4 Regression-based Classifiers
+
+In Chapter 18 we used linear regression to build models of data. We do the same
+thing here, and use the training data to build separate models for the men and
+the women. The plot[FORMULA]Figure 24.11 was produced by the code[FORMULA]Figure 24.10.
+#Build training sets for men and women
+ageM, ageW, timeM, timeW = [], [], [], []
+for e[FORMULA]training:
+if e.getLabel() == 'M':
+ageM.append(e.getAge())
+timeM.append(e.getTime())
+else:
+ageW.append(e.getAge())
+timeW.append(e.getTime())
+#downsample to make plot of examples readable
+ages, times = [], []
+for i[FORMULA]random.sample(range(len(ageM)), 300):
+ages.append(ageM[i])
+times.append(timeM[i])
+#Produce scatter plot of examples
+pylab.plot(ages, times, 'yo', markersize = 6, label = 'Men')
+ages, times = [], []
+for i[FORMULA]random.sample(range(len(ageW)), 300):
+ages.append(ageW[i])
+times.append(timeW[i])
+pylab.plot(ages, times, 'k^', markersize = 6, label = 'Women')
+#Learn two first-degree linear regression models
+mModel = pylab.polyfit(ageM, timeM, 1)
+fModel = pylab.polyfit(ageW, timeW, 1)
+#Plot lines corresponding to models
+xmin, xmax = 15, 85
+pylab.plot((xmin, xmax), (pylab.polyval(mModel,(xmin, xmax))),
+'k', label = 'Men')
+pylab.plot((xmin, xmax), (pylab.polyval(fModel,(xmin, xmax))),
+'k--', label = 'Women')
+pylab.title('Linear Regression Models')
+pylab.xlabel('Age')
+pylab.ylabel('Finishing time (minutes)')
+pylab.legend()
+Figure 24.10 Produce and plot linear regression models
+416 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Figure 24.11 Linear regression models for men and women
+A quick glance at Figure 24.11 is enough to see that the linear regression
+models explain only a small amount of the variance[FORMULA]the data.174 Nevertheless,
+it is possible to use these models to build a classifier. Each model attempts to cap-
+ture the relationship between age and finishing time. This relationship is differ-
+ent for men and women, a fact we can exploit[FORMULA]building a classifier. Given an
+example, we ask whether the relationship between age and finishing time is clos-
+er to the relationship predicted by the model for male runners (the solid line) or
+to the model for female runners (the dashed line). This idea is implemented[FORMULA]Figure 24.12.
+When the code is run, it prints
+Accuracy = 0.616
+Sensitivity = 0.682
+Specificity = 0.529
+Pos. Pred. Val. = 0.657
+The results are better than random, but a bit worse than for KNN.
+174 Though we fit the models to the entire training set, we choose to plot only a small subset of the
+training points. When we plotted all of them, the result was a blob[FORMULA]which it was hard to see any
+useful detail.
+CHAPTER 24. CLASSIFICATION METHODS 417
+truePos, falsePos, trueNeg, falseNeg = 0, 0, 0, 0
+for e[FORMULA]testSet:
+age = e.getAge()
+time = e.getTime()
+if abs(time - pylab.polyval(mModel,age)) <\
+abs(time - pylab.polyval(fModel, age)):
+if e.getLabel() == 'M':
+truePos += 1
+else:
+falsePos += 1
+else:
+if e.getLabel() == 'F':
+trueNeg += 1
+else:
+falseNeg += 1
+getStats(truePos, falsePos, trueNeg, falseNeg)
+Figure 24.12 Using linear regression to build a classifier
+You might be wondering why we took this indirect approach to using linear
+regression, rather than explicitly building a model using some function of age
+and time as the dependent variable and real numbers (say 0 for female and 1 for
+male) as the dependent variable.
+We could easily build such a model using polyfit to map a function of age
+and time to a real number. However, what would it mean to predict that some
+runner is halfway between male and female? Were there some hermaphrodites[FORMULA]the race? Perhaps we can interpret the y-axis as the probability that a runner is
+male. Not really. There is not even a guarantee that applying polyval to the model
+will return a value between 0 and 1.
+Fortunately, there is a form of regression, logistic regression,175 designed ex-
+plicitly for predicting the probability of an event. The Python library sklearn176
+provides a good implementation of logistic regression and of many other useful
+functions and classes related to machine learning.
+The module sklearn.linear_model contains the class LogisticRegression. The
+__init__ method of this class has a large number of parameters that control
+175 It’s called logistic regression because the optimization problem being solved involves an
+objective function based on the[FORMULA]of an odds ratio. Such functions are called logit functions, and
+their inverses are call logistic functions.
+176 This toolkit comes preinstalled with some Python IDE’s, e.g., Anaconda. To learn more about
+this library and find out out how to install it, go to http://scikit-learn.org.
+418 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+things such as the optimization algorithm used to solve the regression equation.
+They all have default values, and on most occasions it is fine to stick with those.
+The central method of class LogisticRegression is fit. The method takes as
+arguments two sequences (tuples, lists, or arrays) of the same length. The first is a
+sequence of feature vectors and the second a sequence of the corresponding la-
+bels. In the literature, these labels are typically called outcomes.
+The fit method returns an object of type LogisticRegression for which coeffi-
+cients have been learned for each feature[FORMULA]the feature vector. These coefficients,
+often called feature weights, capture the relationship between the feature and the
+outcome. A positive feature weight implies that there is a positive correlation be-
+tween the feature and the outcome, and a negative feature weight implies a nega-
+tive correlation. The absolute magnitude of the weight is related to the strength
+of the correlation.177 The values of these weights can be accessed using the coef_
+attribute of LogisticRegression. Since it is possible to train a LogisticRegression
+object on multiple outcomes (called classes[FORMULA]the documentation for the pack-
+age), the value of coef_ is a sequence[FORMULA]which each element contains the se-
+quence of weights associated with a single outcome. So, for example, the
+expression model.coef[1][0] denotes the value of the coefficient of the first fea-
+ture for the second outcome.
+Once the coefficients have been learned, the method predict_proba of the
+LogisticRegression class can be used to predict the outcome associated with a fea-
+ture vector. The method predict_proba takes a single argument ([FORMULA]addition to
+self), a sequence of feature vectors. It returns an array of arrays, one per feature
+vector. Each element[FORMULA]the returned array contains a prediction for the corre-
+sponding feature vector. The reason that the prediction is an array is that it con-
+tains a probability for each label used[FORMULA]building model.
+The code[FORMULA]Figure 24.13 contains a simple illustration of how this all works.
+It first creates a list of 100,000 examples, each of which has a feature vector of
+length 2 and is labeled either ‘A', 'B', 'C', or 'D'. The first two feature values for
+each example are drawn from a Gaussian with a standard deviation of 0.5, but the
+means vary depending upon the label. The value of third feature is chosen at
+random, and therefore should not be useful[FORMULA]predicting the label. After creating
+the examples, the code generates a logistic regression model, prints the feature
+weights, and finally the probabilities associated with four examples.
+177 This relationship is complcated by the fact that features are often correlated with each other.
+For example, age and finishing time are positively correlated. When features are correlated, the
+magnitudes of the weights are not independent of each other.
+CHAPTER 24. CLASSIFICATION METHODS 419
+import sklearn.linear_model
+featureVecs, labels = [], []
+for i[FORMULA]range(25000): #create 4 examples[FORMULA]each iteration
+featureVecs.append([random.gauss(0, 0.5), random.gauss(0, 0.5),
+random.random()])
+labels.append('A')
+featureVecs.append([random.gauss(0, 0.5), random.gauss(2, 0.),
+random.random()])
+labels.append('B')
+featureVecs.append([random.gauss(2, 0.5), random.gauss(0, 0.5),
+random.random()])
+labels.append('C')
+featureVecs.append([random.gauss(2, 0.5), random.gauss(2, 0.5),
+random.random()])
+labels.append('D')
+model = sklearn.linear_model.LogisticRegression().fit(featureVecs,
+labels)
+print('model.classes_ =', model.classes_)
+for i[FORMULA]range(len(model.coef_)):
+print('For label', model.classes_[i],
+'feature weights =', model.coef_[i])
+print('[0, 0] probs =', model.predict_proba([[0, 0, 1]])[0])
+print('[0, 2] probs =', model.predict_proba([[0, 2, 2]])[0])
+print('[2, 0] probs =', model.predict_proba([[2, 0, 3]])[0])
+print('[2, 2] probs =', model.predict_proba([[2, 2, 4]])[0])
+Figure 24.13 Using sklearn to do multi-class logistic regression
+When the code[FORMULA]Figure 24.13 was run, it printed
+model.classes_ = ['A' 'B' 'C' 'D']
+For label A feature weights = [-4.65720783 -4.38351299 -0.00722845]
+For label B feature weights = [-5.17036683 5.82391837 0.04706108]
+For label C feature weights = [ 3.95940539 -3.97854738 -0.04480206]
+For label D feature weights = [ 4.37529465 5.40639909 -0.09434664]
+[0, 0] probs = [ 9.90019074e-01 4.66294343e-04 9.51434182e-03
+2.90294956e-07]
+[0, 2] probs = [ 8.72562747e-03 9.78468475e-01 3.18006160e-06
+1.28027180e-02]
+[2, 0] probs = [ 5.22466887e-03 1.69995686e-08 9.93218655e-01
+1.55665885e-03]
+[2, 2] probs = [ 7.88542473e-07 1.97601741e-03 7.99527347e-03
+9.90027921e-01]
+420 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Let’s look first at the feature weights. The first line tells us that the first two
+features have roughly the same weight and are negatively correlated with the
+probability of an example having label 'A'.178 I.e., the larger the value of the first
+two features, the less likely that the example is of type 'A'. The third feature,
+which we expect to have little value[FORMULA]predicting the label, has a small value rela-
+tive to the other two values, indicating that it is relatively unimportant. The se-
+cond line tells us that the probability of an example having the label 'B' is
+negatively correlated with value of the first feature, but positively with the second
+feature. Again, the third feature has a relatively small value. The third and four
+lines are mirror images of the first two lines.
+Now, let’s look at the probabilities associated with the four examples. The or-
+der of the probabilities corresponds to the order of the outcomes[FORMULA]the attribute
+model.classes_. As you would hope, when we predict the label associated with the
+feature vector [0, 0], 'A' has a very high probability and 'D' a very low probabil-
+ity. Similarly, [2, 2] has a very high probability for 'D' and a very low one for 'A'.
+The probabilities associated with the middle two examples are also as expected.
+The example[FORMULA]Figure 24.14 is similar to the one[FORMULA]Figure 24.13, except that
+we create examples of only two classes, 'A' and 'D', and don’t include the irrele-
+vant third feature.
+featureVecs, labels = [], []
+for i[FORMULA]range(20000):
+featureVecs.append([random.gauss(0, 0.5), random.gauss(0, 0.5)])
+labels.append('A')
+featureVecs.append([random.gauss(2, 0.5), random.gauss(2, 0.5)])
+labels.append('D')
+model = sklearn.linear_model.LogisticRegression().fit(featureVecs,
+labels)
+print('model.coef =', model.coef_)
+print('[0, 0] probs =', model.predict_proba([[0, 0]])[0])
+print('[0, 2] probs =', model.predict_proba([[0, 2]])[0])
+print('[2, 0] probs =', model.predict_proba([[2, 0]])[0])
+print('[2, 2] probs =', model.predict_proba([[2, 2]])[0])
+Figure 24.14 Example of two-class logistic regression
+178 The slight difference[FORMULA]the absolute values of the weights is attributable to the fact that our
+sample size is finite.
+CHAPTER 24. CLASSIFICATION METHODS 421
+When we run the code[FORMULA]Figure 24.14 it printed
+model.coef = [[ 5.79284554 5.68893473]]
+[0, 0] probs = [ 9.99988836e-01 1.11643397e-05]
+[0, 2] probs = [ 0.50622598 0.49377402]
+[2, 0] probs = [ 0.45439797 0.54560203]
+[2, 2] probs = [ 9.53257749e-06 9.99990467e-01]
+Notice that there is only one set of weights[FORMULA]coef_. When fit is used to produce
+a model for a binary classifier, it only produces weights for one label. This is suf-
+ficient because once proba has calculated the probability of an example being[FORMULA]either of the classes, the probability of it being[FORMULA]the other class is determined—
+since the probabilities must add up to 1. To which of the two labels do the
+weights[FORMULA]coef_ correspond? Since the weights are negative, they must corre-
+spond to 'D', since we know that the larger the values[FORMULA]the feature vector, the
+more likely the example is of class 'D'. Traditionally, binary classification uses the
+labels 0 and 1, and the classifier uses the weights for 1. In this case, coef_ contains
+the weights associated with largest label, as defined by the > operator for type str.
+Let’s return to the Boston Marathon example. The code[FORMULA]Figure 24.15 uses
+the LogisticRegression class to build and test a model for our Boston Marathon
+data. The function applyModel takes four arguments:
+• model: an object of type LogisticRegression for which a fit has been constructed
+• testSet: a sequence of examples. The examples have the same kinds of features
+and labels used[FORMULA]constructing the fit for model.
+• label: The label of the positive class. The confusion matrix information re-
+turned by applyModel is relative to this label.
+• prob: the probability threshold to be used[FORMULA]deciding which label to assign to
+an example[FORMULA]testSet. The default value is 0.5. Because it is not a constant, ap-
+plyModel can be used to investigate the tradeoff between false positives and
+false negatives.
+The implementation of applyModel first uses list comprehension (Section
+5.3.2) to build a list whose elements are the feature vectors of the examples[FORMULA]testSet. It then calls model.predict_proba to get an array of pairs corresponding
+to the prediction for each feature vector. Finally, it compares the prediction
+against the label associated with the example with that feature vector, and keeps
+track of and returns the number of true positives, false positives, true negatives,
+and false negatives.
+422 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+def applyModel(model, testSet, label, prob = 0.5):
+#Create vector containing feature vectors for all test examples
+testFeatureVecs = [e.getFeatures() for e[FORMULA]testSet]
+probs = model.predict_proba(testFeatureVecs)
+truePos, falsePos, trueNeg, falseNeg = 0, 0, 0, 0
+for i[FORMULA]range(len(probs)):
+if probs[i][1] > prob:
+if testSet[i].getLabel() == label:
+truePos += 1
+else:
+falsePos += 1
+else:
+if testSet[i].getLabel() != label:
+trueNeg += 1
+else:
+falseNeg += 1
+return truePos, falsePos, trueNeg, falseNeg
+examples = buildMarathonExamples('bm_results2012.txt')
+training, test = divide80_20(examples)
+featureVecs, labels = [], []
+for e[FORMULA]training:
+featureVecs.append([e.getAge(), e.getTime()])
+labels.append(e.getLabel())
+model = sklearn.linear_model.LogisticRegression().fit(featureVecs,
+labels)
+print('Feature weights for label M:',
+'age =', str(round(model.coef_[0][0], 3)) + ',',
+'time =', round(model.coef_[0][1], 3))
+truePos, falsePos, trueNeg, falseNeg = \
+applyModel(model, test, 'M', 0.5)
+getStats(truePos, falsePos, trueNeg, falseNeg)
+Figure 24.15 Use logistic regression to predict Gender
+When the code is run, it prints
+Feature weights for label M: age = 0.055, time = -0.011
+Accuracy = 0.635
+Sensitivity = 0.831
+Specificity = 0.377
+Pos. Pred. Val. = 0.638
+CHAPTER 24. CLASSIFICATION METHODS 423
+Let’s compare these results to what we got when we used KNN:
+Accuracy = 0.65
+Sensitivity = 0.715
+Specificity = 0.563
+Pos. Pred. Val. = 0.684
+The accuracies and positive predictive values are similar, but logistic regression
+has a much higher sensitivity and a much lower specificity. That makes the two
+methods hard to compare. We can address this problem by adjusting the proba-
+bility threshold used by applyModel so that it has approximately the same sensitiv-
+ity as KNN. We can find that probability by iterating over values of prob until we
+get a sensitivity close to that we got using KNN.
+If we call applyModel with prob = 0.578 instead of 0.5, we get the results
+Accuracy = 0.659
+Sensitivity = 0.714
+Specificity = 0.586
+Pos. Pred. Val. = 0.695
+I.e., the models have similar performance.
+Since it is easy to explore the ramifications of changing the decision thresh-
+old for a linear regression model, people often use something called the receiver
+operating characteristic curve,179 or ROC curve to visualize the tradeoff between
+sensitivity and specificity. The curve plots the true positive rate (sensitivity)
+against the false positive rate (1 – specificity) for multiple decision thresholds.
+ROC curves are often compared to one another by computing the area under
+the curve (AUROC). This area is equal to the probability that the model will as-
+sign a higher probability of being positive to a randomly chosen positive example
+than to a randomly chosen negative example. This is known as the discrimina-
+tion of the model. It is important to keep[FORMULA]mind that discrimination says noth-
+ing about the accuracy, often called the calibration, of the probabilities. One
+could, for example, divide all of the estimated probabilities by 2 without chang-
+ing the discrimination—but it would certainly change the accuracy of the esti-
+mates.
+The code[FORMULA]Figure 24.16 plots the ROC curve for the logistic regression clas-
+sifier as a solid line, Figure 24.17. The dotted line is the ROC for a random classi-
+fier—a classifier that chooses the label randomly. We could have computed the
+AUROC by first interpolating (because we have only a discrete number of points)
+179 It is called the “receiver operating characteristic” for historical reasons. It was first developed
+during World War II as way to evaluate the operating characteristics of devices receiving radar
+signals.
+424 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+and then integrating the ROC curve, but we got lazy and simply called the func-
+tion sklearn.metrics.auc.
+def buildROC(model, testSet, label, title, plot = True):
+xVals, yVals = [], []
+p = 0.0
+while p <= 1.0:
+truePos, falsePos, trueNeg, falseNeg =\
+applyModel(model, testSet, label, p)
+xVals.append(1.0 - specificity(trueNeg, falsePos))
+yVals.append(sensitivity(truePos, falseNeg))
+p += 0.01
+auroc = sklearn.metrics.auc(xVals, yVals, True)
+if plot:
+pylab.plot(xVals, yVals)
+pylab.plot([0,1], [0,1,], '--')
+pylab.title(title + ' (AUROC = '\
++ str(round(auroc, 3)) + ')')
+pylab.xlabel('1 - Specificity')
+pylab.ylabel('Sensitivity')
+return auroc
+buildROC(model, test, 'M', 'ROC for Predicting Gender')
+Figure 24.16 Construct ROC curve and find AUROC
+Figure 24.17 ROC curve and AUROC
+Finger exercise: Write code to plot the ROC curve and compute the AUROC
+when the model built[FORMULA]Figure 24.15 is tested on 200 randomly chosen competi-
+CHAPTER 24. CLASSIFICATION METHODS 425
+tors. Use that code to investigate the impact of the number of training examples
+(try varying it from 10 to 1010[FORMULA]increments of 50) on the AUROC.
+
+## 24.5 Surviving the Titanic
+
+On the morning of April 15, 1912, the RMS Titanic hit an iceberg and sank[FORMULA]the
+North Atlantic. Of the roughly 1,300 passengers on board, 832 perished[FORMULA]the
+disaster. There were many factors contributing to the disaster, including naviga-
+tional error, inadequate lifeboats, and the slow response of a nearby ship. Wheth-
+er or not individual passengers survived had an element of randomness, but was
+far from completely random. In fact, it is possible to make a reasonably good
+model for predicting survival using information from the ship’s passenger mani-
+fest.
+In this section, we build a classification model from a data set containing[FORMULA]-
+formation for 1046 passengers.180 Each line of the file contains information
+about a single passenger: cabin class (1st, 2nd, or 3rd), age, gender, whether the pas-
+senger survived the disaster, and the passenger’s name.
+We build the model using logistic regression. We chose to use logistic regres-
+sion because
+• It is the most commonly used classification method.
+• By examining the weights produced by logistic regression we can gain some
+insight into why some passengers were more likely to have survived than oth-
+ers.
+Figure 24.18 defines class Passenger. The only thing of interest[FORMULA]this code is
+the encoding of cabin class. Though the file encodes the cabin class as a integer, it
+is really shorthand for a category. Cabin classes do not behave like numbers, e.g.,
+a first class cabin plus a second class cabin does not equal a third class cabin. We
+encode cabin class using three binary features (one per possible cabin class). For
+each passenger, exactly one of these variables is set to 1, and the other two are set
+to 0.
+This is an example of an issue that frequently arises[FORMULA]machine learning.
+Categorical (sometimes called nominal) features are the natural way to describe
+many things, e.g., the home country of a runner. It’s easy to replace these by inte-
+gers, e.g., we could choose a representation for countries based on their ISO
+180 The data was extracted from a data set constructed by R.J. Dawson, and used[FORMULA]“The ‘Unusual
+Episode’ Data Revisted,” Journal of Statistics Education, v. 3, n. 3, 1995.
+426 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+3166-1 numeric code,181 e.g., 076 for Brazil, 826 for the United Kingdom, and
+862 for Venezuela. The problem with doing this is that the regression will treat
+these as numerical variables, thus using a nonsensical ordering on the countries[FORMULA]which Venezuela would be closer to the UK than it is to Brazil.
+This problem can be avoided by converting categorical variables to binary
+variables, as we did with cabin class. One potential problem with doing this is
+that it can lead to very long and sparse feature vectors. For example, if a hospital
+dispenses 2000 different drugs, we would convert one categorical variable into
+2000 binary variables, one for each drug.
+class Passenger(object):
+features = ('C1', 'C2', 'C3', 'age', 'male gender')
+def __init__(self, pClass, age, gender, survived, name):
+self.name = name
+self.featureVec = [0, 0, 0, age, gender]
+self.featureVec[pClass - 1] = 1
+self.label = survived
+self.cabinClass = pClass
+def distance(self, other):
+return minkowskiDist(self.veatureVec, other.featureVec, 2)
+def getClass(self):
+return self.cabinClass
+def getAge(self):
+return self.featureVec[3]
+def getGender(self):
+return self.featureVec[4]
+def getName(self):
+return self.name
+def getFeatures(self):
+return self.featureVec[:]
+def getLabel(self):
+return self.label
+Figure 24.18 Class Passenger
+Figure 24.19 contains code that reads the data from a file and builds a set of
+examples from the data about the Titanic.
+181 ISO 3166-1 numeric is part of the ISO 3166 standard published by the International
+Organization for Standardization.
+CHAPTER 24. CLASSIFICATION METHODS 427
+def testModels(examples, numTrials, printStats, printWeights):
+survived = 1 #value of label indicating survived
+stats, weights = [], [[], [], [], [], []]
+for i[FORMULA]range(numTrials):
+training, testSet = divide80_20(examples)
+featureVecs, labels = [], []
+for e[FORMULA]training:
+featureVecs.append(e.getFeatures())
+labels.append(e.getLabel())
+featureVecs = pylab.array(featureVecs)
+labels = pylab.array(labels)
+model =\
+sklearn.linear_model.LogisticRegression().fit(featureVecs,
+labels)
+for i[FORMULA]range(len(Passenger.features)):
+weights[i].append(model.coef_[0][i])
+truePos, falsePos, trueNeg, falseNeg =\
+applyModel(model, testSet, survived, 0.5)
+auroc = buildROC(model, testSet, survived, None, False)
+tmp = getStats(truePos, falsePos, trueNeg, falseNeg, False)
+stats.append(tmp + (auroc,))
+print('Averages for', numTrials, 'trials')
+if printWeights:
+for feature[FORMULA]range(len(weights)):
+featureMean =[FORMULA](weights[feature])/numTrials
+featureStd = stdDev(weights[feature])
+print(' Mean weight of', Passenger.features[feature],
+'=', str(round(featureMean, 3)) + ',',
+'95% confidence interval =', round(1.96*featureStd, 3))
+if printStats:
+summarizeStats(stats)
+Figure 24.19 Read Titanic data and build list of example
+Now that we have the data, we can build a logistic regression model using the
+same code we used to build a model of the Boston Marathon data. However, be-
+cause the data set has a relatively small number of examples, we need to be con-
+cerned about using the evaluation method we employed earlier. It is entirely
+possible to get an unrepresentative 80-20 split of the data, and then generate mis-
+leading results.
+428 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+To ameliorate the risk, we create many different 80-20 splits (each split is
+created using the divide80_20 function defined[FORMULA]Figure 24.5), build and evaluate
+a classifier for each, and then report mean values and 95% confidence intervals,
+using the code[FORMULA]Figure 24.20 and Figure 24.21.
+def testModels(examples, numTrials, printStats, printWeights):
+stats, weights = [], [[], [], [], [], []]
+for i[FORMULA]range(numTrials):
+training, testSet = divide80_20(examples)
+xVals, yVals = [], []
+for e[FORMULA]training:
+xVals.append(e.getFeatures())
+yVals.append(e.getLabel())
+xVals = pylab.array(xVals)
+yVals = pylab.array(yVals)
+model = sklearn.linear_model.LogisticRegression().fit(xVals,
+yVals)
+for i[FORMULA]range(len(Passenger.features)):
+weights[i].append(model.coef_[0][i])
+truePos, falsePos, trueNeg, falseNeg =\
+applyModel(model, testSet, 1, 0.5)
+auroc = buildROC(model, testSet, 1, None, False)
+tmp = getStats(truePos, falsePos, trueNeg, falseNeg, False)
+stats.append(tmp + (auroc,))
+print('Averages for', numTrials, 'trials')
+if printWeights:
+for feature[FORMULA]range(len(weights)):
+featureMean =[FORMULA](weights[feature])/numTrials
+featureStd = stdDev(weights[feature])
+print(' Mean weight of', Passenger.features[feature],
+'=', str(round(featureMean, 3)) + ',',
+'95% confidence interval =', round(1.96*featureStd, 3))
+if printStats:
+summarizeStats(stats)
+Figure 24.20 Test models for Titanic Survival
+CHAPTER 24. CLASSIFICATION METHODS 429
+def summarizeStats(stats):
+"""assumes stats a list of 5 floats: accuracy, sensitivity,
+specificity, pos. pred. val, ROC"""
+def printStat(X, name):
+mean = round([FORMULA](X)/len(X), 3)
+std = stdDev(X)
+print(' Mean', name, '=', str(mean) + ',',
+'95% confidence interval =', round(1.96*std, 3))
+accs, sens, specs, ppvs, aurocs = [], [], [], [], []
+for stat[FORMULA]stats:
+accs.append(stat[0])
+sens.append(stat[1])
+specs.append(stat[2])
+ppvs.append(stat[3])
+aurocs.append(stat[4])
+printStat(accs, 'accuracy')
+printStat(sens, 'sensitivity')
+printStat(accs, 'specificity')
+printStat(sens, 'pos. pred. val.')
+printStat(aurocs, 'AUROC')
+Figure 24.21 Print statistics about classifiers
+The call testModels(examples, 100, True, False) printed
+Averages for 100 trials
+Mean accuracy = 0.783, 95% confidence interval = 0.046
+Mean sensitivity = 0.699, 95% confidence interval = 0.099
+Mean specificity = 0.783, 95% confidence interval = 0.046
+Mean pos. pred. val. = 0.699, 95% confidence interval = 0.099
+Mean AUROC = 0.839, 95% confidence interval = 0.051
+It appears that this small set of features is sufficient to do a reasonably good
+job of predicting survival. To see why, let’s take a look at the weights of the vari-
+ous features. We can do that with the call
+testModels(examples, 100, False, True)
+which printed
+Averages for 100 trials
+Mean weight of C1 = 1.648, 95% confidence interval = 0.156
+Mean weight of C2 = 0.449, 95% confidence interval = 0.095
+Mean weight of C3 = -0.499, 95% confidence interval = 0.112
+Mean weight of age = -0.031, 95% confidence interval = 0.006
+Mean weight of male gender = -2.367, 95% confidence interval = 0.144
+430 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+When it comes to surviving a shipwreck, it seems useful to be rich,182 young, and
+female.
+
+## 24.6 Wrapping Up
+
+In the last three chapters, we’ve barely scratched the surface of machine learning.
+The same could be said about many of the other topics presented[FORMULA]the se-
+cond half of this book. We’ve tried to give you a taste of the kind of thinking[FORMULA]-
+volved[FORMULA]using computation to better understand the world—[FORMULA]the hope that
+you will find ways to pursue the topic on your own. You probably found some
+topics less interesting than others. But we do hope that you encountered at least a
+few topics you are looking forward to learning more about.
+182 A first class cabin on the Titanic cost the equivalent of about $70,000[FORMULA]today’s U.S. dollars.
+PYTHON 3.5 QUICK REFERENCE
+Common operations on numerical types
+i+j is the[FORMULA]of i and j.
+i–j is i minus j.
+i*j is the product of i and j.
+i//j is integer division.
+i/j is floating point division.
+i%j is the remainder when the[FORMULA]i is divided by the[FORMULA]j.
+i**j is i raised to the power j.
+x += y is equivalent to x = x + y. *= and -= work the same way.
+Comparison and Boolean operators
+x == y returns True if x and y are equal.
+x != y returns True if x and y are not equal.
+<, >, <=, >= have their usual meanings.
+a and b is True if both a and b are True, and False otherwise.
+a or b is True if at least one of a or b is True, and False otherwise.
+not a is True if a is False, and False if a is True.
+Common operations on sequence types
+seq[i] returns the ith element[FORMULA]the sequence.
+len(seq) returns the length of the sequence.
+seq1 + seq2 concatenates the two sequences. (Not available for ranges.)
+n*seq returns a sequence that repeats seq n times. (Not available for ranges.)
+seq[start:end] returns a slice of the sequence.
+e[FORMULA]seq tests whether e is contained[FORMULA]the sequence.
+e not[FORMULA]seq tests whether e is not contained[FORMULA]the sequence.
+for e[FORMULA]seq iterates over the elements of the sequence.
+432 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Common string methods
+s.count(s1) counts how many times the string s1 occurs[FORMULA]s.
+s.find(s1) returns the index of the first occurrence of the substring s1[FORMULA]s;
+returns -1 if s1 is not[FORMULA]s.
+s.rfind(s1) same as find, but starts from the end of s.
+s.index(s1) same as find, but raises an exception if s1 is not[FORMULA]s.
+s.rindex(s1) same as index, but starts from the end of s.
+s.lower() converts all uppercase letters to lowercase.
+s.replace(old, new) replaces all occurrences of string old with string new.
+s.rstrip() removes trailing white space.
+s.split(d) Splits s using d as a delimiter. Returns a list of substrings of s.
+Common list methods
+L.append(e) adds the object e to the end of L.
+L.count(e) returns the number of times that e occurs[FORMULA]L.
+L.insert(i, e) inserts the object e into L at index i.
+L.extend(L1) appends the items[FORMULA]list L1 to the end of L.
+L.remove(e) deletes the first occurrence of e from L.
+L.index(e) returns the index of the first occurrence of e[FORMULA]L. Raises ValueError
+if e not[FORMULA]L.
+L.pop(i) removes and returns the item at index i; i defaults to -1. Raises
+IndexError if L is empty.
+L.sort() has the side effect of sorting the elements of L.
+L.reverse() has the side effect of reversing the order of the elements[FORMULA]L.
+Common operations on dictionaries
+len(d) returns the number of items[FORMULA]d.
+d.keys() returns a view of the keys[FORMULA]d.
+d.values() returns a view of the values[FORMULA]d.
+k[FORMULA]d returns True if key k is[FORMULA]d.
+d[k] returns the item[FORMULA]d with key k. Raises KeyError if k is not[FORMULA]d.
+d.get(k, v) returns d[k] if k[FORMULA]d, and v otherwise.
+d[k] = v associates the value v with the key k. If there is already a value
+associated with k, that value is replaced.
+del d[k] removes element with key k from d. Raises KeyError if k is not[FORMULA]d.
+for k[FORMULA]d iterates over the keys[FORMULA]d.
+PYTHON 3.5 QUICK REFERENCE 433
+Common input/output mechanisms
+input(msg) prints msg and then returns the value entered as a string.
+print(s1, …, sn) prints strings s1, …, sn separated by spaces.
+open('fileName', 'w') creates a file for writing.
+open('fileName', 'r') opens an existing file for reading.
+open('fileName', 'a') opens an existing file for appending.
+fileHandle.read() returns a string containing contents of the file.
+fileHandle.readline() returns the next line[FORMULA]the file.
+fileHandle.readlines() returns a list containing lines of the file.
+fileHandle.write(s) write the string s to the end of the file.
+fileHandle.writelines(L) writes each element of L to the file as a separate line.
+fileHandle.close() closes the file.
+INDEX
+arc of graph, 191
+__init__, 112 Archimedes, 284
+__lt__, 117 arguments of function, 41
+__name__, 221 arm of a study, 341
+__str__, 114 array type, 177
+operators on, 318
+ASCII, 21
+: slicing operator, 19, 77
+assert statement, 108
+assertions, 108
+α (alpha), threshold for significance, 329
+assignment statement, 12
+µ (mu), mean, 259
+multiple, 14, 67
+σ (sigma), (standard deviation), 259 mutation versus, 68
+unpacking multiple returned values, 67
+""" (docstring delimiter), 48 AUROC, 423
+axhline, PyLab plotting, 242
+* repetition operator, 77
+Babbage, Charles, 355
+\ continuation character for lines, 80 Bachelier, Louis, 216
+\n, newline character, 61 backtracking, 197, 198
+bar chart, 358
+baseball, 272
+# start comment character, 13
+Bayes’ Theorem, 349
+Bayesian statistics, 345
++ concatenation operator, 18
+bell curve, 258
++ sequence method, 77
+Bellman, Richard, 203
+Benford’s law, 269
+68-95-99.7 rule (empirical rule), 259 Bernoulli, Jacob, 241
+Bernoulli’s theorem, 241
+abs built-[FORMULA]function, 24 BFS (breadth-first search), 199
+abstract data type. See data abstraction Bible, 284
+abstraction, 49 big O notation. See computational
+abstraction barrier, 110 complexity
+acceleration due to gravity, 306 binary classification, 403
+accuracy, of a classifier, 405 binary feature, 382
+algorithm, 2 binary number, 34, 147, 237
+aliasing, 71, 78 binary search, 155
+testing for, 88 binary tree, 206
+al-Khwarizmi, Muhammad ibn Musa, 2 binding, of names to objects, 12
+alpha (α), threshold for significance, 329 binomial coefficient, 264
+alternative hypothesis, 329 binomial distribution, 264
+Anaconda IDE, 14 bisection search algorithm, 32, 33
+annotate, PyLab plotting, 390 bisection search debugging technique, 96
+Anscombe, F.J., 361 bit, 35
+append, list method, 71, 72, 432 black-box testing, 87–88
+approximate solution, 30 block of code, 17
+arange function, 320 Boesky, Ivan, 190
+436 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+Bonferroni correction, 344, 366 character, 18
+bool type, 10 character encoding, 21
+Boolean expression, 12 child node, 191
+compound, 17 Church, Alonzo, 41
+short-circuit evaluation, 55 Church-Turing thesis, 4
+boolean operators quick reference, 431 Chutes and Ladders, 231
+Boston Marathon, 292, 342, 344, 408 class variable, 119
+Box, George E.P., 215 class, machine learning, 403, 418
+branching program, 15 class imbalance, 406
+breadth-first search (BFS), 199 classes[FORMULA]Python, 109–34
+break statement, 24, 27 __init__ method, 112
+Brown, Rita Mae, 95 __lt__ method, 117
+Brown, Robert, 216 __name__ method, 221
+Brownian motion, 216 __str__ method, 114
+Buffon, Comte de, 284 abstract, 131
+bug, 92 attribute, 113
+covert, 93 attribute reference, 112
+intermittent, 93 class variable, 113, 119
+origin of word, 92 data attribute, 112, 113
+overt, 93 defining, 112
+persistent, 93 definition, 110
+built-[FORMULA]functions dot notation, 113
+abs, 24 inheritance, 118
+help, 48 instance, 113
+id, 70 instance variable, 113
+input, 20 instantiation, 112
+isinstance, 122 isinstance function, 122
+len, 19 isinstance vs. type, 122
+list, 74 method attribute, 112
+map, 76 overriding attributes, 118
+max, 40 printing instances, 114
+range, 27 self, 113
+raw_input, 20 subclass, 118
+round, 36 superclass, 118
+sorted, 158, 163, 186 type hierarchy, 118[FORMULA], 132 type vs. isinstance, 122
+type, 11 classification model, machine learning, 373,
+byte, 1 403
+classifier, machine learning, 403
+C++, 109 client, of class or function, 48, 126
+calibration of a model, 423 clique[FORMULA]graph theory, 196
+Canopy IDE, 14 cloning, 74
+Cartesian coordinates, 217, 378 cloning a list, 74
+case sensitivity[FORMULA]Python, 13 close method for files, 61
+categorical variable, 264, 425 CLT. See Central Limit Theorem
+causal nondeterminism, 235 CLU, 109
+Central Limit Theorem, 298–301, 304 clustering, 374, 383–402
+centroid, 385 coefficient of determination (R2), 317–19
+INDEX 437
+coefficient of polynomial, 37 convenience sampling, 363
+coefficient of variation, 250–53 Copenhagen Doctrine, 235
+command. See statement copy standard library module, 74
+comment[FORMULA]program, 13 copy.deepcopy, 74
+compiler, 7 correlation, 359, 375
+complexity. See computational complexity cosine similarity, 377
+complexity classes, 141 count, list method, 72, 432
+comprehension, list, 74, 421 count, str method, 79, 432
+computation, 2 craps (dice game), 277
+computational complexity, 18, 135–49 cross validation, 325
+amortized analysis, 158 curve fitting, 309
+asymptotic notation, 139
+average-case, 137 data abstraction, 110, 113–15, 216
+best-case, 136 datetime standard library module, 115
+big O notation, 140 debugging, 48, 61, 85, 92–100, 108
+Big Theta notation, 141 stochastic programs, 243
+constant, 17, 141 decision tree, 206–7
+expected-case, 137 declarative knowledge, 1
+exponential, 141, 145 decomposition, 49
+inherently exponential, 189 decrementing function, 25, 157
+linear, 141, 142 deepcopy function, 74
+logarithmic, 141 default parameter values, 42[FORMULA]-linear, 141, 144 defensive programming, 93, 106, 108
+lower bound, 141 degree of belief, 349
+polynomial, 141, 144 degree of polynomial, 37
+pseudo-polynomial, 212 degrees of freedom, 331
+quadratic, 144 del, dict method, 432
+rules of thumb for expressing, 140 dental formula, 395
+tight bound, 141 depth-first search (DFS), 197
+time-space tradeoff, 168, 282 destination node, 191
+upper bound, 137, 140 deterministic program, 215, 236
+worst-case, 137 DFS (depth-first search), 197
+concatenation (+) dict methods quick reference, 432
+append vs., 72 dict type, 79–81
+lists, 72 deleting an element, 83
+sequence types, 18 iterating over, 82
+tuples, 66 keys method, 82, 83
+conceptual complexity, 135 values method, 83
+conditional probability, 346–48 view, 82
+confidence interval, 253, 261, 280, 295, 300 dictionary. See dict type
+confidence level, 295, 300 Dijkstra, Edsger, 86
+confusion matrix, 404 dimensionality, of data, 375
+conjunct, 55 discrete probability distribution, 256, 257
+continuation character for lines (\), 80 discrete random variable, 256
+continuous probability distribution, 256, discrete uniform distribution, 264, See also
+257 distributions, uniform
+continuous random variable, 256 discrimination of a model, 423
+control group, 327 disjunct, 55
+438 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+dispersion, 252 NameError, 101
+dissimilarity metric, 384 TypeError, 101
+distributions, 246 ValueError, 101
+Benford’s, 269 built-[FORMULA]class, 105
+empirical rule for normal, 300 except block, 102
+exponential, 265 handling, 101–5
+Gaussian (normal), 259 Python 2, 106
+geometric, 267 raising, 101
+normal, 286, See also normal distribution try–except, 102
+rectangular, 263 unhandled, 101
+uniform, 165, 166, 264 exhaustive enumeration algorithms, 25, 26,
+divide-and-conquer algorithms, 159, 213 31, 183, 205
+divide-and-conquer problem solving, 55 square root algorithm, 31, 138
+docstring, 48 exponential decay, 266
+don’t pass line, craps, 277 Exponential distribution, 265
+dot notation, 54, 60, 112 exponential growth, 267
+downsample, 412 expression, 10
+Dr. Pangloss, 85 extend, list method, 72, 432
+driver,[FORMULA]testing, 91
+dynamic programming, 203–12, 282 factorial, 51, 137, 143
+dynamic-time-warping distance, 387 iterative implementation, 51, 137
+recursive implementation, 51
+e (Euler’s number), 258 false negative, 356, 377
+earth-movers distance, 387 false positive, 348, 349, 356, 377
+edge of a graph, 191 family of hypotheses, 344
+efficient programs. See also computational family-wise error rate, 344
+complexity feature vector, machine learning, 372
+Einstein, Albert, 86, 216 feature, machine learning
+elastic limit of springs, 313 elimination, 375
+elif, 17 engineering, 375
+else, 16 scaling, 400
+empirical rule, 259 weight, 418
+encapsulation, 126 Fibonacci sequence, 52, 203–5
+ENIAC, 275 dynamic programming implementation,
+equality test 204
+for objects, 70 recursive implementation, 53
+value vs. object, 98 file system, 61
+error bars, 262 files, 61–63, 62
+escape character (\), 61 appending, 62
+Euclid, 267 close method, 61
+Euclidean distance, 378 file handle, 61
+Euclidean mean, 384 open function, 61
+Euler, Leonhard, 191 reading, 61
+Euler’s number (e), 258 write method, 61
+exceptions, 101–8 writing, 61
+built-[FORMULA]find, str method, 79, 432
+AssertionError, 108 first-class values, 75, 104
+IndexError, 101 Fisher, Ronald, 328
+INDEX 439
+fit method, logistic regression, 418 glass-box testing, 88–90
+fitting a curve to data, 309–14, 315 global optimum, 190
+coefficient of determination (R2), 317–19 global statement, 57
+exponential with polyfit, 320 global variable, 57, 91
+least-squares objective function, 309 Gosset, William, 330
+linear regression, 310 graph, 191
+objective function,, 309 adjacency list representation, 194
+overfitting, 313 adjacency matrix representation, 194
+polyfit, 309 breadth-first search (BFS), 199
+fixed-program computers, 3 depth-first search (DFS), 197
+float type. See floating point directed graph (digraph), 191
+floating point, 10, 11, 35, 34–37 edge, 191
+conversion to[FORMULA], 21 graph theory, 191
+exponent, 35 node, 191
+internal representation, 34 problems
+precision, 35 cliques, 196
+reals vs., 34 maximum clique, 196
+rounded value, 35 min cut, 196
+rounding errors, 37 shortest path, 195
+significant digits, 35 shortest weighted path, 195
+test for equality (==), 37 weighted, 192
+truncation of, 21 Graunt, John, 355
+floppy disk, 171 gravity, acceleration due to, 306
+flow of control, 3 greedy algorithm, 184–87
+for loop, 27, 61 guess-and-check algorithms, 2, 26
+Franklin, Benjamin, 56 Guinness, 330
+frequency distribution, 256
+frequentist statistics, 345 halting problem, 4
+function, 40, See also built-[FORMULA]functions hand simulation, 23
+actual parameter, 41 hand,[FORMULA]craps, 278
+argument, 41 hashable type, 82, 114
+as parameter, 162 hashing, 80, 164–68, 282
+call, 41 collision, 165, 166
+class as parameter, 220 hash buckets, 165
+default parameter values, 42 hash function, 165
+defining, 40 hash tables, 164
+invocation, 41 probability of collisions, 269
+keyword argument, 42 help built-[FORMULA]function, 48
+positional parameter binding, 42 helper functions, 54, 156
+Heron of Alexandria, 1
+gambler’s fallacy, 241 higher-order functions, 75
+Gaussian distribution. See distributions, higher-order programming, 75
+normal histogram, 254
+generalization, 371, 372 Hoare, C.A.R., 162
+generators, 128 holdout set, 325, See also test set
+geometric distribution, 267 Holmes, Sherlock, 99
+geometric progression, 267 Hooke’s law, 305, 313
+get, dict method, 432 Hopper, Grace Murray, 92
+440 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+hormone replacement therapy, 360 over dicts, 82
+housing prices, 357 over files, 61
+Huff, Darrell, 355, 370 over integers, 27
+hypothesis testing, 328 over lists, 72
+multiple hypotheses, 342–44 tuples, 66
+while loop, 22
+id built-[FORMULA]function, 70
+IDE (integrated development environment), Java, 109
+
+## 14 Julius Caesar,
+
+identity function, 400
+IDLE IDE, 14 Kahneman, Daniel, 369
+if statement, 17 Kennedy, Joseph, 98
+image processing, 259 key,[FORMULA]dict, 79
+immutable type, 68 keys, dict method, 432
+imperative knowledge, 1[FORMULA]Python 2, 82
+import *, 60 keyword (reserved words)[FORMULA]Python, 13
+import statement, 59 keyword argument, 42[FORMULA]operator, 77 k-means clustering, 387–402[FORMULA], dict method, 432 knapsack problem, 184–90[FORMULA], operator, 29 0/1, 188
+indentation of code, 16 brute-force solution, 188
+independent events, 237 dynamic programming solution, 205–12
+index, list method, 72, 432 fractional (or continuous), 190
+index, str method, 79, 432 k-nearest neighbors (KNN), 410–14
+indexing for sequence types, 19 Knight Capital Group, 94
+indirection, 154 KNN (k-nearest neighbors), 410–14
+induction, loop invariants, 158 knowledge, declarative vs. imperative, 1
+inductive definition, 51 Knuth, Donald, 140
+inferential statistics, 291 Königsberg bridges problem, 191
+information hiding, 126, 128
+leading __[FORMULA]Python, 126
+label, machine learning, 403
+input built-[FORMULA]function, 20
+lambda abstraction, 41
+raw_input vs., 20
+lambda expression, 77, 161
+input/output
+Lampson, Butler, 154
+quick reference, 433
+Laplace, Pierre-Simon, 284
+insert, list method, 72, 432
+latent variable, 374
+instance, of a class, 112
+law of large numbers, 241, 243, 295[FORMULA]type, 11
+leaf, of tree, 206
+integrated development environment (IDE),
+least squares fit, 309, 311
+14
+legend on plot, 180
+integration, numeric, 259
+len built-[FORMULA]function, 77
+interface, 110
+len, dict method, 432
+interpreter, 3, 7
+length (len), for sequence types, 19
+Introduction to Algorithms, 151
+Leonardo of Pisa, 52
+isinstance built-[FORMULA]function, 122
+lexical scoping, 44
+iteration, 22
+library, standard Python, 61
+for loop, 27, 61
+generators, 128
+INDEX 441
+library, standard Python, See also standard memoization, 204
+library modules, 61 merge sort, 144, 159–62, 203
+linear interpolation, 400 method invocation, 54, 112
+linear regression, 310, 371 min cut, 196
+linear scaling, 400 Minkowski distance, 377, 382, 387
+Liskov, Barbara, 123 model, 215
+list built-[FORMULA]function, 74 modules, 59–61, 59, 90, 109
+list comprehension, 74, 421 modulus, 11
+list methods quick reference, 432 Moksha-patamu, 231
+list type, 68–73 Molière, 110
++ (concatenation) operator, 72 Monte Carlo simulation, 275–88, 275
+cloning, 74 Monty Python, 14
+comprehension, 74 mortgages, 130, 175
+copying, 74 multi-class learning, 403
+indexing, 153 multiple assignment, 14, 67
+internal representation, 153 return values from functions, 67
+literal,[FORMULA]Python, 5, 10 multiple hypotheses, 342–44
+local optimum, 190 multiple hypothesis, 366
+local variable, 43 multiplicative law for probabilities, 238[FORMULA]function, 322 mutable type, 68
+logarithm, base of, 141 mutation versus assignment, 68
+logarithmic axis, 149
+logarithmic scaling, 226 n choose k, 264
+logistic regression, 417–25, 427 name space, 43
+LogisticRegression class, 417 names[FORMULA]Python, 13
+loop invariant, 158 nan (not a number), 106
+lower, str method, 79, 432 nanosecond, 27
+lurking variable, 360 National Rifle Association, 363
+natural number, 51
+machine code, 7 negative predictive value, 406
+machine learning nested statements, 17
+binary classification, 403 newline character (\n), 61
+definition, 371 Newton’s method. See Newton-Raphson
+multi-class learning, 403 method
+one-class learning, 403 Newtonian mechanics, 235
+supervised, 373 Newton-Raphson method, 37, 38, 152, 309
+two-class learning, 403 n-fold cross validation, 413
+unsupervised, 373 Nixon, Richard, 65
+Manhattan distance, 378 node, of a graph, 191
+Manhattan Project, 275 nominal variable. See categorical variable
+many-to-one mapping, 165 nondeterminism, causal vs. predictive, 235
+map built-[FORMULA]function, 76 None, 10, 41, 104, 131[FORMULA]Python 2, 76 non-scalar type, 9, 65
+markeredgewidth, 320 normal distribution, 258–63, 286
+math standard library module, 322 standard, 400
+MATLAB, 169, 388 not[FORMULA], operator, 77
+max built-[FORMULA]function, 40 null hypothesis, 329
+maximum clique, 196 numeric operators, 11
+442 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+quick reference, 431 objective function, 183
+numeric types, 10 order of growth, 140
+numpy module, 177 outcomes, 418
+overfitting, 313, 395, 405
+O notation. See computational complexity overlapping subproblems, 203, 210
+O(1). See computational complexity, overloading of operators, 18
+constant overriding, 118, See also classes[FORMULA]Python:
+Obama, Barack, 51 class attributes
+object, 9–12
+class, 118 palindrome, 54
+equality, 70 parallel random access machine, 136
+equality, vs. value equality, 98 parent node, 191
+first-class, 75 Pascal, Blaise, 276
+mutation, 68 pass line, craps, 277
+objective function, 309, 372, 383 pass statement, 121
+object-oriented programming, 109 paths through specification, 87
+one-class learning, 403 PDF (probability density function), 257, 258
+one-sample t-test, 336 Peters, Tim, 162
+one-tailed t-test, 336 Pingala, 52
+open function, for files, 61 Pirandello, 49
+operator precedence, 11 plotting[FORMULA]PyLab, 169, 229, 254–57
+operators, 10 annotate, 254, 390
+-, on arrays, 177 axhline function, 242
+-, on numbers, 11 bar chart, 358
+: slicing sequences, 20 current figure, 171
+*, on arrays, 177 default settings, 174
+*, on numbers, 11 figure function, 169
+*, on sequences, 77 format string, 173
+**, on numbers, 11 hatch keyword argument, 298
+*=, 30 hist function, 254
+/, on numbers, 11 histogram, 254
+//, on numbers, 11 histogram scaling, 298
+%, on numbers, 11 keyword arguments, 174
++, on numbers, 11 legend function, 180
++, on sequences, 77 markeredgewidth, 320
++=, 30 markers, 229
+-=, 30 plot function, 169
+Boolean, 12 rc settings, 174
+floating point, 11 savefig function, 171[FORMULA], on sequences, 77 semilogx function, 226
+infix, 5 semilogy function, 226
+integer, 11 show function, 170
+not[FORMULA], on sequences, 77 style, 226
+overloading, 18 table function, 379
+optimal solution, 188 tables, 379
+optimal substructure, 203, 209 title function, 173
+optimization problem, 183, 309, 372, 383 weights keyword argument, 298
+constraints, 183 windows, 169
+INDEX 443
+xlabel function, 173 prompt, shell, 10
+xlim function, 242 prospective study, 367
+xticks function, 358 pseudocode, 387
+ylabel function, 173 pseudorandom number generator, 243
+ylim function, 242 push,[FORMULA]gambling, 277
+yticks function, 358 p-value, 333–36, 333
+png file extension, 171 misinterpretation of, 334
+point of execution, 41 PyLab, 169, See also Plotting
+point,[FORMULA]typography, 174 Pythagorean theorem, 217, 285
+pointer, 154 Python, 8, 40
+polyfit, 309 Python 3, versus 2.7, 9, 20, 28, 36, 65, 76, 82,
+fitting an exponential, 320 83, 106, 243
+polymorphic functions and methods, 104,
+117 quad function, 259
+polynomial, 37 quantum mechanics, 235
+coefficient of, 37, 311 quicksort, 162
+degree of, 37, 309
+polynomial regression, 310
+R2 (coefficient of determination), 317–19
+polyval, 311
+rabbits, 52
+pop, list method, 72, 432
+raise statement, 105
+popping a stack, 45
+random access machine, 136
+population mean, 291
+random module, 237
+portable network graphics format (PNG),
+random sampling, 363
+171
+random standard library module
+positive predictive value, 406
+random.choice, 220
+posterior, Bayesian, 349
+random.expovariate, 267
+power set, 188
+random.gauss, 259
+precision (specificity), 406
+random.random, 212, 237
+predictive nondeterminism, 235
+random.sample, 294
+print function, 9, 20
+random.seed, 243
+print statement[FORMULA]Python 2, 9
+random.uniform, 264
+prior probability, 348, 412
+random variable, 256
+prior, Bayesian, 349
+random walk, 216, 215–33
+private attributes of a class, 126
+biased, 224
+probability density function (PDF), 257, 258
+randomized trial, 327
+probability distribution, 256
+range built-[FORMULA]function, 27, 67
+probability sampling, 291
+Python 2, 28
+probability, calculating, 238
+range type, 67
+probability, conditional, 346–48
+not a type[FORMULA]Python 2, 65
+program, 9
+rate of decay, 267
+programming language, 4, 7
+raw_input built-[FORMULA]function, 20
+compiled, 7
+input vs., 20
+high-level, 7
+recall (sensitivity), 406
+interpreted, 7
+receiver operating characteristic curve
+low-level, 7
+(ROC), 423
+semantics, 5
+recurrence, 53
+static semantics, 5
+recursion, 50–57
+syntax, 5
+base case, 51
+444 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+recursive (inductive) case, 51 scipy.stats.ttest_1samp, 337
+regression model, 373 scipy.stats.ttest_ind, 343
+regression testing, 92 scoping, 43
+regression to the mean, 241, 369 assignment to variable, impact of, 46
+regressive fallacy, 369 lexical, 44
+rejection, of null hypothesis, 329 static, 44
+remove, list method, 72, 432 script, 9
+repetition operator (*), 18, 66 SE. See standard error of the mean
+replace, str method, 79, 432 search algorithms, 152–57
+representation invariant, 113 binary search, 155, 156
+representation-independence, 113 bisection search, 33
+reserved words[FORMULA]Python, 13 breadth-first search (BFS), 199
+retrospective study, 367 depth-first search (DFS), 197
+return on investment (ROI), 279 linear search, 136, 153
+return statement, 41 search space, 152
+reverse argument for sort and sorted, 186 self, 113
+reverse method, 72 SEM. See standard error of the mean
+rfind, str method, 79, 432 semantics, 5
+Rhind Papyrus, 283 semilogx, 226
+rindex, str method, 79, 432 semilogy, 226
+ROC curve (receiver operating sensitivity (recall), 406
+characteristic curve), 423 seq, sequence method, 77
+ROI (return on investment), 279 sequence methods quick reference, 431
+root of polynomial, 37 sequence types, 19, See also str, tuple, list
+root of tree, 206 shell, 9
+round built-[FORMULA]function, 36 shell prompt, 10
+R-squared (coefficient of determination), short-circuit evaluation of Boolean
+317–19 expressions, 55
+rstrip, str method, 79, 432 shortest path, 195
+shortest weighted path, 195
+sample, 291 side effect, 71, 72
+sample function, 294 signal processing, 259
+sample mean, 291, 298 signal-to-noise ratio (SNR), 374
+sample standard deviation, 303 significant digits, 35
+sampling simple random sample, 291
+accuracy, 246 simulation, 215, 237
+bias, 362 coin flipping, 239–53
+confidence[FORMULA], 247, 249 continuous, 289
+convenience sampling, 363 deterministic, 289
+simple random, 291 discrete, 289
+stratified, 291 dynamic, 289
+Samuel, Arthur, 371 Monte Carlo, 275–88
+scalar type, 9 multiple trials, 240
+scaling features, 400 random walks, 215–33
+scientific method, 333 smoke test, 223
+SciPy library, 259 static, 289
+scipy.integrate.quad, 259 stochastic, 289
+scipy.random.standard_t, 331 typical structure, 279
+INDEX 445
+simulation model, 215, See simulation standard error of the mean (SE, SEM), 302–
+sklearn, 417 4, 330
+sklearn.metrics.auc, 424 standard library modules
+slicing for sequence types, 19 copy, 74
+SmallTalk, 109 datetime, 115
+smoke test, 223 math, 322
+snake oil, 369 random, 237
+Snakes and Ladders, 231 standard normal distribution, 400
+SNR (signal to noise ratio), 374 statement, 9
+social networks, 196 statements
+software quality assurance (SQA), 91 *=, 30
+sort built-[FORMULA]method, 72, 432 +=, 30
+key parameter, 164 -=, 30
+mutates argument, 163 = (assignment), 12
+mutates list, 158 assert, 108
+polymorphic, 117 break, 27, 29
+reverse parameter, 164 conditional, 15
+sorted built-[FORMULA]function, 186 for loop, 27, 61
+does not mutate argument, 163 global, 57
+key parameter, 164 if, 17
+returns a list, 158 import, 59
+reverse parameter, 164 import *, 60
+sorting algorithms, 158–64 pass, 121[FORMULA]-place, 162 raise, 105
+merge sort, 144, 159–62, 203 return, 41
+quicksort, 162 try–except, 102
+stable, 164 while loop, 22
+timsort, 162 yield, 128
+source code, 7 static scoping, 44, See also scoping
+source node, 191 static semantic checking, 5, 128
+space complexity, 143, 162 statistical machine learning. See machine
+specification, 47–50 learning
+assumptions, 48, 155 statistical significance, 328–44, 328, 366
+docstring, 48 correctness versus, 288
+guarantees, 48 statistical[FORMULA]specificity (precision), 406 assuming independence, 356
+split, str method, 79, 162, 432 confusing correlation and causation, 360
+spring constant, 305 convenience (accidental) sampling, 363
+SQA (software quality assurance, 91 Cum Hoc Ergo Propter Hoc, 359
+square root, 30, 31, 32, 38 extrapolation, 364
+stable sort, 164 Garbage In Garbage Out (GIGO), 356
+stack, 45 non-response bias, 362
+stack frame, 44 reliance on measures, 361
+standard deviation, 247, 280 Texas sharpshooter fallacy, 364
+relative to mean, 250 statistics
+standard error. See standard error of the alternative hypothesis, 329
+mean coefficient of variation, 250–53
+confidence interval, 253, 261, 300
+446 INTRODUCTION TO COMPUTATION AND PROGRAMMING USING PYTHON
+confidence interval, overlapping, 281 table lookup, 204
+confidence level, 261 tables,[FORMULA]PyLab, 379
+correctness vs. statistical validity, 287 t-distribution, 304, 330
+correlation, 359 tea test, 328
+error bars, 262 termination
+frequentist approach, 336 of loop, 23, 25
+null hypothesis, 329 of recursion, 157
+sample standard deviation, 303 test set, 325, 367, 403
+significance, 328–44 test statistic, 329
+standard error of the mean, 302 testing, 85, 86–92
+t-distribution, 304, 330 black-box, 87–88
+test statistic, 329 boundary conditions, 87
+α (alpha), 329 driver, 91
+stats module glass-box, 88–90, 88–90
+stats.ttest_1samp, 368 integration testing, 90
+stats.ttest_ind, 333 partitioning inputs, 86
+step (of a computation), 136 path-complete, 89
+stochastic process, 215 regression testing, 92
+stochastic programs, 236 stub, 91
+stored-program computer, 3 test functions, 48
+str test suite, 86
+built-[FORMULA]methods, 78 unit testing, 90
+character as, 18 Texas sharpshooter fallacy, 364
+concatenation (+), 18 timsort, 162
+escape character, \, 120 Titanic, 425
+indexing, 19 total ordering, 32
+len, 19 training error, 403
+newline character (\n), 61 training set (training data), 325, 367, 372,
+slicing, 19 403, 408
+split method, 162, 432 translating text, 80
+substring, 19 treatment effect, 369
+str methods quick reference, 432 treatment group, 327
+straight-line programs, 15 tree, 205
+stratified sampling, 291 decision tree, 206–7
+string type. See str enumeration, left-first depth-first, 207
+stub,[FORMULA]testing, 91 leaf node, 206
+Student’s t-distribution, 330 root, 206
+study power, 336 rooted binary tree, 206
+substitution principle, 123, 195 triangle inequality, 378
+substring, 19 true negative, 404
+successive approximation, 38, 309 true positive, 348[FORMULA]built-[FORMULA]function, 132 try block, 102
+supervised learning, 373, 403 try-except statement, 102
+support, Bayesian, 349 t-statistic, 330
+symbol table, 44, 60 t-test, 333
+syntax, 5 tuple type, 65
+Turing completeness, 4
+table function, PyLab, 379 Turing machine, universal, 4
+INDEX 447
+two-class learning, 403
+type, 9, 109 value, 10
+hashable, 82 value equality vs. object equality, 98
+immutable, 68 values, dict method, 432
+mutable, 68 variability, of a cluster, 384
+type built-[FORMULA]function, 11 variable, 12
+type cast, 21 choosing a name, 13
+type checking, 19 variance, 246, 384
+type conversion, 21 versions of Python, 8
+list to array, 177 vertex of a graph, 191
+type I error, 330 view type, 82
+type II error, 330 von Neumann, John, 160
+type type, 110 von Rossum, Guido, 8
+types
+array, 177
+while loop, 22
+bool, 10
+whitespace characters, 78
+dict. See dict type
+Wing, Jeannette, 123
+float, 10, See also floating point
+word size, 153
+instancemethod, 110
+Words with Friends game, 338[FORMULA], 10
+World Series, 272
+list. See list type
+wrapper functions, 156
+None, 10
+write method for files, 61
+range, 67
+str. See str
+xlim, 242
+tuple, 65
+xrange,[FORMULA]Python 2, 28
+type, 82, 110
+xticks, 358
+U.S. citizen, definition of natural-born, 50
+yield statement, 128
+Ulam, Stanislaw, 275
+ylim, 242
+unary function, 76
+yticks, 358
+Unicode, 21
+uniform distribution, 166, 263, 264
+unsupervised learning, 373 zero-based indexing, 19
+utf-8, 21 z-scaling, 400
